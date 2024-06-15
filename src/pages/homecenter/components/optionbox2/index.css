@@ -1,0 +1,105 @@
+.optionbox2-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.optionbox2-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox2-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  height: 86px;
+}
+
+.optionbox2-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+
+.optionbox2-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.optionbox2-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.optionbox2-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.optionbox2-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.optionbox2-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.optionbox2-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}

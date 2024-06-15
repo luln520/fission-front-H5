@@ -1,0 +1,1500 @@
+.leverOrderPopup-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.leverOrderPopup-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  max-height: inherit;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 33, 38) !important;
+}
+
+.leverOrderPopup-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  max-height: inherit;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 33, 38) !important;
+  overflow: hidden auto;
+}
+
+.leverOrderPopup-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.leverOrderPopup-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 1px solid rgb(230, 234, 237);
+  position: fixed;
+  top: 0px;
+  border: none;
+  background-color: rgb(30, 33, 38) !important;
+  color: rgb(255, 255, 255) !important;
+  z-index: 998;
+}
+
+.leverOrderPopup-6 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center !important;
+}
+
+.leverOrderPopup-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  margin-right: 0px;
+}
+
+.leverOrderPopup-7:before {
+  content: "";
+}
+
+.leverOrderPopup-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+.leverOrderPopup-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  max-height: inherit;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 33, 38) !important;
+}
+
+.leverOrderPopup-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  max-height: inherit;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 33, 38) !important;
+  overflow: hidden auto;
+}
+
+.leverOrderPopup-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.leverOrderPopup-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(30, 33, 38) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.leverOrderPopup-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  color: rgb(255, 255, 255);
+  margin-bottom: 16px;
+  padding: 0px 11px;
+  margin-top: 55px;
+}
+
+.leverOrderPopup-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  padding: 5px 11px;
+  border-bottom: 0.5px solid var(--boutton-background-color);
+}
+
+.leverOrderPopup-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  padding: 5px 11px;
+}
+
+.leverOrderPopup-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 0px;
+}
+
+.leverOrderPopup-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  box-sizing: border-box;
+  width: 193px;
+  height: 31px;
+  color: rgb(255, 255, 255);
+  line-height: 31px;
+  text-align: center;
+  background-color: rgb(28, 173, 144);
+}
+
+
+.leverOrderPopup-18-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  box-sizing: border-box;
+  width: 193px;
+  height: 31px;
+  color: rgb(255, 255, 255);
+  line-height: 31px;
+  text-align: center;
+  background-color: rgb(205, 78, 101);
+}
+
+.leverOrderPopup-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  box-sizing: border-box;
+  width: 193px;
+  height: 31px;
+  color: rgb(255, 255, 255);
+  line-height: 31px;
+  text-align: center;
+  background-color: rgb(43, 49, 57);
+}
+
+.leverOrderPopup-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  padding: 0px 11px;
+  padding-top: 0px;
+}
+
+.leverOrderPopup-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  padding: 5px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.leverOrderPopup-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.leverOrderPopup-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 91px;
+  height: 41px;
+  border-radius: 2px;
+  line-height: 41px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  background-color: var(--boutton-background-color);
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+.leverOrderPopup-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 91px;
+  height: 41px;
+  background-color: rgb(42, 45, 53);
+  border-radius: 2px;
+  line-height: 41px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+.leverOrderPopup-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 91px;
+  height: 41px;
+  background-color: rgb(42, 45, 53);
+  border-radius: 2px;
+  line-height: 41px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+.leverOrderPopup-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 91px;
+  height: 41px;
+  background-color: rgb(42, 45, 53);
+  border-radius: 2px;
+  line-height: 41px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+.leverOrderPopup-29 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 11px 0px;
+}
+
+.leverOrderPopup-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+}
+
+.leverOrderPopup-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+  background-color: rgb(42, 45, 53);
+}
+
+.leverOrderPopup-32 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.leverOrderPopup-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverOrderPopup-34 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  margin: 0px 2px;
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  color: rgb(255, 255, 255);
+  width: 50px;
+  height: 35px;
+  text-align: center;
+  font-size: 17px;
+  border-top: none;
+  border-bottom: none;
+  border-right: 0px none;
+  border-left: 0px none;
+  border-image: initial;
+  background-color: rgb(42, 45, 53);
+}
+
+.leverOrderPopup-35 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.leverOrderPopup-36 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: grey;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+  pointer-events: none;
+  line-height: inherit;
+  top: auto !important;
+  display: none;
+}
+
+.leverOrderPopup-37 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.leverOrderPopup-38 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: none;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 45, 53);
+}
+
+.leverOrderPopup-39 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.leverOrderPopup-40 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverOrderPopup-41 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  padding: 0px 11px;
+}
+
+.leverOrderPopup-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-43 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.leverOrderPopup-44 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-45 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-46 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.leverOrderPopup-47 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-48 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-49 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+.leverOrderPopup-50 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-51 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.leverOrderPopup-53 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  padding: 0px 11px;
+}
+
+.leverOrderPopup-54 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.leverOrderPopup-55 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-56 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-57 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  padding: 0px 11px;
+}
+
+.leverOrderPopup-58 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-59 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.leverOrderPopup-60 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 91px;
+  height: 41px;
+  background-color: rgb(42, 45, 53);
+  border-radius: 2px;
+  line-height: 41px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+.leverOrderPopup-61 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 91px;
+  height: 41px;
+  background-color: rgb(42, 45, 53);
+  border-radius: 2px;
+  line-height: 41px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+.leverOrderPopup-62 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 91px;
+  height: 41px;
+  background-color: rgb(42, 45, 53);
+  border-radius: 2px;
+  line-height: 41px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+.leverOrderPopup-63 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 91px;
+  height: 41px;
+  background-color: rgb(42, 45, 53);
+  border-radius: 2px;
+  line-height: 41px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+
+.leverOrderPopup-64 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 91px;
+  height: 41px;
+  border-radius: 2px;
+  line-height: 41px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 16px;
+  background-color: var(--boutton-background-color);
+  color: rgb(255, 255, 255);
+  opacity: 1;
+}
+
+.leverOrderPopup-65 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  padding: 0px 11px;
+}
+
+.leverOrderPopup-66 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.leverOrderPopup-67 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 11px 0px;
+}
+
+.leverOrderPopup-68 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+}
+
+.leverOrderPopup-69 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+  background-color: rgb(42, 45, 53);
+}
+
+.leverOrderPopup-70 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.leverOrderPopup-71 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverOrderPopup-72 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  margin: 0px 2px;
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  color: rgb(255, 255, 255);
+  width: 50px;
+  height: 35px;
+  text-align: center;
+  font-size: 17px;
+  border-top: none;
+  border-bottom: none;
+  border-right: 0px none;
+  border-left: 0px none;
+  border-image: initial;
+  background-color: rgb(42, 45, 53);
+}
+
+.leverOrderPopup-73 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.leverOrderPopup-74 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: grey;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+  pointer-events: none;
+  line-height: inherit;
+  top: auto !important;
+  display: none;
+}
+
+.leverOrderPopup-75 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.leverOrderPopup-76 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: none;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 45, 53);
+}
+
+.leverOrderPopup-77 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.leverOrderPopup-78 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverOrderPopup-79 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  padding: 0px 11px;
+}
+
+.leverOrderPopup-80 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.leverOrderPopup-81 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 11px 0px;
+}
+
+.leverOrderPopup-82 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+}
+
+.leverOrderPopup-83 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+  background-color: rgb(42, 45, 53);
+}
+
+.leverOrderPopup-84 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.leverOrderPopup-85 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverOrderPopup-86 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  margin: 0px 2px;
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  color: rgb(255, 255, 255);
+  width: 50px;
+  height: 35px;
+  text-align: center;
+  font-size: 17px;
+  border-top: none;
+  border-bottom: none;
+  border-right: 0px none;
+  border-left: 0px none;
+  border-image: initial;
+  background-color: rgb(42, 45, 53);
+}
+
+.leverOrderPopup-87 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.leverOrderPopup-88 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: grey;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+  pointer-events: none;
+  line-height: inherit;
+  top: auto !important;
+  display: none;
+}
+
+.leverOrderPopup-89 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.leverOrderPopup-90 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: none;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(42, 45, 53);
+}
+
+.leverOrderPopup-91 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.leverOrderPopup-92 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverOrderPopup-93 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverOrderPopup-94 {
+  margin: 0px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  background: rgb(28, 173, 144) !important;
+  width: 385px;
+  height: 44px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 44px;
+  font-size: 16px;
+  margin-top: 22px;
+}
+
+
+.leverOrderPopup-94-1 {
+  margin: 0px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  background: rgb(205, 78, 101) !important;
+  width: 385px;
+  height: 44px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 44px;
+  font-size: 16px;
+  margin-top: 22px;
+}
+
+.leverOrderPopup-94:after {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  box-sizing: border-box;
+}
+
+/* 弹窗 */
+
+.orderconfim-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 331px;
+}
+
+.orderconfim-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  line-height: 50px;
+  border-bottom: 1px solid rgb(230, 234, 237);
+  position: relative;
+}
+
+.orderconfim-3 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center !important;
+}
+
+.orderconfim-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-family: FontAwesome;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  margin-right: 0px;
+}
+
+.orderconfim-4:before {
+  content: "";
+}
+
+.orderconfim-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.orderconfim-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: rgb(248, 248, 251);
+  font-size: 13px;
+  line-height: 1.8;
+  padding: 1px;
+}
+
+.orderconfim-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(141, 157, 188);
+}
+
+.orderconfim-8 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.orderconfim-9 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.orderconfim-10 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.orderconfim-11 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.orderconfim-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: right;
+}
+
+.orderconfim-13 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.orderconfim-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 11px;
+  color: rgb(119, 119, 119);
+}
+
+.orderconfim-15 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(28, 173, 144) !important;
+}
+
+.orderconfim-15-1 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(205, 78, 101) !important;
+}
+
+.orderconfim-16 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.orderconfim-17 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.orderconfim-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.orderconfim-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.orderconfim-20 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.orderconfim-21 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.orderconfim-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: center;
+  width: 100%;
+  color: var(--boutton-background-color);
+  font-size: 14px;
+}
+
+.orderconfim-23 {
+  margin: 0px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  height: 38px;
+  line-height: 38px;
+  width: 70%;
+  padding: 0px 10px;
+  background: var(--boutton-background-color);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 14px;
+  border-radius: 200px;
+  margin-top: 10px;
+}
+
+.orderconfim-23:after {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,75 @@
+.noice-1:focus {
+  outline: 0px;
+}
+
+.noice-1 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 32px 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.noice-2:focus {
+  outline: 0px;
+}
+
+.noice-2 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  width: 160px;
+  height: 160px;
+}
+
+.noice-3 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.noice-4:focus {
+  outline: 0px;
+}
+
+.noice-4 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px 60px;
+  border: 0px;
+  outline: 0px;
+  font-size: 14px;
+  vertical-align: baseline;
+  background: transparent;
+  margin-top: 16px;
+  color: rgb(150, 151, 153);
+  line-height: 20px;
+}

@@ -1,0 +1,481 @@
+.depositDetails-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 64vw;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .depositDetails-3 {
+    position: relative;
+    display: inline-block;
+    width: 21.3333vw;
+    height: 21.3333vw;
+  }
+  
+  .depositDetails-3:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-4 {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .depositDetails-4:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-5 {
+    margin: 0px;
+    margin-top: 5.33333vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.73333vw;
+    line-height: 5.33333vw;
+    color: rgb(77, 82, 96);
+  }
+  
+  .depositDetails-7 {
+    position: relative;
+    background: transparent;
+  }
+  
+  .depositDetails-7:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-7:after {
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    inset: -50%;
+    border: 0 solid #ebedf0;
+    transform: scale(0.5);
+    border-width: 1px 0px;
+  }
+  
+  .depositDetails-8 {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.6666667vw 4.2666667vw;
+    overflow: hidden;
+    color: #9097a7;
+    font-size: 3.7333333vw;
+    line-height: 6.4vw;
+    background: #fff;
+    align-items: center;
+  }
+  
+  .depositDetails-8:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-8:after {
+    position: absolute;
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    right: 4.2666667vw;
+    bottom: 0px;
+    left: 4.2666667vw;
+    border-bottom: 1px solid #f5f5f5;
+    transform: scaleY(0.5);
+  }
+  
+  .depositDetails-9 {
+    flex: 1 1 0%;
+  }
+  
+  .depositDetails-9:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-11 {
+    flex: 1 1 0%;
+    position: relative;
+    overflow: hidden;
+    color: #4d5260;
+    text-align: right;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+  }
+  
+  .depositDetails-11:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-13 {
+    width: 4.26667vw;
+    height: 4.26667vw;
+    margin-left: 1.06667vw;
+  }
+  
+  .depositDetails-14 {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.6666667vw 4.2666667vw;
+    overflow: hidden;
+    color: #9097a7;
+    font-size: 3.7333333vw;
+    line-height: 6.4vw;
+    background: #fff;
+    align-items: center;
+  }
+  
+  .depositDetails-14:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-14:after {
+    position: absolute;
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    right: 4.2666667vw;
+    bottom: 0px;
+    left: 4.2666667vw;
+    border-bottom: 1px solid #f5f5f5;
+    transform: scaleY(0.5);
+  }
+  
+  .depositDetails-15 {
+    flex: 1 1 0%;
+  }
+  
+  .depositDetails-15:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-17 {
+    flex: 1 1 0%;
+    position: relative;
+    overflow: hidden;
+    color: #4d5260;
+    text-align: right;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+  }
+  
+  .depositDetails-17:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-19 {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.6666667vw 4.2666667vw;
+    overflow: hidden;
+    color: #9097a7;
+    font-size: 3.7333333vw;
+    line-height: 6.4vw;
+    background: #fff;
+    align-items: center;
+  }
+  
+  .depositDetails-19:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-19:after {
+    position: absolute;
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    right: 4.2666667vw;
+    bottom: 0px;
+    left: 4.2666667vw;
+    border-bottom: 1px solid #f5f5f5;
+    transform: scaleY(0.5);
+  }
+  
+  .depositDetails-20 {
+    flex: 1 1 0%;
+  }
+  
+  .depositDetails-20:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-22 {
+    flex: 1 1 0%;
+    position: relative;
+    overflow: hidden;
+    color: #4d5260;
+    text-align: right;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+  }
+  
+  .depositDetails-22:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-24 {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.6666667vw 4.2666667vw;
+    overflow: hidden;
+    color: #9097a7;
+    font-size: 3.7333333vw;
+    line-height: 6.4vw;
+    background: #fff;
+    align-items: center;
+  }
+  
+  .depositDetails-24:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-24:after {
+    position: absolute;
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    right: 4.2666667vw;
+    bottom: 0px;
+    left: 4.2666667vw;
+    border-bottom: 1px solid #f5f5f5;
+    transform: scaleY(0.5);
+  }
+  
+  .depositDetails-25 {
+    flex: 1 1 0%;
+  }
+  
+  .depositDetails-25:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-27 {
+    flex: 1 1 0%;
+    position: relative;
+    overflow: hidden;
+    color: #4d5260;
+    text-align: right;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+  }
+  
+  .depositDetails-27:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-29 {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.6666667vw 4.2666667vw;
+    overflow: hidden;
+    color: #9097a7;
+    font-size: 3.7333333vw;
+    line-height: 6.4vw;
+    background: #fff;
+    align-items: center;
+  }
+  
+  .depositDetails-29:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-29:after {
+    position: absolute;
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    right: 4.2666667vw;
+    bottom: 0px;
+    left: 4.2666667vw;
+    border-bottom: 1px solid #f5f5f5;
+    transform: scaleY(0.5);
+  }
+  
+  .depositDetails-30 {
+    flex: 1 1 0%;
+  }
+  
+  .depositDetails-30:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-32 {
+    flex: 1 1 0%;
+    position: relative;
+    overflow: hidden;
+    color: #4d5260;
+    text-align: right;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+  }
+  
+  .depositDetails-32:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-34 {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.6666667vw 4.2666667vw;
+    overflow: hidden;
+    color: #9097a7;
+    font-size: 3.7333333vw;
+    line-height: 6.4vw;
+    background: #fff;
+    align-items: center;
+  }
+  
+  .depositDetails-34:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-34:after {
+    position: absolute;
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    right: 4.2666667vw;
+    bottom: 0px;
+    left: 4.2666667vw;
+    border-bottom: 1px solid #f5f5f5;
+    transform: scaleY(0.5);
+  }
+  
+  .depositDetails-35 {
+    flex: 1 1 0%;
+  }
+  
+  .depositDetails-35:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-37 {
+    flex: 1 1 0%;
+    position: relative;
+    overflow: hidden;
+    color: #4d5260;
+    text-align: right;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+  }
+  
+  .depositDetails-37:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-39 {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.6666667vw 4.2666667vw;
+    overflow: hidden;
+    color: #9097a7;
+    font-size: 3.7333333vw;
+    line-height: 6.4vw;
+    background: #fff;
+    align-items: center;
+  }
+  
+  .depositDetails-39:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-39:after {
+    position: absolute;
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    right: 4.2666667vw;
+    bottom: 0px;
+    left: 4.2666667vw;
+    border-bottom: 1px solid #f5f5f5;
+    transform: scaleY(0.5);
+  }
+  
+  .depositDetails-40 {
+    flex: 1 1 0%;
+  }
+  
+  .depositDetails-40:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-42 {
+    flex: 1 1 0%;
+    position: relative;
+    overflow: hidden;
+    color: #4d5260;
+    text-align: right;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+  }
+  
+  .depositDetails-42:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-44 {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.6666667vw 4.2666667vw;
+    overflow: hidden;
+    color: #9097a7;
+    font-size: 3.7333333vw;
+    line-height: 6.4vw;
+    background: #fff;
+  }
+  
+  .depositDetails-44:after {
+    position: absolute;
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    right: 4.2666667vw;
+    bottom: 0px;
+    left: 4.2666667vw;
+    border-bottom: 1px solid #f5f5f5;
+    transform: scaleY(0.5);
+    display: none;
+  }
+  
+  .depositDetails-44:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-45 {
+    flex: 1 1 0%;
+  }
+  
+  .depositDetails-45:focus {
+    outline: 0px;
+  }
+  
+  .depositDetails-47 {
+    flex: 1 1 0%;
+    position: relative;
+    overflow: hidden;
+    color: #4d5260;
+    text-align: right;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+  }
+  
+  .depositDetails-47:focus {
+    outline: 0px;
+  }
+  

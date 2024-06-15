@@ -1,0 +1,13 @@
+.chartProgressDiv{
+  text-align: center;
+  padding: 40px 0;
+}
+.fomartPercent{
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--boutton-background-color);
+}
+
+.fomartFont{
+  font-size: 16px;
+}

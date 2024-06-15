@@ -1,0 +1,907 @@
+.leverDataBox-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  background-color: rgb(27, 29, 35);
+  height: 364px;
+  display: flex;
+  padding: 11px 16px;
+}
+
+.leverDataBox-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0px 5px;
+  min-height: 220px;
+}
+
+.leverDataBox-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(119, 119, 119);
+}
+
+.leverDataBox-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.leverDataBox-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-32 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-34 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-37 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-38 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-39 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-40 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-41 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-43 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-44 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-45 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-46 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-47 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-48 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-49 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-50 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-51 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-53 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-54 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-55 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-56 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-57 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverDataBox-58 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-59 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0px 5px;
+  min-height: 220px;
+}
+
+.leverDataBox-60 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(119, 119, 119);
+}
+
+.leverDataBox-61 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-62 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-63 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-64 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-65 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.leverDataBox-66 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-67 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-68 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-69 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-70 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-71 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-72 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-73 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-74 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-75 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-76 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-77 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-78 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-79 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-80 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-81 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-82 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-83 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-84 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-85 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-86 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-87 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-88 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-89 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-90 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-91 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-92 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-93 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-94 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-95 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-96 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-97 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-98 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-99 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-100 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-101 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-102 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-103 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-104 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-105 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-106 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-107 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-108 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-109 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-110 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-111 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  height: 33px;
+  padding: 5px 0px;
+  font-size: 13px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.leverDataBox-112 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverDataBox-113 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverDataBox-114 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.leverDataBox-115 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}

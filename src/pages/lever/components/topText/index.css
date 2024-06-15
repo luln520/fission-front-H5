@@ -1,0 +1,96 @@
+.levertoptext-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  padding: 11px 16px;
+  color: rgb(251, 74, 97);
+}
+
+.levertoptext-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.levertoptext-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: inherit;
+  box-sizing: border-box;
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+}
+
+.levertoptext-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1;
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 5px;
+}
+
+.levertoptext-4:before {
+  content: "";
+}
+
+.levertoptext-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: inherit;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.levertoptext-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
+.levertoptext-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.levertoptext-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  margin-left: 16px;
+}
+
+.levertoptext-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.levertoptext-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  line-height: inherit;
+  box-sizing: border-box;
+  font-size: 26px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-left: 16px;
+}

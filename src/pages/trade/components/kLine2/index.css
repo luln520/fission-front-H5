@@ -1,0 +1,11 @@
+.echartContainer {
+    margin: 0;
+    padding: 0;
+    border: 0px none #2c3e50;
+    outline: #2c3e50 none 0px;
+    width: 94vw;
+    height: 460px;
+    user-select: none;
+    position: relative;
+    background-color: #fff;
+}

@@ -1,0 +1,216 @@
+.marketTopText-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 10px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+
+.marketTopText-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 145px;
+  border: none;
+  color: rgb(28, 173, 144) !important;
+  padding: 8px 0px 7px 10px;
+}
+
+.marketTopText-2-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 145px;
+  border: none;
+  color: #fb4a61 !important;
+  padding: 8px 0px 7px 10px;
+}
+
+
+.marketTopText-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255) !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.marketTopText-4 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.marketTopText-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(255, 255, 255) !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.marketTopText-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1;
+  font-family: FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.marketTopText-6:before {
+  content: "";
+}
+
+.marketTopText-7 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 10px 0 0 0;
+  font-size: 28px;
+}
+
+.marketTopText-8 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.marketTopText-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 15px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.marketTopText-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.marketTopText-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 55%;
+}
+
+.marketTopText-12 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.marketTopText-13 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.marketTopText-14 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.marketTopText-15 {
+  margin: 4px 0px 0px 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.marketTopText-16 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.marketTopText-17 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.marketTopText-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.marketTopText-19 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.marketTopText-20 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.marketTopText-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.marketTopText-22 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.marketTopText-23 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.marketTopText-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+}
