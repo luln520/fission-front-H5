@@ -105,6 +105,7 @@
     rgba(0, 168, 112, 0.2),
     rgba(25, 32, 43, 0)
   );
+  float: top;
 }
 
 .homecoinlist-7:after {
@@ -176,7 +177,6 @@
   left: 0px;
   width: 100%;
   height: 100%;
-  opacity: 0;
 }
 
 .homecoinlist-13 {
@@ -267,6 +267,22 @@
   font-size: 0.75rem;
   padding: 0.25rem 0px;
   background: rgb(4, 207, 153);
+}
+
+.homecoinlist-19-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
 }
 
 .homecoinlist-19:after {

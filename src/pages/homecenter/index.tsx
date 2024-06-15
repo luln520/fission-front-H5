@@ -29,9 +29,9 @@ export default function HomeCenter() {
   const [loginmsg, setloginmsg] = useContext(LoginMsgContext);
   const [isShowHomePop, setIShowHomePop] = useState(false);
   const [userInfo, setUserInfo] = useState({});
+  const [index, setindex] = useState(1);
   let coinListDataMap = {} as any;
   const [ctmarketlist, setCtmarketlist] = useState([] as any[]);
-
 
   const loadUserInfoData = async () => {
     const data = await userApi.userInfo();
@@ -73,19 +73,21 @@ export default function HomeCenter() {
     loadctmarketlistData();
   }, []);
   return (
-    <div
-      className="page"
-    >
-      <HomeTopBar companyData={companyData} setIShowHomePop={setIShowHomePop}/>
+    <div className="page">
+      <HomeTopBar companyData={companyData} setIShowHomePop={setIShowHomePop} />
       <Swipper companyData={companyData} />
       <Noice content={content} />
       <Zixunlist coinListData={coinListData} ctmarketlist={ctmarketlist} />
       <Optionbox loginmsg={loginmsg} />
       <Optionbox2 loginmsg={loginmsg} />
-      <Optionbox3 loginmsg={loginmsg} />
-      <CoinList coinListData={coinListData} ctmarketlist={ctmarketlist} />
+      <Optionbox3 index={index} setindex={setindex} />
+      <CoinList coinListData={coinListData} ctmarketlist={ctmarketlist} index={index}/>
       {/* 个人弹窗 */}
-      <HomePopup isShowHomePop={isShowHomePop} setIShowHomePop={setIShowHomePop} userInfo={userInfo} />
+      <HomePopup
+        isShowHomePop={isShowHomePop}
+        setIShowHomePop={setIShowHomePop}
+        userInfo={userInfo}
+      />
       <div
         style={{
           height: "50px",
