@@ -2,6 +2,7 @@ import React from "react";
 import Fingerprint2 from "fingerprintjs2";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "./font.css";
 import AppRouter from "./router/router";
 import "./i18n/i18n";
 import { companyApi } from "./api/company";

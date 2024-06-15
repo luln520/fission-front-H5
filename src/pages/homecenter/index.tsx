@@ -18,6 +18,7 @@ import { LoginMsgContext, WSContext } from "../../router/router";
 import Optionbox2 from "./components/optionbox2";
 import Optionbox3 from "./components/optionbox3";
 import HomePopup from "./components/homepopup";
+import { userApi } from "../../api/user-api";
 
 export default function HomeCenter() {
   const reader = new FileReader();
@@ -27,9 +28,17 @@ export default function HomeCenter() {
   const [coinListData, setCoinListData] = useContext(WSContext);
   const [loginmsg, setloginmsg] = useContext(LoginMsgContext);
   const [isShowHomePop, setIShowHomePop] = useState(false);
+  const [userInfo, setUserInfo] = useState({});
   let coinListDataMap = {} as any;
   const [ctmarketlist, setCtmarketlist] = useState([] as any[]);
 
+
+  const loadUserInfoData = async () => {
+    const data = await userApi.userInfo();
+    if (data.ok) {
+      setUserInfo(data.data);
+    }
+  };
   const loadContentList = async () => {
     let data = await contentApi.list({ pageNum: 1, pageSize: 1 });
     if (data.ok) {
@@ -56,6 +65,7 @@ export default function HomeCenter() {
     }
   }
   useEffect(() => {
+    loadUserInfoData();
     initCompany();
     loadContentList();
   }, []);
@@ -75,7 +85,7 @@ export default function HomeCenter() {
       <Optionbox3 loginmsg={loginmsg} />
       <CoinList coinListData={coinListData} ctmarketlist={ctmarketlist} />
       {/* 个人弹窗 */}
-      <HomePopup isShowHomePop={isShowHomePop} setIShowHomePop={setIShowHomePop} />
+      <HomePopup isShowHomePop={isShowHomePop} setIShowHomePop={setIShowHomePop} userInfo={userInfo} />
       <div
         style={{
           height: "50px",

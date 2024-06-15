@@ -161,18 +161,22 @@ export function changeCompanyData(companyData) {
 
 //修改主题
 export function changeThem(type) {
-    debugger
     const colors = ['#0f1720', '#fff'];
     //改黑色
-    if(type=="dark"){
-        localStorage.setItem("them","dark");
+    if (type == "dark") {
+        localStorage.setItem("them", "dark");
         document
-        .getElementsByTagName("body")[0]
-        .style.setProperty("--them-background", colors[0]);
-    }else{
-        localStorage.setItem("them","light");
+            .getElementsByTagName("body")[0]
+            .style.setProperty("--them-background", colors[0]);
+    } else {
+        localStorage.setItem("them", "light");
         document
-        .getElementsByTagName("body")[0]
-        .style.setProperty("--them-background", colors[1]);
+            .getElementsByTagName("body")[0]
+            .style.setProperty("--them-background", colors[1]);
     }
+}
+
+//判断主题
+export function isDark() {
+    return localStorage.getItem("them") == "dark";
 }

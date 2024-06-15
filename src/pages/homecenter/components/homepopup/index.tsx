@@ -1,16 +1,26 @@
 import { useNavigate } from "react-router-dom";
-import { Popup, Space, Button } from "antd-mobile";
+import { Popup, Space, Button, Toast } from "antd-mobile";
+import copy from "copy-to-clipboard";
 import "./index.css";
 import { useTranslation } from "react-i18next";
-import { changeThem, getText } from "../../../../utils/util";
+import { changeThem, getText, isDark } from "../../../../utils/util";
 import { useState } from "react";
 import Search from "../../../../components/search";
 import { imageConfig } from "../../../../config/config";
 
-export default function HomePopup({ isShowHomePop, setIShowHomePop }) {
+export default function HomePopup({
+  isShowHomePop,
+  setIShowHomePop,
+  userInfo,
+}) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
-  const them = localStorage.getItem("them");
+  const types = ["未認證", "審核中", "已認證", "審核拒絕"];
+  const handleCopy = (value) => {
+    if (copy(value)) {
+      Toast.show({ content: translate(getText("成功")) });
+    }
+  };
   return (
     <Popup
       visible={isShowHomePop}
@@ -23,7 +33,7 @@ export default function HomePopup({ isShowHomePop, setIShowHomePop }) {
       <div class="homePopCenter-1">
         <div class="homePopCenter-2">
           <div class="homePopCenter-3">
-            {them == "dark" && (
+            {isDark() && (
               <div
                 class="homePopCenter-4-dark"
                 onClick={() => {
@@ -31,7 +41,7 @@ export default function HomePopup({ isShowHomePop, setIShowHomePop }) {
                 }}
               ></div>
             )}
-            {them == "light" && (
+            {!isDark() && (
               <div
                 class="homePopCenter-4-light"
                 onClick={() => {
@@ -73,16 +83,24 @@ export default function HomePopup({ isShowHomePop, setIShowHomePop }) {
             </div>
           </div>
         </div>
-        <div class="homePopCenter-27">
-          <span class="homePopCenter-28">kukuku@outlook.com</span>
+        <div
+          class="homePopCenter-27"
+          style={{
+            color: isDark() ? "#fff" : "",
+          }}
+        >
+          <span class="homePopCenter-28">{userInfo?.username}</span>
         </div>
-        <div class="homePopCenter-29">
+        <div
+          class="homePopCenter-29"
+          onClick={() => {
+            handleCopy(userInfo?.invit);
+          }}
+        >
           <div class="homePopCenter-30">
-            <span class="homePopCenter-31">邀请码：IBE04IDW3GPP</span>
+            <span class="homePopCenter-31">邀请码：{userInfo?.invit}</span>
           </div>
           <div class="homePopCenter-32">
-            <div class="homePopCenter-33"></div>
-            <span class="homePopCenter-34"></span>
             <img
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAD2SURBVFiF7ZY7EoIwEIb/zWjhLSi5hmewoGY4CHoQiIWFN/AqlBzDwmEttHDyIATDQydfubDJN7vZmQUiPwYN/VFKmTLTDUAS6O6WiPd5nrefQTE0m5kOAWXwOktkatBDiLcBZQAAXdft1NhmzEHMfCqK/Dgmt6rkkYhK2/fBFZqL1QlpLZNSJu9pSm1JRFTW9dladhWfFhsqJLI+manRhEwvf056p2zKabKxukcdhVxEIRdRyEUUchGFXIzaGH3xWVeWrtBdDSwp1AiBqxqcpWVfbozLsjqh3pb5LvMh0CpERI8J7tGmyYZBiC8AmoAyxmmK/A1P9h5F7OL1YnsAAAAASUVORK5CYII="
               draggable="false"
@@ -90,10 +108,20 @@ export default function HomePopup({ isShowHomePop, setIShowHomePop }) {
             />
           </div>
         </div>
-        <div class="homePopCenter-36">
-          <div class="homePopCenter-37">初级认证</div>
+        <div
+          class="homePopCenter-36"
+          onClick={() => {
+            if (userInfo?.rzstatus === 2) {
+              return;
+            }
+            navigate("/idcard");
+          }}
+        >
+          <div class="homePopCenter-37">{translate(getText("身份認證"))}</div>
           <div class="homePopCenter-38">
-            <span class="homePopCenter-39">未认证</span>
+            <span class="homePopCenter-39">
+              {translate(getText(types[userInfo?.rzstatus]))}
+            </span>
           </div>
           <div class="homePopCenter-40">
             <div class="homePopCenter-41"></div>
@@ -105,10 +133,20 @@ export default function HomePopup({ isShowHomePop, setIShowHomePop }) {
             />
           </div>
         </div>
-        <div class="homePopCenter-44">
-          <div class="homePopCenter-45">高级认证</div>
+        <div
+          class="homePopCenter-44"
+          onClick={() => {
+            if (userInfo?.rzstatus === 2) {
+              return;
+            }
+            navigate("/gjidcard");
+          }}
+        >
+          <div class="homePopCenter-45">{translate(getText("高级認證"))}</div>
           <div class="homePopCenter-46">
-            <span class="homePopCenter-47">未认证</span>
+            <span class="homePopCenter-47">
+              {translate(getText(types[userInfo?.rzstatus]))}
+            </span>
           </div>
           <div class="homePopCenter-48">
             <div class="homePopCenter-49"></div>
@@ -120,10 +158,20 @@ export default function HomePopup({ isShowHomePop, setIShowHomePop }) {
             />
           </div>
         </div>
-        <div class="homePopCenter-52">
-          <div class="homePopCenter-53">
+        <div
+          class="homePopCenter-52"
+          style={{
+            color: isDark() ? "" : "rgb(51, 51, 51)",
+          }}
+        >
+          <div
+            class="homePopCenter-53"
+            onClick={() => {
+              navigate("/jyjl");
+            }}
+          >
             <div class="homePopCenter-54">
-              <span class="homePopCenter-55">账变记录</span>
+              <span class="homePopCenter-55">{translate(getText("交易記錄"))}</span>
             </div>
           </div>
           <div class="homePopCenter-56">
@@ -131,9 +179,16 @@ export default function HomePopup({ isShowHomePop, setIShowHomePop }) {
               <span class="homePopCenter-58">分享</span>
             </div>
           </div>
-          <div class="homePopCenter-59">
+          <div
+            class="homePopCenter-59"
+            onClick={() => {
+              navigate("/helplist");
+            }}
+          >
             <div class="homePopCenter-60">
-              <span class="homePopCenter-61">帮助中心</span>
+              <span class="homePopCenter-61">
+                {translate(getText("幫助中心"))}
+              </span>
             </div>
           </div>
           <div class="homePopCenter-62">
@@ -141,14 +196,26 @@ export default function HomePopup({ isShowHomePop, setIShowHomePop }) {
               <span class="homePopCenter-64">平台介绍</span>
             </div>
           </div>
-          <div class="homePopCenter-65">
+          <div
+            class="homePopCenter-65"
+            onClick={() => {
+              navigate("/setting");
+            }}
+          >
             <div class="homePopCenter-66">
-              <span class="homePopCenter-67">设置</span>
+              <span class="homePopCenter-67">{translate(getText("设置"))}</span>
             </div>
           </div>
-          <div class="homePopCenter-68">
+          <div
+            class="homePopCenter-68"
+            onClick={() => {
+              navigate("/securitycenter");
+            }}
+          >
             <div class="homePopCenter-69">
-              <span class="homePopCenter-70">安全中心</span>
+              <span class="homePopCenter-70">
+                {translate(getText("安全中心"))}
+              </span>
             </div>
           </div>
         </div>
