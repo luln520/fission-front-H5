@@ -6,7 +6,7 @@ import {
 } from "@ant-design/icons";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import i18n from "../../../../i18n/i18n";
+import i18n, { languagesData } from "../../../../i18n/i18n";
 import { useTranslation, Trans } from "react-i18next";
 import "./index.css";
 import { changeLanguage, languages } from "../../../../i18n/i18n";
@@ -26,6 +26,13 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
     username: "",
     password: "",
   });
+  const getlanguageStr = () => {
+    for (const lanData of languagesData) {
+      if (lanData.code == lan) {
+        return lanData.title;
+      }
+    }
+  };
   return (
     <div class="loginboxnew-1">
       <div class="loginboxnew-2">
@@ -42,7 +49,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
                 navigate("/changelanguage");
               }}
             >
-              简体中文
+              {getlanguageStr()}
             </span>
           </div>
         </div>

@@ -42,8 +42,8 @@ i18n.use(LanguageDetector)
             vi: {
                 translation: viCnTrans
             },
-              // 德语
-              de: {
+            // 德语
+            de: {
                 translation: deCnTrans
             },
             // 法语
@@ -90,6 +90,19 @@ export const languages = {
     // 葡萄牙语
     pt: "Português"
 };
+
+export const languagesData = [
+    { title: "English", code: "en" },
+    { title: "繁体中文", code: "zh" },
+    { title: "اللغة العربية", code: "ar" },
+    { title: "日本語", code: "ja" },
+    { title: "Tiếng Việt", code: "vi" },
+    { title: "Español", code: "es" },
+    { title: "Deutsch", code: "de" },
+    { title: "Français", code: "fr" },
+    { title: "Italiano", code: "it" },
+    { title: "Português", code: "pt" },
+];
 export const changeLanguage = (language) => {
     i18n.changeLanguage(language);
     localStorage.setItem("i18n", language);

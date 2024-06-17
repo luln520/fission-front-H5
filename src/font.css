@@ -41,3 +41,13 @@
     url("http://127.0.0.1:5501//at.alicdn.com/t/font_2500121_m6lrf52tge9.woff?t=1652327961924") format("woff"),
     url("http://127.0.0.1:5501//at.alicdn.com/t/font_2500121_m6lrf52tge9.ttf?t=1652327961924") format("truetype");
 }
+
+@font-face {
+  font-family: iconfont2;
+  src: url("http://h5.tinshwk.xyz/assets/font_2526087_fqsww6slv4-ea239e63.woff2")
+      format("woff2"),
+    url("http://h5.tinshwk.xyz/assets/font_2526087_fqsww6slv4-5f766ca9.woff")
+      format("woff"),
+    url("http://h5.tinshwk.xyz/assets/font_2526087_fqsww6slv4-0bc8a22f.ttf")
+      format("truetype");
+}
