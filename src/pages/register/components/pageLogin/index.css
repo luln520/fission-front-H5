@@ -2,509 +2,567 @@
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
     display: block;
-    position: relative;
-    height: calc(100% - 44px - env(safe-area-inset-top));
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.9375rem;
+}
+
+.registercenter-1:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-2 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    display: block;
+    scrollbar-width: none;
     box-sizing: border-box;
-    width: 100%;
-    min-height: 100%;
-    color: rgb(48, 49, 51);
-    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.registercenter-2:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-3 {
     -webkit-tap-highlight-color: transparent;
-    width: 80%;
-    margin: 0px auto;
-    height: 800px;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2.1875rem;
+    margin: undefined;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.registercenter-3:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-4 {
+    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    text-align: center;
-    margin: 24px auto 10px;
+    white-space: pre-line;
+    scrollbar-width: none;
+    font-family: sans-serif;
+}
+
+.registercenter-4:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-5 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    display: flex;
-    position: relative;
-    margin-bottom: 10px;
-    -webkit-box-pack: start;
-    justify-content: flex-start;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .registercenter-6 {
-    margin: 0px;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 14px;
-    padding-right: 14px;
-    box-sizing: border-box;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
     -webkit-tap-highlight-color: transparent;
-    overflow: hidden;
-    color: rgb(0, 0, 0);
-    background-color: rgb(248, 248, 248);
-    cursor: pointer;
-    width: 106px;
-    height: 32px;
-    line-height: 32px;
-    background: var(--boutton-background-color);
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin: undefined;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.8125rem;
+}
+
+.registercenter-6:active {
+    opacity: 0.7;
 }
 
 .registercenter-6:after {
-    content: " ";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    transform: scale(0.5);
-    transform-origin: 0px 0px;
-    box-sizing: border-box;
-    border-radius: 10px;
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-7 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    font-size: 13px;
-    color: rgb(255, 255, 255);
+    white-space: pre-line;
+    scrollbar-width: none;
+    font-family: sans-serif;
+}
+
+.registercenter-7:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-8 {
     margin: 0px;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 14px;
-    padding-right: 14px;
-    box-sizing: border-box;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
     -webkit-tap-highlight-color: transparent;
-    overflow: hidden;
-    color: rgb(0, 0, 0);
-    background-color: rgb(248, 248, 248);
-    cursor: pointer;
-    width: 106px;
-    height: 32px;
-    line-height: 32px;
-    background: rgb(213, 213, 213);
-}
-
-.registercenter-8:after {
-    content: " ";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    transform: scale(0.5);
-    transform-origin: 0px 0px;
+    scrollbar-width: none;
     box-sizing: border-box;
-    border-radius: 10px;
+    font-family: sans-serif;
 }
 
 .registercenter-9 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    font-size: 13px;
-    color: rgb(255, 255, 255);
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-9:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-10 {
-    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    position: fixed;
-    right: 15px;
-    bottom: 50px;
-    width: 50px;
-    height: 50px;
-    border-radius: 200px;
-    z-index: 99;
-    text-align: center;
-    background: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    z-index: 2;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    position: static !important;
+    background: rgb(15, 23, 32);
+    margin: 0px -0.9375rem 0.625rem;
+}
+
+.registercenter-10:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-11 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    overflow: hidden;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
     position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
+    max-height: inherit;
 }
 
 .registercenter-12 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
     width: 100%;
     height: 100%;
-    background-position: 0% 0%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    max-height: inherit;
+    overflow: auto;
 }
 
 .registercenter-13 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
     width: 100%;
     height: 100%;
-    user-select: none;
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-
 }
 
 .registercenter-14 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.registercenter-14:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-15 {
-    -webkit-tap-highlight-color: transparent;
-    list-style-type: none;
     margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    height: 50px;
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    margin-left: 1.0625rem;
     padding: 0px;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    margin-right: 0.9375rem;
+    border-bottom: solid 3px rgb(240, 193, 99);
+}
+
+.registercenter-15:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-16 {
+    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    list-style-type: none;
-    padding: 0px;
-    line-height: 50px;
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
-    align-items: center;
-    font-size: 12px;
-    position: relative;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+
+.registercenter-16:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-17 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    display: block;
-    min-height: 1.4em;
-    overflow: hidden;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    padding-left: 50px;
-    font-size: 14px;
-    line-height: 40px;
-    height: 40px;
-    border: 0.5px solid rgb(205, 205, 205);
-    border-radius: 2px !important;
-    background-color: rgb(255, 255, 255) !important;
-    background: url(/public/img/login_ico_phone.png) 12px center / 25px no-repeat;
-}
-
-.registercenter-17-1 {
-    margin: 0px;
-    -webkit-tap-highlight-color: transparent;
-    display: block;
-    min-height: 1.4em;
-    overflow: hidden;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    padding-left: 50px;
-    font-size: 14px;
-    line-height: 40px;
-    height: 40px;
-    border: 0.5px solid rgb(205, 205, 205);
-    border-radius: 2px !important;
-    background-color: rgb(255, 255, 255) !important;
-    background: url(/public/img/login_ico_email.png) 12px center / 25px no-repeat;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .registercenter-18 {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-    border: none;
-    padding: 0px;
     margin: 0px;
-    text-decoration: inherit;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
     display: flex;
-    position: relative;
-    height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    -webkit-box-pack: center;
+    align-items: center;
+    white-space: nowrap;
     justify-content: center;
+    height: 50px;
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    margin-left: 1.0625rem;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    margin-right: 0.9375rem;
+}
+
+.registercenter-18:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-19 {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-    border: none;
-    padding: 0px;
     margin: 0px;
-    text-decoration: inherit;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    color: grey;
-    overflow: hidden;
-    text-overflow: clip;
-    white-space: pre;
-    word-break: keep-all;
-    pointer-events: none;
-    line-height: inherit;
-    top: auto !important;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+
+.registercenter-19:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-20 {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-    border: none;
-    padding: 0px;
     margin: 0px;
-    text-decoration: inherit;
-    width: 100%;
-    position: relative;
-    display: block;
-    height: 100%;
-    background: none;
-    color: inherit;
-    opacity: 1;
-    font: inherit;
-    letter-spacing: inherit;
-    text-align: inherit;
-    text-indent: inherit;
-    text-transform: inherit;
-    text-shadow: inherit;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .registercenter-21 {
+    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    list-style-type: none;
-    padding: 0px;
-    line-height: 50px;
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
-    align-items: center;
-    font-size: 12px;
-    position: relative;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: absolute;
+    transition: none;
+    transform: translateX(17.765625px);
+    bottom: 0px;
+    width: 37.328125px;
+    height: 0.1875rem;
+    background: rgb(240, 193, 99);
+    border-radius: 3.125rem;
+}
+
+.registercenter-21:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-22 {
-    margin: 0px;
     -webkit-tap-highlight-color: transparent;
     display: block;
-    min-height: 1.4em;
-    overflow: hidden;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    padding-left: 50px;
-    font-size: 14px;
-    line-height: 40px;
-    height: 40px;
-    border: 0.5px solid rgb(205, 205, 205);
-    border-radius: 2px !important;
-    background-color: rgb(255, 255, 255) !important;
-    background: url(/public/img/login_ico_validatecode.png) 12px center / 25px no-repeat;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+}
+
+.registercenter-22:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-23 {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-    border: none;
-    padding: 0px;
     margin: 0px;
-    text-decoration: inherit;
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-23:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-24 {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-    border: none;
-    padding: 0px;
     margin: 0px;
-    text-decoration: inherit;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    color: grey;
-    overflow: hidden;
-    text-overflow: clip;
-    white-space: pre;
-    word-break: keep-all;
-    pointer-events: none;
-    line-height: inherit;
-    top: auto !important;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-24:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-25 {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-    border: none;
-    padding: 0px;
     margin: 0px;
-    text-decoration: inherit;
-    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
     position: relative;
-    display: block;
-    height: 100%;
-    background: none;
-    color: inherit;
-    opacity: 1;
-    font: inherit;
-    letter-spacing: inherit;
-    text-align: inherit;
-    text-indent: inherit;
-    text-transform: inherit;
-    text-shadow: inherit;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenter-25:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-26 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    font-size: 12px;
-    line-height: inherit;
+    scrollbar-width: none;
     box-sizing: border-box;
-    display: inline-block;
-    margin-left: 10px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-26:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-27 {
     margin: 0px;
-    padding: 0;
     -webkit-tap-highlight-color: transparent;
     display: block;
-    position: relative;
-    width: 120px;
-    height: 45px;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenter-27:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-28 {
-    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
     width: 100%;
     height: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .registercenter-29 {
-    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
     width: 100%;
-    height: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
     overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-29:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-30 {
-    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    inset: 0px;
-    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
     display: block;
-    z-index: -1;
-    visibility: hidden;
-    animation: 1ms ease 0s 1 normal none running once-show;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
 }
 
 .registercenter-31 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    inset: 0px;
-    overflow: hidden;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-31:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-32 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100000px;
-    height: 100000px;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-32:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-33 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    inset: 0px;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
     overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenter-33:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-34 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 200%;
-    height: 200%;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-34:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-35 {
-    -webkit-tap-highlight-color: transparent;
-    list-style-type: none;
-    padding: 0px;
-    line-height: 50px;
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
-    align-items: center;
-    font-size: 12px;
-    position: relative;
-}
-
-.registercenter-36 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
     display: block;
+    line-height: 1.4em;
     min-height: 1.4em;
     overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenter-35:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-36 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
     width: 100%;
-    color: rgb(0, 0, 0);
-    padding-left: 50px;
-    font-size: 14px;
-    line-height: 40px;
-    height: 40px;
-    border: 0.5px solid rgb(205, 205, 205);
-    border-radius: 2px !important;
-    background-color: rgb(255, 255, 255) !important;
-    background: url(/public/img/login_ico_password.png) 12px center / 25px no-repeat;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .registercenter-37 {
@@ -514,28 +572,10 @@
     padding: 0px;
     margin: 0px;
     text-decoration: inherit;
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-}
-
-.registercenter-38 {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    text-decoration: inherit;
     width: 100%;
     position: absolute;
     left: 0px;
-    color: grey;
+    color: gray;
     overflow: hidden;
     text-overflow: clip;
     white-space: pre;
@@ -543,10 +583,19 @@
     pointer-events: none;
     line-height: inherit;
     top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.registercenter-39 {
+.registercenter-37:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-38 {
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
     outline: none;
     border: none;
     padding: 0px;
@@ -567,76 +616,143 @@
     text-shadow: inherit;
 }
 
-.registercenter-40 {
+.registercenter-39 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-39:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-40 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
     overflow: hidden;
-    display: inline-block;
-    width: 22px;
-    height: 22px;
+    position: relative;
+    border: 0px;
+    outline: 0px;
+    padding: 0px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 3.75rem;
+    height: 2.1875rem;
+    border-radius: 3.125rem;
+    font-size: 0.875rem;
+    color: rgb(240, 193, 99);
+    background: rgb(0, 0, 0);
+}
+
+.registercenter-40:after {
+    top: 0px;
+    left: 0px;
+    transform: scale(0.5);
+    transform-origin: 0px 0px;
+    display: none;
+    content: "";
     position: absolute;
-    right: 5px;
-    z-index: 10;
+    inset: 0px;
+    border: 0px;
+    pointer-events: none;
+    border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .registercenter-40 {
+        color: rgb(214, 214, 214);
+        background-color: rgb(52, 52, 52);
+    }
 }
 
 .registercenter-41 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    width: 100%;
-    height: 100%;
-    background-image: url(/public/img/login_btn_eye_close.png);
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-41:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-42 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    width: 100%;
-    height: 100%;
-    user-select: none;
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
 
+.registercenter-42:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-43 {
+    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    list-style-type: none;
-    padding: 0px;
-    line-height: 50px;
-    margin: 10px auto;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
     display: flex;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
     align-items: center;
-    font-size: 12px;
-    position: relative;
+}
+
+.registercenter-43:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-44 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
     display: block;
+    line-height: 1.4em;
     min-height: 1.4em;
     overflow: hidden;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    padding-left: 50px;
-    font-size: 14px;
-    line-height: 40px;
-    height: 40px;
-    border: 0.5px solid rgb(205, 205, 205);
-    border-radius: 2px !important;
-    background-color: rgb(255, 255, 255) !important;
-    background: url(/public/img/login_ico_password.png) 12px center / 25px no-repeat;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenter-44:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-45 {
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
     outline: none;
     border: none;
     padding: 0px;
@@ -646,10 +762,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
-    -webkit-box-pack: center;
     justify-content: center;
 }
 
@@ -663,7 +776,7 @@
     width: 100%;
     position: absolute;
     left: 0px;
-    color: grey;
+    color: gray;
     overflow: hidden;
     text-overflow: clip;
     white-space: pre;
@@ -671,10 +784,19 @@
     pointer-events: none;
     line-height: inherit;
     top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-46:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-47 {
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
     outline: none;
     border: none;
     padding: 0px;
@@ -698,73 +820,88 @@
 .registercenter-48 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    overflow: hidden;
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    right: 5px;
-    z-index: 10;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-48:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-49 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    width: 100%;
-    height: 100%;
-    background-image: url(/public/img/login_btn_eye_close.png);
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-49:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-50 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    width: 100%;
-    height: 100%;
-    user-select: none;
-    display: block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
 
+.registercenter-50:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-51 {
+    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    list-style-type: none;
-    padding: 0px;
-    line-height: 50px;
-    margin: 10px auto;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
     display: flex;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
     align-items: center;
-    font-size: 12px;
-    position: relative;
+}
+
+.registercenter-51:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-52 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
     display: block;
+    line-height: 1.4em;
     min-height: 1.4em;
     overflow: hidden;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    padding-left: 50px;
-    font-size: 14px;
-    line-height: 40px;
-    height: 40px;
-    border: 0.5px solid rgb(205, 205, 205);
-    border-radius: 2px !important;
-    background-color: rgb(255, 255, 255) !important;
-    background: url(/public/img/login_ico_yqm.png) 12px center / 25px no-repeat;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenter-52:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-53 {
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
     outline: none;
     border: none;
     padding: 0px;
@@ -774,10 +911,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
-    -webkit-box-pack: center;
     justify-content: center;
 }
 
@@ -791,7 +925,7 @@
     width: 100%;
     position: absolute;
     left: 0px;
-    color: grey;
+    color: gray;
     overflow: hidden;
     text-overflow: clip;
     white-space: pre;
@@ -799,10 +933,19 @@
     pointer-events: none;
     line-height: inherit;
     top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-54:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-55 {
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
     outline: none;
     border: none;
     padding: 0px;
@@ -824,258 +967,1103 @@
 }
 
 .registercenter-56 {
+    margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    list-style-type: none;
-    padding: 0px;
-    margin: 10px auto;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
-    position: relative;
-    -webkit-box-pack: start;
-    justify-content: flex-start;
-    line-height: normal;
-    font-size: 12px;
-    color: rgb(255, 51, 51);
-    margin-bottom: 20px;
+}
+
+.registercenter-56:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-57 {
-    -webkit-tap-highlight-color: transparent;
-    list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-57:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-58 {
     margin: 0px;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 14px;
-    padding-right: 14px;
-    box-sizing: border-box;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
     overflow: hidden;
-    cursor: pointer;
-    margin-bottom: 5px;
-    background-color: var(--boutton-background-color);
-    font-size: 11px;
-    color: rgb(255, 255, 255);
-    height: 43px;
-    line-height: 43px;
+    flex: 1 1 0%;
 }
 
 .registercenter-58:after {
-    content: " ";
-    width: 200%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    transform: scale(0.5);
-    transform-origin: 0px 0px;
-    box-sizing: border-box;
-    border-radius: 10px;
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-59 {
     margin: 0px;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 14px;
-    padding-right: 14px;
-    box-sizing: border-box;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
     -webkit-tap-highlight-color: transparent;
-    overflow: hidden;
-    cursor: pointer;
-    margin-bottom: 5px;
-    font-size: 11px;
-    color: var(--boutton-background-color);
-    height: 30px;
-    line-height: 30px;
-    border: 1px solid rgba(0, 0, 0, .2);
-    background-color: #f8f8f8;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-59:after {
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-60 {
     margin: 0px;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 14px;
-    padding-right: 14px;
-    box-sizing: border-box;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
     -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
     overflow: hidden;
-    background-color: rgb(248, 248, 248);
-    cursor: pointer;
-    height: 27px;
-    line-height: 27px;
-    font-size: 12px;
-    color: var(--boutton-background-color);
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
 }
 
 .registercenter-60:after {
-    content: " ";
-    width: 200%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    transform: scale(0.5);
-    transform-origin: 0px 0px;
-    box-sizing: border-box;
-    border-radius: 10px;
+    border-color: rgb(30, 39, 48) !important;
 }
 
 .registercenter-61 {
-    margin: 0px;
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .registercenter-62 {
     -webkit-tap-highlight-color: transparent;
-    list-style-type: none;
-    margin: 0px;
+    outline: none;
+    border: none;
     padding: 0px;
-}
-
-.register-34 {
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-    color: white;
-    font: inherit;
     margin: 0px;
-    overflow: visible;
-    text-transform: none;
-    position: relative;
-    display: inline-block;
-    height: 100%;
+    text-decoration: inherit;
     width: 100%;
-    padding: 0px 8px;
-    font-size: 12px;
-    text-align: center;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: opacity 0.2s ease 0s;
-    appearance: none;
-    background-color: var(--boutton-background-color);
-    border: 1px solid rgb(235, 237, 240);
-}
-
-.register-34:focus {
-    outline: 0px;
-}
-
-.register-34:before {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    border-style: inherit;
-    border-width: inherit;
-    border-image: inherit;
-    border-color: rgb(0, 0, 0);
-    border-radius: inherit;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    content: " ";
-}
-
-
-.registerPhone-25 {
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-62:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-63 {
     -webkit-tap-highlight-color: transparent;
-    color: white;
-    font: inherit;
-    margin: 0px;
-    overflow: visible;
-    text-transform: none;
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    padding: 0px 8px;
-    font-size: 12px;
-    text-align: center;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: opacity 0.2s ease 0s;
-    appearance: none;
-    background-color: var(--boutton-background-color);
-    border: 1px solid rgb(235, 237, 240);
-}
-
-.registerPhone-25:focus {
-    outline: 0px;
-}
-
-.registerPhone-25:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    border-style: inherit;
-    border-width: inherit;
-    border-image: inherit;
-    border-color: rgb(0, 0, 0);
-    border-radius: inherit;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    content: " ";
-}
-
-.registerPhone-26:focus {
-    outline: 0px;
-}
-
-.registerPhone-26 {
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-    margin: 0px;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
     padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenter-64 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-64:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-65 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    outline: 0px;
+    padding: 0px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin-top: 1.875rem;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+    background: rgb(240, 193, 99);
+    border-radius: 3.125rem;
+}
+
+.registercenter-65:after {
+    top: 0px;
+    left: 0px;
+    transform: scale(0.5);
+    transform-origin: 0px 0px;
+    display: none;
+    content: "";
+    position: absolute;
+    inset: 0px;
+    border: 0px;
+    pointer-events: none;
+    border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .registercenter-65 {
+        color: rgb(214, 214, 214);
+        background-color: rgb(52, 52, 52);
+    }
+}
+
+.registercenterphone-1 {
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+}
+
+.registercenterphone-1:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-2 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-2:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-3 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-3:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-4 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-4:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-5 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin-right: 0.625rem;
+}
+
+.registercenterphone-5:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-6 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    margin: undefined;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.registercenterphone-6:active {
+    opacity: 0.7;
+}
+
+.registercenterphone-6:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-7 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    white-space: pre-line;
+    scrollbar-width: none;
+    font-family: sans-serif;
+}
+
+.registercenterphone-7:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-8 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-9 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: iconfont !important;
+    font-style: normal;
+    font-size: 0.875rem;
+    margin-left: 0.25rem;
+}
+
+.registercenterphone-9:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-9:before {
+    content: "";
+}
+
+.registercenterphone-10 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-10:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-11 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-12 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-12:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-13 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-14 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-14:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-15 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-15:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-16 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-16:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-17 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-17:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-18 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-18:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-19 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-20 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-20:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-21 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-22 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-22:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-23 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: relative;
     border: 0px;
     outline: 0px;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
-    height: 100%;
-}
-
-.registerPhone-26:before {
-    content: " ";
-}
-
-.registerPhone-27:focus {
-    outline: 0px;
-}
-
-.registerPhone-27 {
-    box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
-    margin: 0px;
     padding: 0px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 3.75rem;
+    height: 2.1875rem;
+    border-radius: 3.125rem;
+    font-size: 0.875rem;
+    color: rgb(240, 193, 99);
+    background: rgb(0, 0, 0);
+}
+
+.registercenterphone-23:after {
+    top: 0px;
+    left: 0px;
+    transform: scale(0.5);
+    transform-origin: 0px 0px;
+    display: none;
+    content: "";
+    position: absolute;
+    inset: 0px;
     border: 0px;
-    outline: 0px;
-    font-size: 100%;
-    vertical-align: baseline;
-    background: transparent;
+    pointer-events: none;
+    border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .registercenterphone-23 {
+        color: rgb(214, 214, 214);
+        background-color: rgb(52, 52, 52);
+    }
+}
+
+.registercenterphone-24 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-24:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-25 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-25:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-26 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-26:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-27 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-27:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-28 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-29 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-29:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-30 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-31 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-31:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-32 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-32:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-33 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-33:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-34 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-34:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-35 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-35:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-36 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-37 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-37:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-38 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-39 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-39:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-40 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-40:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-41 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-41:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-42 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-42:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-43 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-43:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-44 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-45 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-45:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-46 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-47 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-47:after {
+    border-color: rgb(30, 39, 48) !important;
 }

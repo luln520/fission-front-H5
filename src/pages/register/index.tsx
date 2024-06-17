@@ -19,7 +19,6 @@ export default function Register() {
   const [areas, setAreas] = useState([] as any[]);
   const [show60, setShow60] = useState(false);
   const [companyData, setCompanyData] = useState({} as any);
-  const [registerMsg, setregisterMsg] = useState("");
 
   //执行登录
   const doRegister = async (sendData) => {
@@ -29,19 +28,18 @@ export default function Register() {
       isDo = true;
     }
     try {
-      setregisterMsg("");
       if (sendData.username && sendData.password) {
         const data = await userApi.register(sendData);
         if (data.ok) {
-          setregisterMsg(translate(getText("註冊成功")));
+          Toast.show(translate(getText("註冊成功")));
           setTimeout(() => {
             navigate("/login");
           }, 1000);
         } else {
-          setregisterMsg(data.msg);
+          Toast.show(data.msg);
         }
       } else {
-        setregisterMsg(translate(getText("請填寫完整信息")));
+        Toast.show(translate(getText("請填寫完整信息")));
       }
     } catch (error) {
     } finally {
@@ -80,13 +78,8 @@ export default function Register() {
     loadAreasData();
   }, []);
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "#f7f6fb",
-      }}
-    >
-      <TopBar title={translate(getText("立即註冊"))} isBack={true} />
+    <div className="page">
+      <TopBar title={""} isBack={true} />
       <PageRegister
         doRegister={doRegister}
         areas={areas}
@@ -94,7 +87,6 @@ export default function Register() {
         show60={show60}
         setShow60={setShow60}
         companyData={companyData}
-        registerMsg={registerMsg}
       />
     </div>
   );

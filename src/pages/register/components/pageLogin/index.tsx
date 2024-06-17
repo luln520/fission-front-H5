@@ -6,6 +6,7 @@ import { Divider, Dropdown, DropdownRef, Radio, Space } from "antd-mobile";
 import { useTranslation } from "react-i18next";
 import { getText } from "../../../../utils/util";
 import { imageConfig } from "../../../../config/config";
+import { languagesData } from "../../../../i18n/i18n";
 
 export default function PageRegister({
   doRegister,
@@ -14,7 +15,6 @@ export default function PageRegister({
   show60,
   setShow60,
   companyData,
-  registerMsg,
 }) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
@@ -64,6 +64,13 @@ export default function PageRegister({
     });
   };
 
+  const getlanguageStr = () => {
+    for (const lanData of languagesData) {
+      if (lanData.code == lan) {
+        return lanData.title;
+      }
+    }
+  };
   useEffect(() => {
     setArea(areas[0]);
   }, [areas]);
@@ -90,388 +97,407 @@ export default function PageRegister({
   }, [show60]);
 
   return (
-    <div id="registercenter" class="registercenter-1">
+    <div class="registercenter-1">
       <div class="registercenter-2">
         <div class="registercenter-3">
-          <div class="registercenter-4"></div>
-          <div class="registercenter-5">
-            <div
-              class={!isPhone ? "registercenter-6" : "registercenter-8"}
-              onClick={() => {
-                setIsPhone(false);
-                setPasswordType1(true);
-                setPasswordType2(true);
-                setPasswordType3(true);
-                setPasswordType4(true);
-                changeType(2);
-              }}
-            >
-              <span class="registercenter-9">{translate(getText("郵箱註冊"))}</span>
-            </div>
-            <div
-              class={isPhone ? "registercenter-6" : "registercenter-8"}
-              onClick={() => {
-                setIsPhone(true);
-                setPasswordType1(true);
-                setPasswordType2(true);
-                setPasswordType3(true);
-                setPasswordType4(true);
-                changeType(1);
-              }}
-            >
-              <span class="registercenter-7">{translate(getText("手機註冊"))}</span>
-            </div>
-          </div>
-          <div
-            class="registercenter-10"
-            onClick={() => {
-              navigate("/chatcenter");
-            }}
-          >
-            <img
-              src="/img/kf.png"
-              class="registercenter-13"
-            />
-          </div>
-          {/* 邮箱 */}
-          {!isPhone && (
-            <div class="registercenter-14">
-              <ul class="registercenter-15">
-                <li class="registercenter-16">
-                  <div class="registercenter-17-1">
-                    <div class="registercenter-18">
-                      <input
-                        type="text"
-                        name="username"
-                        value={sendData.username}
-                        placeholder={translate(getText("請輸入您的電子郵件"))}
-                        onChange={updateSendData}
-                        class="registercenter-20"
-                      />
-                    </div>
-                  </div>
-                </li>
-                <li class="registercenter-21">
-                  <div class="registercenter-22">
-                    <div class="registercenter-23">
-                      <input
-                        type="text"
-                        name="regcode"
-                        value={sendData.regcode}
-                        placeholder={translate(getText("請輸入驗證碼"))}
-                        onChange={updateSendData}
-                        class="registercenter-25"
-                      />
-                    </div>
-                  </div>
-                  <div class="registercenter-26">
-                    <div class="registercenter-27">
-                      <button
-                        className="register-34"
-                        onClick={() => {
-                          if (show60) {
-                            return;
-                          }
-                          const data = { ...sendData };
-                          data.area = area?.internationalAreaCode;
-                          sendSMS(data);
-                        }}
-                      >
-                        <div className="register-35">
-                          <span className="register-36">
-                            {!show60 && translate(getText("發送驗證碼"))}
-                            {show60 && `${time}s`}
-                          </span>
-                        </div>
-                      </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="registercenter-35">
-                  <div class="registercenter-36">
-                    <div class="registercenter-37">
-                      <input
-                        type={passwordType1 && "password"}
-                        name="password"
-                        value={sendData.password}
-                        placeholder={translate(getText("請輸入密碼"))}
-                        onChange={updateSendData}
-                        class="registercenter-39"
-                      />
-                    </div>
-                  </div>
-                  <div class="registercenter-40">
-                    <img
-                      onClick={() => {
-                        setPasswordType1(!passwordType1);
-                      }}
-                      src={
-                        passwordType1
-                          ? "/img/login_btn_eye_close.png"
-                          : "/img/login_btn_eye_open.png"
-                      }
-                      class="registercenter-42"
-                    />
-                  </div>
-                </li>
-                <li class="registercenter-43">
-                  <div class="registercenter-44">
-                    <div class="registercenter-45">
-                      <input
-                        type={passwordType2 && "password"}
-                        name="repassword"
-                        value={sendData.repassword}
-                        placeholder={translate(getText("請輸入密碼"))}
-                        onChange={updateSendData}
-                        class="registercenter-47"
-                      />
-                    </div>
-                  </div>
-                  <div class="registercenter-48">
-                    <img
-                      onClick={() => {
-                        setPasswordType2(!passwordType2);
-                      }}
-                      src={
-                        passwordType2
-                          ? "/img/login_btn_eye_close.png"
-                          : "/img/login_btn_eye_open.png"
-                      }
-                      class="registercenter-42"
-                    />
-                  </div>
-                </li>
-                {inviteType == 1 && (
-                  <li class="registercenter-51">
-                    <div class="registercenter-52">
-                      <div class="registercenter-53">
-                        <input
-                          class="registercenter-55"
-                          type="text"
-                          name="invit"
-                          value={sendData.invit}
-                          placeholder={translate(getText("請輸入邀請碼"))}
-                          onChange={updateSendData}
-                        />
-                      </div>
-                    </div>
-                  </li>
-                )}
-              </ul>
-            </div>
-          )}
-          {/* 手机 */}
-          {isPhone && (
-            <div class="registercenter-14">
-              <ul class="registercenter-15">
-                <li class="registercenter-16">
-                  <div class="registercenter-17">
-                    <div
-                      style={{
-                        height: "30px",
-                        marginTop: "-10px",
-                        marginLeft: "-10px",
-                        width: "70px",
-                        float: "left",
-                      }}
-                    >
-                      <Dropdown ref={dropdownRef} closeOnClickAway={true}>
-                        <Dropdown.Item
-                          key="sorter"
-                          title={`+ ${area && area?.internationalAreaCode}`}
-                        >
-                          <div
-                            style={{
-                              padding: "12px 20px",
-                              height: "300px",
-                              overflow: "hidden",
-                              overflowY: "scroll",
-                            }}
-                          >
-                            {areas.map((data) => (
-                              <div
-                                key={data.id}
-                                onClick={() => {
-                                  setArea(data);
-                                  dropdownRef.current?.close();
-                                }}
-                              >
-                                {localStorage.getItem("i18n") == "zh"
-                                  ? data.nameZh
-                                  : data.nameEn}
-                                <span
-                                  style={{
-                                    float: "right",
-                                    marginRight: "30px",
-                                  }}
-                                >
-                                  +{data.internationalAreaCode}
-                                </span>
-                                <Divider />
-                              </div>
-                            ))}
-                          </div>
-                        </Dropdown.Item>
-                      </Dropdown>
-                    </div>
-                    <div
-                      class="registercenter-18"
-                      style={{
-                        float: "left",
-                      }}
-                    >
-                      <input
-                        class="registercenter-20"
-                        type="text"
-                        name="username"
-                        value={sendData.username}
-                        placeholder={translate(getText("請輸入電話號碼"))}
-                        onChange={updateSendData}
-                      />
-                    </div>
-                  </div>
-                </li>
-                <li class="registercenter-21">
-                  <div class="registercenter-22">
-                    <div class="registercenter-23">
-                      <input
-                        class="registercenter-25"
-                        type="text"
-                        name="regcode"
-                        value={sendData.regcode}
-                        placeholder={translate(getText("請輸入驗證碼"))}
-                        onChange={updateSendData}
-                      />
-                    </div>
-                  </div>
-                  <div class="registercenter-26">
-                    <div class="registercenter-27">
-                      <button
-                        className="registerPhone-25"
-                        onClick={() => {
-                          if (show60) {
-                            return;
-                          }
-                          const data = { ...sendData };
-                          if (data.type === 1) {
-                            data.area = area?.internationalAreaCode;
-                          }
-                          sendSMS(data);
-                        }}
-                      >
-                        <div className="registerPhone-26">
-                          <span className="registerPhone-27">
-                            {!show60 && translate(getText("發送驗證碼"))}
-                            {show60 && `${time}s`}
-                          </span>
-                        </div>
-                      </button>
-                    </div>
-                  </div>
-                </li>
-                <li class="registercenter-35">
-                  <div class="registercenter-36">
-                    <div class="registercenter-37">
-                      <input
-                        class="registercenter-39"
-                        type={passwordType3 && "password"}
-                        name="password"
-                        value={sendData.password}
-                        placeholder={translate(getText("請輸入密碼"))}
-                        onChange={updateSendData}
-                      />
-                    </div>
-                  </div>
-                  <div class="registercenter-40">
-                    <img
-                      onClick={() => {
-                        setPasswordType3(!passwordType3);
-                      }}
-                      src={
-                        passwordType3
-                          ? "/img/login_btn_eye_close.png"
-                          : "/img/login_btn_eye_open.png"
-                      }
-                      class="registercenter-42"
-                    />
-                  </div>
-                </li>
-                <li class="registercenter-43">
-                  <div class="registercenter-44">
-                    <div class="registercenter-45">
-                      <input
-                        class="registercenter-47"
-                        type={passwordType4 && "password"}
-                        name="repassword"
-                        value={sendData.repassword}
-                        placeholder={translate(getText("請輸入密碼"))}
-                        onChange={updateSendData}
-                      />
-                    </div>
-                  </div>
-                  <div class="registercenter-48">
-                    <img
-                      onClick={() => {
-                        setPasswordType4(!passwordType4);
-                      }}
-                      src={
-                        passwordType4
-                          ? "/img/login_btn_eye_close.png"
-                          : "/img/login_btn_eye_open.png"
-                      }
-                      class="registercenter-42"
-                    />
-                  </div>
-                </li>
-                {inviteType == 1 && (
-                  <li class="registercenter-51">
-                    <div class="registercenter-52">
-                      <div class="registercenter-53">
-                        <input
-                          type="text"
-                          name="invit"
-                          value={sendData.invit}
-                          placeholder={translate(getText("請輸入邀請碼"))}
-                          onChange={updateSendData}
-                          class="registercenter-55"
-                        />
-                      </div>
-                    </div>
-                  </li>
-                )}
-              </ul>
-            </div>
-          )}
-
-          {/* 提交 */}
-          <div class="registercenter-14">
-            <div className="loginboxnew-31">{registerMsg}</div>
-            <ul class="registercenter-15">
-              <li class="registercenter-57">
-                <div
-                  class="registercenter-58"
-                  onClick={() => {
-                    const data = { ...sendData };
-                    if (data.type === 1) {
-                      data.area = area?.internationalAreaCode;
-                    }
-                    doRegister(data);
-                  }}
-                >
-                  {translate(getText("立即註冊"))}
-                </div>
-                <div
-                  class="registercenter-59"
-                  onClick={() => {
-                    navigate("/login");
-                  }}
-                >
-                  {translate(getText("登錄"))}
-                </div>
-              </li>
-            </ul>
+          <div class="registercenter-4">
+            <span class="registercenter-5">{translate(getText("註冊"))}</span>
           </div>
         </div>
+        <div class="registercenter-6">
+          <div class="registercenter-7">
+            <span
+              class="registercenter-8"
+              onClick={() => {
+                navigate("/changelanguage");
+              }}
+            >
+              {getlanguageStr()}
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="registercenter-9">
+        <div class="registercenter-10">
+          <div class="registercenter-11">
+            <div class="registercenter-12">
+              <div class="registercenter-13">
+                <div class="registercenter-14">
+                  <div
+                    class={!isPhone ? "registercenter-15" : "registercenter-18"}
+                    onClick={() => {
+                      setIsPhone(false);
+                      setPasswordType1(true);
+                      setPasswordType2(true);
+                      setPasswordType3(true);
+                      setPasswordType4(true);
+                      changeType(2);
+                    }}
+                  >
+                    <div class="registercenter-16">
+                      <span class="registercenter-17">
+                        {translate(getText("郵箱"))}
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class={isPhone ? "registercenter-15" : "registercenter-18"}
+                    onClick={() => {
+                      setIsPhone(true);
+                      setPasswordType1(true);
+                      setPasswordType2(true);
+                      setPasswordType3(true);
+                      setPasswordType4(true);
+                      changeType(1);
+                    }}
+                  >
+                    <div class="registercenter-19">
+                      <span class="registercenter-20">
+                        {translate(getText("手機"))}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* 邮箱 */}
+      {!isPhone && (
+        <div class="registercenter-22">
+          <div class="registercenter-23">
+            <div class="registercenter-24">
+              <div class="registercenter-25">
+                <div class="registercenter-26"></div>
+                <div class="registercenter-27">
+                  <div class="registercenter-28">
+                    <input
+                      name="username"
+                      value={sendData.username}
+                      placeholder={translate(getText("請輸入您的電子郵件"))}
+                      onChange={updateSendData}
+                      type=""
+                      maxlength="999"
+                      step=""
+                      autocomplete="off"
+                      class="registercenter-30"
+                    />
+                  </div>
+                </div>
+                <div class="registercenter-31"></div>
+              </div>
+            </div>
+            <div class="registercenter-32">
+              <div class="registercenter-33">
+                <div class="registercenter-34"></div>
+                <div class="registercenter-35">
+                  <div class="registercenter-36">
+                    <input
+                      name="regcode"
+                      value={sendData.regcode}
+                      placeholder={translate(getText("請輸入驗證碼"))}
+                      onChange={updateSendData}
+                      type=""
+                      maxlength="999"
+                      step=""
+                      autocomplete="off"
+                      class="registercenter-38"
+                    />
+                  </div>
+                </div>
+                <div class="registercenter-39">
+                  <div
+                    class="registercenter-40"
+                    onClick={() => {
+                      if (show60) {
+                        return;
+                      }
+                      const data = { ...sendData };
+                      data.area = area?.internationalAreaCode;
+                      sendSMS(data);
+                    }}
+                  >
+                    {!show60 && translate(getText("获取"))}
+                    {show60 && `${time}s`}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="registercenter-41">
+              <div class="registercenter-42">
+                <div class="registercenter-43"></div>
+                <div class="registercenter-44">
+                  <div class="registercenter-45">
+                    <input
+                      name="password"
+                      value={sendData.password}
+                      placeholder={translate(getText("請輸入密碼"))}
+                      onChange={updateSendData}
+                      type="password"
+                      maxlength="999"
+                      step=""
+                      autocomplete="off"
+                      class="registercenter-47"
+                    />
+                  </div>
+                </div>
+                <div class="registercenter-48"></div>
+              </div>
+            </div>
+            <div class="registercenter-49">
+              <div class="registercenter-50">
+                <div class="registercenter-51"></div>
+                <div class="registercenter-52">
+                  <div class="registercenter-53">
+                    <input
+                      name="repassword"
+                      value={sendData.repassword}
+                      placeholder={translate(getText("請輸入密碼"))}
+                      onChange={updateSendData}
+                      type="password"
+                      maxlength="999"
+                      step=""
+                      autocomplete="off"
+                      class="registercenter-55"
+                    />
+                  </div>
+                </div>
+                <div class="registercenter-56"></div>
+              </div>
+            </div>
+            {inviteType == 1 && (
+              <div class="registercenter-57">
+                <div class="registercenter-58">
+                  <div class="registercenter-59"></div>
+                  <div class="registercenter-60">
+                    <div class="registercenter-61">
+                      <input
+                        name="invit"
+                        value={sendData.invit}
+                        placeholder={translate(getText("請輸入邀請碼"))}
+                        onChange={updateSendData}
+                        type=""
+                        maxlength="999"
+                        step=""
+                        autocomplete="off"
+                        class="registercenter-63"
+                      />
+                    </div>
+                  </div>
+                  <div class="registercenter-64"></div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+      {/*手机号  */}
+      {isPhone && (
+        <div class="registercenterphone-1">
+          <div class="registercenterphone-2">
+            <div class="registercenterphone-3">
+              <div class="registercenterphone-4">
+                <div class="registercenterphone-5">
+                  <div class="registercenterphone-6">
+                    <div class="registercenterphone-7">
+                      <div
+                        style={{
+                          height: "30px",
+                          marginTop: "-10px",
+                          marginLeft: "-10px",
+                          width: "70px",
+                          float: "left",
+                          background: "transparent",
+                        }}
+                      >
+                        <Dropdown
+                          ref={dropdownRef}
+                          closeOnClickAway={true}
+                          style={{
+                            backgroundColor: "transparent",
+                          }}
+                        >
+                          <Dropdown.Item
+                            key="sorter"
+                            title={`+ ${area && area?.internationalAreaCode}`}
+                            style={{
+                              backgroundColor: "transparent",
+                            }}
+                          >
+                            <div
+                              style={{
+                                padding: "12px 20px",
+                                height: "300px",
+                                overflow: "hidden",
+                                overflowY: "scroll",
+                                background: "transparent",
+                              }}
+                            >
+                              {areas.map((data) => (
+                                <div
+                                  key={data.id}
+                                  onClick={() => {
+                                    setArea(data);
+                                    dropdownRef.current?.close();
+                                  }}
+                                >
+                                  {localStorage.getItem("i18n") == "zh"
+                                    ? data.nameZh
+                                    : data.nameEn}
+                                  <span
+                                    style={{
+                                      float: "right",
+                                      marginRight: "30px",
+                                    }}
+                                  >
+                                    +{data.internationalAreaCode}
+                                  </span>
+                                  <Divider />
+                                </div>
+                              ))}
+                            </div>
+                          </Dropdown.Item>
+                        </Dropdown>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="registercenterphone-10">
+                  <div class="registercenterphone-11">
+                    <input
+                      name="username"
+                      value={sendData.username}
+                      placeholder={translate(getText("請輸入電話號碼"))}
+                      onChange={updateSendData}
+                      type=""
+                      maxlength="999"
+                      step=""
+                      autocomplete="off"
+                      class="registercenterphone-13"
+                    />
+                  </div>
+                </div>
+                <div class="registercenterphone-14"></div>
+              </div>
+            </div>
+            <div class="registercenterphone-15">
+              <div class="registercenterphone-16">
+                <div class="registercenterphone-17"></div>
+                <div class="registercenterphone-18">
+                  <div class="registercenterphone-19">
+                    <input
+                      name="regcode"
+                      value={sendData.regcode}
+                      placeholder={translate(getText("請輸入驗證碼"))}
+                      onChange={updateSendData}
+                      type=""
+                      maxlength="999"
+                      step=""
+                      autocomplete="off"
+                      class="registercenterphone-21"
+                    />
+                  </div>
+                </div>
+                <div class="registercenterphone-22">
+                  <div
+                    class="registercenterphone-23"
+                    onClick={() => {
+                      if (show60) {
+                        return;
+                      }
+                      const data = { ...sendData };
+                      if (data.type === 1) {
+                        data.area = area?.internationalAreaCode;
+                      }
+                      sendSMS(data);
+                    }}
+                  >
+                    {!show60 && translate(getText("获取"))}
+                    {show60 && `${time}s`}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="registercenterphone-24">
+              <div class="registercenterphone-25">
+                <div class="registercenterphone-26"></div>
+                <div class="registercenterphone-27">
+                  <div class="registercenterphone-28">
+                    <input
+                      name="password"
+                      value={sendData.password}
+                      placeholder={translate(getText("請輸入密碼"))}
+                      onChange={updateSendData}
+                      type="password"
+                      maxlength="999"
+                      step=""
+                      autocomplete="off"
+                      class="registercenterphone-30"
+                    />
+                  </div>
+                </div>
+                <div class="registercenterphone-31"></div>
+              </div>
+            </div>
+            <div class="registercenterphone-32">
+              <div class="registercenterphone-33">
+                <div class="registercenterphone-34"></div>
+                <div class="registercenterphone-35">
+                  <div class="registercenterphone-36">
+                    <input
+                      name="repassword"
+                      value={sendData.repassword}
+                      placeholder={translate(getText("請輸入密碼"))}
+                      onChange={updateSendData}
+                      type="password"
+                      maxlength="999"
+                      step=""
+                      autocomplete="off"
+                      class="registercenterphone-38"
+                    />
+                  </div>
+                </div>
+                <div class="registercenterphone-39"></div>
+              </div>
+            </div>
+            {inviteType == 1 && (
+              <div class="registercenterphone-40">
+                <div class="registercenterphone-41">
+                  <div class="registercenterphone-42"></div>
+                  <div class="registercenterphone-43">
+                    <div class="registercenterphone-44">
+                      <input
+                        name="invit"
+                        value={sendData.invit}
+                        placeholder={translate(getText("請輸入邀請碼"))}
+                        onChange={updateSendData}
+                        type=""
+                        maxlength="999"
+                        step=""
+                        autocomplete="off"
+                        class="registercenterphone-46"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      <div
+        class="registercenter-65"
+        onClick={() => {
+          const data = { ...sendData };
+          if (data.type === 1) {
+            data.area = area?.internationalAreaCode;
+          }
+          doRegister(data);
+        }}
+      >
+        {translate(getText("立即註冊"))}
       </div>
     </div>
   );
