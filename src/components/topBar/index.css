@@ -124,7 +124,7 @@
   font-size: 22px;
   font-weight: normal;
   top: 0px;
-  color: rgb(96, 98, 102);
+  color: #fff;
 }
 
 .topbarnew-8:before {
@@ -176,6 +176,7 @@
   font-size: 16px;
   font-weight: normal;
   font-weight: 700;
+  color: #fff;
 }
 
 .topbarnew-12 {

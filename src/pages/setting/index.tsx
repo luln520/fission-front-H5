@@ -32,9 +32,9 @@ export default function Setting() {
     loadUserInfoData();
   }, []);
   return (
-    <div className="page" style={{ backgroundColor: "#f7f6fb" }}>
-      <TopBar title={translate(getText("設置"))} isBack={true} />
-      <SettingPage userInfo={userInfo}/>
+    <div className="page">
+      <TopBar title={""} isBack={true} />
+      <SettingPage userInfo={userInfo} />
     </div>
   );
 }

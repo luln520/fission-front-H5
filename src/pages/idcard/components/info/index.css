@@ -21,7 +21,7 @@
 .idcard-3 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  background: rgb(255, 255, 255);
+  background: var(--them-background);
   margin-bottom: 10px;
 }
 
@@ -43,7 +43,7 @@
   line-height: inherit;
   box-sizing: border-box;
   display: flex;
-  color: rgb(0, 0, 0);
+  
   -webkit-box-pack: start;
   justify-content: flex-start;
   -webkit-box-align: center;
@@ -254,7 +254,7 @@
   list-style-type: none;
   padding: 0px;
   display: flex;
-  color: rgb(0, 0, 0);
+  
   -webkit-box-pack: start;
   justify-content: flex-start;
   -webkit-box-align: center;
@@ -361,7 +361,7 @@
   -webkit-tap-highlight-color: transparent;
   list-style-type: none;
   display: flex;
-  color: rgb(0, 0, 0);
+  
   -webkit-box-pack: start;
   justify-content: flex-start;
   -webkit-box-align: center;
@@ -429,7 +429,7 @@
   -webkit-tap-highlight-color: transparent;
   list-style-type: none;
   display: flex;
-  color: rgb(0, 0, 0);
+  
   -webkit-box-pack: start;
   justify-content: flex-start;
   -webkit-box-align: center;
@@ -495,7 +495,7 @@
 .idcard-38 {
   -webkit-tap-highlight-color: transparent;
   list-style-type: none;
-  color: rgb(0, 0, 0);
+  
   -webkit-box-pack: start;
   justify-content: flex-start;
   -webkit-box-align: center;
