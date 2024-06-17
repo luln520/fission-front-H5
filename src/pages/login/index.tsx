@@ -16,10 +16,8 @@ export default function Login() {
   const { t: translate } = useTranslation();
   const [companyData, setCompanyData] = useState({} as any);
   const [nologinmsg, setnologinmsg] = useContext(NoLoginMsgContext);
-  const [loginmsg, setloginmsg] = useState("");
   //执行登录
   const doLogin = async (loginData) => {
-    setloginmsg("");
     if (loginData.username && loginData.password) {
       const data = await userApi.login(loginData);
       if (data.ok) {
@@ -28,15 +26,15 @@ export default function Login() {
         localStorage.setItem("uid", userInfo.id);
         localStorage.setItem("username", userInfo.username);
         localStorage.setItem("userCode", userInfo.userCode);
-        setloginmsg(translate(getText("登錄成功")));
+        Toast.show(translate(getText("登錄成功")));
         setTimeout(() => {
           window.location.href = "/homecenter";
         }, 500);
       } else {
-        setloginmsg(data.msg);
+        Toast.show(data.msg);
       }
     } else {
-      setloginmsg(translate(getText("請填寫完整信息")));
+      Toast.show(translate(getText("請填寫完整信息")));
     }
   };
   //初始化获取公司
@@ -55,7 +53,6 @@ export default function Login() {
         companyData={companyData}
         doLogin={doLogin}
         nologinmsg={nologinmsg}
-        loginmsg={loginmsg}
       />
     </div>
   );

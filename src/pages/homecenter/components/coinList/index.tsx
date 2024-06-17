@@ -12,12 +12,99 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
   const [type, setType] = useState(1);
   const get1Nodes = () => {
     const nodes = [];
-    let coinListDataTemp = coinListData;
+    let coinListDataTemp = [];
+    let coinListDataTempSortUp = [];
+    let coinListDataTempSortDowon = [];
     //排序
-    for (const key in coinListDataTemp) {
+    for (const key in coinListData) {
+      if (coinListData[key]?.close > coinListData[key]?.open) {
+        coinListDataTempSortUp.push(key);
+      } else {
+        coinListDataTempSortDowon.push(key);
+      }
+    }
+    coinListDataTemp = [
+      ...coinListDataTempSortUp,
+      ...coinListDataTempSortDowon,
+    ];
+    for (const key of coinListDataTemp) {
       nodes.push(
         <div
-          class="homecoinlist-7"
+          class={
+            coinListData[key]?.close > coinListData[key]?.open
+              ? "homecoinlist-7"
+              : "homecoinlist-46"
+          }
+          key={key}
+          onClick={() => {
+            navigate(`/trade/${key}`);
+          }}
+        >
+          <div class="homecoinlist-8">
+            <div class="homecoinlist-9">
+              <img
+                src={getLogo(key)}
+                draggable="false"
+                class="homecoinlist-12"
+              />
+            </div>
+            <div class="homecoinlist-13">
+              <span class="homecoinlist-14">{key.toUpperCase()}</span>
+            </div>
+            <div class="homecoinlist-15">
+              <span class="homecoinlist-16">/USDT</span>
+            </div>
+          </div>
+          <div class="homecoinlist-17">
+            <span class="homecoinlist-18">{coinListData[key]?.close}</span>
+          </div>
+          <div
+            class={
+              coinListData[key]?.close < coinListData[key]?.open
+                ? "homecoinlist-58"
+                : "homecoinlist-19"
+            }
+          >
+            {coinListData[key]?.close < coinListData[key]?.open ? "" : "+"}
+            {coinListData[key]?.close &&
+              (
+                ((coinListData[key]?.close - coinListData[key]?.open) /
+                  coinListData[key]?.open) *
+                100
+              ).toFixed(2)}
+            %
+          </div>
+        </div>
+      );
+    }
+    return nodes;
+  };
+
+  const get2Nodes = () => {
+    const nodes = [];
+    let coinListDataTemp = [];
+    let coinListDataTempSortUp = [];
+    let coinListDataTempSortDowon = [];
+    //排序
+    for (const key in coinListData) {
+      if (coinListData[key]?.close > coinListData[key]?.open) {
+        coinListDataTempSortUp.push(key);
+      } else {
+        coinListDataTempSortDowon.push(key);
+      }
+    }
+    coinListDataTemp = [
+      ...coinListDataTempSortDowon,
+      ...coinListDataTempSortUp,
+    ];
+    for (const key of coinListDataTemp) {
+      nodes.push(
+        <div
+          class={
+            coinListData[key]?.close > coinListData[key]?.open
+              ? "homecoinlist-7"
+              : "homecoinlist-46"
+          }
           key={key}
           onClick={() => {
             navigate(`/trade/${key}`);
@@ -70,7 +157,11 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
     for (const key in coinListDataTemp) {
       nodes.push(
         <div
-          class="homecoinlist-7"
+          class={
+            coinListData[key]?.close > coinListData[key]?.open
+              ? "homecoinlist-7"
+              : "homecoinlist-46"
+          }
           key={key}
           onClick={() => {
             navigate(`/trade/${key}`);
@@ -108,37 +199,6 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
     }
     return nodes;
   };
-
-  const getCGNodes = () => {
-    const nodes = [];
-    let coinListDataTemp = coinListData;
-    for (const key in coinListDataTemp) {
-      nodes.push(
-        <div
-          class="jiaoyiliang-3"
-          key={key}
-          onClick={() => {
-            navigate(`/trade/${key}`);
-          }}
-        >
-          <div class="jiaoyiliang-4">
-            <img src={getLogo(key)} class="jiaoyiliang-6" />
-          </div>
-          <h1 class="jiaoyiliang-7">
-            {key.toUpperCase()}
-            <span class="jiaoyiliang-8">/USDT</span>
-          </h1>
-          <p class="jiaoyiliang-9">{coinListData[key]?.close}</p>
-          <p class="jiaoyiliang-10">
-            {(coinListData[key]?.vol / 10000).toFixed(2)}
-            {translate(getText("萬"))}
-          </p>
-        </div>
-      );
-    }
-    return nodes;
-  };
-
   const getLogo = (name) => {
     let logo = "";
     for (const ctmarket of ctmarketlist) {
@@ -158,7 +218,7 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
       </div>
       <div class="homecoinlist-6">
         {index == 1 && get1Nodes()}
-        {index == 2 && get1Nodes()}
+        {index == 2 && get2Nodes()}
         {index == 3 && get3Nodes()}
       </div>
     </div>

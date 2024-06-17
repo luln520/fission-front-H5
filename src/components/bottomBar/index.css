@@ -12,7 +12,7 @@
   height: 3.125rem;
   bottom: calc(0px + env(safe-area-inset-bottom) * 0.4);
   z-index: 998;
-  background: var(--them-background)19;
+  background: var(--them-background);
   border-top: 1px solid #000;
 }
 

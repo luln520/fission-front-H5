@@ -11,13 +11,8 @@ export default function ChangeLanguage() {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "#f7f6fb",
-      }}
-    >
-      <TopBar title={translate(getText("語言選擇"))} isBack={true} />
+    <div className="page">
+      <TopBar title={""} isBack={true} />
       <CenterPage />
     </div>
   );
