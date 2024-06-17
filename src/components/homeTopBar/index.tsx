@@ -1,15 +1,24 @@
+import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { imageConfig } from "../../config/config";
+import { LoginContext } from "../../router/router";
+import { localClear } from "../../utils/local-util";
 import "./index.css";
 
 export default function HomeTopBar({ companyData, setIShowHomePop }) {
   const navigate = useNavigate();
+  const [login, _] = useContext(LoginContext);
   return (
     <div id="hometopbar" class="hometopbar-1">
       <div
         class="hometopbar-2"
         onClick={() => {
-          setIShowHomePop(true);
+          if (login) {
+            setIShowHomePop(true);
+          }else{
+            localClear();
+            navigate("/login");
+          }
         }}
       >
         <img

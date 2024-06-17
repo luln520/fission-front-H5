@@ -58,9 +58,6 @@ export default function QuotationCenter() {
   return (
     <div
       className="page"
-      style={{
-        backgroundColor: "#e3e6ea",
-      }}
     >
       <TopBar title={translate(getText("行情"))} isBack={false} />
       <CenterPage

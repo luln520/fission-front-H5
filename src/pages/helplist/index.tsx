@@ -12,12 +12,7 @@ export default function HelpList() {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "#f7f6fb",
-      }}
-    >
+    <div className="page">
       <TopBar title={translate(getText("帮助中心"))} isBack={true} />
       <CenterPage />
     </div>

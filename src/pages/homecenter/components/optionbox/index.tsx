@@ -49,7 +49,9 @@ export default function Optionbox({ loginmsg }) {
             <span class="optionbox-23">闪兑</span>
           </div>
         </div>
-        <div class="optionbox-24">
+        <div class="optionbox-24" onClick={()=>{
+          navigate("/moremenus");
+        }}>
           <div class="optionbox-25">
             <img
               src="http://h5.tinshwk.xyz/static/menus/gengDuo_d.png"

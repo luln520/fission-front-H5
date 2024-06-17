@@ -13,7 +13,12 @@ export default function BottomBar({ index }) {
   const companySkin = localStorage.getItem("companySkin");
   return (
     <div class="bottomBar-1">
-      <div class="bottomBar-2">
+      <div
+        class="bottomBar-2"
+        onClick={() => {
+          navigate("/homecenter");
+        }}
+      >
         <div class="bottomBar-3">
           <img
             src={`http://h5.tinshwk.xyz/static/tabbarDark/1${
@@ -27,7 +32,12 @@ export default function BottomBar({ index }) {
           <span class="bottomBar-8">首页</span>
         </div>
       </div>
-      <div class="bottomBar-9">
+      <div
+        class="bottomBar-9"
+        onClick={() => {
+          navigate("/quotation");
+        }}
+      >
         <div class="bottomBar-10">
           <img
             src={`http://h5.tinshwk.xyz/static/tabbarDark/2${
@@ -41,7 +51,12 @@ export default function BottomBar({ index }) {
           <span class="bottomBar-15">行情</span>
         </div>
       </div>
-      <div class="bottomBar-16">
+      <div
+        class="bottomBar-16"
+        onClick={() => {
+          navigate("/trade/btc");
+        }}
+      >
         <div class="bottomBar-17">
           <img
             src={`http://h5.tinshwk.xyz/static/tabbarDark/3${
@@ -55,7 +70,12 @@ export default function BottomBar({ index }) {
           <span class="bottomBar-22">交割合约</span>
         </div>
       </div>
-      <div class="bottomBar-23">
+      <div
+        class="bottomBar-23"
+        onClick={() => {
+          navigate("/propertycenter");
+        }}
+      >
         <div class="bottomBar-24">
           <img
             src={`http://h5.tinshwk.xyz/static/tabbarDark/4${
@@ -69,7 +89,12 @@ export default function BottomBar({ index }) {
           <span class="bottomBar-29">永续</span>
         </div>
       </div>
-      <div class="bottomBar-30">
+      <div
+        class="bottomBar-30"
+        onClick={() => {
+          navigate("/mycenter");
+        }}
+      >
         <div class="bottomBar-31">
           <img
             src={`http://h5.tinshwk.xyz/static/tabbarDark/5${
