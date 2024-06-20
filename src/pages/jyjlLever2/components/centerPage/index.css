@@ -6,7 +6,7 @@
   line-height: inherit;
   box-sizing: border-box;
   position: relative;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
 }
 
 .leverorderlistTopBar-2 {
@@ -49,7 +49,7 @@
   padding: 0px 16px;
   flex: 1 1 auto;
   width: auto;
-  color: rgb(48, 49, 51);
+  color: #fff;
 }
 
 .leverorderlistTopBar-4 {

@@ -10,6 +10,7 @@ const apiUrlMap = {
 }
 export const BASE_API_URL = apiUrlMap[hostname] ? apiUrlMap[hostname] : '';
 export const BASE_IMG_URL = BASE_API_URL.replace(":1024", '');
+// BASE_API_URL="http://206.238.199.169:1025"
 //
 const TOKEN_HEADER: string = 'x-access-token';
 const smartAxios = axios.create({

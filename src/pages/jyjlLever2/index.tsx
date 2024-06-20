@@ -72,9 +72,6 @@ export default function JYJLLever2() {
   return (
     <div
       className="page"
-      style={{
-        backgroundColor: "rgb(247, 247, 247)",
-      }}
     >
       <TopBar title={translate(getText("槓桿持仓"))} isBack={true} />
       <CenterPage

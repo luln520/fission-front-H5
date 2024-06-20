@@ -26,12 +26,7 @@ export default function LockUpOrder() {
     loadUserKJListData();
   }, [index]);
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "rgb(247, 247, 247)",
-      }}
-    >
+    <div className="page">
       <TopBar title={translate(getText("委託訂單"))} isBack={true} />
       <Tabs index={index} setIndex={setIndex} />
       {index === 1 && <RunList userkjList={userkjList} />}

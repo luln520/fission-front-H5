@@ -23,9 +23,7 @@ export default function JYJLTrade() {
     loadhyorderData();
   }, []);
   return (
-    <div className="page" style={{
-      backgroundColor:'rgb(247, 247, 247)'
-    }}>
+    <div className="page">
       <TopBar title={translate(getText("期權"))} isBack={true} />
       <CenterPage hyorders={hyorders} />
     </div>
