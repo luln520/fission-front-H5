@@ -15,6 +15,7 @@ export default function PageRegister({
   show60,
   setShow60,
   companyData,
+  invitCode
 }) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
@@ -39,7 +40,7 @@ export default function PageRegister({
     password: "",
     repassword: "",
     regcode: "",
-    invit: "",
+    invit: invitCode||"",
     area: areas[0],
   });
   //切换选项
@@ -50,8 +51,8 @@ export default function PageRegister({
       password: "",
       repassword: "",
       regcode: "",
-      invit: "",
       area: areas[0],
+      invit:sendData.invit
     });
   };
 

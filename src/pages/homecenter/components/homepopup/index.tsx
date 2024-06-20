@@ -174,7 +174,9 @@ export default function HomePopup({
               <span class="homePopCenter-55">{translate(getText("交易記錄"))}</span>
             </div>
           </div>
-          <div class="homePopCenter-56">
+          <div class="homePopCenter-56" onClick={()=>{
+            navigate("/sharecenter");
+          }}>
             <div class="homePopCenter-57">
               <span class="homePopCenter-58">分享</span>
             </div>

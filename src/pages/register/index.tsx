@@ -3,7 +3,7 @@ import PageRegister from "./components/pageLogin";
 import { userApi } from "../../api/user-api";
 import { areaApi } from "../../api/area-api";
 import { smsApi } from "../../api/sms-api";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { Toast } from "antd-mobile";
 import { useEffect, useState } from "react";
 import { getText } from "../../utils/util";
@@ -19,6 +19,9 @@ export default function Register() {
   const [areas, setAreas] = useState([] as any[]);
   const [show60, setShow60] = useState(false);
   const [companyData, setCompanyData] = useState({} as any);
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const invitCode = urlParams.get("invit");
 
   //执行登录
   const doRegister = async (sendData) => {
@@ -74,6 +77,7 @@ export default function Register() {
     }
   }
   useEffect(() => {
+    console.info();
     initCompany();
     loadAreasData();
   }, []);
@@ -87,6 +91,7 @@ export default function Register() {
         show60={show60}
         setShow60={setShow60}
         companyData={companyData}
+        invitCode={invitCode}
       />
     </div>
   );

@@ -55,6 +55,7 @@ import Lever from "../pages/lever";
 import JYJLLever2 from "../pages/jyjlLever2";
 import GJIdCard from "../pages/gjidcard";
 import MoreMenus from "../pages/moreMenus";
+import ShareCenter from "../pages/sharecenter";
 //全局
 export const WSContext = createContext([] as any[]);
 export const WSMinContext = createContext([] as any[]);
@@ -285,6 +286,11 @@ export default function AppRouter() {
                       path="/setting"
                       element={getElement(<Setting />)}
                     ></Route>
+                    <Route
+                      path="/sharecenter"
+                      element={getElement(<ShareCenter/>)}
+                    ></Route>
+                    
                     <Route
                       path="/recharge/:id"
                       element={getElement(<Recharge />)}
