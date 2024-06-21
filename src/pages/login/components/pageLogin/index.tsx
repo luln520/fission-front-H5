@@ -162,7 +162,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
             <span
               class="loginboxnew-49"
               onClick={() => {
-                navigate("/chatcenter");
+                navigate("/reloadpassword");
               }}
             >
               {translate(getText("忘記密碼?"))}

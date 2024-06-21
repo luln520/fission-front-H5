@@ -60,6 +60,7 @@ import Downland from "../pages/download";
 import DownlandInfo from "../pages/downloadInfo";
 import DownlandBook from "../pages/downloadbook";
 import AboutUS from "../pages/aboutus";
+import ReloadPassword from "../pages/reloadPassword";
 //全局
 export const WSContext = createContext([] as any[]);
 export const WSMinContext = createContext([] as any[]);
@@ -292,16 +293,23 @@ export default function AppRouter() {
                     ></Route>
                     <Route
                       path="/sharecenter"
-                      element={getElement(<ShareCenter/>)}
+                      element={getElement(<ShareCenter />)}
                     ></Route>
-                    
+
                     <Route
                       path="/recharge/:id"
                       element={getElement(<Recharge />)}
                     ></Route>
-                     <Route path="/aboutus" element={<AboutUS />}></Route>
+                    <Route
+                      path="/reloadpassword"
+                      element={<ReloadPassword />}
+                    ></Route>
+                    <Route path="/aboutus" element={<AboutUS />}></Route>
                     <Route path="/download" element={<Downland />}></Route>
-                    <Route path="/downloadbook" element={<DownlandBook />}></Route>
+                    <Route
+                      path="/downloadbook"
+                      element={<DownlandBook />}
+                    ></Route>
                     <Route
                       path="/downloadInfo"
                       element={<DownlandInfo />}
@@ -374,7 +382,7 @@ export default function AppRouter() {
                       path="/moremenus"
                       element={getElement(<MoreMenus />)}
                     ></Route>
-                    
+
                     <Route
                       path="/gjidcard"
                       element={getElement(<GJIdCard />)}
