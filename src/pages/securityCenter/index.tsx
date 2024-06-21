@@ -28,9 +28,7 @@ export default function SecurityCenter() {
     loadUserInfoData();
   }, []);
   return (
-    <div className="page" style={{
-      backgroundColor:"#f7f7f7"
-    }}>
+    <div className="page">
       <TopBar title={translate(getText("安全中心"))} isBack={true} />
       <Chart
         userInfo={userInfo}

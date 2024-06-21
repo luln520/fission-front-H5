@@ -816,6 +816,7 @@
   margin: undefined;
   color: hsla(0, 0%, 100%, 0.6);
   justify-content: center;
+  margin-top: 30px;
 }
 
 .loginboxnew-50:active {

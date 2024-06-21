@@ -1,0 +1,118 @@
+.Downland-1 {
+  position: relative;
+  text-size-adjust: 100%;
+  font-size: 104px;
+}
+
+.Downland-2 {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  font-family: "MicroSoft YaHei";
+  position: relative;
+  z-index: 5;
+  overflow-x: hidden;
+  background-color: rgb(242, 242, 242);
+}
+
+.Downland-4 {
+  width: 100%;
+  background: url("../../../../../public/app/BG2.jpg") center top / 100% 100% no-repeat;
+  min-height: 1000px;
+  height: 130vh;
+}
+
+.Downland-6 {
+  width: 100%;
+  top: 0;
+}
+
+.Downland-7 {
+  display: block;
+  height: 60vh;
+  margin: 0px auto;
+}
+
+.Downland-8 {
+  width: 100%;
+}
+
+.Downland-9 {
+  top: 0.69rem;
+  width: 100%;
+  text-align: center;
+}
+
+.Downland-10 {
+  font-size: 5rem;
+  color: #fff;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.Downland-11 {
+  width: 100%;
+
+}
+
+.Downland-12 {
+  width: 100%;
+}
+
+.Downland-13 {
+  width: 100%;
+}
+
+.Downland-14 {
+  height: 70px;
+  display: block;
+  margin: 100px auto 0 auto;
+}
+
+.Downland-15 {
+  width: 100%;
+  top: 0.2rem;
+}
+
+.Downland-16 {
+  height: 70px;
+  display: block;
+  margin: 10px auto;
+}
+
+.Downland-17 {
+  width: 100%;
+}
+
+.Downland-18 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.Downland-19 {
+  margin: 0px auto;
+  display: block;
+  height: 140px;
+}
+
+.Downland-20 {
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  display: none;
+}
+
+.Downland-21 {
+  background: url("../../../../../public/app/gw_live_weixin.png") 0% 0% / 100% 110% no-repeat;
+  z-index: 999999;
+  min-height: 100%;
+  width: 100%;
+}

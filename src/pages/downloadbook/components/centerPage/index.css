@@ -1,0 +1,633 @@
+.downloadBook-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0.9375rem 1.5625rem;
+}
+
+.downloadBook-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+  color: rgb(255, 255, 255);
+}
+
+.downloadBook-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 1.25rem;
+  height: 108px;
+}
+
+.downloadBook-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("http://h5.tinshwk.xyz/assets/1-f8a8eefe.png");
+  background-size: 100% 100%;
+}
+
+.downloadBook-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.downloadBook-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.downloadBook-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.downloadBook-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.downloadBook-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+  color: rgb(255, 255, 255);
+}
+
+.downloadBook-11:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 1.25rem;
+  height: 150px;
+}
+
+.downloadBook-12:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("http://h5.tinshwk.xyz/assets/2-765a73b3.png");
+  background-size: 100% 100%;
+}
+
+.downloadBook-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.downloadBook-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.downloadBook-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.downloadBook-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.downloadBook-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+  color: rgb(255, 255, 255);
+}
+
+.downloadBook-20:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 1.25rem;
+  height: 84px;
+}
+
+.downloadBook-21:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("http://h5.tinshwk.xyz/assets/3-9179d5d0.png");
+  background-size: 100% 100%;
+}
+
+.downloadBook-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.downloadBook-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.downloadBook-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.downloadBook-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.downloadBook-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+  color: rgb(255, 255, 255);
+}
+
+.downloadBook-29:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 1.25rem;
+  height: 48px;
+}
+
+.downloadBook-30:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("http://h5.tinshwk.xyz/assets/4-a54e277c.png");
+  background-size: 100% 100%;
+}
+
+.downloadBook-32 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.downloadBook-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-34 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.downloadBook-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.downloadBook-37 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.downloadBook-38 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+  color: rgb(255, 255, 255);
+}
+
+.downloadBook-38:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-39 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 1.25rem;
+  height: 88px;
+}
+
+.downloadBook-39:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.downloadBook-40 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("http://h5.tinshwk.xyz/assets/5-5ce56e17.png");
+  background-size: 100% 100%;
+}
+
+.downloadBook-41 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.downloadBook-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-43 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.downloadBook-44 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.downloadBook-45 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.downloadBook-46 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}

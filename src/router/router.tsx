@@ -56,6 +56,10 @@ import JYJLLever2 from "../pages/jyjlLever2";
 import GJIdCard from "../pages/gjidcard";
 import MoreMenus from "../pages/moreMenus";
 import ShareCenter from "../pages/sharecenter";
+import Downland from "../pages/download";
+import DownlandInfo from "../pages/downloadInfo";
+import DownlandBook from "../pages/downloadbook";
+import AboutUS from "../pages/aboutus";
 //全局
 export const WSContext = createContext([] as any[]);
 export const WSMinContext = createContext([] as any[]);
@@ -294,6 +298,13 @@ export default function AppRouter() {
                     <Route
                       path="/recharge/:id"
                       element={getElement(<Recharge />)}
+                    ></Route>
+                     <Route path="/aboutus" element={<AboutUS />}></Route>
+                    <Route path="/download" element={<Downland />}></Route>
+                    <Route path="/downloadbook" element={<DownlandBook />}></Route>
+                    <Route
+                      path="/downloadInfo"
+                      element={<DownlandInfo />}
                     ></Route>
                     <Route
                       path="/helplist"

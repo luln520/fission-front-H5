@@ -7,7 +7,6 @@
   outline: 0px;
   font-size: 0.93333rem;
   vertical-align: baseline;
-  background: rgb(247, 247, 247);
   padding-top: 10px;
   flex: 1 1 0%;
   display: flex;
@@ -46,14 +45,14 @@
 }
 
 .changePassword-3:after {
-  position: absolute;
+  /* position: absolute;
   box-sizing: border-box;
   content: " ";
   pointer-events: none;
   inset: -50%;
   border: 0px solid rgb(235, 237, 240);
   transform: scale(0.5);
-  border-width: 1px 0px;
+  border-width: 1px 0px; */
 }
 
 .changePassword-3 {
@@ -67,7 +66,6 @@
   vertical-align: baseline;
   background: transparent;
   position: relative;
-  background-color: rgb(255, 255, 255);
 }
 
 .changePassword-4:focus {
@@ -88,9 +86,8 @@
   display: flex;
   width: 100%;
   overflow: hidden;
-  color: rgb(50, 50, 51);
+  color: #fff;
   line-height: 24px;
-  background-color: rgb(255, 255, 255);
 }
 
 .changePassword-4:after {
@@ -156,7 +153,7 @@
   flex: 1 1 0%;
   position: relative;
   overflow: visible;
-  color: rgb(50, 50, 51);
+  color: #fff;
   text-align: left;
   overflow-wrap: break-word;
 }
@@ -183,7 +180,7 @@
 .changePassword-9 {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  color: rgb(33, 33, 33);
+  color: #fff;
   font: inherit;
   margin: 0px;
   overflow: visible;
@@ -293,9 +290,8 @@
   display: flex;
   width: 100%;
   overflow: hidden;
-  color: rgb(50, 50, 51);
+  color: #fff;
   line-height: 24px;
-  background-color: rgb(255, 255, 255);
 }
 
 .changePassword-12:after {
@@ -361,7 +357,7 @@
   flex: 1 1 0%;
   position: relative;
   overflow: visible;
-  color: rgb(50, 50, 51);
+  color: #fff;
   text-align: left;
   overflow-wrap: break-word;
 }
@@ -388,7 +384,7 @@
 .changePassword-17 {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  color: rgb(33, 33, 33);
+  color: #fff;
   font: inherit;
   margin: 0px;
   overflow: visible;
@@ -498,9 +494,8 @@
   display: flex;
   width: 100%;
   overflow: hidden;
-  color: rgb(50, 50, 51);
+  color: #fff;
   line-height: 24px;
-  background-color: rgb(255, 255, 255);
 }
 
 .changePassword-20:after {
@@ -567,11 +562,22 @@
   flex: 1 1 0%;
   position: relative;
   overflow: visible;
-  color: rgb(50, 50, 51);
+  color: #fff;
   text-align: left;
   overflow-wrap: break-word;
 }
 
+.changePassword-22:after {
+  position: absolute;
+  box-sizing: border-box;
+  content: " ";
+  pointer-events: none;
+  right: 16px;
+  bottom: 0px;
+  left: 16px;
+  border-bottom: 1px solid rgb(235, 237, 240);
+  transform: scaleY(0.5);
+}
 .changePassword-24:focus {
   outline: 0px;
 }
@@ -594,7 +600,7 @@
 .changePassword-25 {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  color: rgb(33, 33, 33);
+  color: #fff;
   font: inherit;
   margin: 0px;
   overflow: visible;

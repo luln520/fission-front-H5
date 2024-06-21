@@ -13,6 +13,7 @@ export default function HomePopup({
   setIShowHomePop,
   userInfo,
 }) {
+  const lan = localStorage.getItem("i18n");
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   const types = ["未認證", "審核中", "已認證", "審核拒絕"];
@@ -171,12 +172,17 @@ export default function HomePopup({
             }}
           >
             <div class="homePopCenter-54">
-              <span class="homePopCenter-55">{translate(getText("交易記錄"))}</span>
+              <span class="homePopCenter-55">
+                {translate(getText("交易記錄"))}
+              </span>
             </div>
           </div>
-          <div class="homePopCenter-56" onClick={()=>{
-            navigate("/sharecenter");
-          }}>
+          <div
+            class="homePopCenter-56"
+            onClick={() => {
+              navigate("/sharecenter");
+            }}
+          >
             <div class="homePopCenter-57">
               <span class="homePopCenter-58">分享</span>
             </div>
@@ -193,7 +199,12 @@ export default function HomePopup({
               </span>
             </div>
           </div>
-          <div class="homePopCenter-62">
+          <div
+            class="homePopCenter-62"
+            onClick={() => {
+              navigate("/aboutus");
+            }}
+          >
             <div class="homePopCenter-63">
               <span class="homePopCenter-64">平台介绍</span>
             </div>
@@ -206,6 +217,19 @@ export default function HomePopup({
           >
             <div class="homePopCenter-66">
               <span class="homePopCenter-67">{translate(getText("设置"))}</span>
+            </div>
+          </div>
+          <div
+            class="homePopCenter-65"
+            onClick={() => {
+              navigate("/download");
+            }}
+          >
+            <div class="homePopCenter-66">
+              <span class="homePopCenter-67">
+                {" "}
+                App{(lan == "zh" ? "" : " ") + translate(getText("下載"))}
+              </span>
             </div>
           </div>
           <div

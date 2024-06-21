@@ -8,8 +8,9 @@ import { Button } from "antd";
 import { Toast } from "antd-mobile";
 import { useEffect, useState } from "react";
 import { newsApi } from "../../../../api/news-api";
+import { imageConfig } from "../../../../config/config";
 
-export default function CenterPage() {
+export default function CenterPage({ companyData }) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   const [helpList, setHelpList] = useState([] as any[]);
@@ -63,10 +64,8 @@ export default function CenterPage() {
   return (
     <div class="helplist-1">
       <div class="helplist-2">
-        <div class="helplist-3"></div>
-        <span class="helplist-4"></span>
         <img
-          src="http://h5.tinshwk.xyz/assets/logo-8a19055f.png"
+          src={imageConfig.baseImageUrl + companyData?.companyLogo}
           draggable="false"
           class="helplist-5"
         />

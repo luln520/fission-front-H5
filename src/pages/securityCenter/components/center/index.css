@@ -13,7 +13,8 @@
   width: 44.8vw;
   min-height: 28.8vw;
   border-radius: 1.33333vw;
-  background: #fff;
+  /* background: #fff; */
+  border: solid 1px #999;
 }
 
 .infocard-3 {
@@ -53,7 +54,8 @@
   width: 44.8vw;
   min-height: 28.8vw;
   border-radius: 1.33333vw;
-  background: #fff;
+  /* background: #fff; */
+  border: solid 1px #999;
 }
 
 .infocard-10 {
@@ -93,7 +95,8 @@
   width: 44.8vw;
   min-height: 28.8vw;
   border-radius: 1.33333vw;
-  background: #fff;
+  /* background: #fff; */
+  border: solid 1px #999;
 }
 
 .infocard-17 {
@@ -133,7 +136,8 @@
   width: 44.8vw;
   min-height: 28.8vw;
   border-radius: 1.33333vw;
-  background: #fff;
+  /* background: #fff; */
+  border: solid 1px #999;
 }
 
 .infocard-23 {
