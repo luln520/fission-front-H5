@@ -59,7 +59,6 @@ export default function QuotationCenter() {
     <div
       className="page"
     >
-      <TopBar title={translate(getText("行情"))} isBack={false} />
       <CenterPage
         coinListData={coinListData}
         ctmarketlist={ctmarketlist}
