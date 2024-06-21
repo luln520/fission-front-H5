@@ -8,6 +8,7 @@ import Search from "../../../../components/search";
 import { imageConfig } from "../../../../config/config";
 
 export default function CoinPopup({
+  nowTab,
   isShowCoin,
   setIsShowCoin,
   coinListData,
@@ -42,80 +43,17 @@ export default function CoinPopup({
     const nodes = [];
     let coinListDataTemp = coinListData;
     for (const key in coinListDataTemp) {
-      if (name) {
-        if (name.toLowerCase() !== key) {
-          continue;
-        }
-      }
       nodes.push(
-        <li
-          class="coinPopupTopTitle-30"
+        <div
+          class={
+            nowTab == key ? "coinPopupTopTitlelb-13" : "coinPopupTopTitlelb-12"
+          }
           onClick={() => {
             toPage(key);
           }}
         >
-          <div class="coinPopupTopTitle-31">
-            <div class="coinPopupTopTitle-32">
-              <span class="coinPopupTopTitle-33">
-                {key.toUpperCase()}
-                <small class="coinPopupTopTitle-34">/USDT</small>
-              </span>
-            </div>
-          </div>
-          <div class="coinPopupTopTitle-35">
-            <span
-              class={
-                coinListData[key]?.close > coinListData[key]?.open
-                  ? "coinPopupTopTitle-36"
-                  : "coinPopupTopTitle-78"
-              }
-            >
-              {coinListData[key]?.close}
-            </span>
-          </div>
-        </li>
-      );
-    }
-    return nodes;
-  };
-
-  const getNodes1 = () => {
-    const nodes = [];
-    collectlist = uniqueBySet(collectlist, "coinname");
-    for (const collect of collectlist) {
-      if (name) {
-        if (name.toLowerCase() !== collect.coinname) {
-          continue;
-        }
-      }
-      nodes.push(
-        <li
-          class="coinPopupTopTitle-30"
-          onClick={() => {
-            toPage(collect.coinname);
-          }}
-        >
-          <div class="coinPopupTopTitle-31">
-            <div class="coinPopupTopTitle-32">
-              <span class="coinPopupTopTitle-33">
-                {collect.coinname?.toUpperCase()}
-                <small class="coinPopupTopTitle-34">/USDT</small>
-              </span>
-            </div>
-          </div>
-          <div class="coinPopupTopTitle-35">
-            <span
-              class={
-                coinListData[collect.coinname]?.close >
-                coinListData[collect.coinname]?.open
-                  ? "coinPopupTopTitle-36"
-                  : "coinPopupTopTitle-78"
-              }
-            >
-              {coinListData[collect.coinname]?.close}
-            </span>
-          </div>
-        </li>
+          {key.toUpperCase()}/USDT
+        </div>
       );
     }
     return nodes;
@@ -140,81 +78,24 @@ export default function CoinPopup({
       position="left"
       bodyStyle={{ backgroundColor: "#f5f5f5" }}
     >
-      <div class="coinPopupTopTitle-1">
-        <div class="coinPopupTopTitle-2">
-          <p class="coinPopupTopTitle-3">{translate(getText("貨幣行情"))}</p>
-        </div>
-        <div class="coinPopupTopTitle-4">
-          <ul class="coinPopupTopTitle-5">
-            <li
-              class={
-                popIndex == 1 ? "coinPopupTopTitle-7" : "coinPopupTopTitle-6"
-              }
-              onClick={() => {
-                setPopIndex(1);
-              }}
-            >
-              {translate(getText("自選"))}
-            </li>
-            <li
-              class={
-                popIndex == 2 ? "coinPopupTopTitle-7" : "coinPopupTopTitle-6"
-              }
-              onClick={() => {
-                setPopIndex(2);
-              }}
-            >
-              USDT
-            </li>
-          </ul>
-        </div>
-        <div class="coinPopupTopTitle-8">
-          <i class="coinPopupTopTitle-9"></i>
-          <div class="coinPopupTopTitle-10">
-            <div class="coinPopupTopTitle-11">
-              <input
-                placeholder={translate(getText("搜索幣種"))}
-                maxlength="140"
-                step=""
-                enterkeyhint="done"
-                autocomplete="off"
-                type=""
-                class="coinPopupTopTitle-13"
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
-              />
-            </div>
-          </div>
-        </div>
-        <div class="coinPopupTopTitle-14">
-          <div class="coinPopupTopTitle-15">
-            <div class="coinPopupTopTitle-16">
-              <div class="coinPopupTopTitle-17">
-                <div class="coinPopupTopTitle-18">
-                  <div class="coinPopupTopTitle-19">
-                    <div class="coinPopupTopTitle-20">
-                      <div class="coinPopupTopTitle-21">
-                        <div class="coinPopupTopTitle-22">
-                          <ul class="coinPopupTopTitle-23"></ul>
-                        </div>
-                      </div>
-                    </div>
+      <div class="coinPopupTopTitlelb-1">
+        <div class="coinPopupTopTitlelb-2">
+          <div class="coinPopupTopTitlelb-3">
+            <div class="coinPopupTopTitlelb-4">
+              <div class="coinPopupTopTitlelb-5">
+                <div class="coinPopupTopTitlelb-6">
+                  <div class="coinPopupTopTitlelb-7">
+                    <i
+                      class="coinPopupTopTitlelb-8"
+                      onClick={() => {
+                        setIsShowCoin(false);
+                      }}
+                    ></i>
                   </div>
-                </div>
-                <div class="coinPopupTopTitle-24">
-                  <div class="coinPopupTopTitle-25">
-                    <div class="coinPopupTopTitle-26">
-                      <div class="coinPopupTopTitle-27">
-                        <div class="coinPopupTopTitle-28">
-                          <ul class="coinPopupTopTitle-29">
-                            {popIndex == 2 && getNodes()}
-                            {popIndex == 1 && getNodes1()}
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="coinPopupTopTitlelb-9">
+                    <span class="coinPopupTopTitlelb-10">合约交易</span>
                   </div>
+                  <div class="coinPopupTopTitlelb-11">{getNodes()}</div>
                 </div>
               </div>
             </div>

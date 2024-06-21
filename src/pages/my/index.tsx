@@ -40,7 +40,7 @@ export default function My() {
           height: "50px",
         }}
       ></div>
-      <BottomBar index={5} />
+      <BottomBar index={4} />
     </div>
   );
 }

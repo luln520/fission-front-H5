@@ -200,23 +200,19 @@ export default function Trade() {
     loadUserInfoData();
   }, []);
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "#1b1d23",
-      }}
-    >
+    <div className="page">
       <TopBar
         coinname={param.name}
         iscollect={iscollect}
         collectAdd={collectAdd}
         collectDel={collectDel}
+        setIsShowCoin={setIsShowCoin}
       />
-      <TopText
+      {/* <TopText
         setIsShowCoin={setIsShowCoin}
         nowTab={nowTab}
         coinListData={coinListData}
-      />
+      /> */}
       {nowTab && (
         <KineCenter
           nowTab={nowTab}
@@ -235,6 +231,7 @@ export default function Trade() {
       ></div>
       {/* 左边弹框  */}
       <CoinPopup
+      nowTab={nowTab}
         isShowCoin={isShowCoin}
         setIsShowCoin={setIsShowCoin}
         coinListData={coinListData}

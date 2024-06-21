@@ -133,7 +133,7 @@ export default function Property() {
           height: "50px",
         }}
       ></div>
-      <BottomBar index={4} />
+      <BottomBar index={5} />
     </div>
   );
 }

@@ -136,7 +136,7 @@ export default function MyChartComponent({
     chart.setTimezone("America/Los_Angeles");
     chart.createIndicator("MA", true, { id: "candle_pane" });
     chart.createIndicator("VOL");
-    chart.createIndicator("MACD");
+    // chart.createIndicator("MACD");
     const data = await getHistoryKLineData(
       {
         ticker: `${nowTab.toUpperCase()}USDT`,
@@ -173,7 +173,7 @@ export default function MyChartComponent({
         }}
       ></div>
       {/* 底部按钮 */}
-      <div className="btn-footer1-1">
+      {/* <div className="btn-footer1-1">
         <div className="btn-footer1-2">
           <button
             className="btn-footer1-3"
@@ -194,7 +194,7 @@ export default function MyChartComponent({
             {translate(getText("買空"))}
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
