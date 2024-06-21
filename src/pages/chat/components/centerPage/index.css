@@ -86,7 +86,7 @@
     -webkit-box-align: center;
     align-items: center;
     margin-bottom: 0px;
-    background-color: var(--boutton-background-color);
+    background-color: var(--them-background);
 }
 
 .servererCenterInfo-6 {

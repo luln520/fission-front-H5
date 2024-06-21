@@ -13,9 +13,6 @@ export default function ChatCenter() {
   return (
     <div
       className="page"
-      style={{
-        backgroundColor: "#f7f6fb",
-      }}
     >
       <TopBar title={translate(getText("在線客服"))} isBack={true} />
       <CenterPage />
