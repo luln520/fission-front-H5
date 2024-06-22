@@ -7,8 +7,9 @@ import "./index.css";
 import { Button } from "antd";
 import { Toast } from "antd-mobile";
 import { useState } from "react";
+import { imageConfig } from "../../../../config/config";
 
-export default function CenterPage() {
+export default function CenterPage({companyData}) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   const uid = localStorage.getItem("uid");
@@ -21,7 +22,7 @@ export default function CenterPage() {
           <div class="chatcenter-4">
             <div class="chatcenter-5">
               <img
-                src="http://qt.tinshwk.xyz:8809/upload_file/2024-05-14/d198iawup2zgin90hz.png"
+                src={imageConfig.baseImageUrl + companyData?.companyLogo}
                 draggable="false"
                 class="chatcenter-8"
               />

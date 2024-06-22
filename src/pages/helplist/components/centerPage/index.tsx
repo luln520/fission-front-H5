@@ -75,9 +75,9 @@ export default function CenterPage({ companyData }) {
           <i class="helplist-8"></i>
           <div class="helplist-9">
             <div class="helplist-10">
-              <div class="helplist-11">搜索</div>
-              <form action="" class="helplist-12">
+              <div action="" class="helplist-12">
                 <input
+                  placeholder="搜索"
                   value={search}
                   type="search"
                   maxlength="140"
@@ -88,7 +88,7 @@ export default function CenterPage({ companyData }) {
                     setsearch(e.target.value);
                   }}
                 />
-              </form>
+              </div>
             </div>
           </div>
         </div>

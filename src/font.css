@@ -44,10 +44,10 @@
 
 @font-face {
   font-family: iconfont2;
-  src: url("http://h5.tinshwk.xyz/assets/font_2526087_fqsww6slv4-ea239e63.woff2")
+  src: url(./font/font.woff2)
       format("woff2"),
-    url("http://h5.tinshwk.xyz/assets/font_2526087_fqsww6slv4-5f766ca9.woff")
+    url(./font/font.woff)
       format("woff"),
-    url("http://h5.tinshwk.xyz/assets/font_2526087_fqsww6slv4-0bc8a22f.ttf")
+    url(./font/font.ttf)
       format("truetype");
 }

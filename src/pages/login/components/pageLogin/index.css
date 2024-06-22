@@ -619,7 +619,7 @@
   -webkit-font-smoothing: antialiased;
   scrollbar-width: none;
   box-sizing: border-box;
-  font-family: iconfont2;
+  font-family: iconfont2 !important;
   font-style: normal;
   font-size: 1.125rem;
   color: rgb(240, 193, 99);
@@ -630,7 +630,7 @@
 }
 
 .loginboxnew-39:before {
-  content: "";
+  content: "\e6d4";
 }
 
 .loginboxnew-40 {

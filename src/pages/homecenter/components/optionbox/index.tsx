@@ -13,7 +13,12 @@ export default function Optionbox({ loginmsg }) {
   return (
     <div class="optionbox-1">
       <div class="optionbox-2">
-        <div class="optionbox-3">
+        <div
+          class="optionbox-3"
+          onClick={() => {
+            navigate("/moremenus");
+          }}
+        >
           <div class="optionbox-4">
             <img
               src="http://h5.tinshwk.xyz/static/menus/tiBi_d.png"
@@ -25,7 +30,12 @@ export default function Optionbox({ loginmsg }) {
             <span class="optionbox-9">提币</span>
           </div>
         </div>
-        <div class="optionbox-10">
+        <div
+          class="optionbox-10"
+          onClick={() => {
+            navigate("/moremenus");
+          }}
+        >
           <div class="optionbox-11">
             <img
               src="http://h5.tinshwk.xyz/static/menus/chongBi_d.png"
@@ -37,30 +47,38 @@ export default function Optionbox({ loginmsg }) {
             <span class="optionbox-16">充币</span>
           </div>
         </div>
-        <div class="optionbox-17">
+        <div
+          class="optionbox-17"
+          onClick={() => {
+            navigate("/chatcenter");
+          }}
+        >
           <div class="optionbox-18">
             <img
-              src="http://h5.tinshwk.xyz/static/menus/shanDui_d.png"
+              src="http://h5.tinshwk.xyz/static/menus/keFu_d.png"
               draggable="false"
               class="optionbox-21"
             />
           </div>
           <div class="optionbox-22">
-            <span class="optionbox-23">闪兑</span>
+            <span class="optionbox-23">客服</span>
           </div>
         </div>
-        <div class="optionbox-24" onClick={()=>{
-          navigate("/moremenus");
-        }}>
+        <div
+          class="optionbox-24"
+          onClick={() => {
+            navigate("/changelanguage");
+          }}
+        >
           <div class="optionbox-25">
             <img
-              src="http://h5.tinshwk.xyz/static/menus/gengDuo_d.png"
+              src="http://h5.tinshwk.xyz/static/menus/huaZhuan_d.png"
               draggable="false"
               class="optionbox-28"
             />
           </div>
           <div class="optionbox-29">
-            <span class="optionbox-30">更多</span>
+            <span class="optionbox-30">语言</span>
           </div>
         </div>
       </div>
