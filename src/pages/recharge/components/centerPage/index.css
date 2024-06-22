@@ -5,7 +5,7 @@
   box-sizing: border-box;
   width: 100%;
   min-height: 100%;
-  color: rgb(48, 49, 51);
+  color: var(--them-color);
   font-size: 14px;
 }
 
@@ -211,7 +211,7 @@
   list-style-type: none;
   padding: 0px;
   display: flex;
-  color: rgb(0, 0, 0);
+  color: var(--them-color);
   -webkit-box-pack: start;
   justify-content: flex-start;
   -webkit-box-align: center;
@@ -309,7 +309,7 @@
   list-style-type: none;
   padding: 0px;
   display: flex;
-  color: rgb(0, 0, 0);
+  color: var(--them-color);;
   -webkit-box-pack: start;
   justify-content: flex-start;
   -webkit-box-align: center;

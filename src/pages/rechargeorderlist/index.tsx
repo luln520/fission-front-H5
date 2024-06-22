@@ -58,12 +58,7 @@ export default function RechargeOrderList() {
     initTabs();
   }, []);
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "#f7f6fb",
-      }}
-    >
+    <div className="page">
       <TopBar2 title={translate(getText("充值明细"))} isBack={true} />
       <CenterPage czList={czList} />
     </div>

@@ -128,12 +128,7 @@ export default function ExtractList() {
     loadCurrencyData();
   }, []);
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "#f7f6fb",
-      }}
-    >
+    <div className="page">
       <TopBar2
         title={translate(getText("出金"))}
         isBack={true}

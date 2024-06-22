@@ -58,12 +58,7 @@ export default function ExtractOrderList() {
     initTabs();
   }, []);
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "#f7f6fb",
-      }}
-    >
+    <div className="page">
       <TopBar2 title={translate(getText("提现明细"))} isBack={true} />
       <CenterPage txList={txList} />
     </div>

@@ -26,9 +26,6 @@ export default function C2CckList() {
   return (
     <div
       className="page"
-      style={{
-        backgroundColor: "rgb(247, 247, 247)",
-      }}
     >
       <TopBar title={translate(getText("C2C存款記錄"))} isBack={true} />
       <CenterPage list={list} />

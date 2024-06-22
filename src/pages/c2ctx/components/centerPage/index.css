@@ -39,7 +39,6 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
 }
 
 .c2ctx-4:focus {
@@ -132,7 +131,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
 }
 
 .c2ctx-10:focus {
@@ -225,7 +224,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
 }
 
 .c2ctx-16:focus {
@@ -318,7 +317,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
 }
 
 .c2ctx-22:focus {
@@ -411,7 +410,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
 }
 
 .c2ctx-28:focus {
@@ -504,7 +503,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
 }
 
 .c2ctx-34:focus {
@@ -597,7 +596,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
 }
 
 .c2ctx-40:focus {
@@ -690,7 +689,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
 }
 
 .c2ctx-46:focus {
@@ -783,7 +782,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
 }
 
 .c2ctx-52:focus {
@@ -877,7 +876,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
   align-items: center;
 }
 
@@ -925,7 +924,6 @@
 .c2ctx-62 {
   padding: 4.26667vw 3.73333vw;
   margin-top: 2.66667vw;
-  background-color: rgb(255, 255, 255);
 }
 
 .c2ctx-63 {
@@ -964,7 +962,7 @@
   color: #323233;
   font-size: 3.7333333vw;
   line-height: 6.4vw;
-  background: #fff;
+  
   align-items: center;
   border: 1px solid rgb(238, 238, 238);
   border-radius: 1.06667vw;
