@@ -27,7 +27,7 @@ export default function PropertyCenter({
             <div class="propertycenterlb-7">
               <span class="propertycenterlb-8">账户总资产</span>
             </div>
-            <div class="propertycenterlb-9">
+            {/* <div class="propertycenterlb-9">
               <div class="propertycenterlb-10">
                 <div class="propertycenterlb-11"></div>
                 <div class="propertycenterlb-12">
@@ -44,18 +44,18 @@ export default function PropertyCenter({
                   class="propertycenterlb-17"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
           <div class="propertycenterlb-18">
             <div class="propertycenterlb-19">
-              <span class="propertycenterlb-20">1604330.42</span>
+              <span class="propertycenterlb-20">{userInfo?.usdt}</span>
             </div>
           </div>
           <div class="propertycenterlb-21">
             <div class="propertycenterlb-22">
               <span class="propertycenterlb-23">今日收益：10827.00</span>
             </div>
-            <i class="propertycenterlb-24"></i>
+            {/* <i class="propertycenterlb-24"></i> */}
           </div>
           <div class="propertycenterlb-25">
             <div class="propertycenterlb-26">
@@ -63,12 +63,10 @@ export default function PropertyCenter({
                 交割合约交易量：1369008.15
               </span>
             </div>
-            <i class="propertycenterlb-28"></i>
+            {/* <i class="propertycenterlb-28"></i> */}
           </div>
         </div>
         <div class="propertycenterlb-29">
-          <div class="propertycenterlb-30"></div>
-          <span class="propertycenterlb-31"></span>
           <img
             src="http://h5.tinshwk.xyz/assets/propertyBg-9be06132.png"
             draggable="false"
@@ -78,10 +76,13 @@ export default function PropertyCenter({
       </div>
       <div class="propertycenterlb-33">
         <div class="propertycenterlb-34">
-          <div class="propertycenterlb-35">
+          <div
+            class="propertycenterlb-35"
+            onClick={() => {
+              navigate("/rechargelist");
+            }}
+          >
             <div class="propertycenterlb-36">
-              <div class="propertycenterlb-37"></div>
-              <span class="propertycenterlb-38"></span>
               <img
                 src="http://h5.tinshwk.xyz/static/menus/chongBi_d.png"
                 draggable="false"
@@ -92,10 +93,13 @@ export default function PropertyCenter({
               <span class="propertycenterlb-41">充币</span>
             </div>
           </div>
-          <div class="propertycenterlb-42">
+          <div
+            class="propertycenterlb-42"
+            onClick={() => {
+              navigate("/extractlist");
+            }}
+          >
             <div class="propertycenterlb-43">
-              <div class="propertycenterlb-44"></div>
-              <span class="propertycenterlb-45"></span>
               <img
                 src="http://h5.tinshwk.xyz/static/menus/tiBi_d.png"
                 draggable="false"
@@ -106,24 +110,30 @@ export default function PropertyCenter({
               <span class="propertycenterlb-48">提币</span>
             </div>
           </div>
-          <div class="propertycenterlb-49">
+          <div
+            class="propertycenterlb-49"
+            onClick={() => {
+              navigate("/chatcenter");
+            }}
+          >
             <div class="propertycenterlb-50">
-              <div class="propertycenterlb-51"></div>
-              <span class="propertycenterlb-52"></span>
               <img
-                src="http://h5.tinshwk.xyz/static/menus/shanDui_d.png"
+                src="http://h5.tinshwk.xyz/static/menus/keFu_d.png"
                 draggable="false"
                 class="propertycenterlb-53"
               />
             </div>
             <div class="propertycenterlb-54">
-              <span class="propertycenterlb-55">闪兑</span>
+              <span class="propertycenterlb-55">客服</span>
             </div>
           </div>
-          <div class="propertycenterlb-56">
+          <div
+            class="propertycenterlb-56"
+            onClick={() => {
+              navigate("/changelanguage");
+            }}
+          >
             <div class="propertycenterlb-57">
-              <div class="propertycenterlb-58"></div>
-              <span class="propertycenterlb-59"></span>
               <img
                 src="http://h5.tinshwk.xyz/static/menus/huaZhuan_d.png"
                 draggable="false"
@@ -131,7 +141,7 @@ export default function PropertyCenter({
               />
             </div>
             <div class="propertycenterlb-61">
-              <span class="propertycenterlb-62">划转</span>
+              <span class="propertycenterlb-62">语言</span>
             </div>
           </div>
         </div>

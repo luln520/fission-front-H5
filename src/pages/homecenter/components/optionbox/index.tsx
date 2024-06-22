@@ -16,7 +16,7 @@ export default function Optionbox({ loginmsg }) {
         <div
           class="optionbox-3"
           onClick={() => {
-            navigate("/moremenus");
+            navigate("/extractlist");
           }}
         >
           <div class="optionbox-4">
@@ -33,7 +33,7 @@ export default function Optionbox({ loginmsg }) {
         <div
           class="optionbox-10"
           onClick={() => {
-            navigate("/moremenus");
+            navigate("/rechargelist");
           }}
         >
           <div class="optionbox-11">

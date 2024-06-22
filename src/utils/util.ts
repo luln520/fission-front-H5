@@ -168,11 +168,17 @@ export function changeThem(type) {
         document
             .getElementsByTagName("body")[0]
             .style.setProperty("--them-background", colors[0]);
+        document
+            .getElementsByTagName("body")[0]
+            .style.setProperty("--them-color", colors[1]);
     } else {
         localStorage.setItem("them", "light");
         document
             .getElementsByTagName("body")[0]
             .style.setProperty("--them-background", colors[1]);
+        document
+            .getElementsByTagName("body")[0]
+            .style.setProperty("--them-color", colors[0]);
     }
 }
 

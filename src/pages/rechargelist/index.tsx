@@ -32,18 +32,11 @@ export default function RechargeList() {
     }
   };
 
-  
-
   useEffect(() => {
     loadCoinData();
   }, []);
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "#f7f6fb",
-      }}
-    >
+    <div className="page">
       <TopBar2
         title={translate(getText("入金"))}
         isBack={true}

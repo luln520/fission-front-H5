@@ -61,12 +61,7 @@ export default function Recharge() {
     loadCoinData();
   }, []);
   return (
-    <div
-      className="page"
-      style={{
-        backgroundColor: "#f7f6fb",
-      }}
-    >
+    <div className="page">
       <TopBar
         title={translate(getText("充值")) + `(${use?.name?.toUpperCase()})`}
         isBack={true}
