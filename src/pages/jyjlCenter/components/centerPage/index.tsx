@@ -36,7 +36,7 @@ export default function CenterPage() {
         </div>
         <i className="help-5"></i>
       </div>
-      <div
+      {/* <div
         role="button"
         className="help-2"
         onClick={() => {
@@ -47,7 +47,7 @@ export default function CenterPage() {
           <span className="help-4">{translate(getText("鎖倉挖礦"))}</span>
         </div>
         <i className="help-5"></i>
-      </div>
+      </div> */}
     </div>
   );
 }
