@@ -11,6 +11,7 @@ export default function TopBar({
   collectAdd,
   collectDel,
   setIsShowCoin,
+  setvisibleInfoMsg
 }) {
   const navigate = useNavigate();
   const [num, setNum] = useState(1);
@@ -30,7 +31,9 @@ export default function TopBar({
         <div class="marketTopBarlb-6">
           <span class="marketTopBarlb-7">-0.52%</span>
         </div>
-        <i class="marketTopBarlb-8"></i>
+        <i class="marketTopBarlb-8" onClick={()=>{
+          setvisibleInfoMsg(true);
+        }}></i>
         <div class="marketTopBarlb-9">
           <div class="marketTopBarlb-10">
             <div class="marketTopBarlb-11">

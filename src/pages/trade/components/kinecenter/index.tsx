@@ -39,7 +39,7 @@ export default function KineCenter({
 
   return (
     <div class="kinecenter-1">
-      <ul class="kinecenter-2">{getTimesArray()}</ul>
+      {/* <ul class="kinecenter-2">{getTimesArray()}</ul> */}
       <div class="kinecenter-11">
         {/* k线图 */}
         <div id="kline" class="kinecenter-12">

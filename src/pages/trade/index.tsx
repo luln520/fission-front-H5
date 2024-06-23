@@ -19,13 +19,15 @@ import TopText from "./components/topText";
 import OrderPopup from "./components/orderpopup";
 import DaoJiShi from "./components/daojishi";
 import { collectApi } from "../../api/collect-api";
+import { Dialog } from "react-vant";
+import InfoMsg from "./components/infomsg";
 
 export default function Trade() {
   const uid = localStorage.getItem("uid");
   const { t: translate } = useTranslation();
   // const [changeDaoJiShi, setChangeDaoJiShi] = useState(false);
   const [daojishi, setDaojis] = useState(60);
-  const [timeindex, settimeindex] = useState(1);
+  const [timeindex, settimeindex] = useState(2);
   const [sendData, setSendData] = useState({});
   const [index, setIndex] = useState(3);
   const [isShowCoin, setIsShowCoin] = useState(false);
@@ -41,6 +43,7 @@ export default function Trade() {
   const [userInfoData, setUserInfoData] = useState({});
   const [hyorders, sethyorders] = useState([] as any[]);
   const [iscollect, setiscollect] = useState(false);
+  const [visibleInfoMsg, setvisibleInfoMsg] = useState(false);
   let timer: any;
   const [companyData, setCompanyData] = useState({} as any);
   //贸易
@@ -207,6 +210,7 @@ export default function Trade() {
         collectAdd={collectAdd}
         collectDel={collectDel}
         setIsShowCoin={setIsShowCoin}
+        setvisibleInfoMsg={setvisibleInfoMsg}
       />
       {/* <TopText
         setIsShowCoin={setIsShowCoin}
@@ -231,7 +235,7 @@ export default function Trade() {
       ></div>
       {/* 左边弹框  */}
       <CoinPopup
-      nowTab={nowTab}
+        nowTab={nowTab}
         isShowCoin={isShowCoin}
         setIsShowCoin={setIsShowCoin}
         coinListData={coinListData}
@@ -275,6 +279,16 @@ export default function Trade() {
           companyData={companyData}
           successOrderNo={successOrderNo}
         />
+      </CenterPopup>
+
+      {/* 消息提示 */}
+      <CenterPopup
+        visible={visibleInfoMsg}
+        onMaskClick={() => {
+          setvisibleInfoMsg(false);
+        }}
+      >
+        <InfoMsg  setvisibleInfoMsg={setvisibleInfoMsg}/>
       </CenterPopup>
       <BottomBar index={3} />
     </div>
