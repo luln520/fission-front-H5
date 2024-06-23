@@ -24,6 +24,7 @@ export default function IdCard() {
     const data = await userApi.auth({ ...authData, uid: authData.id });
     if (data.ok) {
       setUserInfo(data.data);
+      navigate(-1);
     }
     Toast.show({ content: data.msg });
     loadUserInfoData();

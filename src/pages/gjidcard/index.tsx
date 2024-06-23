@@ -27,6 +27,7 @@ export default function GJIdCard() {
     });
     if (data.ok) {
       setUserInfo(data.data);
+      navigate(-1);
     }
     Toast.show({ content: data.msg });
     loadUserInfoData();
