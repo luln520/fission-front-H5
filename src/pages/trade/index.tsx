@@ -52,6 +52,20 @@ export default function Trade() {
   const [visible, setVisible] = useState(false);
   //预期收益
   const [yqsy, setyqsy] = useState(0);
+  //
+  const zbs = [
+    "VOL",
+    "MA",
+    "EMA",
+    "SMA",
+    "BBI",
+    "MACD",
+    "BOLL",
+    "KDJ",
+    "KDJ",
+    "RSI",
+  ];
+  const [nowzb, setnowzb] = useState(zbs[0]);
   //初始化获取公司
   async function initCompany() {
     const res = await companyApi.domain();
@@ -211,12 +225,9 @@ export default function Trade() {
         collectDel={collectDel}
         setIsShowCoin={setIsShowCoin}
         setvisibleInfoMsg={setvisibleInfoMsg}
-      />
-      {/* <TopText
-        setIsShowCoin={setIsShowCoin}
-        nowTab={nowTab}
         coinListData={coinListData}
-      /> */}
+      />
+      <TopText zbs={zbs} nowzb={nowzb} setnowzb={setnowzb} />
       {nowTab && (
         <KineCenter
           nowTab={nowTab}
@@ -224,6 +235,7 @@ export default function Trade() {
           setType={setType}
           timeindex={timeindex}
           settimeindex={settimeindex}
+          nowzb={nowzb}
         />
       )}
 
@@ -288,7 +300,7 @@ export default function Trade() {
           setvisibleInfoMsg(false);
         }}
       >
-        <InfoMsg  setvisibleInfoMsg={setvisibleInfoMsg}/>
+        <InfoMsg setvisibleInfoMsg={setvisibleInfoMsg} />
       </CenterPopup>
       <BottomBar index={3} />
     </div>

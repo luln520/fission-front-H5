@@ -1,3 +1,4 @@
+import { Popover } from "antd";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
@@ -5,75 +6,89 @@ import { imageConfig } from "../../../../config/config";
 import { getText } from "../../../../utils/util";
 import "./index.css";
 
-export default function TopText({ setIsShowCoin, nowTab, coinListData }) {
+export default function TopText({ zbs, nowzb, setnowzb }) {
   const navigate = useNavigate();
   const [num, setNum] = useState(1);
-  const { t: translate } = useTranslation();
-  return (
-    <div class="marketTopText-1">
-      <div
-        class={
-          coinListData[nowTab]?.open > coinListData[nowTab]?.close
-            ? "marketTopText-2-1"
-            : "marketTopText-2"
-        }
-      >
+  const [show1, setshow1] = useState(false);
+  const [show2, setshow2] = useState(false);
+
+  const getItem = () => {
+    const nodes = [];
+    for (const zb of zbs) {
+      nodes.push(
         <div
-          class="marketTopText-3"
+          class="listvol-2"
           onClick={() => {
-            setIsShowCoin(true);
+            setnowzb(zb);
+            setshow1(false);
+            setshow2(!show2);
           }}
         >
-          <p class="marketTopText-4">
-            {nowTab?.toUpperCase()}
-            <span class="marketTopText-5">/USDT</span>
-          </p>
-          <i class="marketTopText-6"></i>
+          <div class={nowzb == zb ? "listvol-3" : "listvol-9"}>
+            <span class="listvol-4">{zb}</span>
+          </div>
+          <div class="listvol-5">
+            <span class="listvol-6"></span>
+          </div>
+          <i class="listvol-7"></i>
         </div>
-        <h1 class="marketTopText-7">{coinListData[nowTab]?.close}</h1>
-        <p class="marketTopText-8">
-          <span class="marketTopText-9">
-            {(
-              coinListData[nowTab]?.close - coinListData[nowTab]?.open
-            )?.toFixed(2)}
-          </span>
-          <span class="marketTopText-10">
-            {" "}
-            {coinListData[nowTab]?.close &&
-              (
-                ((coinListData[nowTab]?.close - coinListData[nowTab]?.open) /
-                  coinListData[nowTab]?.open) *
-                100
-              ).toFixed(2)}
-            {!coinListData[nowTab]?.close && "0.00"}%
-          </span>
-        </p>
+      );
+    }
+    return nodes;
+  };
+  const { t: translate } = useTranslation();
+  return (
+    <>
+      <div class="marketTopTextlb-1">
+        {/* 点击1 */}
+        <div
+          class="marketTopTextlb-2"
+          onClick={() => {
+            setshow2(false);
+            setshow1(!show1);
+          }}
+        >
+          <div class="marketTopTextlb-3">
+            <span class="marketTopTextlb-4">1min</span>
+          </div>
+          <i class="marketTopTextlb-5"></i>
+        </div>
+        {/* 点击2 */}
+        <div
+          class="marketTopTextlb-6"
+          onClick={() => {
+            setshow1(false);
+            setshow2(!show2);
+          }}
+        >
+          <div class="marketTopTextlb-7">
+            <span class="marketTopTextlb-8">{nowzb}</span>
+          </div>
+          <i class="marketTopTextlb-9"></i>
+        </div>
       </div>
-      <div class="marketTopText-11">
-        <ul class="marketTopText-12">
-          <li class="marketTopText-13">
-            <p class="marketTopText-14">{translate(getText("開盤"))}</p>
-            <div class="marketTopText-15">{coinListData[nowTab]?.open}</div>
-          </li>
-          <li class="marketTopText-13">
-            <p class="marketTopText-14">{translate(getText("成交量"))}</p>
-            <div class="marketTopText-15">
-              {" "}
-              {(coinListData[nowTab]?.vol / 10000).toFixed(2)}{translate(getText("萬"))}
+      {/* 显示 */}
+      {show1 && (
+        <div class="listmin-1">
+          <div
+            class="listmin-2"
+            onClick={() => {
+              setshow2(false);
+              setshow1(!show1);
+            }}
+          >
+            <div class="listmin-3">
+              <span class="listmin-4">1min</span>
             </div>
-          </li>
-          <li class="marketTopText-13">
-            <p class="marketTopText-14">{translate(getText("最低"))}</p>
-            <div class="marketTopText-15">{coinListData[nowTab]?.low}</div>
-          </li>
-          <li class="marketTopText-13">
-            <p class="marketTopText-14">{translate(getText("最高"))}</p>
-            <div class="marketTopText-15">
-              {JSON.stringify(coinListData[nowTab]?.high)}
+            <div class="listmin-5">
+              <span class="listmin-6"></span>
             </div>
-          </li>
-        </ul>
-      </div>
-    </div>
+            <i class="listmin-7"></i>
+          </div>
+        </div>
+      )}
+
+      {show2 && <div class="listvol-1">{getItem()}</div>}
+    </>
   );
 }

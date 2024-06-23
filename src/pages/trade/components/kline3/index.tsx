@@ -12,6 +12,7 @@ export default function MyChartComponent({
   setType,
   timeindex,
   settimeindex,
+  nowzb
 }) {
   const [coinListData, setCoinListData] = useContext(WSContext);
   const [coinListMinData, _] = useContext(WSMinContext);
@@ -134,8 +135,8 @@ export default function MyChartComponent({
     });
     chart.setOffsetRightDistance(0);
     chart.setTimezone("America/Los_Angeles");
-    chart.createIndicator("MA", true, { id: "candle_pane" });
-    chart.createIndicator("VOL");
+    // chart.createIndicator("MA", true, { id: "candle_pane" });
+    chart.createIndicator(nowzb);
     // chart.createIndicator("MACD");
     const data = await getHistoryKLineData(
       {
@@ -163,10 +164,10 @@ export default function MyChartComponent({
   }, [coinListMinData[nowTab]?.close, coinListData[nowTab]?.close]);
   useEffect(() => {
     initChart();
-  }, [timeindex, nowTab]);
+  }, [timeindex, nowTab,nowzb]);
   return (
     <div>
-      <div id="k-line-chart" style={{ height: "580px", width: "100%" }}></div>
+      <div id="k-line-chart" style={{ height: "280px", width: "100%" }}></div>
       <div
         style={{
           height: "70px",

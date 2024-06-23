@@ -12,6 +12,7 @@ export default function KineCenter({
   setType,
   timeindex,
   settimeindex,
+  nowzb
 }) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
@@ -49,6 +50,7 @@ export default function KineCenter({
             setType={setType}
             timeindex={timeindex}
             settimeindex={settimeindex}
+            nowzb={nowzb}
           />
         </div>
       </div>
