@@ -5,7 +5,7 @@ import copy from "copy-to-clipboard";
 import { Cell, Dialog } from "react-vant";
 import "./index.css";
 import { Button } from "antd";
-import { Toast } from "antd-mobile";
+import { Card, Divider, Popup, Toast } from "antd-mobile";
 import { useEffect, useState } from "react";
 import { imageConfig } from "../../../../config/config";
 
@@ -81,7 +81,9 @@ export default function CenterPage({
                     </div>
                   </div>
                 </div>
-                <p class="extract-15">{use?.name?.toUpperCase()}{" "}{translate(getText("提現"))}</p>
+                <p class="extract-15">
+                  {use?.name?.toUpperCase()} {translate(getText("提現"))}
+                </p>
               </li>
               {/* <li class="extract-16">
                 <p class="extract-17">鏈地址</p>
@@ -101,14 +103,19 @@ export default function CenterPage({
               <li class="extract-25">
                 <p class="extract-26">{translate(getText("提幣地址"))}</p>
                 <div class="extract-27">
-                  <div class="extract-28">
+                  <div
+                    class="extract-28"
+                    onClick={() => {
+                      setVisible(true);
+                    }}
+                  >
                     <input
+                      style={{
+                        pointerEvents: "none",
+                      }}
                       class="extract-30"
                       placeholder={translate(getText("請輸入提幣地址"))}
                       value={address}
-                      onChange={(e) => {
-                        setAddress(e.target.value);
-                      }}
                     />
                   </div>
                 </div>
@@ -141,13 +148,16 @@ export default function CenterPage({
                   </div>
                 </div>
                 <div class="extract-37">
-                  <span class="extract-38">{translate(getText("可用:"))}{userInfo?.usdt} USDT</span>
+                  <span class="extract-38">
+                    {translate(getText("可用:"))}
+                    {userInfo?.usdt} USDT
+                  </span>
                 </div>
               </li>
             </ul>
             <div class="extract-50">
               <div class="extract-51">
-              {translate(getText("預計到賬數量："))}
+                {translate(getText("預計到賬數量："))}
                 {`${num / coinPriceData?.close}` == "NaN"
                   ? num
                   : (num / coinPriceData?.close).toFixed(6)}{" "}
@@ -159,12 +169,55 @@ export default function CenterPage({
                   callBack();
                 }}
               >
-               {translate(getText("提交"))} 
+                {translate(getText("提交"))}
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/*  地址 */}
+      <Popup
+        visible={visible}
+        onMaskClick={() => {
+          setVisible(false);
+        }}
+        onClose={() => {
+          setVisible(false);
+        }}
+        bodyStyle={{ height: "40vh", overflowY: "scroll" }}
+      >
+        {addressList.map((data) => (
+          //判断过滤对应数据 name  data?.name == use?.name &&
+          <div
+            onClick={() => {
+              setAddress(data.addr);
+              setVisible(false);
+            }}
+          >
+            <div
+              className="addressList-6"
+              style={{
+                height: "auto",
+              }}
+            >
+              <div className="addressList-7">
+                <div className="addressList-8">
+                  <div className="addressList-9">
+                    <span className="addressList-10">
+                      {`${data?.name.toUpperCase()}${
+                        data.czline ? `-${data.czline}`.toUpperCase() : ""
+                      }`}
+                    </span>
+                    <span className="addressList-11">{data.addr}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <Divider />
+          </div>
+        ))}
+      </Popup>
     </div>
   );
 }
