@@ -62,6 +62,7 @@
   -webkit-box-align: center;
   align-items: center;
   height: 44px;
+  background-color: var(--them-background);
 }
 
 .topBar2-5 {

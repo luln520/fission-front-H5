@@ -1,6 +1,5 @@
 .topbarnew-1 {
   margin: 0px;
-  -webkit-tap-highlight-color: transparent;
   display: block;
   font-size: 12px;
   line-height: inherit;
@@ -60,6 +59,7 @@
   -webkit-box-align: center;
   align-items: center;
   height: 44px;
+  background-color: var(--them-background);
 }
 
 .topbarnew-5 {
