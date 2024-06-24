@@ -61,6 +61,8 @@ import DownlandInfo from "../pages/downloadInfo";
 import DownlandBook from "../pages/downloadbook";
 import AboutUS from "../pages/aboutus";
 import ReloadPassword from "../pages/reloadPassword";
+import LeverRoleInfo from "../pages/leverRoleInfo";
+import GetProperty from "../pages/getProperty";
 //全局
 export const WSContext = createContext([] as any[]);
 export const WSMinContext = createContext([] as any[]);
@@ -282,6 +284,14 @@ export default function AppRouter() {
                     <Route
                       path="/rechargelist"
                       element={getElement(<RechargeList />)}
+                    ></Route>
+                    <Route
+                      path="/leverroleinfo"
+                      element={getElement(<LeverRoleInfo />)}
+                    ></Route>
+                    <Route
+                      path="/getproperty"
+                      element={getElement(<GetProperty />)}
                     ></Route>
                     <Route
                       path="/rechargeorderlist"

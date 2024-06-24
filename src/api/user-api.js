@@ -25,7 +25,7 @@ export const userApi = {
   /**
    * 用户高级认证
    */
-   cardsc: (param) => {
+  cardsc: (param) => {
     return getRequest('/api/pc/user/cardsc', param);
   },
   /**
@@ -42,5 +42,23 @@ export const userApi = {
   */
   userInfo: (param) => {
     return getRequest('/api/pc/user/userInfo', param);
-  }
+  },
+  /**
+ *领取模拟
+ */
+  mockUserAmount: (param) => {
+    return getRequest('/api/pc/user/mockUserAmount', param);
+  },
+  /**
+ *切换 1真   2 模拟
+ */
+  mockUser: (param) => {
+    return getRequest('/api/pc/user/mockUser', param);
+  },
+  /**
+ *模拟用户信息
+ */
+  mockUserInfo: (param) => {
+    return getRequest('/api/pc/user/mockUserInfo', param);
+  },
 };

@@ -6,7 +6,12 @@ import { getText } from "../../../../utils/util";
 import "./index.css";
 import { useState } from "react";
 
-export default function Propertypop({ userInfo, isShowPop, setIsShowPop }) {
+export default function Propertypop({
+  userInfo,
+  isShowPop,
+  setIsShowPop,
+  changepropertyType,
+}) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   const lan = localStorage.getItem("i18n");
@@ -35,7 +40,7 @@ export default function Propertypop({ userInfo, isShowPop, setIsShowPop }) {
                         propertyType == 1 ? "propertypop-10" : "propertypop-14"
                       }
                       onClick={() => {
-                        localStorage.setItem("propertyType", 1);
+                        changepropertyType(1);
                       }}
                     >
                       <div class="propertypop-11">实际账户</div>
@@ -50,7 +55,7 @@ export default function Propertypop({ userInfo, isShowPop, setIsShowPop }) {
                         propertyType == 2 ? "propertypop-10" : "propertypop-14"
                       }
                       onClick={() => {
-                        localStorage.setItem("propertyType", 2);
+                        changepropertyType(2);
                       }}
                     >
                       <div class="propertypop-15">模拟账户</div>

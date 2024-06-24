@@ -17,6 +17,7 @@ import C2CCKTS from "./components/c2cckts";
 import C2CCKTS2 from "./components/c2cckts2";
 import { currencyApi } from "../../api/currency-api";
 import Propertypop from "./components/propertypop";
+import { userApi } from "../../api/user-api";
 
 export default function Property() {
   const uid = localStorage.getItem("uid");
@@ -59,6 +60,7 @@ export default function Property() {
 
   useEffect(() => {
     loadData();
+    getMockUserInfo();
   }, []);
   //加载数 据
   const loadData = async () => {
@@ -66,6 +68,22 @@ export default function Property() {
     if (data.ok) {
       setuserInfo(data.data);
     }
+  };
+
+  //加载数 据
+  const getMockUserInfo = async () => {
+    const data = await userApi.mockUserInfo({ uid });
+    if (data.ok) {
+      setuserInfo(data.data);
+    }
+  };
+
+  const changepropertyType = async (type) => {
+    const data = await userApi.mockUser({ type, uid });
+    if (data.ok) {
+      localStorage.setItem("propertyType", type);
+    }
+    Toast.show(data.msg);
   };
 
   //加载数 据
@@ -136,6 +154,7 @@ export default function Property() {
         userInfo={userInfo}
         isShowPop={isShowPop}
         setIsShowPop={setIsShowPop}
+        changepropertyType={changepropertyType}
       />
 
       <div

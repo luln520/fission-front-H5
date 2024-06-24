@@ -10,57 +10,55 @@ export default function TopBar({
   iscollect,
   collectAdd,
   collectDel,
+  setIsShowCoin,
+  setvisibleInfoMsg,
+  coinListData,
 }) {
   const navigate = useNavigate();
   const [num, setNum] = useState(1);
   const { t: translate } = useTranslation();
   return (
-    <div class="marketTopBar-1">
-      <div class="marketTopBar-2">
-        <div
-          class="marketTopBar-4"
+    <div class="leverTopBarlb-1">
+      <div class="leverTopBarlb-2">
+        <i
+          class="leverTopBarlb-3"
           onClick={() => {
-            navigate(`/trade/${coinname}`);
+            setIsShowCoin(true);
           }}
-        >
-          {translate(getText("合約"))}
-        </div>
-        <div
-          class="marketTopBar-3"
-          onClick={() => {
-            navigate(`/lever/${coinname}`);
-          }}
-        >
-          {translate(getText("杠杆"))}
-        </div>
-      </div>
-      <div class="marketTopBar-6">
-        <div class="marketTopBar-7">
-          <i class="marketTopBar-8"></i>
-          <span
-            class="marketTopBar-9"
-            onClick={() => {
-              navigate("/jyjlLever2");
-            }}
-          >
-            {translate(getText("持倉"))}
+        ></i>
+        <div class="leverTopBarlb-4">
+          <span class="leverTopBarlb-5">
+            {coinname?.toUpperCase()}/USDT 永续
           </span>
         </div>
-        <div class="marketTopBar-10">
-          <div
-            class={iscollect ? "marketTopBar-11-1" : "marketTopBar-11"}
-            onClick={() => {
-              //添加取消收藏
-              if (iscollect) {
-                collectDel();
-              } else {
-                collectAdd();
-              }
-            }}
-          >
-            <span class="marketTopBar-12"></span>
-          </div>
+        <div
+          class={
+            coinListData[coinname]?.close > coinListData[coinname]?.open
+              ? "leverTopBarlb-6-1"
+              : "leverTopBarlb-6"
+          }
+        >
+          <span class="leverTopBarlb-7">
+            {coinListData[coinname]?.close < coinListData[coinname]?.open
+              ? ""
+              : "+"}
+            {coinListData[coinname]?.close &&
+              (
+                ((coinListData[coinname]?.close -
+                  coinListData[coinname]?.open) /
+                  coinListData[coinname]?.open) *
+                100
+              ).toFixed(2)}
+            %
+          </span>
         </div>
+        <i
+          class="leverTopBarlb-8"
+          onClick={() => {
+            navigate("/leverroleinfo");
+          }}
+        ></i>
+        <i class="leverTopBarlb-9"></i>
       </div>
     </div>
   );

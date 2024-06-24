@@ -11,7 +11,7 @@ import { userApi } from "../../api/user-api";
 import BottomBar from "../../components/bottomBar";
 import { WSContext } from "../../router/router";
 import { convertToSeconds, getText } from "../../utils/util";
-import DataList from "./components/datalist";
+import DataListAndBuy from "./components/datalistorbuy";
 import CoinPopup from "./components/coinpopup";
 import TopBar from "./components/topbar";
 import TopBuy from "./components/topbuy";
@@ -51,6 +51,7 @@ export default function Lever() {
   let timer: any;
   const [hyorders, sethyorders] = useState([] as any[]);
   const [coinListData, setCoinListData] = useContext(WSContext);
+  const [visibleInfoMsg, setvisibleInfoMsg] = useState(false);
   //贸易
   const [type, setType] = useState(1);
 
@@ -326,13 +327,16 @@ export default function Lever() {
         iscollect={iscollect}
         collectAdd={collectAdd}
         collectDel={collectDel}
+        setIsShowCoin={setIsShowCoin}
+        setvisibleInfoMsg={setvisibleInfoMsg}
+        coinListData={coinListData}
       />
-      <TopText
+      {/* <TopText
         setIsShowCoin={setIsShowCoin}
         nowTab={nowTab}
         coinListData={coinListData}
-      />
-      <DataList huobigetHistory={huobigetHistory} />
+      /> */}
+      <DataListAndBuy huobigetHistory={huobigetHistory} />
       <OrderList
         closeorder={closeorder}
         addnumFun={addnum}

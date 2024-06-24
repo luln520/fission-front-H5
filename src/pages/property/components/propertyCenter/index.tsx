@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import { userApi } from "../../../../api/user-api";
 import { getText } from "../../../../utils/util";
 import "./index.css";
 
@@ -61,12 +62,28 @@ export default function PropertyCenter({
           </div>
           <div class="propertycenterlb-25">
             <div class="propertycenterlb-26">
-              <span class="propertycenterlb-27">
-                交易量：0
-              </span>
+              <span class="propertycenterlb-27">交易量：0</span>
             </div>
             {/* <i class="propertycenterlb-28"></i> */}
           </div>
+          {propertyType == 2 && (
+            <div class="propertycenterlb-25">
+              <div
+                style={{
+                  margin: "5px 0",
+                  boxSizing: "border-box",
+                  padding: "3px 5px",
+                  border: "solid 1px #fff",
+                  borderRadius: "5px",
+                }}
+                onClick={() => {
+                  navigate("/getproperty");
+                }}
+              >
+                获得资产
+              </div>
+            </div>
+          )}
         </div>
         <div class="propertycenterlb-29">
           <img

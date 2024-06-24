@@ -1,227 +1,175 @@
-.marketTopBar-1 {
+.leverTopBarlb-1 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
+  display: block;
+  scrollbar-width: none;
   box-sizing: border-box;
-  margin-top: calc(0px);
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-  align-items: center;
-  padding: 10px 15px;
-}
-
-.marketTopBar-2 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
-  display: flex;
-  margin-right: 20px;
-  flex-wrap: wrap;
-  -webkit-box-align: stretch;
-  align-items: stretch;
-  text-align: center;
-  width: 213px;
-}
-
-.marketTopBar-3 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  padding: 5px 0px;
-  background-color: rgb(43, 49, 57);
-  border-radius: 2px;
-  color: rgb(255, 255, 255);
-  -webkit-box-flex: 1;
-  flex: 1 1 0%;
-  background-image: linear-gradient(45deg,var(--boutton-background-color), var(--boutton-background-color)),
-    linear-gradient(rgb(43, 49, 57), rgb(43, 49, 57));
-  background-blend-mode: normal, normal;
-}
-
-.marketTopBar-4 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  padding: 5px 0px;
-  background-color: rgb(43, 49, 57);
-  border-radius: 2px;
-  color: rgb(255, 255, 255);
-  -webkit-box-flex: 1;
-  flex: 1 1 0%;
-}
-
-.marketTopBar-5 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  padding: 5px 0px;
-  background-color: rgb(43, 49, 57);
-  border-radius: 2px;
-  color: rgb(255, 255, 255);
-  -webkit-box-flex: 1;
-  flex: 1 1 0%;
-}
-
-.marketTopBar-6 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
-  -webkit-box-flex: 1;
-  flex: 1 1 0%;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: end;
-  justify-content: flex-end;
-}
-
-.marketTopBar-7 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  height: auto;
-  width: auto;
-  cursor: pointer;
-  margin-right: 15px !important;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-}
-
-.marketTopBar-8 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  line-height: 1;
-  font-family: FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  margin-right: 4px;
-}
-
-.marketTopBar-8:before {
-  content: "";
-}
-
-.marketTopBar-9 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.marketTopBar-10 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
-  display: inline-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-direction: row;
-  -webkit-box-align: center;
-  align-items: center;
-}
-
-.marketTopBar-11 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  box-sizing: border-box;
-  display: flex;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  font-stretch: normal;
-  line-height: 1;
-  font-family: uicon-iconfont;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
   position: relative;
-  font-size: 20px;
-  font-weight: normal;
-  top: 0px;
+  z-index: 88;
+  margin-bottom: 0.9375rem;
+  background: rgb(15, 23, 32);
 }
 
-.marketTopBar-11-1 {
+.leverTopBarlb-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverTopBarlb-2 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
   box-sizing: border-box;
-  display: flex;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  font-stretch: normal;
-  line-height: 1;
-  font-family: uicon-iconfont;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
+  font-family: sans-serif;
   position: relative;
-  font-size: 20px;
-  font-weight: normal;
+  display: flex;
+  align-items: center;
+  padding: 0.9375rem;
+  line-height: 1;
+}
+
+.leverTopBarlb-2:after {
+  border-color: rgb(30, 39, 48) !important;
+  content: " ";
+  position: absolute;
+  left: 0px;
   top: 0px;
+  pointer-events: none;
+  box-sizing: border-box;
+  transform-origin: 0px 0px;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  z-index: 1;
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-
-.marketTopBar-11:before {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  content: "\e65f";
-  color: white;
-}
-
-.marketTopBar-11-1:before {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  content: "\e669";
-  color: rgb(255, 185, 0);
-}
-
-
-.marketTopBar-12 {
+.leverTopBarlb-3 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.leverTopBarlb-3:active {
+  opacity: 0.7;
+}
+
+.leverTopBarlb-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverTopBarlb-3:before {
+  content: "";
+}
+
+.leverTopBarlb-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  margin-left: 0.625rem;
+  color: rgb(255, 255, 255);
+}
+
+.leverTopBarlb-4:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverTopBarlb-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverTopBarlb-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  margin-left: 0.625rem;
+  font-size: 0.8125rem;
+  color: rgb(243, 100, 100);
+}
+
+
+.leverTopBarlb-6-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  margin-left: 0.625rem;
+  font-size: 0.8125rem;
+  color: rgb(4, 207, 153);
+}
+
+.leverTopBarlb-6:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverTopBarlb-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverTopBarlb-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  margin-left: auto;
+  font-size: 1.125rem;
+  color: rgb(238, 238, 238);
+}
+
+.leverTopBarlb-8:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverTopBarlb-8:before {
+  content: "";
+}
+
+.leverTopBarlb-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  margin-left: 1.25rem;
+  font-size: 1.6875rem;
+  display: block;
+  height: 1.3125rem;
+  line-height: 1.3125rem;
+  color: rgb(255, 255, 255);
+}
+
+.leverTopBarlb-9:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverTopBarlb-9:before {
+  content: "";
 }
