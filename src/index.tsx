@@ -83,6 +83,11 @@ function replaceNaNWithSpace(element) {
     }
   }
 }
+
+//初始化账户类型
+function initPropertyType() {
+  localStorage.setItem("propertyType", 1);
+}
 //初始化主题
 initThem();
 //公司 记载完成后再渲染页面
@@ -106,3 +111,6 @@ setInterval(() => {
 setInterval(() => {
   replaceNaNWithSpace(document.body);
 }, 1000);
+
+//初始化账户类型
+initPropertyType();

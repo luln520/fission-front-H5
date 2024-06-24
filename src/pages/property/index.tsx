@@ -16,6 +16,7 @@ import { useNavigate } from "react-router-dom";
 import C2CCKTS from "./components/c2cckts";
 import C2CCKTS2 from "./components/c2cckts2";
 import { currencyApi } from "../../api/currency-api";
+import Propertypop from "./components/propertypop";
 
 export default function Property() {
   const uid = localStorage.getItem("uid");
@@ -31,6 +32,7 @@ export default function Property() {
   const [visibleCKTS2, setVisibleCKTS2] = useState(false);
   const [visibleTK, setVisibleTK] = useState(false);
   const [isShowZF, setIsShowZF] = useState(false);
+  const [isShowPop, setIsShowPop] = useState(false);
 
   //c2c存款
   const [num, setNum] = useState("");
@@ -127,7 +129,15 @@ export default function Property() {
         setVisibleTK={setVisibleTK}
         setVisibleTK2={setVisibleCKTS2}
         isShowZF={isShowZF}
+        setIsShowPop={setIsShowPop}
       />
+      {/* 侧拉框 */}
+      <Propertypop
+        userInfo={userInfo}
+        isShowPop={isShowPop}
+        setIsShowPop={setIsShowPop}
+      />
+
       <div
         style={{
           height: "50px",

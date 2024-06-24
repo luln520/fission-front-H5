@@ -11,12 +11,14 @@ export default function PropertyCenter({
   setVisibleTK2,
   setVisibleCK,
   isShowZF,
+  setIsShowPop,
 }) {
   const c2ctxStatus = localStorage.getItem("c2ctxStatus");
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   const lan = localStorage.getItem("i18n");
   const companySkin = localStorage.getItem("companySkin");
+  const propertyType = localStorage.getItem("propertyType");
   return (
     <div class="propertycenterlb-1">
       <div class="propertycenterlb-2"></div>
@@ -147,8 +149,15 @@ export default function PropertyCenter({
         </div>
       </div>
       <div class="propertycenterlb-63">
-        <div class="propertycenterlb-64">当前账户：实际账户</div>
-        <div class="propertycenterlb-65">
+        <div class="propertycenterlb-64">
+          当前账户：{propertyType == 1 ? "实际账户" : "模拟账户"}
+        </div>
+        <div
+          class="propertycenterlb-65"
+          onClick={() => {
+            setIsShowPop(true);
+          }}
+        >
           <i class="propertycenterlb-66"></i>切换
         </div>
       </div>
@@ -159,11 +168,11 @@ export default function PropertyCenter({
         <div class="propertycenterlb-70">
           <div class="propertycenterlb-71">币币</div>
           <div class="propertycenterlb-72">
-            <span class="propertycenterlb-73">530458.98</span>
+            <span class="propertycenterlb-73">{userInfo?.usdt}</span>
           </div>
           <i class="propertycenterlb-74"></i>
         </div>
-        <div class="propertycenterlb-75">
+        {/* <div class="propertycenterlb-75">
           <div class="propertycenterlb-76">交割合约</div>
           <div class="propertycenterlb-77">
             <span class="propertycenterlb-78">850490.06</span>
@@ -176,7 +185,7 @@ export default function PropertyCenter({
             <span class="propertycenterlb-83">223381.38</span>
           </div>
           <i class="propertycenterlb-84"></i>
-        </div>
+        </div> */}
       </div>
     </div>
 
