@@ -21,6 +21,7 @@ import DaoJiShi from "./components/daojishi";
 import { collectApi } from "../../api/collect-api";
 import { Dialog } from "react-vant";
 import InfoMsg from "./components/infomsg";
+import OrderList from "./components/orderlist";
 
 export default function Trade() {
   const uid = localStorage.getItem("uid");
@@ -238,6 +239,8 @@ export default function Trade() {
           nowzb={nowzb}
         />
       )}
+      {/* 订单信息 */}
+      <OrderList hyorders={hyorders} nowTab={nowTab} />
 
       <TopBuy setIsShowOrder={setIsShowOrder} setType={setType} />
       <div

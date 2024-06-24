@@ -54,10 +54,6 @@ export default function KineCenter({
           />
         </div>
       </div>
-      {/* <div class="kinecenter-13">
-        <div class="kinecenter-14">實时數據</div>
-        <div class="kinecenter-15">實时成交</div>
-      </div> */}
     </div>
   );
 }

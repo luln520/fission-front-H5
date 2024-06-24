@@ -168,34 +168,6 @@ export default function MyChartComponent({
   return (
     <div>
       <div id="k-line-chart" style={{ height: "280px", width: "100%" }}></div>
-      <div
-        style={{
-          height: "70px",
-        }}
-      ></div>
-      {/* 底部按钮 */}
-      {/* <div className="btn-footer1-1">
-        <div className="btn-footer1-2">
-          <button
-            className="btn-footer1-3"
-            onClick={() => {
-              setIndex(3);
-              setType(1);
-            }}
-          >
-            {translate(getText("買多"))}
-          </button>
-          <button
-            className="btn-footer1-4"
-            onClick={() => {
-              setIndex(3);
-              setType(2);
-            }}
-          >
-            {translate(getText("買空"))}
-          </button>
-        </div>
-      </div> */}
     </div>
   );
 }

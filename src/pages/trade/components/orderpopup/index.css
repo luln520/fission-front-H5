@@ -1,418 +1,925 @@
-.orderPopup-1 {
+.orderpoplb-1 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  color: rgb(0, 0, 0) !important;
-  border-radius: 0px;
-  background: rgb(30, 33, 38);
-}
-
-.orderPopup-2 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  width: 100%;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  line-height: 50px;
-  border-bottom: 1px solid rgb(230, 234, 237);
-  position: relative;
-  border: 0px;
-}
-
-.orderPopup-3 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center !important;
-  margin-left: 10px;
-  color: rgb(255, 255, 255);
-}
-
-.orderPopup-4 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  font-kerning: auto;
-  font-optical-sizing: auto;
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  font-family: FontAwesome;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  width: 50px;
-  text-align: center;
-  line-height: 50px;
-  position: absolute;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  z-index: 999;
+  position: fixed;
   right: 0px;
-  top: 0px;
-  font-size: 21px;
-  color: rgb(255, 255, 255);
-  margin-right: 0px;
-}
-
-.orderPopup-4:before {
-  content: "";
-}
-
-.orderPopup-5 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  box-sizing: border-box;
-  padding: 10px;
-}
-
-.orderPopup-6 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.orderPopup-7 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  padding: 10px 0px;
-}
-
-.orderPopup-8 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  color: rgb(255, 255, 255);
-}
-
-.orderPopup-9 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  color: rgb(255, 255, 255);
-}
-
-.orderPopup-10 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.orderPopup-11 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  padding: 10px 0px;
-}
-
-.orderPopup-12 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  color: rgb(255, 255, 255);
-}
-
-.orderPopup-13 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  color: rgb(28, 173, 144) !important;
-}
-
-.orderPopup-13-1 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  color: rgb(205, 78, 101) !important;
-}
-
-.orderPopup-14 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  padding: 10px 0px;
-}
-
-.orderPopup-15 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  color: rgb(255, 255, 255);
-}
-
-.orderPopup-16 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  color: rgb(255, 255, 255);
-}
-
-.orderPopup-17 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.orderPopup-18 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-direction: row;
-  width: 100%;
+  bottom: 0px;
+  transition: all 0.25s ease 0s;
   overflow: hidden;
-  white-space: nowrap;
+  background: rgb(15, 23, 32);
+  border-radius: 0.125rem 0.125rem 0px 0px;
+  left: 0px;
+  visibility: visible;
+  transform: translateY(0px);
 }
 
-.orderPopup-19 {
+.orderpoplb-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-2 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0px 0.9375rem;
+  display: flex;
+  align-items: center;
+  height: 2.8125rem;
   position: relative;
-  max-height: inherit;
-  width: 100%;
-  height: 100%;
 }
 
-.orderPopup-20 {
+.orderpoplb-2:after {
+  border-color: rgb(30, 39, 48) !important;
+  content: " ";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  pointer-events: none;
+  box-sizing: border-box;
+  transform-origin: 0px 0px;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  z-index: 1;
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.orderpoplb-3 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  left: 0px;
+  padding: 0px;
+}
+
+.orderpoplb-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(238, 238, 238);
+}
+
+.orderpoplb-4:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.orderpoplb-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  padding: 0px 0.9375rem;
+  transform: translateY(-50%);
+  font-size: 1.125rem;
+  color: rgb(153, 153, 153);
+}
+
+.orderpoplb-6:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-6:before {
+  content: "";
+}
+
+.orderpoplb-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  width: 100%;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: auto;
+  min-height: 17.1875rem;
+  max-height: 17.1875rem;
+}
+
+.orderpoplb-7:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
   position: relative;
+  width: 100%;
+  height: 100%;
   max-height: inherit;
+}
+
+.orderpoplb-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
   width: 100%;
   height: 100%;
-  overflow: auto hidden;
+  max-height: inherit;
+  overflow: hidden auto;
 }
 
-.orderPopup-21 {
+.orderpoplb-10 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
   width: 100%;
   height: 100%;
 }
 
-.orderPopup-22 {
+.orderpoplb-11 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
   box-sizing: border-box;
-  display: inline-block;
-  padding: 0px 12px;
-  margin-right: 15px;
-  border-radius: 2px;
-  line-height: 39px;
+  font-family: sans-serif;
+  position: relative;
+  display: flex;
+  padding: 0.9375rem 0px 4.6875rem;
+}
+
+.orderpoplb-11:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  height: 9.375rem;
+  padding: 0px 0.9375rem;
+  width: 6.25rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.orderpoplb-12:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.orderpoplb-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.orderpoplb-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.orderpoplb-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.orderpoplb-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.orderpoplb-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.orderpoplb-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  flex: 1 1 0%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+}
+
+.orderpoplb-19:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+.orderpoplb-21 {
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  pointer-events: none;
+  top: 0px;
+  height: 100%;
+  margin: 0px auto;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.6)),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6));
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+  transform: translateZ(0px);
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: transparent !important;
+  background-size: 100% 57px;
+}
+
+.orderpoplb-21:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .orderpoplb-21 {
+    background-image: linear-gradient(rgba(35, 35, 35, 0.95),
+        rgba(35, 35, 35, 0.6)),
+      linear-gradient(0deg, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6));
+  }
+}
+
+.orderpoplb-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  pointer-events: none;
+  top: 50%;
+  transform: translateY(-50%);
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: rgba(255, 224, 166, 0.3);
+  border-radius: 0.1875rem;
+  height: 42px;
+}
+
+.orderpoplb-22:after {
+  bottom: 0px;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  transform-origin: 0px 100%;
+  transform: scaleY(0.5);
+  content: " ";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  color: rgb(229, 229, 229);
+  border-color: rgb(30, 39, 48) !important;
+  display: none;
+}
+
+.orderpoplb-22:before {
+  top: 0px;
+  border-top: 1px solid rgb(229, 229, 229);
+  transform-origin: 0px 0px;
+  transform: scaleY(0.5);
+  content: " ";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  color: rgb(229, 229, 229);
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .orderpoplb-22:after {
+    border-bottom-color: var(--UI-FG-3);
+  }
+
+  .orderpoplb-22:before {
+    border-top-color: var(--UI-FG-3);
+  }
+}
+
+.orderpoplb-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.orderpoplb-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.orderpoplb-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.orderpoplb-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.orderpoplb-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.orderpoplb-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  will-change: transform;
+  cursor: pointer;
+  padding: 57px 0px;
+  transform: translateY(0px) translateZ(0px);
+}
+
+.orderpoplb-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 42px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.orderpoplb-29:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
   text-align: center;
-  font-size: 15px;
-  background-color: var(--boutton-background-color);
-  color: rgb(255, 255, 255);
-  opacity: 1;
+  font-size: 0.9375rem;
+  font-style: italic;
+  padding: 0px 0.3125rem;
+  transition: all 0.25s ease 0s;
+  color: rgb(240, 193, 99);
 }
 
-.orderPopup-23 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
+.orderpoplb-30:after {
+  border-color: rgb(30, 39, 48) !important;
 }
 
-.orderPopup-24 {
+.orderpoplb-31 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
+  scrollbar-width: none;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.orderPopup-25 {
+.orderpoplb-32 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
   box-sizing: border-box;
-  display: inline-block;
-  padding: 0px 12px;
-  margin-right: 15px;
-  background-color: rgb(42, 45, 53);
-  border-radius: 2px;
-  line-height: 39px;
+  font-family: sans-serif;
+  height: 42px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.orderpoplb-32:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
   text-align: center;
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  opacity: 0.5;
+  font-size: 0.9375rem;
+  color: rgb(110, 109, 117);
+  font-style: italic;
+  padding: 0px 0.3125rem;
+  transition: all 0.25s ease 0s;
 }
 
-.orderPopup-26 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
+.orderpoplb-33:after {
+  border-color: rgb(30, 39, 48) !important;
 }
 
-.orderPopup-27 {
+.orderpoplb-34 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
+  scrollbar-width: none;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.orderPopup-28 {
+.orderpoplb-35 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
   box-sizing: border-box;
-  display: inline-block;
-  padding: 0px 12px;
-  margin-right: 15px;
-  background-color: rgb(42, 45, 53);
-  border-radius: 2px;
-  line-height: 39px;
+  font-family: sans-serif;
+  height: 42px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.orderpoplb-35:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
   text-align: center;
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  opacity: 0.5;
+  font-size: 0.9375rem;
+  color: rgb(110, 109, 117);
+  font-style: italic;
+  padding: 0px 0.3125rem;
+  transition: all 0.25s ease 0s;
 }
 
-.orderPopup-29 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
+.orderpoplb-36:after {
+  border-color: rgb(30, 39, 48) !important;
 }
 
-.orderPopup-30 {
+.orderpoplb-37 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
+  scrollbar-width: none;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.orderPopup-31 {
+.orderpoplb-38 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
   box-sizing: border-box;
-  display: inline-block;
-  padding: 0px 12px;
-  margin-right: 15px;
-  background-color: rgb(42, 45, 53);
-  border-radius: 2px;
-  line-height: 39px;
+  font-family: sans-serif;
+  height: 42px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.orderpoplb-38:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-39 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
   text-align: center;
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  opacity: 0.5;
+  font-size: 0.9375rem;
+  color: rgb(110, 109, 117);
+  font-style: italic;
+  padding: 0px 0.3125rem;
+  transition: all 0.25s ease 0s;
 }
 
-.orderPopup-32 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
-  box-sizing: border-box;
+.orderpoplb-39:after {
+  border-color: rgb(30, 39, 48) !important;
 }
 
-.orderPopup-33 {
+.orderpoplb-40 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
+  scrollbar-width: none;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.orderPopup-34 {
+.orderpoplb-41 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
   box-sizing: border-box;
-  display: inline-block;
-  padding: 0px 12px;
-  margin-right: 15px;
-  background-color: rgb(42, 45, 53);
-  border-radius: 2px;
-  line-height: 39px;
+  font-family: sans-serif;
+  height: 42px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.orderpoplb-41:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
   text-align: center;
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-  opacity: 0.5;
+  font-size: 0.9375rem;
+  color: rgb(110, 109, 117);
+  font-style: italic;
+  padding: 0px 0.3125rem;
+  transition: all 0.25s ease 0s;
 }
 
-.orderPopup-35 {
+.orderpoplb-42:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-43 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
+  scrollbar-width: none;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.orderPopup-36 {
+.orderpoplb-44 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  display: block;
-  font-size: 12px;
-  line-height: inherit;
+  scrollbar-width: none;
   box-sizing: border-box;
+  font-family: sans-serif;
+  height: 42px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
 }
 
-.orderPopup-37 {
+.orderpoplb-44:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-45 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 0.9375rem;
+  color: rgb(110, 109, 117);
+  font-style: italic;
+  padding: 0px 0.3125rem;
+  transition: all 0.25s ease 0s;
 }
 
-.orderPopup-38 {
+.orderpoplb-45:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-46 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  height: 26px;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.orderPopup-39 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  color: rgb(141, 157, 188);
-}
-
-.orderPopup-40 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 10px auto 5px;
-  font-size: 13px;
-  color: rgb(255, 255, 255);
-}
-
-.orderPopup-41 {
+.orderpoplb-47 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
   display: block;
-  font-size: 16px;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0px 0.9375rem;
+  flex: 1 1 0%;
+}
+
+.orderpoplb-47:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-48 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  justify-content: space-between;
+}
+
+.orderpoplb-48:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-49 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.orderpoplb-49:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-50 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+  display: block;
+}
+
+.orderpoplb-50:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-51 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(243, 100, 100);
+}
+
+.orderpoplb-51:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.orderpoplb-53 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: right;
+}
+
+.orderpoplb-53:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-54 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+  display: block;
+}
+
+.orderpoplb-54:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-55 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(4, 207, 153);
+}
+
+.orderpoplb-55:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-56 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.orderpoplb-57 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  color: rgb(136, 136, 136);
+  display: block;
+  margin-top: 0.9375rem;
+}
+
+.orderpoplb-57:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-58 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
   min-height: 1.4em;
   overflow: hidden;
-  box-sizing: border-box;
-  width: 100%;
-  height: 38px;
-  line-height: 38px;
-  padding: 0px 15px;
-  border-radius: 8px;
-  background-color: rgb(255, 255, 255);
-  background: rgb(42, 45, 53);
-  border: 0px;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: right;
+  font-size: 0.875rem;
+  margin-top: 0.625rem;
+  height: 2.5rem;
+  border-radius: 0.3125rem;
+  line-height: 2.8125rem;
+  padding: 0px 0.625rem;
+  background: rgb(22, 30, 38);
   color: rgb(255, 255, 255);
 }
 
-.orderPopup-42 {
+.orderpoplb-58:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-59 {
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
   outline: none;
   border: none;
   padding: 0px;
@@ -422,14 +929,11 @@
   position: relative;
   width: 100%;
   height: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   flex-direction: column;
-  -webkit-box-pack: center;
   justify-content: center;
 }
 
-.orderPopup-43 {
+.orderpoplb-60 {
   -webkit-tap-highlight-color: transparent;
   outline: none;
   border: none;
@@ -439,7 +943,7 @@
   width: 100%;
   position: absolute;
   left: 0px;
-  color: grey;
+  color: gray;
   overflow: hidden;
   text-overflow: clip;
   white-space: pre;
@@ -447,11 +951,19 @@
   pointer-events: none;
   line-height: inherit;
   top: auto !important;
-  font-size: 12px;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.orderPopup-44 {
+.orderpoplb-60:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.orderpoplb-61 {
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
   outline: none;
   border: none;
   padding: 0px;
@@ -472,74 +984,310 @@
   text-shadow: inherit;
 }
 
-.orderPopup-45 {
+.orderpoplb-62 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
   display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  font-size: 12px;
-  line-height: 1.8;
+  align-items: center;
+  margin-top: 0.625rem;
 }
 
-.orderPopup-46 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  margin-top: 5px;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
+.orderpoplb-62:after {
+  border-color: rgb(30, 39, 48) !important;
 }
 
-.orderPopup-47 {
-  -webkit-tap-highlight-color: transparent;
-  margin: 0px;
-  margin-top: 5px;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
-}
-
-.orderPopup-48 {
-  margin: 0px;
-  -webkit-tap-highlight-color: transparent;
-  text-align: center;
-  width: 100%;
-  color: var(--boutton-background-color);
-  font-size: 14px;
-}
-
-.orderPopup-49 {
-  margin: 0px;
-  position: relative;
-  display: block;
+.orderpoplb-63 {
   margin-left: auto;
   margin-right: auto;
   padding-left: 14px;
   padding-right: 14px;
-  box-sizing: border-box;
   text-align: center;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
-  overflow: hidden;
+  background-color: rgb(248, 248, 248);
   cursor: pointer;
-  height: 38px;
-  line-height: 38px;
-  padding: 0px 10px;
-  background: var(--boutton-background-color);
-  color: rgb(255, 255, 255);
-  border: none;
-  font-size: 14px;
-  margin-top: 36px;
-  width: 100%;
-  border-radius: 2px;
-  background-color: rgb(46, 173, 101);
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  margin: 0px;
+  font-size: 0.75rem;
+  border-radius: 0.3125rem;
+  height: 2.1875rem;
+  flex: 1 1 0%;
+  color: var(--boutton-background-color);
+  background: rgb(22, 30, 38);
 }
 
-.orderPopup-49:after {
-  content: " ";
-  position: absolute;
+.orderpoplb-63:after {
+  width: 200%;
   top: 0px;
   left: 0px;
   transform: scale(0.5);
   transform-origin: 0px 0px;
+  display: none;
+  content: "";
+  position: absolute;
+  inset: 0px;
+  border: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .orderpoplb-63 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
+}
+
+.orderpoplb-64 {
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
   box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  margin: 0px;
+  font-size: 0.75rem;
+  border-radius: 0.3125rem;
+  height: 2.1875rem;
+  flex: 1 1 0%;
+  color: rgba(255, 255, 255, 0.5);
+  background: rgb(22, 30, 38);
+  margin-left: 0.3125rem;
+}
+
+.orderpoplb-64:after {
+  width: 200%;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  display: none;
+  content: "";
+  position: absolute;
+  inset: 0px;
+  border: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .orderpoplb-64 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
+}
+
+.orderpoplb-65 {
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  font-size: 0.75rem;
+  border-radius: 0.3125rem;
+  height: 2.1875rem;
+  flex: 1 1 0%;
+  color: rgba(255, 255, 255, 0.5);
+  background: rgb(22, 30, 38);
+  margin-left: 0.3125rem;
+}
+
+.orderpoplb-65:after {
+  width: 200%;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  display: none;
+  content: "";
+  position: absolute;
+  inset: 0px;
+  border: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .orderpoplb-65 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
+}
+
+.orderpoplb-66 {
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  font-size: 0.75rem;
+  border-radius: 0.3125rem;
+  height: 2.1875rem;
+  flex: 1 1 0%;
+  color: rgba(255, 255, 255, 0.5);
+  background: rgb(22, 30, 38);
+  margin-left: 0.3125rem;
+}
+
+.orderpoplb-66:after {
+  width: 200%;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  display: none;
+  content: "";
+  position: absolute;
+  inset: 0px;
+  border: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .orderpoplb-66 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
+}
+
+.orderpoplb-67 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0.9375rem;
+  right: 0.9375rem;
+  height: 2.375rem;
+  background: rgb(4, 207, 153);
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  border-radius: 0.3125rem;
+}
+
+
+.orderpoplb-67-1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0.9375rem;
+  right: 0.9375rem;
+  height: 2.375rem;
+  background: rgb(243, 100, 100);
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  border-radius: 0.3125rem;
+}
+
+.orderpoplb-67:after {
+  width: 200%;
+  top: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  display: none;
+  content: "";
+  inset: 0px;
+  border: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .orderpoplb-67 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
 }

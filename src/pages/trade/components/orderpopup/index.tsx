@@ -43,7 +43,7 @@ export default function OrderPopup({
       let cykbl = hyYkbls[index];
       const node = (
         <div
-          class={type2 === index + 1 ? "orderPopup-22" : "orderPopup-25"}
+          class={type2 === index + 1 ? "orderpoplb-63" : "orderpoplb-64"}
           onClick={() => {
             setType2(index + 1);
             setminNum(hyTzed);
@@ -51,8 +51,8 @@ export default function OrderPopup({
             setcykbl(cykbl);
           }}
         >
-          <div class="orderPopup-23">{hyTime}</div>
-          <div class="orderPopup-24">{cykbl}%</div>
+          <div>{hyTime} </div>
+          <div>{cykbl}%</div>
         </div>
       );
       nodes.push(node);
@@ -77,103 +77,153 @@ export default function OrderPopup({
       position="bottom"
       bodyStyle={{ width: "100vw", backgroundColor: "#f5f5f5" }}
     >
-      <div class="orderPopup-1">
-        <div class="orderPopup-2">
-          <p class="orderPopup-3">{translate(getText("訂單確認"))}</p>
-          <div
-            class="orderPopup-4"
+      <div class="orderpoplb-1">
+        <div class="orderpoplb-2">
+          <div class="orderpoplb-3"></div>
+          <div class="orderpoplb-4">
+            <span class="orderpoplb-5">{nowTab?.toUpperCase()}/USDT</span>
+          </div>
+          <i
+            class="orderpoplb-6"
             onClick={() => {
               setIsShowOrder(false);
             }}
-          ></div>
+          ></i>
         </div>
-        <div class="orderPopup-5">
-          <div class="orderPopup-6">
-            <div class="orderPopup-7">
-              <p class="orderPopup-8">{translate(getText("名稱"))}</p>
-              <p class="orderPopup-9">
-                {nowTab?.toUpperCase()}
-                <span class="orderPopup-10">/USDT</span>
-              </p>
-            </div>
-            <div class="orderPopup-11">
-              <p class="orderPopup-12">{translate(getText("方向"))}</p>
-              <p class={type==1?"orderPopup-13":"orderPopup-13-1"} >{translate(getText(type == 1 ? "買多" : "買空"))}</p>
-            </div>
-            <div class="orderPopup-14">
-              <p class="orderPopup-15">{translate(getText("現價"))}</p>
-              <p class="orderPopup-16">{coinListData[nowTab]?.close}</p>
-            </div>
-          </div>
-          <div class="orderPopup-17">
-            <div class="orderPopup-18">
-              <div class="orderPopup-19">
-                <div class="orderPopup-20">
-                  <div class="orderPopup-21">{getNodes()}</div>
+        <div class="orderpoplb-7">
+          <div class="orderpoplb-8">
+            <div class="orderpoplb-9">
+              <div class="orderpoplb-10">
+                <div class="orderpoplb-11">
+                  {/* <div class="orderpoplb-12">
+                    <div class="orderpoplb-18">
+                      <div class="orderpoplb-19">
+                        <div class="orderpoplb-20">
+                          <div class="orderpoplb-21"></div>
+                          <div class="orderpoplb-22">
+                            <div class="orderpoplb-23">
+                              <div class="orderpoplb-24">
+                                <div class="orderpoplb-25"></div>
+                              </div>
+                              <div class="orderpoplb-26">
+                                <div class="orderpoplb-27"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="orderpoplb-28">
+                            <div class="orderpoplb-29">
+                              <div class="orderpoplb-30">
+                                <span class="orderpoplb-31">21:35</span>
+                              </div>
+                            </div>
+                            <div class="orderpoplb-32">
+                              <div class="orderpoplb-33">
+                                <span class="orderpoplb-34">21:36</span>
+                              </div>
+                            </div>
+                            <div class="orderpoplb-35">
+                              <div class="orderpoplb-36">
+                                <span class="orderpoplb-37">21:37</span>
+                              </div>
+                            </div>
+                            <div class="orderpoplb-38">
+                              <div class="orderpoplb-39">
+                                <span class="orderpoplb-40">21:38</span>
+                              </div>
+                            </div>
+                            <div class="orderpoplb-41">
+                              <div class="orderpoplb-42">
+                                <span class="orderpoplb-43">21:39</span>
+                              </div>
+                            </div>
+                            <div class="orderpoplb-44">
+                              <div class="orderpoplb-45">
+                                <span class="orderpoplb-46">21:40</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> */}
+                  <div class="orderpoplb-47">
+                    <div class="orderpoplb-48">
+                      <div class="orderpoplb-49">
+                        <div class="orderpoplb-50">最小</div>
+                        <div class="orderpoplb-51">
+                          <span class="orderpoplb-52">{minNum}</span>
+                        </div>
+                      </div>
+                      <div class="orderpoplb-53">
+                        <div class="orderpoplb-54">可用</div>
+                        <div class="orderpoplb-55">
+                          <span class="orderpoplb-56">{userInfo?.usdt}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="orderpoplb-57">数量</div>
+                    <div class="orderpoplb-58">
+                      <div class="orderpoplb-59">
+                        <input
+                          placeholder={translate(getText("最少10起買")).replace(
+                            "10",
+                            minNum
+                          )}
+                          type="number"
+                          maxlength="140"
+                          autocomplete="off"
+                          class="orderpoplb-61"
+                          min={minNum}
+                          name="num"
+                          value={num}
+                          onChange={(e) => {
+                            setNum(parseInt(e.target.value));
+                            setTimeout(() => {
+                              if (e.target.value && cykbl) {
+                                setyqsy(
+                                  parseInt(e.target.value) * cykbl * 0.01
+                                );
+                              } else {
+                                setyqsy(0);
+                              }
+                            }, 0);
+                          }}
+                        />
+                      </div>
+                    </div>
+                    <div class="orderpoplb-62">{getNodes()}</div>
+                  </div>
+                  <div
+                    class={type==1?"orderpoplb-67":"orderpoplb-67-1"}
+                    onClick={() => {
+                      if (num < minNum) {
+                        Toast.show({
+                          content: `${translate(
+                            getText("最低投資額")
+                          )} ${minNum}`,
+                        });
+                        return;
+                      }
+                      if (!isUse) {
+                        return;
+                      }
+                      setIsUse(false);
+                      setTimeout(() => {
+                        setIsUse(true);
+                      }, 3000);
+                      buyCoin({
+                        ccoinname: `${nowTab.toUpperCase()}/USDT`,
+                        ctzed: num,
+                        ctzfx: type,
+                        ctime: hyTimes[type2 - 1].toUpperCase(),
+                        cykbl,
+                      });
+                    }}
+                  >
+                    {translate(getText(type == 1 ? "看涨" : "看跌"))}
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="orderPopup-37">
-            <div class="orderPopup-38">
-              <div class="orderPopup-39">
-                <p class="orderPopup-40">{translate(getText("買入數量"))}</p>
-              </div>
-            </div>
-            <div class="orderPopup-41">
-              <div class="orderPopup-42">
-                <input
-                  placeholder={translate(getText("最少10起買"))}
-                  class="orderPopup-44"
-                  type="number"
-                  min={minNum}
-                  name="num"
-                  value={num}
-                  onChange={(e) => {
-                    setNum(parseInt(e.target.value));
-                    setTimeout(() => {
-                      if (e.target.value && cykbl) {
-                        setyqsy(parseInt(e.target.value) * cykbl * 0.01);
-                      } else {
-                        setyqsy(0);
-                      }
-                    }, 0);
-                  }}
-                />
-              </div>
-            </div>
-            <div class="orderPopup-45">
-              <p class="orderPopup-46">{translate(getText("可用餘額"))}:{userInfo?.usdt}</p>
-              {/* <p class="orderPopup-47">手續費:0%</p> */}
-            </div>
-          </div>
-          <div class="orderPopup-48">
-            <div
-              class="orderPopup-49"
-              onClick={() => {
-                if (num < minNum) {
-                  Toast.show({
-                    content: `${translate(getText("最低投資額"))} ${minNum}`,
-                  });
-                  return;
-                }
-                if (!isUse) {
-                  return;
-                }
-                setIsUse(false);
-                setTimeout(() => {
-                  setIsUse(true);
-                }, 3000);
-                buyCoin({
-                  ccoinname: `${nowTab.toUpperCase()}/USDT`,
-                  ctzed: num,
-                  ctzfx: type,
-                  ctime: hyTimes[type2 - 1].toUpperCase(),
-                  cykbl,
-                });
-              }}
-            >
-              {translate(getText("確認下單"))}
             </div>
           </div>
         </div>
