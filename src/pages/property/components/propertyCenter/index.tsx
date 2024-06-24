@@ -55,14 +55,14 @@ export default function PropertyCenter({
           </div>
           <div class="propertycenterlb-21">
             <div class="propertycenterlb-22">
-              <span class="propertycenterlb-23">今日收益：10827.00</span>
+              <span class="propertycenterlb-23">今日收益：0</span>
             </div>
             {/* <i class="propertycenterlb-24"></i> */}
           </div>
           <div class="propertycenterlb-25">
             <div class="propertycenterlb-26">
               <span class="propertycenterlb-27">
-                交割合约交易量：1369008.15
+                交易量：0
               </span>
             </div>
             {/* <i class="propertycenterlb-28"></i> */}

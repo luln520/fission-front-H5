@@ -73,7 +73,7 @@ export default function BottomBar({ index }) {
       <div
         class="bottomBar-23"
         onClick={() => {
-          navigate("/mycenter");
+          navigate("/lever/btc");
         }}
       >
         <div class="bottomBar-24">
