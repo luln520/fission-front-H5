@@ -63,6 +63,7 @@ import AboutUS from "../pages/aboutus";
 import ReloadPassword from "../pages/reloadPassword";
 import LeverRoleInfo from "../pages/leverRoleInfo";
 import GetProperty from "../pages/getProperty";
+import { huobiApi } from "../api/huobi";
 //全局
 export const WSContext = createContext([] as any[]);
 export const WSMinContext = createContext([] as any[]);
@@ -193,6 +194,16 @@ export default function AppRouter() {
       setnologinmsg(data.data?.data);
     }
   };
+  const loadHttpData = async () => {
+    // const temp = {};
+    for (const key in coinListDataMap) {
+      const data = await huobiApi.getPrice(key);
+      if (data.status == "ok") {
+        coinListDataMap = { ...coinListDataMap, [key]: data.data[0] };
+      }
+    }
+    setCoinListData(coinListDataMap);
+  };
   const getElement = (element) => {
     //关键信息
     const uid = localStorage.getItem("uid");
@@ -217,6 +228,8 @@ export default function AppRouter() {
   }, []);
   useEffect(() => {
     loadctmarketlistData().then(() => {
+      //调取http 初始化
+      loadHttpData();
       startWS();
     });
     return () => {

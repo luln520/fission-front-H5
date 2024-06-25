@@ -19,6 +19,7 @@ export default function GetProperty() {
   const mockUserAmount = async () => {
     const data = await userApi.mockUserAmount({uid});
     Toast.show(data?.msg);
+    navigate(-1);
   };
   return (
     <div className="page">
