@@ -13,6 +13,7 @@ export default function PropertyCenter({
   setVisibleCK,
   isShowZF,
   setIsShowPop,
+  mockUserInfo
 }) {
   const c2ctxStatus = localStorage.getItem("c2ctxStatus");
   const navigate = useNavigate();
@@ -51,7 +52,7 @@ export default function PropertyCenter({
           </div>
           <div class="propertycenterlb-18">
             <div class="propertycenterlb-19">
-              <span class="propertycenterlb-20">{userInfo?.usdt}</span>
+              <span class="propertycenterlb-20">{propertyType==1?userInfo?.usdt:mockUserInfo?.money}</span>
             </div>
           </div>
           <div class="propertycenterlb-21">
@@ -95,40 +96,44 @@ export default function PropertyCenter({
       </div>
       <div class="propertycenterlb-33">
         <div class="propertycenterlb-34">
-          <div
-            class="propertycenterlb-35"
-            onClick={() => {
-              navigate("/rechargelist");
-            }}
-          >
-            <div class="propertycenterlb-36">
-              <img
-                src="http://h5.tinshwk.xyz/static/menus/chongBi_d.png"
-                draggable="false"
-                class="propertycenterlb-39"
-              />
+          {propertyType == 1 && (
+            <div
+              class="propertycenterlb-35"
+              onClick={() => {
+                navigate("/rechargelist");
+              }}
+            >
+              <div class="propertycenterlb-36">
+                <img
+                  src="http://h5.tinshwk.xyz/static/menus/chongBi_d.png"
+                  draggable="false"
+                  class="propertycenterlb-39"
+                />
+              </div>
+              <div class="propertycenterlb-40">
+                <span class="propertycenterlb-41">充币</span>
+              </div>
             </div>
-            <div class="propertycenterlb-40">
-              <span class="propertycenterlb-41">充币</span>
+          )}
+          {propertyType == 1 && (
+            <div
+              class="propertycenterlb-42"
+              onClick={() => {
+                navigate("/extractlist");
+              }}
+            >
+              <div class="propertycenterlb-43">
+                <img
+                  src="http://h5.tinshwk.xyz/static/menus/tiBi_d.png"
+                  draggable="false"
+                  class="propertycenterlb-46"
+                />
+              </div>
+              <div class="propertycenterlb-47">
+                <span class="propertycenterlb-48">提币</span>
+              </div>
             </div>
-          </div>
-          <div
-            class="propertycenterlb-42"
-            onClick={() => {
-              navigate("/extractlist");
-            }}
-          >
-            <div class="propertycenterlb-43">
-              <img
-                src="http://h5.tinshwk.xyz/static/menus/tiBi_d.png"
-                draggable="false"
-                class="propertycenterlb-46"
-              />
-            </div>
-            <div class="propertycenterlb-47">
-              <span class="propertycenterlb-48">提币</span>
-            </div>
-          </div>
+          )}
           <div
             class="propertycenterlb-49"
             onClick={() => {
@@ -185,7 +190,7 @@ export default function PropertyCenter({
         <div class="propertycenterlb-70">
           <div class="propertycenterlb-71">币币</div>
           <div class="propertycenterlb-72">
-            <span class="propertycenterlb-73">{userInfo?.usdt}</span>
+            <span class="propertycenterlb-73">{propertyType==1?userInfo?.usdt:mockUserInfo?.money}</span>
           </div>
           <i class="propertycenterlb-74"></i>
         </div>

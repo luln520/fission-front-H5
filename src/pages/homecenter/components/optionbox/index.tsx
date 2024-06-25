@@ -10,43 +10,48 @@ export default function Optionbox({ loginmsg }) {
   const { t: translate } = useTranslation();
   const la = localStorage.getItem("i18n") ? localStorage.getItem("i18n") : "en";
   const companySkin = localStorage.getItem("companySkin");
+  const propertyType = localStorage.getItem("propertyType");
   return (
     <div class="optionbox-1">
       <div class="optionbox-2">
-        <div
-          class="optionbox-3"
-          onClick={() => {
-            navigate("/extractlist");
-          }}
-        >
-          <div class="optionbox-4">
-            <img
-              src="http://h5.tinshwk.xyz/static/menus/tiBi_d.png"
-              draggable="false"
-              class="optionbox-7"
-            />
+        {propertyType == 1 && (
+          <div
+            class="optionbox-3"
+            onClick={() => {
+              navigate("/extractlist");
+            }}
+          >
+            <div class="optionbox-4">
+              <img
+                src="http://h5.tinshwk.xyz/static/menus/tiBi_d.png"
+                draggable="false"
+                class="optionbox-7"
+              />
+            </div>
+            <div class="optionbox-8">
+              <span class="optionbox-9">提币</span>
+            </div>
           </div>
-          <div class="optionbox-8">
-            <span class="optionbox-9">提币</span>
+        )}
+        {propertyType == 1 && (
+          <div
+            class="optionbox-10"
+            onClick={() => {
+              navigate("/rechargelist");
+            }}
+          >
+            <div class="optionbox-11">
+              <img
+                src="http://h5.tinshwk.xyz/static/menus/chongBi_d.png"
+                draggable="false"
+                class="optionbox-14"
+              />
+            </div>
+            <div class="optionbox-15">
+              <span class="optionbox-16">充币</span>
+            </div>
           </div>
-        </div>
-        <div
-          class="optionbox-10"
-          onClick={() => {
-            navigate("/rechargelist");
-          }}
-        >
-          <div class="optionbox-11">
-            <img
-              src="http://h5.tinshwk.xyz/static/menus/chongBi_d.png"
-              draggable="false"
-              class="optionbox-14"
-            />
-          </div>
-          <div class="optionbox-15">
-            <span class="optionbox-16">充币</span>
-          </div>
-        </div>
+        )}
         <div
           class="optionbox-17"
           onClick={() => {

@@ -11,6 +11,7 @@ export default function Propertypop({
   isShowPop,
   setIsShowPop,
   changepropertyType,
+  mockUserInfo
 }) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
@@ -60,7 +61,7 @@ export default function Propertypop({
                     >
                       <div class="propertypop-15">模拟账户</div>
                       <div class="propertypop-16">
-                        <span class="propertypop-17">USDT 3000.00</span>
+                        <span class="propertypop-17">USDT {mockUserInfo?.money}</span>
                       </div>
                     </div>
                   </div>

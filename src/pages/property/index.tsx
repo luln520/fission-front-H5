@@ -22,7 +22,8 @@ import { userApi } from "../../api/user-api";
 export default function Property() {
   const uid = localStorage.getItem("uid");
   const navigate = useNavigate();
-  const [userInfo, setuserInfo] = useState([] as any[]);
+  const [userInfo, setuserInfo] = useState({} as any);
+  const [mockUserInfo, setMockUserInfo] = useState({} as any);
   const [arealist, setarealist] = useState([] as any[]);
   const [currencylist, setcurrencylist] = useState([] as any[]);
   const [cklist, setcklist] = useState([] as any[]);
@@ -74,7 +75,7 @@ export default function Property() {
   const getMockUserInfo = async () => {
     const data = await userApi.mockUserInfo({ uid });
     if (data.ok) {
-      setuserInfo(data.data);
+      setMockUserInfo(data.data);
     }
   };
 
@@ -82,8 +83,8 @@ export default function Property() {
     const data = await userApi.mockUser({ type, uid });
     if (data.ok) {
       localStorage.setItem("propertyType", type);
+      setIsShowPop(false);
     }
-    Toast.show(data.msg);
   };
 
   //加载数 据
@@ -142,6 +143,7 @@ export default function Property() {
     <div className="page">
       <PropertyCenter
         userInfo={userInfo}
+        mockUserInfo={mockUserInfo}
         qbSum={qbSum}
         setVisibleCK={setVisibleCK}
         setVisibleTK={setVisibleTK}
@@ -151,6 +153,7 @@ export default function Property() {
       />
       {/* 侧拉框 */}
       <Propertypop
+        mockUserInfo={mockUserInfo}
         userInfo={userInfo}
         isShowPop={isShowPop}
         setIsShowPop={setIsShowPop}

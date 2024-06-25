@@ -73,7 +73,7 @@ export default function JYJLLever2() {
     <div
       className="page"
     >
-      <TopBar title={translate(getText("槓桿持仓"))} isBack={true} />
+      <TopBar title={translate(getText("永续持仓"))} isBack={true} />
       <CenterPage
         coinListData={coinListData}
         leverorders={leverorders}

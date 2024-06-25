@@ -37,7 +37,7 @@ export default function CenterPage({ leverorders, closeorder, coinListData }) {
   //           <div className="jyjl-11">
   //             <div className="jyjl-12">
   //               <div className="jyjl-13">{data.num.toFixed(4)}</div>
-  //               <div className="jyjl-14">{translate(getText("槓桿"))}</div>
+  //               <div className="jyjl-14">{translate(getText("永续"))}</div>
   //               <div className="jyjl-15">{data.buytime?.substring(0, 16)}</div>
   //             </div>
   //             <span className="jyjl-16">

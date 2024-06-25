@@ -66,7 +66,9 @@ export default function Trade() {
     "KDJ",
     "RSI",
   ];
+  const times = ["1M", "5M", "15M", "30M", "1H", "1D", "7D"];
   const [nowzb, setnowzb] = useState(zbs[0]);
+  const [nowtime, setnowtime] = useState(times[0]);
   //初始化获取公司
   async function initCompany() {
     const res = await companyApi.domain();
@@ -228,7 +230,7 @@ export default function Trade() {
         setvisibleInfoMsg={setvisibleInfoMsg}
         coinListData={coinListData}
       />
-      <TopText zbs={zbs} nowzb={nowzb} setnowzb={setnowzb} />
+      <TopText zbs={zbs} nowzb={nowzb} setnowzb={setnowzb} nowtime={nowtime} setnowtime={setnowtime} times={times} settimeindex={settimeindex}/>
       {nowTab && (
         <KineCenter
           nowTab={nowTab}
@@ -237,6 +239,8 @@ export default function Trade() {
           timeindex={timeindex}
           settimeindex={settimeindex}
           nowzb={nowzb}
+          nowtime={nowtime}
+          times={times}
         />
       )}
       {/* 订单信息 */}

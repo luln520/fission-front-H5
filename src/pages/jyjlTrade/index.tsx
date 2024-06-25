@@ -24,7 +24,7 @@ export default function JYJLTrade() {
   }, []);
   return (
     <div className="page">
-      <TopBar title={translate(getText("期權"))} isBack={true} />
+      <TopBar title={translate(getText("交割合约"))} isBack={true} />
       <CenterPage hyorders={hyorders} />
     </div>
   );

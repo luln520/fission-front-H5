@@ -20,7 +20,7 @@ export default function CenterPage() {
         }}
       >
         <div className="help-3">
-          <span className="help-4">{translate(getText("期權"))}</span>
+          <span className="help-4">{translate(getText("交割合约"))}</span>
         </div>
         <i className="help-5"></i>
       </div>
@@ -32,7 +32,7 @@ export default function CenterPage() {
         }}
       >
         <div className="help-3">
-          <span className="help-4">{translate(getText("槓桿"))}</span>
+          <span className="help-4">{translate(getText("永续"))}</span>
         </div>
         <i className="help-5"></i>
       </div>

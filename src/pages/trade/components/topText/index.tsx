@@ -6,7 +6,15 @@ import { imageConfig } from "../../../../config/config";
 import { getText } from "../../../../utils/util";
 import "./index.css";
 
-export default function TopText({ zbs, nowzb, setnowzb }) {
+export default function TopText({
+  zbs,
+  nowzb,
+  setnowzb,
+  nowtime,
+  setnowtime,
+  times,
+  settimeindex,
+}) {
   const navigate = useNavigate();
   const [num, setNum] = useState(1);
   const [show1, setshow1] = useState(false);
@@ -36,6 +44,29 @@ export default function TopText({ zbs, nowzb, setnowzb }) {
     }
     return nodes;
   };
+
+  const getTimes = () => {
+    const nodes = [];
+    for (const i in times) {
+      const time = times[i];
+      nodes.push(
+        <div
+          class="listmin-2"
+          onClick={() => {
+            settimeindex(parseInt(i)+1);
+            setnowtime(time);
+            setshow2(false);
+            setshow1(!show1);
+          }}
+        >
+          <div class="listmin-3">
+            <span class="listmin-4">{time}</span>
+          </div>
+        </div>
+      );
+    }
+    return nodes;
+  };
   const { t: translate } = useTranslation();
   return (
     <>
@@ -49,7 +80,7 @@ export default function TopText({ zbs, nowzb, setnowzb }) {
           }}
         >
           <div class="marketTopTextlb-3">
-            <span class="marketTopTextlb-4">1min</span>
+            <span class="marketTopTextlb-4">{nowtime}</span>
           </div>
           <i class="marketTopTextlb-5"></i>
         </div>
@@ -68,25 +99,7 @@ export default function TopText({ zbs, nowzb, setnowzb }) {
         </div>
       </div>
       {/* 显示 */}
-      {show1 && (
-        <div class="listmin-1">
-          <div
-            class="listmin-2"
-            onClick={() => {
-              setshow2(false);
-              setshow1(!show1);
-            }}
-          >
-            <div class="listmin-3">
-              <span class="listmin-4">1min</span>
-            </div>
-            <div class="listmin-5">
-              <span class="listmin-6"></span>
-            </div>
-            <i class="listmin-7"></i>
-          </div>
-        </div>
-      )}
+      {show1 && <div class="listmin-1">{getTimes()}</div>}
 
       {show2 && <div class="listvol-1">{getItem()}</div>}
     </>

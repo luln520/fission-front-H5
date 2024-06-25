@@ -12,7 +12,8 @@ export default function MyChartComponent({
   setType,
   timeindex,
   settimeindex,
-  nowzb
+  nowzb,
+  nowtime
 }) {
   const [coinListData, setCoinListData] = useContext(WSContext);
   const [coinListMinData, _] = useContext(WSMinContext);
@@ -20,7 +21,6 @@ export default function MyChartComponent({
   const [kLineDatas, setkLineDatas] = useState([] as any[]);
   const [kchart, setkchart] = useState();
   const klinePeriod = [
-    { multiplier: 1, timespan: "minute" },
     { multiplier: 1, timespan: "minute" },
     { multiplier: 5, timespan: "minute" },
     { multiplier: 15, timespan: "minute" },
@@ -92,7 +92,7 @@ export default function MyChartComponent({
         },
       },
       candle: {
-        type: timeindex == 1 ? "area" : "candle_solid",
+        type: "candle_solid",
         area: {
           lineSize: 1,
         },
@@ -164,7 +164,7 @@ export default function MyChartComponent({
   }, [coinListMinData[nowTab]?.close, coinListData[nowTab]?.close]);
   useEffect(() => {
     initChart();
-  }, [timeindex, nowTab,nowzb]);
+  }, [timeindex, nowTab,nowzb,nowtime]);
   return (
     <div>
       <div id="k-line-chart" style={{ height: "280px", width: "100%" }}></div>

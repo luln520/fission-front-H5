@@ -43,7 +43,7 @@ export default function JYJLLever() {
         backgroundColor: "rgb(247, 247, 247)",
       }}
     >
-      <TopBar title={translate(getText("槓桿"))} isBack={true} />
+      <TopBar title={translate(getText("永续"))} isBack={true} />
       <CenterPage leverorders={leverorders} closeorder={closeorder} coinListData={coinListData} />
     </div>
   );
