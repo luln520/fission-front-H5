@@ -336,7 +336,24 @@ export default function Lever() {
         nowTab={nowTab}
         coinListData={coinListData}
       /> */}
-      <DataListAndBuy huobigetHistory={huobigetHistory} />
+      <DataListAndBuy
+        huobigetHistory={huobigetHistory}
+        leverSet1={leverSet1}
+        leverSet2={leverSet2}
+        leverage={leverage}
+        type={type}
+        setyqsy={0}
+        setType={setType}
+        userInfo={userInfo}
+        hysetInfo={hysetInfo}
+        buyCoin={buyCoin}
+        isShowOrder={isShowOrder}
+        setIsShowOrder={setIsShowOrder}
+        nowTab={nowTab}
+        coinListData={coinListData}
+        ctmarketlist={ctmarketlist}
+        index={1}
+      />
       <OrderList
         closeorder={closeorder}
         addnumFun={addnum}

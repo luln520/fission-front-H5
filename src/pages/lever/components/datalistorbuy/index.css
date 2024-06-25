@@ -109,6 +109,21 @@
   background: rgb(4, 207, 153);
 }
 
+.leverListAndBuy-8-1 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 1.5625rem;
+  height: 2.3125rem;
+  flex: 1 1 0%;
+  justify-content: center;
+  margin: 0px;
+  background: rgb(243, 100, 100);
+}
+
 .leverListAndBuy-8:after {
   border-color: rgb(30, 39, 48) !important;
 }
@@ -296,7 +311,7 @@
   flex: 1 1 0%;
   background: inherit;
   color: rgb(255, 255, 255);
-  pointer-events: none;
+
 }
 
 .leverListAndBuy-20:after {
@@ -336,7 +351,7 @@
   text-overflow: clip;
   white-space: pre;
   word-break: keep-all;
-  pointer-events: none;
+
   line-height: inherit;
   top: auto !important;
   scrollbar-width: none;
@@ -750,7 +765,7 @@
   left: 0px;
   width: 100%;
   z-index: 3;
-  pointer-events: none;
+
   top: 0px;
   height: 100%;
   margin: 0px auto;
@@ -786,7 +801,7 @@
   left: 0px;
   width: 100%;
   z-index: 3;
-  pointer-events: none;
+
   top: 50%;
   transform: translateY(-50%);
   scrollbar-width: none;
@@ -1056,7 +1071,7 @@
   flex: 1 1 0%;
   background: inherit;
   color: rgb(255, 255, 255);
-  pointer-events: none;
+
   text-align: center;
 }
 
@@ -1097,7 +1112,7 @@
   text-overflow: clip;
   white-space: pre;
   word-break: keep-all;
-  pointer-events: none;
+
   line-height: inherit;
   top: auto !important;
   scrollbar-width: none;
@@ -1205,13 +1220,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: rgb(255, 255, 255);
-  pointer-events: none;
+  color: #fff;
+
   width: 1.875rem;
   height: 2.25rem;
   background: transparent;
   border: 1px solid rgb(71, 77, 87);
-  opacity: 0.4;
   border-radius: 0.3125rem 0px 0px 0.3125rem;
 }
 
@@ -1228,7 +1242,6 @@
   transform-origin: center center;
   top: 50%;
   left: 50%;
-  display: none;
 }
 
 .leverListAndBuy-72:before {
@@ -1307,7 +1320,7 @@
   text-overflow: clip;
   white-space: pre;
   word-break: keep-all;
-  pointer-events: none;
+
   line-height: inherit;
   top: auto !important;
   scrollbar-width: none;
@@ -1378,7 +1391,7 @@
 
 .leverListAndBuy-77:after {
   inset: 0px;
-  pointer-events: none;
+
   border-color: rgb(30, 39, 48) !important;
   transform: translate(-50%, -50%);
   transform-origin: center center;
@@ -1710,6 +1723,36 @@
   background: rgb(4, 207, 153);
 }
 
+.leverListAndBuy-92-1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.25rem;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  border-radius: 0.3125rem;
+  margin: 0.9375rem 0.9375rem 0px;
+  background: rgb(243, 100, 100);
+}
+
 .leverListAndBuy-92:after {
   width: 200%;
   top: 0px;
@@ -1721,7 +1764,7 @@
   position: absolute;
   inset: 0px;
   border: 0px;
-  pointer-events: none;
+
   border-color: rgb(30, 39, 48) !important;
 }
 
@@ -2495,7 +2538,6 @@
   position: absolute;
   max-width: 100%;
   background: rgba(243, 100, 100, 0.1);
-  width: 102.791%;
 }
 
 .leverListAndBuy-149:after {
