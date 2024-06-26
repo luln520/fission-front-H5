@@ -1922,3 +1922,188 @@
   border: none;
   text-align: center;
 }
+
+.leverchangebar-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.leverchangebar-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0.9375rem;
+}
+
+.leverchangebar-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+  height: 42px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  padding: 0px;
+  margin-right: 1.25rem;
+  font-size: 0.875rem;
+  width: auto !important;
+}
+
+.leverchangebar-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  white-space: nowrap;
+  color: var(--boutton-background-color);
+}
+
+.leverchangebar-4:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverchangebar-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+  height: 42px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  padding: 0px;
+  margin-right: 1.25rem;
+  font-size: 0.875rem;
+  width: auto !important;
+
+}
+
+.leverchangebar-6:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  white-space: nowrap;
+  color: rgb(100, 101, 102);
+}
+
+.leverchangebar-7:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverchangebar-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+  height: 42px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  padding: 0px;
+  margin-right: 1.25rem;
+  font-size: 0.875rem;
+  width: auto !important;
+  color: rgb(100, 101, 102);
+}
+
+.leverchangebar-9:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  white-space: nowrap;
+}
+
+.leverchangebar-10:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverchangebar-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  transition: all ease 0.25s;
+  transform: translateX(33.09375px);
+  bottom: 0px;
+  width: 23.25px;
+  height: 0.1875rem;
+  border-radius: 3.125rem;
+}
+
+.leverchangebar-12:after {
+  border-color: rgb(30, 39, 48) !important;
+}

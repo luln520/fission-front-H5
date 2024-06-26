@@ -366,7 +366,7 @@ export default function Lever() {
         leverorders={leverorders}
       />
 
-      <TopBuy setIsShowOrder={setIsShowOrder} setType={setType} />
+      {/* <TopBuy setIsShowOrder={setIsShowOrder} setType={setType} /> */}
       <div
         style={{
           height: "50px",
@@ -399,7 +399,7 @@ export default function Lever() {
         ctmarketlist={ctmarketlist}
         index={1}
       />
-      <BottomBar index={3} />
+      <BottomBar index={4} />
     </div>
   );
 }

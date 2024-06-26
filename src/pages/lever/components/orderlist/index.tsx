@@ -29,6 +29,7 @@ export default function OrderList({
   const [lossnum, setlossnum] = useState("");
   const [winnum, setwinnum] = useState("");
   const [editLossWinVisible, seteditLossWinVisible] = useState(false);
+  const [type, setType] = useState(1);
 
   const getboomPrice = (type, bsnum) => {
     const openPrice = coinListData[nowTab]?.close;
@@ -108,17 +109,25 @@ export default function OrderList({
             <div class="leverorderlistItem11-6">
               <div class="leverorderlistItem11-7">
                 <div class="leverorderlistItem11-8">
-                  <p class="leverorderlistItem11-9">{translate(getText("交易品種"))}</p>
+                  <p class="leverorderlistItem11-9">
+                    {translate(getText("交易品種"))}
+                  </p>
                   <p class="leverorderlistItem11-10">{data.coinname}</p>
-                  <p class="leverorderlistItem11-11">{translate(getText("保证金"))}</p>
+                  <p class="leverorderlistItem11-11">
+                    {translate(getText("保证金"))}
+                  </p>
                   <p class="leverorderlistItem11-12">{data.num?.toFixed(4)}</p>
-                  <p class="leverorderlistItem11-13">{translate(getText("倍数"))}</p>
+                  <p class="leverorderlistItem11-13">
+                    {translate(getText("倍数"))}
+                  </p>
                   <p class="leverorderlistItem11-14">{data.fold}</p>
                 </div>
               </div>
               <div class="leverorderlistItem11-15">
                 <div class="leverorderlistItem11-16">
-                  <p class="leverorderlistItem11-17">{translate(getText("開倉價"))}</p>
+                  <p class="leverorderlistItem11-17">
+                    {translate(getText("開倉價"))}
+                  </p>
                   <p class="leverorderlistItem11-18">
                     {data.buyprice?.toFixed(4)}
                   </p>
@@ -133,7 +142,9 @@ export default function OrderList({
                     {data.status != 1 && data.sellprice}
                     &nbsp;
                   </p>
-                  <p class="leverorderlistItem11-21">{translate(getText("强平价格"))}</p>
+                  <p class="leverorderlistItem11-21">
+                    {translate(getText("强平价格"))}
+                  </p>
                   <p class="leverorderlistItem11-22">
                     {data.boomPrice?.toFixed(4)}
                   </p>
@@ -141,7 +152,9 @@ export default function OrderList({
               </div>
               <div class="leverorderlistItem11-23">
                 <div class="leverorderlistItem11-24">
-                  <p class="leverorderlistItem11-25">{translate(getText("方向"))}</p>
+                  <p class="leverorderlistItem11-25">
+                    {translate(getText("方向"))}
+                  </p>
                   <p
                     class={
                       data.hyzd == 1
@@ -151,11 +164,15 @@ export default function OrderList({
                   >
                     {translate(getText(data.hyzd == 1 ? "買多" : "買空"))}
                   </p>
-                  <p class="leverorderlistItem11-25">{translate(getText("止損價"))}</p>
+                  <p class="leverorderlistItem11-25">
+                    {translate(getText("止損價"))}
+                  </p>
                   <p class="leverorderlistItem11-26">
                     {data.lossPrice?.toFixed(4)}
                   </p>
-                  <p class="leverorderlistItem11-27">{translate(getText("止盈價"))}</p>
+                  <p class="leverorderlistItem11-27">
+                    {translate(getText("止盈價"))}
+                  </p>
                   <p class="leverorderlistItem11-28">
                     {data.winPrice?.toFixed(4)}
                   </p>
@@ -165,7 +182,9 @@ export default function OrderList({
             <div class="leverorderlistItem11-29">
               {data.status == 1 && (
                 <div class="leverorderlistItem11-30">
-                  <p class="leverorderlistItem11-31">{translate(getText("預期收益"))}</p>
+                  <p class="leverorderlistItem11-31">
+                    {translate(getText("預期收益"))}
+                  </p>
                   <p
                     class={
                       (priceyd < 0 && data.hyzd == 1) ||
@@ -183,7 +202,9 @@ export default function OrderList({
               )}
               {data.status == 2 && (
                 <div class="leverorderlistItem11-30">
-                  <p class="leverorderlistItem11-31">{translate(getText("收益"))}</p>
+                  <p class="leverorderlistItem11-31">
+                    {translate(getText("收益"))}
+                  </p>
                   <p
                     class={
                       data.ploss > 0
@@ -206,8 +227,8 @@ export default function OrderList({
                   Dialog.confirm({
                     title: translate(getText("提示")),
                     message: translate(getText("是否确认平仓？")),
-                    cancelButtonText:translate(getText("取消")),
-                    confirmButtonText:translate(getText("确认")),
+                    cancelButtonText: translate(getText("取消")),
+                    confirmButtonText: translate(getText("确认")),
                     onConfirm: () => {
                       closeorder(
                         data.id,
@@ -274,42 +295,43 @@ export default function OrderList({
     return nodes;
   };
   return (
-    <div class="orderlisttab-1">
-      <div class="orderlisttab-2">
-        <div class="orderlisttab-3">
-          <div class="orderlisttab-4">
-            <div class="orderlisttab-5">
-              <div
-                class={orderindex == 1 ? "orderlisttab-6" : "orderlisttab-7"}
-                onClick={() => {
-                  setorderindex(1);
-                }}
-              >
-                {translate(getText("持倉"))}
-              </div>
-              <div
-                class={orderindex == 2 ? "orderlisttab-6" : "orderlisttab-7"}
-                onClick={() => {
-                  setorderindex(2);
-                }}
-              >
-                {translate(getText("已成交"))}
-              </div>
-              <div
-                class={orderindex == 3 ? "orderlisttab-6" : "orderlisttab-7"}
-                onClick={() => {
-                  setorderindex(3);
-                }}
-              >
-                {translate(getText("已平倉"))}
-              </div>
+    <div
+      style={{
+        borderTop: ".625rem solid #030708",
+      }}
+    >
+      <div class="leverchangebar-1">
+        <div class="leverchangebar-2">
+          <div class="leverchangebar-3">
+            <div
+              class={type == 1 ? "leverchangebar-4" : "leverchangebar-7"}
+              onClick={() => {
+                setType(1);
+              }}
+            >
+              <span class="leverchangebar-5">持仓</span>
+            </div>
+          </div>
+          <div class="leverchangebar-6">
+            <div
+              class={type == 2 ? "leverchangebar-4" : "leverchangebar-7"}
+              onClick={() => {
+                setType(2);
+              }}
+            >
+              <span class="leverchangebar-8">历史委托</span>
             </div>
           </div>
         </div>
+        <div class="leverchangebar-12"></div>
       </div>
-      <div class="orderlisttab-11">
+      <div
+        style={{
+          boxSizing: "border-box",
+          padding: "0 20px",
+        }}
+      >
         {getNode1()}
-        <div style={{ height: "10px" }}></div>
       </div>
       {/* 加仓 */}
       <Dialog
@@ -596,5 +618,44 @@ export default function OrderList({
         </div>
       </Dialog>
     </div>
+    // <div class="orderlisttab-1">
+    //   <div class="orderlisttab-2">
+    //     <div class="orderlisttab-3">
+    //       <div class="orderlisttab-4">
+    //         <div class="orderlisttab-5">
+    //           <div
+    //             class={orderindex == 1 ? "orderlisttab-6" : "orderlisttab-7"}
+    //             onClick={() => {
+    //               setorderindex(1);
+    //             }}
+    //           >
+    //             {translate(getText("持倉"))}
+    //           </div>
+    //           <div
+    //             class={orderindex == 2 ? "orderlisttab-6" : "orderlisttab-7"}
+    //             onClick={() => {
+    //               setorderindex(2);
+    //             }}
+    //           >
+    //             {translate(getText("已成交"))}
+    //           </div>
+    //           <div
+    //             class={orderindex == 3 ? "orderlisttab-6" : "orderlisttab-7"}
+    //             onClick={() => {
+    //               setorderindex(3);
+    //             }}
+    //           >
+    //             {translate(getText("已平倉"))}
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    //   <div class="orderlisttab-11">
+    //     {getNode1()}
+    //     <div style={{ height: "10px" }}></div>
+    //   </div>
+
+    // </div>
   );
 }
