@@ -71,7 +71,8 @@ export default function OrderList({
 
   const getNode1 = () => {
     const nodes = [];
-    const leverorderstemp = leverorders.filter(
+    let leverorderstemp=leverorders.filter((data) => data.coinname === tab);
+    leverorderstemp = leverorderstemp.filter(
       (data) => data.status === (orderindex == 1 ? 1 : 2)
     );
     for (let index = 0; index < leverorderstemp.length; index++) {
@@ -304,9 +305,9 @@ export default function OrderList({
         <div class="leverchangebar-2">
           <div class="leverchangebar-3">
             <div
-              class={type == 1 ? "leverchangebar-4" : "leverchangebar-7"}
+              class={orderindex == 1 ? "leverchangebar-4" : "leverchangebar-7"}
               onClick={() => {
-                setType(1);
+                setorderindex(1);
               }}
             >
               <span class="leverchangebar-5">持仓</span>
@@ -314,9 +315,9 @@ export default function OrderList({
           </div>
           <div class="leverchangebar-6">
             <div
-              class={type == 2 ? "leverchangebar-4" : "leverchangebar-7"}
+              class={orderindex == 2 ? "leverchangebar-4" : "leverchangebar-7"}
               onClick={() => {
-                setType(2);
+                setorderindex(2);
               }}
             >
               <span class="leverchangebar-8">历史委托</span>
