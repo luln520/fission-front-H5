@@ -174,7 +174,14 @@ export default function OrderList({ hyorders, nowTab }) {
         </div>
         <div class="tradechangebar-12"></div>
       </div>
-      <div>{getNode()}</div>
+      <div
+        style={{
+          boxSizing: "border-box",
+          padding: "0 20px",
+        }}
+      >
+        {getNode()}
+      </div>
     </div>
   );
 }

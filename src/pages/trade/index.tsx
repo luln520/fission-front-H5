@@ -249,7 +249,7 @@ export default function Trade() {
       <TopBuy setIsShowOrder={setIsShowOrder} setType={setType} />
       <div
         style={{
-          height: "50px",
+          height: "100px",
         }}
       ></div>
       {/* 左边弹框  */}

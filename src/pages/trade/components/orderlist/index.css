@@ -176,7 +176,6 @@
   bottom: 0px;
   width: 23.25px;
   height: 0.1875rem;
-  background: rgb(240, 193, 99);
   border-radius: 3.125rem;
 }
 
@@ -470,6 +469,24 @@
   color: rgb(4, 207, 153);
 }
 
+.tradelistruning-16-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 0.8125rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+  flex: 1 1 0%;
+  margin-left: 0.9375rem;
+  justify-content: flex-end;
+  color: rgb(243, 100, 100);
+}
 .tradelistruning-16:after {
   border-color: rgb(30, 39, 48) !important;
 }
