@@ -73,9 +73,6 @@ export default function AddressList() {
   return (
     <div
       className="page"
-      style={{
-        backgroundColor: "rgb(245, 245, 245)",
-      }}
     >
       <TopBar2 title={translate(getText("地址管理"))} isBack={true} />
       <ListPage addressList={addressList} delAddress={delAddress} coinList={coinList} />

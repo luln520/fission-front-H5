@@ -154,7 +154,7 @@ export default function PropertyCenter({
           <div
             class="propertycenterlb-56"
             onClick={() => {
-              navigate("/changelanguage");
+              navigate("/addresslist");
             }}
           >
             <div class="propertycenterlb-57">
@@ -165,7 +165,7 @@ export default function PropertyCenter({
               />
             </div>
             <div class="propertycenterlb-61">
-              <span class="propertycenterlb-62">语言</span>
+              <span class="propertycenterlb-62">地址</span>
             </div>
           </div>
         </div>

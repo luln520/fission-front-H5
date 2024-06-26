@@ -10,7 +10,7 @@
   background: transparent;
   -webkit-font-smoothing: antialiased;
   text-align: center;
-  color: rgb(44, 62, 80);
+  color: #fff;
 }
 
 .addressTop-2 {
@@ -24,7 +24,6 @@
   vertical-align: baseline;
   background: transparent;
   height: auto;
-  background-color: rgb(245, 245, 245);
 }
 
 .addressTop-3 {
@@ -40,7 +39,7 @@
   padding-top: 20px;
   text-align: left;
   padding-left: 1rem;
-  color: rgb(54, 54, 54);
+  color: #fff;
 }
 
 .addressTop-4 {
@@ -53,7 +52,6 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
-  background-color: rgb(255, 255, 255);
 }
 
 .addressTop-5 {
@@ -85,7 +83,7 @@
   font-size: 15px;
   vertical-align: baseline;
   background: transparent;
-  color: rgb(54, 54, 54);
+  color: #fff;
   padding-right: 20px;
 }
 
@@ -184,7 +182,6 @@
   display: block;
   width: 1.25em;
   height: 1.25em;
-  color: rgb(255, 255, 255);
   text-align: center;
   transition-duration: 0.2s;
   transition-property: color, border-color, background-color;
@@ -214,7 +211,6 @@
   vertical-align: baseline;
   background: transparent;
   margin-left: 8px;
-  color: rgb(50, 50, 51);
   line-height: 20px;
 }
 
@@ -560,7 +556,7 @@
   font-size: 15px;
   vertical-align: baseline;
   background: transparent;
-  color: rgb(54, 54, 54);
+  color: #fff;
   padding-right: 20px;
 }
 
@@ -582,9 +578,8 @@
   display: flex;
   width: 100%;
   overflow: hidden;
-  color: rgb(50, 50, 51);
+  color: #fff;
   line-height: 24px;
-  background-color: rgb(255, 255, 255);
   flex: 1 1 0%;
 }
 
@@ -619,7 +614,7 @@
   flex: 1 1 0%;
   position: relative;
   overflow: visible;
-  color: rgb(50, 50, 51);
+  color: #fff;
   text-align: left;
   overflow-wrap: break-word;
 }
@@ -647,7 +642,7 @@
 .addressTop-29 {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  color: rgb(33, 33, 33);
+  color: #fff;
   font: inherit;
   margin: 0px;
   overflow: visible;

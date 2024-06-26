@@ -61,4 +61,10 @@ export const userApi = {
   mockUserInfo: (param) => {
     return getRequest('/api/pc/user/mockUserInfo', param);
   },
+  /**
+*用户团队
+*/
+  userTeams: (param) => {
+    return getRequest('/api/pc/user/userTeams', param);
+  },
 };

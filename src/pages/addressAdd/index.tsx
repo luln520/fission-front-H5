@@ -73,9 +73,6 @@ export default function AddressAdd() {
   return (
     <div
       className="page"
-      style={{
-        backgroundColor: "rgb(245, 245, 245)",
-      }}
     >
       <TopBar2 title={translate(getText("添加钱包地址"))} isBack={true} />
       <TopPage

@@ -1,0 +1,2495 @@
+.sharecenter-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 0px;
+}
+
+.sharecenter-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0.3125rem;
+  background: rgb(255, 255, 255);
+  width: fit-content;
+}
+
+.sharecenter-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 130px;
+  height: 130px;
+}
+
+.sharecenter-4:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.sharecenter-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sharecenter-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.sharecenter-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.sharecenter-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.sharecenter-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.sharecenter-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.sharecenter-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-12:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-13 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  border-radius: 0.5rem;
+  margin: undefined;
+  padding: 0 0.9375rem;
+  background: rgb(15, 23, 32);
+}
+
+.sharecenter-13:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-14 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  margin: 0px;
+  border-radius: 0px;
+  position: relative;
+  padding: 0.9375rem 0px;
+}
+
+.sharecenter-14:after {
+  border-color: rgb(30, 39, 48) !important;
+  content: " ";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  pointer-events: none;
+  box-sizing: border-box;
+  transform-origin: 0px 0px;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  z-index: 1;
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sharecenter-14:active {
+  opacity: 0.7;
+}
+
+.sharecenter-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  margin-right: auto;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.sharecenter-15:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1 1 0%;
+  margin-left: 0.9375rem;
+  justify-content: flex-end;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: rgb(255, 255, 255);
+}
+
+.sharecenter-17:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  font-size: 1.0625rem;
+  margin-left: 0.625rem;
+  color: rgb(255, 255, 255);
+}
+
+.sharecenter-18:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-18:before {
+  content: "";
+}
+
+.sharecenter-19 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  margin: 0px;
+  border-radius: 0px;
+  position: relative;
+  padding: 0.9375rem 0px;
+}
+
+.sharecenter-19:after {
+  border-color: rgb(30, 39, 48) !important;
+  content: " ";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  pointer-events: none;
+  box-sizing: border-box;
+  transform-origin: 0px 0px;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  z-index: 1;
+  border: 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sharecenter-19:active {
+  opacity: 0.7;
+}
+
+.sharecenter-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  margin-right: auto;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.sharecenter-20:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1 1 0%;
+  margin-left: 0.9375rem;
+  justify-content: flex-end;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: rgb(255, 255, 255);
+}
+
+.sharecenter-22:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  font-size: 1.0625rem;
+  margin-left: 0.625rem;
+  color: rgb(255, 255, 255);
+}
+
+.sharecenter-23:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-23:before {
+  content: "";
+}
+
+.sharecenter-24 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+  border: 0px;
+  color: rgb(255, 255, 255);
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.875rem 0.9375rem;
+  height: 2.5rem;
+  font-size: 0.9375rem;
+  background: rgb(240, 193, 99);
+  border-radius: 0.3125rem;
+  opacity: 0.9;
+}
+
+.sharecenter-24:after {
+  width: 200%;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  display: none;
+  content: "";
+  position: absolute;
+  inset: 0px;
+  border: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .sharecenter-24 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
+}
+.sharecenter-25 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  margin: 0px 0.9375rem;
+  padding: 0.9375rem;
+  border-radius: 0.3125rem;
+  background-color: rgba(240, 193, 99, 0.03);
+  color: rgb(240, 193, 99);
+}
+
+.sharecenter-25:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-26:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-top: 0.625rem;
+}
+
+.sharecenter-27:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-top: 0.625rem;
+}
+
+.sharecenter-28:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-top: 1.5625rem;
+  padding: 0px 0.9375rem 0.9375rem;
+}
+
+.sharecenter-29:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.sharecenter-30:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.9375rem;
+  margin-right: 0.3125rem;
+  font-weight: 700;
+}
+
+.sharecenter-31:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-32 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.sharecenter-33:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-33:before {
+  content: "";
+}
+
+.sharecenter-34 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-top: 1.5625rem;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+}
+
+.sharecenter-34:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.625rem 0px;
+  background-color: rgba(240, 193, 99, 0.1);
+  color: rgb(240, 193, 99);
+}
+
+.sharecenter-35:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-36:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-37 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-37:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-38 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-38:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-39 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-39:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-40 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-40:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-41 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-42:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-43 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-44 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-44:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-45 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-45:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-46 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-47 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-47:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-48 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-49 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-49:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-50 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-50:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-51 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-52:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-53 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-54 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-54:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-55 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-55:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-56 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-57 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-57:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-58 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-59 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-59:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-60 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-60:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-61 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-62 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-62:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-63 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-64 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-64:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-65 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-65:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-66 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-67 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-67:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-68 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-69 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-69:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-70 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-70:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-71 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-72 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-72:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-73 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-74 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-74:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-75 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-75:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-76 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-77 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-77:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-78 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-79 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-79:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-80 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-80:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-81 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-82 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-82:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-83 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-84 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-84:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-85 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-85:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-86 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-87 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-87:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-88 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-89 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin-top: 1.5625rem;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+}
+
+.sharecenter-89:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-90 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.625rem 0px;
+  background-color: rgba(240, 193, 99, 0.1);
+  color: rgb(240, 193, 99);
+}
+
+.sharecenter-90:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-91 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-91:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-92 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-92:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-93 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-93:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-94 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-94:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-95 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-95:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-96 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-96:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-97 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-97:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-98 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-99 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-99:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-100 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-101 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-101:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-102 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-103 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-103:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-104 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-105 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-105:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-106 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-106:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-107 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-108 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-108:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-109 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-110 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-110:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-111 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-112 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-112:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-113 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-114 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-114:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-115 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-115:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-116 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-117 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-117:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-118 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-119 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-119:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-120 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-121 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-121:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-122 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-123 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-123:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-124 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-124:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-125 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-126 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-126:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-127 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-128 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-128:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-129 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-130 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-130:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-131 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-132 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-132:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-133 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-133:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-134 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-135 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-135:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-136 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-137 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-137:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-138 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-139 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-139:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-140 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-141 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-141:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-142 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-142:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-143 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-144 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-144:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-145 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-146 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-146:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-147 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-148 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-148:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-149 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-150 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-150:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-151 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-151:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-152 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-153 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-153:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-154 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-155 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-155:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-156 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-157 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-157:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-158 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-159 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-159:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-160 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-160:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-161 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-162 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-162:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-163 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-164 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-164:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-165 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-166 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-166:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-167 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-168 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  border-bottom: 1px solid rgba(240, 193, 99, 0.1);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-168:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-169 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-169:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-170 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-171 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-171:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-172 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-173 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-173:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-174 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-175 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-175:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-176 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-177 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.6875rem 0px;
+  background-color: rgba(240, 193, 99, 0.05);
+  color: rgb(132, 102, 41);
+}
+
+.sharecenter-177:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-178 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-178:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-179 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-180 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-180:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-181 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-182 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-182:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-183 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.sharecenter-184 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
+  flex: 1 1 0%;
+}
+
+.sharecenter-184:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.sharecenter-185 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
