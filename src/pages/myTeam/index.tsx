@@ -9,27 +9,27 @@ import TopBar from "../../components/topBar";
 import { getText } from "../../utils/util";
 import CenterPage from "./components/centerPage";
 
-export default function Team() {
+export default function MyTeam() {
   const navigate = useNavigate();
   const uid = localStorage.getItem("uid");
-  const [userInfo, setUserInfo] = useState({});
+  const [teamInfo, setTeamInfo] = useState({});
   const { t: translate } = useTranslation();
   //加载数据
-  const loadUserInfoData = async () => {
-    const data = await userApi.userInfo();
+  const loadTeamInfoData = async () => {
+    const data = await userApi.userTeams({uid});
     if (data.ok) {
-      setUserInfo(data.data);
+      setTeamInfo(data.data);
     }
   };
 
   useEffect(() => {
-    loadUserInfoData();
+    loadTeamInfoData();
   }, []);
   return (
     <div className="page">
-      <TopBar title={translate(getText("分享好友"))} isBack={true} />
+      <TopBar title={translate(getText("我的团队"))} isBack={true} />
       <CenterPage
-        userInfo={userInfo}
+        teamInfo={teamInfo}
       />
     </div>
   );

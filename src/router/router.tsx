@@ -64,6 +64,7 @@ import ReloadPassword from "../pages/reloadPassword";
 import LeverRoleInfo from "../pages/leverRoleInfo";
 import GetProperty from "../pages/getProperty";
 import { huobiApi } from "../api/huobi";
+import MyTeam from "../pages/myTeam";
 //全局
 export const WSContext = createContext([] as any[]);
 export const WSMinContext = createContext([] as any[]);
@@ -438,6 +439,10 @@ export default function AppRouter() {
                     <Route
                       path="/addresslist"
                       element={getElement(<AddressList />)}
+                    ></Route>
+                     <Route
+                      path="/myteam"
+                      element={getElement(<MyTeam />)}
                     ></Route>
                     <Route
                       path="/lever/:name"

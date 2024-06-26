@@ -194,6 +194,16 @@ export default function HomePopup({
             </div>
           </div>
           <div
+            class="homePopCenter-56"
+            onClick={() => {
+              navigate("/myteam");
+            }}
+          >
+            <div class="homePopCenter-57">
+              <span class="homePopCenter-58">我的团队</span>
+            </div>
+          </div>
+          <div
             class="homePopCenter-59"
             onClick={() => {
               navigate("/helplist");
