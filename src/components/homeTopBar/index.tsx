@@ -34,7 +34,7 @@ export default function HomeTopBar({ companyData, setIShowHomePop }) {
         }}
       >
         <img
-          src="http://h5.tinshwk.xyz/static/image/kf_d.png"
+          src="/image/kf_d.png"
           draggable="false"
           class="hometopbar-9"
         />

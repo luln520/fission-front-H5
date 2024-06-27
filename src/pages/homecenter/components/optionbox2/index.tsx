@@ -23,7 +23,7 @@ export default function Optionbox2({ loginmsg }) {
           </div>
         </div>
         <img
-          src="http://h5.tinshwk.xyz/assets/ad-49349ca8.png"
+          src="/assets/ad-49349ca8.png"
           draggable="false"
           class="optionbox2-9"
         />

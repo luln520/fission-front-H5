@@ -43,7 +43,7 @@
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: url("http://h5.tinshwk.xyz/assets/light-58de2498.png");
+  background-image: url(/public/assets/light-58de2498.png);
   background-size: 100% 100%;
 }
 
@@ -56,7 +56,7 @@
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-image: url("http://h5.tinshwk.xyz/assets/dark-cc955072.png");
+  background-image: url(/public/assets/dark-cc955072.png);
   background-size: 100% 100%;
 }
 .homePopCenter-5 {

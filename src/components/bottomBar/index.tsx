@@ -21,7 +21,7 @@ export default function BottomBar({ index }) {
       >
         <div class="bottomBar-3">
           <img
-            src={`http://h5.tinshwk.xyz/static/tabbarDark/1${
+            src={`/tabbarDark/1${
               index == 1 ? "s" : ""
             }.png`}
             draggable="false"
@@ -40,7 +40,7 @@ export default function BottomBar({ index }) {
       >
         <div class="bottomBar-10">
           <img
-            src={`http://h5.tinshwk.xyz/static/tabbarDark/2${
+            src={`/tabbarDark/2${
               index == 2 ? "s" : ""
             }.png`}
             draggable="false"
@@ -59,7 +59,7 @@ export default function BottomBar({ index }) {
       >
         <div class="bottomBar-17">
           <img
-            src={`http://h5.tinshwk.xyz/static/tabbarDark/3${
+            src={`/tabbarDark/3${
               index == 3 ? "s" : ""
             }.png`}
             draggable="false"
@@ -78,7 +78,7 @@ export default function BottomBar({ index }) {
       >
         <div class="bottomBar-24">
           <img
-            src={`http://h5.tinshwk.xyz/static/tabbarDark/4${
+            src={`/tabbarDark/4${
               index == 4 ? "s" : ""
             }.png`}
             draggable="false"
@@ -97,7 +97,7 @@ export default function BottomBar({ index }) {
       >
         <div class="bottomBar-31">
           <img
-            src={`http://h5.tinshwk.xyz/static/tabbarDark/5${
+            src={`/tabbarDark/5${
               index == 5 ? "s" : ""
             }.png`}
             draggable="false"

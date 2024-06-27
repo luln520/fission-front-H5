@@ -22,7 +22,7 @@ export default function DownlandPage({ companyData }) {
           </div>
         </div>
         <img
-          src="http://h5.tinshwk.xyz/assets/downloadBg-fe9eece8.png"
+          src="/assets/downloadBg-fe9eece8.png"
           draggable="false"
           class="downloadCenter-9"
         />

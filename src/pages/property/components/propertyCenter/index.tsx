@@ -43,7 +43,7 @@ export default function PropertyCenter({
                   </div>
                 </div>
                 <img
-                  src="http://h5.tinshwk.xyz/static/image/eye.png"
+                  src="/image/eye.png"
                   draggable="false"
                   class="propertycenterlb-17"
                 />
@@ -88,7 +88,7 @@ export default function PropertyCenter({
         </div>
         <div class="propertycenterlb-29">
           <img
-            src="http://h5.tinshwk.xyz/assets/propertyBg-9be06132.png"
+            src="/assets/propertyBg-9be06132.png"
             draggable="false"
             class="propertycenterlb-32"
           />
@@ -105,7 +105,7 @@ export default function PropertyCenter({
             >
               <div class="propertycenterlb-36">
                 <img
-                  src="http://h5.tinshwk.xyz/static/menus/chongBi_d.png"
+                  src="/menus/chongBi_d.png"
                   draggable="false"
                   class="propertycenterlb-39"
                 />
@@ -124,7 +124,7 @@ export default function PropertyCenter({
             >
               <div class="propertycenterlb-43">
                 <img
-                  src="http://h5.tinshwk.xyz/static/menus/tiBi_d.png"
+                  src="/menus/tiBi_d.png"
                   draggable="false"
                   class="propertycenterlb-46"
                 />
@@ -142,7 +142,7 @@ export default function PropertyCenter({
           >
             <div class="propertycenterlb-50">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/keFu_d.png"
+                src="/menus/keFu_d.png"
                 draggable="false"
                 class="propertycenterlb-53"
               />
@@ -159,7 +159,7 @@ export default function PropertyCenter({
           >
             <div class="propertycenterlb-57">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/huaZhuan_d.png"
+                src="/menus/huaZhuan_d.png"
                 draggable="false"
                 class="propertycenterlb-60"
               />

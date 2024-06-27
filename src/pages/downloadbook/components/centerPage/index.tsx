@@ -17,8 +17,8 @@ export default function DownlandPage({ companyData }) {
         <img
           src={
             lan == "zh"
-              ? "http://h5.tinshwk.xyz/assets/1-f8a8eefe.png"
-              : "http://h5.tinshwk.xyz/assets/1-en-610918eb.png"
+              ? "/assets/1-f8a8eefe.png"
+              : "/assets/1-en-610918eb.png"
           }
           draggable="false"
           class="downloadBook-10"
@@ -29,8 +29,8 @@ export default function DownlandPage({ companyData }) {
         <img
           src={
             lan == "zh"
-              ? "http://h5.tinshwk.xyz/assets/2-765a73b3.png"
-              : "http://h5.tinshwk.xyz/assets/2-en-af2f1248.png"
+              ? "/assets/2-765a73b3.png"
+              : "/assets/2-en-af2f1248.png"
           }
           draggable="false"
           class="downloadBook-19"
@@ -41,8 +41,8 @@ export default function DownlandPage({ companyData }) {
         <img
           src={
             lan == "zh"
-              ? "http://h5.tinshwk.xyz/assets/3-9179d5d0.png"
-              : "http://h5.tinshwk.xyz/assets/3-en-1f2da0a1.png"
+              ? "/assets/3-9179d5d0.png"
+              : "/assets/3-en-1f2da0a1.png"
           }
           draggable="false"
           class="downloadBook-28"
@@ -53,8 +53,8 @@ export default function DownlandPage({ companyData }) {
         <img
           src={
             lan == "zh"
-              ? "http://h5.tinshwk.xyz/assets/4-a54e277c.png"
-              : "	http://h5.tinshwk.xyz/assets/4-en-94044ee0.png"
+              ? "/assets/4-a54e277c.png"
+              : "/assets/4-en-94044ee0.png"
           }
           draggable="false"
           class="downloadBook-37"
@@ -65,8 +65,8 @@ export default function DownlandPage({ companyData }) {
         <img
           src={
             lan == "zh"
-              ? "http://h5.tinshwk.xyz/assets/5-5ce56e17.png"
-              : "	http://h5.tinshwk.xyz/assets/5-en-33b51c38.png"
+              ? "/assets/5-5ce56e17.png"
+              : "	/assets/5-en-33b51c38.png"
           }
           draggable="false"
           class="downloadBook-46"

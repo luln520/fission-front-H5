@@ -23,7 +23,7 @@ export default function Optionbox({ loginmsg }) {
           >
             <div class="optionbox-4">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/tiBi_d.png"
+                src="/menus/tiBi_d.png"
                 draggable="false"
                 class="optionbox-7"
               />
@@ -42,7 +42,7 @@ export default function Optionbox({ loginmsg }) {
           >
             <div class="optionbox-11">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/chongBi_d.png"
+                src="/menus/chongBi_d.png"
                 draggable="false"
                 class="optionbox-14"
               />
@@ -60,7 +60,7 @@ export default function Optionbox({ loginmsg }) {
         >
           <div class="optionbox-18">
             <img
-              src="http://h5.tinshwk.xyz/static/menus/keFu_d.png"
+              src="/menus/keFu_d.png"
               draggable="false"
               class="optionbox-21"
             />
@@ -77,7 +77,7 @@ export default function Optionbox({ loginmsg }) {
         >
           <div class="optionbox-25">
             <img
-              src="http://h5.tinshwk.xyz/static/menus/huaZhuan_d.png"
+              src="/menus/huaZhuan_d.png"
               draggable="false"
               class="optionbox-28"
             />

@@ -173,7 +173,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
       <div class="loginboxnew-50">
         <div class="loginboxnew-51">
           <img
-            src="http://h5.tinshwk.xyz/static/image/kf_d.png"
+            src="/image/kf_d.png"
             draggable="false"
             class="loginboxnew-54"
           />

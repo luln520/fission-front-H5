@@ -14,7 +14,7 @@ export default function DataEmpty() {
     <div class="dataempty-1">
       <div class="dataempty-2">
         <img
-          src="http://h5.tinshwk.xyz/assets/default-e5b68e98.png"
+          src="/assets/default-e5b68e98.png"
           draggable="false"
           class="dataempty-5"
         />

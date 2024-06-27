@@ -15,7 +15,7 @@ export default function PageCenter({ mockUserAmount }) {
     <div class="getProperty-1">
       <div class="getProperty-2">
         <img
-          src="http://h5.tinshwk.xyz/assets/demo-eb3970a3.png"
+          src="/assets/demo-eb3970a3.png"
           draggable="false"
           class="getProperty-9"
         />

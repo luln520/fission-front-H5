@@ -77,7 +77,7 @@ export default function Info({ userInfo, sendCardsc }) {
                   {!cardsc && (
                     <div>
                       <img
-                        src="http://h5.tinshwk.xyz/assets/idCard2_d-b374f793.png"
+                        src="/assets/idCard2_d-b374f793.png"
                         class="idcardlb-148"
                       />
                       <div class="idcardlb-149">

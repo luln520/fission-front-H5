@@ -167,7 +167,7 @@ export default function Info({ userInfo, sendAuth }) {
                   {!cardzm && (
                     <div>
                       <img
-                        src="http://h5.tinshwk.xyz/assets/idCard1_d-e6fc6248.png"
+                        src="/assets/idCard1_d-e6fc6248.png"
                         class="idcardlb-120"
                       />
                       <div class="idcardlb-121">
@@ -208,7 +208,7 @@ export default function Info({ userInfo, sendAuth }) {
                   <div>
                     <div class="idcardlb-133">
                       <img
-                        src="http://h5.tinshwk.xyz/assets/idCard1_d-e6fc6248.png"
+                        src="/assets/idCard1_d-e6fc6248.png"
                         class="idcardlb-134"
                       />
                       <div class="idcardlb-135">
@@ -227,7 +227,7 @@ export default function Info({ userInfo, sendAuth }) {
           <div class="idcardlb-146">
             <div class="idcardlb-147">
               <img
-                src="http://h5.tinshwk.xyz/assets/idCard2_d-b374f793.png"
+                src="/assets/idCard2_d-b374f793.png"
                 class="idcardlb-148"
               />
               <div class="idcardlb-149">

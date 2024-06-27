@@ -25,7 +25,7 @@ export default function SettingPage({ userInfo }) {
           <div class="moremenus-7">
             <div class="moremenus-8">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/tiBi_d.png"
+                src="/menus/tiBi_d.png"
                 draggable="false"
                 class="moremenus-11"
               />
@@ -37,7 +37,7 @@ export default function SettingPage({ userInfo }) {
           <div class="moremenus-14">
             <div class="moremenus-15">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/chongBi_d.png"
+                src="/menus/chongBi_d.png"
                 draggable="false"
                 class="moremenus-18"
               />
@@ -49,7 +49,7 @@ export default function SettingPage({ userInfo }) {
           <div class="moremenus-21">
             <div class="moremenus-22">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/shanDui_d.png"
+                src="/menus/shanDui_d.png"
                 draggable="false"
                 class="moremenus-25"
               />
@@ -68,7 +68,7 @@ export default function SettingPage({ userInfo }) {
           <div class="moremenus-32">
             <div class="moremenus-33">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/yongXu_d.png"
+                src="/menus/yongXu_d.png"
                 draggable="false"
                 class="moremenus-36"
               />
@@ -80,7 +80,7 @@ export default function SettingPage({ userInfo }) {
           <div class="moremenus-39">
             <div class="moremenus-40">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/jiaoGe_d.png"
+                src="/menus/jiaoGe_d.png"
                 draggable="false"
                 class="moremenus-43"
               />
@@ -92,7 +92,7 @@ export default function SettingPage({ userInfo }) {
           <div class="moremenus-46">
             <div class="moremenus-47">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/huaZhuan_d.png"
+                src="/menus/huaZhuan_d.png"
                 draggable="false"
                 class="moremenus-50"
               />
@@ -111,7 +111,7 @@ export default function SettingPage({ userInfo }) {
           <div class="moremenus-57">
             <div class="moremenus-58">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/bangZhu_d.png"
+                src="/menus/bangZhu_d.png"
                 draggable="false"
                 class="moremenus-61"
               />
@@ -123,7 +123,7 @@ export default function SettingPage({ userInfo }) {
           <div class="moremenus-64">
             <div class="moremenus-65">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/keFu_d.png"
+                src="/menus/keFu_d.png"
                 draggable="false"
                 class="moremenus-68"
               />
@@ -135,7 +135,7 @@ export default function SettingPage({ userInfo }) {
           <div class="moremenus-71">
             <div class="moremenus-72">
               <img
-                src="http://h5.tinshwk.xyz/static/menus/jieShao_d.png"
+                src="/menus/jieShao_d.png"
                 draggable="false"
                 class="moremenus-75"
               />
