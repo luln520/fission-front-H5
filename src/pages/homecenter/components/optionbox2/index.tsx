@@ -26,6 +26,9 @@ export default function Optionbox2({ loginmsg }) {
           src="/assets/ad-49349ca8.png"
           draggable="false"
           class="optionbox2-9"
+          onClick={()=>{
+            navigate("/trade/btc");
+          }}
         />
       </div>
     </div>
