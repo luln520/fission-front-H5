@@ -159,9 +159,7 @@ export default function CenterPage({ sendMsg, listData }) {
                     <span class="murservererCenterInfo-11">
                       <span class="murservererCenterInfo-12">
                         <span class="murservererCenterInfo-13">
-                          {translate(
-                            getText("请直接提交您的问题,等待客服回复即可")
-                          )}
+                          {translate(getText("online service"))}
                         </span>
                       </span>
                     </span>
@@ -170,12 +168,19 @@ export default function CenterPage({ sendMsg, listData }) {
                 </p>
               </div>
             </h3>
+            <div
+              class="murservererCenterInfo-20"
+              style={{
+                marginTop: "10px",
+              }}
+            >
+              {translate(getText("请直接提交您的问题,等待客服回复即可"))}
+            </div>
             <div class="murservererCenterInfo-15">
               <div class="murservererCenterInfo-16">
                 <div class="murservererCenterInfo-17">
                   <div class="murservererCenterInfo-18">
                     <div class="murservererCenterInfo-19">
-                      <div class="murservererCenterInfo-20"></div>
                       <div class="murservererCenterInfo-21" ref={messagesRef}>
                         {getNodes()}
                       </div>
