@@ -85,8 +85,14 @@ function replaceNaNWithSpace(element) {
 }
 
 //初始化账户类型
-function initPropertyType() {
-  localStorage.setItem("propertyType", 1);
+async function initPropertyType() {
+  //判断修改
+  let res = await userApi.userInfo();
+  if (res.ok) {
+    localStorage.setItem("propertyType", res?.data.userType);
+  } else {
+    localStorage.setItem("propertyType", 1);
+  }
 }
 //初始化主题
 initThem();
