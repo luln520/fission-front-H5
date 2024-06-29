@@ -17,20 +17,20 @@ export default function PageCenter({}) {
         <div class="leverRoleInfo-3">{translate(getText("永续合约"))}</div>
         <div class="leverRoleInfo-4">1.{translate(getText("什么是合约"))}</div>
         <div class="leverRoleInfo-5">
-          {translate(getText("本平台提供USDT本位的永续合约，用户可以通过判断涨跌，选择买入做多或卖出做空合约来获取数字资产价格上涨/下降的收益。永续合约没有交割日，用户可以一直持有。"))}
+          {translate(getText("本平台提供USDT本位的永續合約，用戶可以通過判斷漲跌，選擇買入做多或賣出做空合約來獲取數字資產價格上漲/下降的收益。永續合約沒有交割日，用戶可以一直持有。"))}
         </div>
         <div class="leverRoleInfo-6">2.{translate(getText("什么是保证金"))}</div>
         <div class="leverRoleInfo-7">
-          {translate(getText("在虚拟合约市场上，用户只需根据合约价格，按一定比例交纳少量资金作为履行合约的财力担保，便可参与合约的买卖，这种资金就是虚拟合约保证金。"))}
-          {translate(getText("本平台的合约采用分账户的逐仓保证金模式。每个币种对应一个合约账户，不同的合约币种的账户资产和仓位相互独立，且不同合约账户之间的划转及交易互不影响。用户的合约账户在开仓后，该合约账户内的所有仓位持仓的风险和收益将合并计算。"))}
+          {translate(getText("在虛擬合約市場上，用戶只需根據合約價格，按一定比例交納少量資金作為履行合約的財力擔保，便可參與合約的買賣，這種資金就是虛擬合約保證金。"))}
+          {translate(getText("本平台的合約採用分賬戶的逐倉保證金模式。每個幣種對應一個合約賬戶，不同的合約幣種的賬戶資產和倉位相互獨立，且不同合約賬戶之間的劃轉及交易互不影響。用戶的合約賬戶在開倉後，該合約賬戶內的所有倉位持倉的風險和收益將合併計算。"))}
         </div>
         <div class="leverRoleInfo-8">3.{translate(getText("如何计算保证金"))}</div>
         <div class="leverRoleInfo-9">
-          {translate(getText("持仓保证金 = 合约面值 * 持仓合约数量 / 杠杆倍数 冻结保证金 =当前委托内所有已成功挂单开仓委托的保证金总和 可用保证金=账户余额-持仓保证金 - 冻结保证金"))}
+          {translate(getText("持倉保證金 = 合約面值 * 持倉合約數量 / 槓桿倍數 凍結保證金 =當前委託內所有已成功掛單開倉委託的保證金總和 可用保證金=賬戶餘額-持倉保證金 - 凍結保證金"))}
         </div>
         <div class="leverRoleInfo-10">4.{translate(getText("如何计算保证金率"))}</div>
         <div class="leverRoleInfo-11">
-          {translate(getText("保证金率是衡量用户资产风险的指标。 保证金率 =（未实现盈亏 + 持仓保证金+ 可用保证金 + 冻结保证金 - 平仓手续费） / 持仓保证金保证金率越小，账户的风险越高。当保证金率小于等于0%时，会触发强制平仓。"))}
+          {translate(getText("保證金率是衡量用戶資產風險的指標。保證金率 =（未實現盈虧   持倉保證金  可用保證金   凍結保證金 - 平倉手續費） / 持倉保證金保證金率越小，賬戶的風險越高。當保證金率小於等於0時，會觸發強制平倉。"))}
         </div>
         <div class="leverRoleInfo-12">5.{translate(getText("什么是预估强平价"))}</div>
         <div class="leverRoleInfo-13">
@@ -38,7 +38,7 @@ export default function PageCenter({}) {
         </div>
         <div class="leverRoleInfo-14">6.{translate(getText("什么是账户总权益、未实现盈亏"))}</div>
         <div class="leverRoleInfo-15">
-          {translate(getText("账户总权益 = 账户余额 + 未实现盈亏未实现盈亏，是用户在该币种的合约当前持有的仓位的盈亏，未实现盈亏会随着最新成交价格变动而变化。多仓未实现盈亏=（1/持仓均价 - 1/最新成交价）* 多仓合约张数 * 合约面值* 最新成交价 空仓未实现盈亏=（1/最新成交价 - 1/持仓均价）*空仓合约张数 * 合约面值 * 最新成交价"))}
+          {translate(getText("賬戶總權益 = 賬戶餘額   未實現盈虧未實現盈虧，是用戶在該幣種的合約當前持有的倉位的盈虧，未實現盈虧會隨著最新成交價格變動而變化。多倉未實現盈虧=（1/持倉均價- 1/最新成交價）* 多倉合約張數* 合約面值* 最新成交價空倉未實現盈虧=（1/最新成交價- 1/持倉均價）*空倉合約張數* 合約面值* 最新成交價"))}
         </div>
       </div>
     </div>

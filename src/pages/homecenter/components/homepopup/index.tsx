@@ -7,11 +7,13 @@ import { changeThem, getText, isDark } from "../../../../utils/util";
 import { useState } from "react";
 import Search from "../../../../components/search";
 import { imageConfig } from "../../../../config/config";
+import { Badge } from "antd";
 
 export default function HomePopup({
   isShowHomePop,
   setIShowHomePop,
   userInfo,
+  loginmsg
 }) {
   const lan = localStorage.getItem("i18n");
   const navigate = useNavigate();
@@ -99,7 +101,7 @@ export default function HomePopup({
           }}
         >
           <div class="homePopCenter-30">
-            <span class="homePopCenter-31">{translate(getText("邀请码"))}：{userInfo?.invit}</span>
+            <span class="homePopCenter-31">{translate(getText("ID"))}：{userInfo?.userCode}</span>
           </div>
           <div class="homePopCenter-32">
             <img
@@ -203,6 +205,20 @@ export default function HomePopup({
               <span class="homePopCenter-58">{translate(getText("我的团队"))}</span>
             </div>
           </div>
+          <div
+            class="homePopCenter-59"
+            onClick={() => {
+              navigate("/noice");
+            }}
+          >
+            <div class="homePopCenter-60">
+              <span class="homePopCenter-61">
+              {translate(getText("留言列表"))}
+              <Badge count={loginmsg?.noticeCount ? loginmsg?.noticeCount : 0} offset={[7, -15]}></Badge>
+              </span>
+            </div>
+          </div>
+          
           <div
             class="homePopCenter-59"
             onClick={() => {

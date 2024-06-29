@@ -23,7 +23,7 @@ export default function Optionbox2({ loginmsg }) {
           </div>
         </div>
         <img
-          src="/assets/ad-49349ca8.png"
+          src={la=="zh"?"/assets/ad-49349ca8.png":"/assets/adEn-a9dec4b6.png"}
           draggable="false"
           class="optionbox2-9"
           onClick={()=>{

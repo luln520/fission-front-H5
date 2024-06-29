@@ -102,7 +102,7 @@ export default function PageRegister({
       <div class="registercenter-2">
         <div class="registercenter-3">
           <div class="registercenter-4">
-            <span class="registercenter-5">{translate(getText("註冊"))}</span>
+            <span class="registercenter-5">{translate(getText("立即註冊"))}</span>
           </div>
         </div>
         <div class="registercenter-6">
@@ -154,7 +154,7 @@ export default function PageRegister({
                   >
                     <div class="registercenter-19">
                       <span class="registercenter-20">
-                        {translate(getText("手機"))}
+                        {translate(getText("手机"))}
                       </span>
                     </div>
                   </div>

@@ -28,12 +28,12 @@ export default function DownlandPage({ companyData }) {
               {translate(getText("关于我们"))}
               <p class="aboutUS-11">
                 {companyData?.companyName}
-                {translate(getText("全球专业站，一个服务全球专业交易用户的创新数字资产交易平台，致力于发现优质创新数字资产投资机会。目前提供四十多种数字资产产品交易和投资服务。总部位于加拿大，由"))}
+                {translate(getText("全球專業站，一個服務全球專業交易用戶的創新數字資產交易平台，致力於發現優質創新數字資產投資機會。目前提供四十多種數字資產產品交易和投資服務。總部位於加拿大，由"))}
                 {companyData?.companyName} {translate(getText("全球专业站团队负责运营。"))}
               </p>
               <p class="aboutUS-12">
                 {companyData?.companyName}
-                {translate(getText("是全球领先的区块链资产金融服务商。它已经为来自全球130多个国家的数百万用户提供了高质量的服务。在新加坡、韩国、香港、中国大陆等国家和地区设有独立的办事处。交易业务和运营中心。"))}
+                {translate(getText("是全球領先的區塊鏈資產金融服務商。它已經為來自全球130多個國家的數百萬用戶提供了高質量的服務。在新加坡、韓國、香港、中國大陸等國家和地區設有獨立的辦事處。交易業務和運營中心。"))}
               </p>
               <p class="aboutUS-13">
                 {companyData?.companyName}

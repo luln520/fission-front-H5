@@ -11,11 +11,12 @@ import { languagesData } from "../../../../i18n/i18n";
 export default function PageCenter({ mockUserAmount }) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
+  const lan = localStorage.getItem("i18n");
   return (
     <div class="getProperty-1">
       <div class="getProperty-2">
         <img
-          src="/assets/demo-eb3970a3.png"
+          src={lan=="zh"?"/assets/demo-eb3970a3.png":"/assets/demo2-07a4ab7b.png"}
           draggable="false"
           class="getProperty-9"
         />

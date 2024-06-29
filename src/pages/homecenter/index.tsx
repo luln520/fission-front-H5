@@ -87,6 +87,7 @@ export default function HomeCenter() {
         isShowHomePop={isShowHomePop}
         setIShowHomePop={setIShowHomePop}
         userInfo={userInfo}
+        loginmsg={loginmsg}
       />
       <div
         style={{
