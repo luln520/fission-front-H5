@@ -105,6 +105,8 @@
 }
 
 .zixunlist-8 {
+  box-sizing: border-box;
+  padding: 10px 10px 10px 20px;
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
   display: block;
