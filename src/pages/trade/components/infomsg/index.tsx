@@ -13,15 +13,15 @@ export default function InfoMsg({setvisibleInfoMsg}) {
   return (
     <div class="tradeinfomsg-1">
       <div class="tradeinfomsg-2">
-        <strong class="tradeinfomsg-3">交割合约规则说明</strong>
+        <strong class="tradeinfomsg-3">{translate(getText("交割合约规则说明"))}</strong>
       </div>
       <div class="tradeinfomsg-4">
-        预测未来一段时间的涨跌。以下单时间的价格为起始价，以预测周期最后一秒的价格为结算价，结算价大于起始价则为涨，结算价小于起始价则为跌。
+        {translate(getText("预测未来一段时间的涨跌。以下单时间的价格为起始价，以预测周期最后一秒的价格为结算价，结算价大于起始价则为涨，结算价小于起始价则为跌。"))}
       </div>
       <div class="tradeinfomsg-5">
         <div class="tradeinfomsg-6" onClick={()=>{
           setvisibleInfoMsg(false);
-        }}>我知道了</div>
+        }}>{translate(getText("我知道了"))}</div>
       </div>
     </div>
   );

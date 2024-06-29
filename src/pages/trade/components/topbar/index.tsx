@@ -129,9 +129,9 @@ export default function TopBar({
       </div>
       <div class="marketTopBarlb-43">
         <div class="marketTopBarlb-44">
-          <div class="marketTopBarlb-45">截止下单(UTC+8)</div>
-          <div class="marketTopBarlb-46">倒计时</div>
-          <div class="marketTopBarlb-47">时间周期</div>
+          <div class="marketTopBarlb-45">{translate(getText("截止下单"))}(UTC+8)</div>
+          <div class="marketTopBarlb-46">{translate(getText("倒计时"))}</div>
+          <div class="marketTopBarlb-47">{translate(getText("时间周期"))}</div>
         </div>
         <div class="marketTopBarlb-48">
           <div class="marketTopBarlb-49">{getCurrentDateTime()}</div>

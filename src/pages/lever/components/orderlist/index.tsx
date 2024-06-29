@@ -310,7 +310,7 @@ export default function OrderList({
                 setorderindex(1);
               }}
             >
-              <span class="leverchangebar-5">持仓</span>
+              <span class="leverchangebar-5">{translate(getText("持仓"))}</span>
             </div>
           </div>
           <div class="leverchangebar-6">
@@ -320,7 +320,7 @@ export default function OrderList({
                 setorderindex(2);
               }}
             >
-              <span class="leverchangebar-8">历史委托</span>
+              <span class="leverchangebar-8">{translate(getText("历史委托"))}</span>
             </div>
           </div>
         </div>
@@ -619,44 +619,5 @@ export default function OrderList({
         </div>
       </Dialog>
     </div>
-    // <div class="orderlisttab-1">
-    //   <div class="orderlisttab-2">
-    //     <div class="orderlisttab-3">
-    //       <div class="orderlisttab-4">
-    //         <div class="orderlisttab-5">
-    //           <div
-    //             class={orderindex == 1 ? "orderlisttab-6" : "orderlisttab-7"}
-    //             onClick={() => {
-    //               setorderindex(1);
-    //             }}
-    //           >
-    //             {translate(getText("持倉"))}
-    //           </div>
-    //           <div
-    //             class={orderindex == 2 ? "orderlisttab-6" : "orderlisttab-7"}
-    //             onClick={() => {
-    //               setorderindex(2);
-    //             }}
-    //           >
-    //             {translate(getText("已成交"))}
-    //           </div>
-    //           <div
-    //             class={orderindex == 3 ? "orderlisttab-6" : "orderlisttab-7"}
-    //             onClick={() => {
-    //               setorderindex(3);
-    //             }}
-    //           >
-    //             {translate(getText("已平倉"))}
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    //   <div class="orderlisttab-11">
-    //     {getNode1()}
-    //     <div style={{ height: "10px" }}></div>
-    //   </div>
-
-    // </div>
   );
 }

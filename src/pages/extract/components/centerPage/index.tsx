@@ -85,21 +85,6 @@ export default function CenterPage({
                   {use?.name?.toUpperCase()} {translate(getText("提現"))}
                 </p>
               </li>
-              {/* <li class="extract-16">
-                <p class="extract-17">鏈地址</p>
-                <div class="extract-18">
-                  <div class="extract-19">
-                    <div class="extract-20">
-                      <span class="extract-21">ERC20</span>
-                    </div>
-                  </div>
-                  <div class="extract-22">
-                    <div class="extract-23">
-                      <span class="extract-24">TRC20</span>
-                    </div>
-                  </div>
-                </div>
-              </li> */}
               <li class="extract-25">
                 <p class="extract-26">{translate(getText("提幣地址"))}</p>
                 <div class="extract-27">

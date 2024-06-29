@@ -29,7 +29,7 @@ export default function Optionbox({ loginmsg }) {
               />
             </div>
             <div class="optionbox-8">
-              <span class="optionbox-9">提币</span>
+              <span class="optionbox-9">{translate(getText("提币"))}</span>
             </div>
           </div>
         )}
@@ -48,7 +48,7 @@ export default function Optionbox({ loginmsg }) {
               />
             </div>
             <div class="optionbox-15">
-              <span class="optionbox-16">充币</span>
+              <span class="optionbox-16">{translate(getText("充币"))}</span>
             </div>
           </div>
         )}
@@ -66,7 +66,7 @@ export default function Optionbox({ loginmsg }) {
             />
           </div>
           <div class="optionbox-22">
-            <span class="optionbox-23">客服</span>
+            <span class="optionbox-23">{translate(getText("客服"))}</span>
           </div>
         </div>
         <div
@@ -83,7 +83,7 @@ export default function Optionbox({ loginmsg }) {
             />
           </div>
           <div class="optionbox-29">
-            <span class="optionbox-30">语言</span>
+            <span class="optionbox-30">{translate(getText("语言"))}</span>
           </div>
         </div>
       </div>

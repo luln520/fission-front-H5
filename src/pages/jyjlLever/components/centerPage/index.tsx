@@ -11,64 +11,6 @@ export default function CenterPage({ leverorders, closeorder, coinListData }) {
   const { t: translate } = useTranslation();
   const lan = localStorage.getItem("i18n");
 
-  // const getNode = () => {
-  //   const nodes = [];
-  //   for (let index = 0; index < leverorders.length; index++) {
-  //     const data = leverorders[index];
-  //     const node = (
-  //       <div
-  //         className="jyjl-9"
-  //         onClick={() => {
-  //           const sendData = {
-  //             orderNo: data.orderNo,
-  //             coinname: data.coinname,
-  //             num: data.num,
-  //             ploss: data.ploss,
-  //             buytime: data.buytime,
-  //             status: data.status,
-  //             isWin: data.isWin,
-  //           };
-  //           navigate(
-  //             `/marketOrderInfo/${data.id}?data=${JSON.stringify(sendData)}`
-  //           );
-  //         }}
-  //       >
-  //         <div className="jyjl-10">
-  //           <div className="jyjl-11">
-  //             <div className="jyjl-12">
-  //               <div className="jyjl-13">{data.num.toFixed(4)}</div>
-  //               <div className="jyjl-14">{translate(getText("永续"))}</div>
-  //               <div className="jyjl-15">{data.buytime?.substring(0, 16)}</div>
-  //             </div>
-  //             <span className="jyjl-16">
-  //               {data?.status === 2
-  //                 ? translate(getText("已完成"))
-  //                 : translate(getText("到期結算"))}
-  //             </span>
-  //             <span className="jyjl-17">
-  //               {data?.status == 1 && (
-  //                 <button
-  //                   className="pingcang"
-  //                   onClick={(e) => {
-  //                     closeorder(data.id);
-  //                     e.stopPropagation();
-  //                   }}
-  //                 >
-  //                   {translate(getText("平仓"))}
-  //                 </button>
-  //               )}
-  //               {data?.status != 1 && (
-  //                 <span className="jyjl-18">{translate(getText("詳情"))}</span>
-  //               )}
-  //             </span>
-  //           </div>
-  //         </div>
-  //       </div>
-  //     );
-  //     nodes.push(node);
-  //   }
-  //   return nodes;
-  // };
   const getNode = () => {
     const nodes = [];
     for (let index = 0; index < leverorders.length; index++) {

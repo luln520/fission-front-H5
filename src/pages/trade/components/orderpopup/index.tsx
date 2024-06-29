@@ -149,19 +149,19 @@ export default function OrderPopup({
                   <div class="orderpoplb-47">
                     <div class="orderpoplb-48">
                       <div class="orderpoplb-49">
-                        <div class="orderpoplb-50">最小</div>
+                        <div class="orderpoplb-50">{translate(getText("最小"))}</div>
                         <div class="orderpoplb-51">
                           <span class="orderpoplb-52">{minNum}</span>
                         </div>
                       </div>
                       <div class="orderpoplb-53">
-                        <div class="orderpoplb-54">可用</div>
+                        <div class="orderpoplb-54">{translate(getText("可用"))}</div>
                         <div class="orderpoplb-55">
                           <span class="orderpoplb-56">{userInfo?.usdt}</span>
                         </div>
                       </div>
                     </div>
-                    <div class="orderpoplb-57">数量</div>
+                    <div class="orderpoplb-57">{translate(getText("数量"))}</div>
                     <div class="orderpoplb-58">
                       <div class="orderpoplb-59">
                         <input

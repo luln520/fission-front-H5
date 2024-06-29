@@ -12,7 +12,7 @@ export default function DownlandPage({ companyData }) {
   const lan = localStorage.getItem("i18n");
   return (
     <div class="downloadBook-1">
-      <div class="downloadBook-2">1、允许下载描述文件</div>
+      <div class="downloadBook-2">1、{translate(getText("允许下载描述文件"))}</div>
       <div class="downloadBook-3">
         <img
           src={
@@ -24,7 +24,7 @@ export default function DownlandPage({ companyData }) {
           class="downloadBook-10"
         />
       </div>
-      <div class="downloadBook-11">2、已下载描述文件</div>
+      <div class="downloadBook-11">2、{translate(getText("已下载描述文件"))}</div>
       <div class="downloadBook-12">
         <img
           src={
@@ -36,7 +36,7 @@ export default function DownlandPage({ companyData }) {
           class="downloadBook-19"
         />
       </div>
-      <div class="downloadBook-20">3、进入手机【设置】找到【通用】</div>
+      <div class="downloadBook-20">3、{translate(getText("进入手机【设置】找到【通用】"))}</div>
       <div class="downloadBook-21">
         <img
           src={
@@ -48,7 +48,7 @@ export default function DownlandPage({ companyData }) {
           class="downloadBook-28"
         />
       </div>
-      <div class="downloadBook-29">4、描述文件与设备管理器</div>
+      <div class="downloadBook-29">4、{translate(getText("描述文件与设备管理器"))}</div>
       <div class="downloadBook-30">
         <img
           src={
@@ -60,7 +60,7 @@ export default function DownlandPage({ companyData }) {
           class="downloadBook-37"
         />
       </div>
-      <div class="downloadBook-38">5、点击该描述文件</div>
+      <div class="downloadBook-38">5、{translate(getText("点击该描述文件"))}</div>
       <div class="downloadBook-39">
         <img
           src={

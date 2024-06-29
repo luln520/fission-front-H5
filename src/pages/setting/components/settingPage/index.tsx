@@ -32,14 +32,14 @@ export default function SettingPage({ userInfo }) {
               }}
             >
               <div class="setting-10">
-                <span class="setting-11">语言</span>
+                <span class="setting-11">{translate(getText("语言"))}</span>
               </div>
               <div class="setting-12"> {getlanguageStr()}</div>
               <i class="setting-13"></i>
             </div>
             <div class="setting-14">
               <div class="setting-15">
-                <span class="setting-16">版本号</span>
+                <span class="setting-16">{translate(getText("版本号"))}</span>
               </div>
               <div class="setting-17"> 2.6.5</div>
             </div>

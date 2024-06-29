@@ -43,7 +43,7 @@ export default function OrderList({ hyorders, nowTab }) {
             <div class="tradelistruning-4">
               <div class="tradelistruning-5">
                 <span class="tradelistruning-6">
-                  {data.status == 1 ? "委托中" : "已完成"}
+                  {translate(getText(data.status == 1 ? "委托中" : "已完成"))}
                 </span>
               </div>
               {/* <div class="tradelistruning-7">撤单</div> */}
@@ -51,13 +51,13 @@ export default function OrderList({ hyorders, nowTab }) {
             <div class="tradelistruning-8">
               <div class="tradelistruning-9">
                 <div class="tradelistruning-10">
-                  <span class="tradelistruning-11">产品</span>
+                  <span class="tradelistruning-11">{translate(getText("产品"))}</span>
                 </div>
                 <div class="tradelistruning-12"> {data.coinname}</div>
               </div>
               <div class="tradelistruning-13">
                 <div class="tradelistruning-14">
-                  <span class="tradelistruning-15">方向</span>
+                  <span class="tradelistruning-15">{translate(getText("方向"))}</span>
                 </div>
                 <div
                   className={
@@ -73,19 +73,19 @@ export default function OrderList({ hyorders, nowTab }) {
               </div>
               <div class="tradelistruning-17">
                 <div class="tradelistruning-18">
-                  <span class="tradelistruning-19">时间周期</span>
+                  <span class="tradelistruning-19">{translate(getText("时间周期"))}</span>
                 </div>
                 <div class="tradelistruning-20">{data.time}</div>
               </div>
               <div class="tradelistruning-21">
                 <div class="tradelistruning-22">
-                  <span class="tradelistruning-23">数量</span>
+                  <span class="tradelistruning-23">{translate(getText("数量"))}</span>
                 </div>
                 <div class="tradelistruning-24"> {data.num.toFixed(2)}</div>
               </div>
               <div class="tradelistruning-25">
                 <div class="tradelistruning-26">
-                  <span class="tradelistruning-27">下单时间</span>
+                  <span class="tradelistruning-27">{translate(getText("下单时间"))}</span>
                 </div>
                 <div class="tradelistruning-28">
                   {data.buytime?.substring(0, 16)}
@@ -93,28 +93,28 @@ export default function OrderList({ hyorders, nowTab }) {
               </div>
               <div class="tradelistruning-29">
                 <div class="tradelistruning-30">
-                  <span class="tradelistruning-31">开仓价格</span>
+                  <span class="tradelistruning-31">{translate(getText("开仓价格"))}</span>
                 </div>
                 <div class="tradelistruning-32"> {data.buyprice}</div>
               </div>
               {data.status != 1 && (
                 <div class="tradelistruning-33">
                   <div class="tradelistruning-34">
-                    <span class="tradelistruning-35">结算价格</span>
+                    <span class="tradelistruning-35">{translate(getText("结算价格"))}</span>
                   </div>
                   <div class="tradelistruning-36"> {data.sellprice}</div>
                 </div>
               )}
               <div class="tradelistruning-33">
                 <div class="tradelistruning-34">
-                  <span class="tradelistruning-35">成交量</span>
+                  <span class="tradelistruning-35">{translate(getText("成交量"))}</span>
                 </div>
                 <div class="tradelistruning-36"> {data.num.toFixed(2)}</div>
               </div>
               {data.status != 1 && (
                 <div class="tradelistruning-33">
                   <div class="tradelistruning-34">
-                    <span class="tradelistruning-35">亏盈</span>
+                    <span class="tradelistruning-35">{translate(getText("亏盈"))}</span>
                   </div>
                   <div class="tradelistruning-36">
                     {data.isWin == 1 ? "+" : "-"}
@@ -158,7 +158,7 @@ export default function OrderList({ hyorders, nowTab }) {
                 setType(1);
               }}
             >
-              <span class="tradechangebar-5">交割订单</span>
+              <span class="tradechangebar-5">{translate(getText("交割订单"))}</span>
             </div>
           </div>
           <div class="tradechangebar-6">
@@ -168,7 +168,7 @@ export default function OrderList({ hyorders, nowTab }) {
                 setType(2);
               }}
             >
-              <span class="tradechangebar-8">历史订单</span>
+              <span class="tradechangebar-8">{translate(getText("历史订单"))}</span>
             </div>
           </div>
         </div>

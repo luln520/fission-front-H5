@@ -93,7 +93,7 @@ export default function CoinPopup({
                     ></i>
                   </div>
                   <div class="coinPopupTopTitlelb-9">
-                    <span class="coinPopupTopTitlelb-10">永续合约</span>
+                    <span class="coinPopupTopTitlelb-10">{translate(getText("永续合约"))}</span>
                   </div>
                   <div class="coinPopupTopTitlelb-11">{getNodes()}</div>
                 </div>

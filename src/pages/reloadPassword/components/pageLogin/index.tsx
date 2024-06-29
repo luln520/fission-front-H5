@@ -93,7 +93,7 @@ export default function PageRegister({
         <div class="reloadPassword-2">
           <div class="reloadPassword-3">
             <div class="reloadPassword-4">
-              <span class="reloadPassword-5">找回密码</span>
+              <span class="reloadPassword-5">{translate(getText("找回密码"))}</span>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function PageRegister({
                           changeType(2);
                         }}
                       >
-                        <span class="reloadPassword-14">邮箱</span>
+                        <span class="reloadPassword-14">{translate(getText("邮箱"))}</span>
                       </div>
                     </div>
                     <div
@@ -138,7 +138,7 @@ export default function PageRegister({
                           changeType(1);
                         }}
                       >
-                        <span class="reloadPassword-17">手机</span>
+                        <span class="reloadPassword-17">{translate(getText("手机"))}</span>
                       </div>
                     </div>
                   </div>
@@ -387,7 +387,7 @@ export default function PageRegister({
             doEditpassword(data);
           }}
         >
-          提交
+          {translate(getText("提交"))}
         </div>
       </div>
     </>

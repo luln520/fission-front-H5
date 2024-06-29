@@ -147,7 +147,7 @@ export default function CenterPage({
                     }}
                   >
                     <div class={type == 1 ? "quotation-10" : "quotation-12"}>
-                      <span class="quotation-10">交割合约</span>
+                      <span class="quotation-10">{translate(getText("交割合约"))}</span>
                     </div>
                   </div>
                   <div
@@ -157,7 +157,7 @@ export default function CenterPage({
                     }}
                   >
                     <div class={type == 2 ? "quotation-10" : "quotation-12"}>
-                      <span class="quotation-13">永续</span>
+                      <span class="quotation-13">{translate(getText("永续"))}</span>
                     </div>
                   </div>
                 </div>
@@ -169,10 +169,10 @@ export default function CenterPage({
       </div>
       <div class="quotation-15">
         <div class="quotation-16">
-          <div class="quotation-17">交易对</div>
-          <div class="quotation-18">最新价</div>
+          <div class="quotation-17">{translate(getText("交易对"))}</div>
+          <div class="quotation-18">{translate(getText("最新价"))}</div>
           <div class="quotation-19">
-            涨跌幅
+            {translate(getText("涨跌幅"))}
             <div class="quotation-20">
               <div class="quotation-21"></div>
               <div class="quotation-22">
@@ -194,52 +194,5 @@ export default function CenterPage({
         <div class="quotation-28">{getUSDTNodes()}</div>
       </div>
     </div>
-
-    // <div class="quotationcenter-1">
-    //   <div class="quotationcenter-2">
-    //     <div class="quotationcenter-3">
-    //       <ul class="quotationcenter-4">
-    //         <li
-    //           class={type == 1 ? "quotationcenter-6" : "quotationcenter-5"}
-    //           onClick={() => {
-    //             setType(1);
-    //           }}
-    //         >
-    //           {translate(getText("自選"))}
-    //         </li>
-    //         <li
-    //           class={type == 2 ? "quotationcenter-6" : "quotationcenter-5"}
-    //           onClick={() => {
-    //             setType(2);
-    //           }}
-    //         >
-    //           USDT
-    //         </li>
-    //       </ul>
-    //     </div>
-    //     <div class="quotationcenter-7">
-    //       <div class="quotationcenter-8">
-    //         <div class="quotationcenter-9">
-    //           <div class="quotationcenter-10">
-    //             <div class="quotationcenter-31">
-    //               <div class="quotationcenter-32">
-    //                 <div class="quotationcenter-33">
-    //                   <div class="quotationcenter-34">
-    //                     <div class="quotationcenter-35">
-    //                       <ul class="quotationcenter-36">
-    //                         {type == 2 && getUSDTNodes()}
-    //                         {type == 1 && getZXNodes()}
-    //                       </ul>
-    //                     </div>
-    //                   </div>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }

@@ -24,7 +24,7 @@ export default function Optionbox3({ index, setindex }) {
                   }}
                 >
                   <div class="optionbox3-8">
-                    <span class="optionbox3-9">涨幅榜</span>
+                    <span class="optionbox3-9">{translate(getText("涨幅榜"))}</span>
                   </div>
                 </div>
                 <div
@@ -34,7 +34,7 @@ export default function Optionbox3({ index, setindex }) {
                   }}
                 >
                   <div class="optionbox3-11">
-                    <span class="optionbox3-12">跌幅榜</span>
+                    <span class="optionbox3-12">{translate(getText("跌幅榜"))}</span>
                   </div>
                 </div>
                 <div
@@ -44,7 +44,7 @@ export default function Optionbox3({ index, setindex }) {
                   }}
                 >
                   <div class="optionbox3-14">
-                    <span class="optionbox3-15">24H成交额</span>
+                    <span class="optionbox3-15">{translate(getText("24H成交额"))}</span>
                   </div>
                 </div>
               </div>

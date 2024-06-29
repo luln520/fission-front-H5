@@ -67,7 +67,7 @@ export default function CenterPage({ userInfo }) {
               }}
             >
               <div class="sharecenter-15">
-                <span class="sharecenter-16">我的邀请码:</span>
+                <span class="sharecenter-16">{translate(getText("我的邀请码"))}:</span>
               </div>
               <div class="sharecenter-17"> {userInfo?.invit}</div>
               <i class="sharecenter-18"></i>
@@ -79,7 +79,7 @@ export default function CenterPage({ userInfo }) {
               }}
             >
               <div class="sharecenter-20">
-                <span class="sharecenter-21">我的邀请链接:</span>
+                <span class="sharecenter-21">{translate(getText("我的邀请链接"))}:</span>
               </div>
               <div class="sharecenter-22">
                 {hostname}/register?invit={userInfo?.invit}
@@ -94,24 +94,24 @@ export default function CenterPage({ userInfo }) {
             saveQRCode();
           }}
         >
-          点击保存二维码
+          {translate(getText("点击保存二维码"))}
         </div>
         <div class="sharecenter-25">
-          <div class="sharecenter-26">推荐人数：0 / 1</div>
-          <div class="sharecenter-27">当前等级：LV1</div>
-          <div class="sharecenter-28">总收益：0</div>
+          <div class="sharecenter-26">{translate(getText("推荐人数"))}：0 / 1</div>
+          <div class="sharecenter-27">{translate(getText("当前等级"))}：LV1</div>
+          <div class="sharecenter-28">{translate(getText("总收益"))}：0</div>
         </div>
         <div class="sharecenter-29">
           <div class="sharecenter-30">
             <div class="sharecenter-31">
-              <span class="sharecenter-32">规则说明</span>
+              <span class="sharecenter-32">{translate(getText("规则说明"))}</span>
             </div>
             <i class="sharecenter-33"></i>
           </div>
           <div class="sharecenter-34">
             <div class="sharecenter-35">
-              <div class="sharecenter-36">团队等级</div>
-              <div class="sharecenter-37">要求</div>
+              <div class="sharecenter-36">{translate(getText("团队等级"))}</div>
+              <div class="sharecenter-37">{translate(getText("要求"))}</div>
             </div>
             <div class="sharecenter-38">
               <div class="sharecenter-39">
@@ -198,10 +198,10 @@ export default function CenterPage({ userInfo }) {
           </div>
           <div class="sharecenter-89">
             <div class="sharecenter-90">
-              <div class="sharecenter-91">团队等级</div>
-              <div class="sharecenter-92">1级下级</div>
-              <div class="sharecenter-93">2级下级</div>
-              <div class="sharecenter-94">3级下级</div>
+              <div class="sharecenter-91">{translate(getText("团队等级"))}</div>
+              <div class="sharecenter-92">{translate(getText("1级下级"))}</div>
+              <div class="sharecenter-93">{translate(getText("2级下级"))}</div>
+              <div class="sharecenter-94">{translate(getText("3级下级"))}</div>
             </div>
             <div class="sharecenter-95">
               <div class="sharecenter-96">

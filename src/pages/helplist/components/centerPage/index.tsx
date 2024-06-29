@@ -77,7 +77,7 @@ export default function CenterPage({ companyData }) {
             <div class="helplist-10">
               <div action="" class="helplist-12">
                 <input
-                  placeholder="搜索"
+                  placeholder={translate(getText("搜索"))}
                   value={search}
                   type="search"
                   maxlength="140"
@@ -94,7 +94,7 @@ export default function CenterPage({ companyData }) {
         </div>
       </div>
       <div class="helplist-14">
-        <span class="helplist-15">帮助中心</span>
+        <span class="helplist-15">{translate(getText("帮助中心"))}</span>
       </div>
       <div class="helplist-16">{getNodes()}</div>
     </div>

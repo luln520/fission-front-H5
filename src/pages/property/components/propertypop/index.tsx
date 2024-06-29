@@ -33,7 +33,7 @@ export default function Propertypop({
               <div class="propertypop-5">
                 <div class="propertypop-6">
                   <div class="propertypop-7">
-                    <span class="propertypop-8">我的账户</span>
+                    <span class="propertypop-8">{translate(getText("我的账户"))}</span>
                   </div>
                   <div class="propertypop-9">
                     <div
@@ -44,7 +44,7 @@ export default function Propertypop({
                         changepropertyType(1);
                       }}
                     >
-                      <div class="propertypop-11">实际账户</div>
+                      <div class="propertypop-11">{translate(getText("实际账户"))}</div>
                       <div class="propertypop-12">
                         <span class="propertypop-13">
                           USDT {userInfo?.usdt}
@@ -59,7 +59,7 @@ export default function Propertypop({
                         changepropertyType(2);
                       }}
                     >
-                      <div class="propertypop-15">模拟账户</div>
+                      <div class="propertypop-15">{translate(getText("模拟账户"))}</div>
                       <div class="propertypop-16">
                         <span class="propertypop-17">USDT {mockUserInfo?.money}</span>
                       </div>

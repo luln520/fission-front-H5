@@ -25,7 +25,7 @@ export default function TopBuy({ setIsShowOrder, setType }) {
             class="marketbuydivlb-6"
           />
         </div>
-        <div class="marketbuydivlb-7">看涨</div>
+        <div class="marketbuydivlb-7">{translate(getText("看涨"))}</div>
         <div class="marketbuydivlb-8">
           <span class="marketbuydivlb-9">61.82%</span>
         </div>
@@ -47,7 +47,7 @@ export default function TopBuy({ setIsShowOrder, setType }) {
             class="marketbuydivlb-16"
           />
         </div>
-        <div class="marketbuydivlb-17">看跌</div>
+        <div class="marketbuydivlb-17">{translate(getText("看跌"))}</div>
       </div>
     </div>
 

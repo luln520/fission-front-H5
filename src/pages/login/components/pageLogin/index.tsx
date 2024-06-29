@@ -82,7 +82,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
               <div class="loginboxnew-24">
                 <div class="loginboxnew-25">
                   <input
-                    placeholder="请输入邮箱"
+                    placeholder={translate(getText("请输入邮箱"))}
                     type=""
                     maxlength="999"
                     step=""
@@ -107,7 +107,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
               <div class="loginboxnew-32">
                 <div class="loginboxnew-33">
                   <input
-                    placeholder="请输入密码"
+                    placeholder={translate(getText("请输入密码"))}
                     type="password"
                     maxlength="999"
                     step=""
@@ -130,7 +130,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
             <div class="loginboxnew-38">
               <i class="loginboxnew-39"></i>
               <div class="loginboxnew-40">
-                <span class="loginboxnew-41">记住我的密码</span>
+                <span class="loginboxnew-41">{translate(getText("记住我的密码"))}</span>
               </div>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
               navigate("/chatcenter");
             }}
           >
-            联系客服服务
+            {translate(getText("联系客服服务"))}
           </span>
         </div>
       </div>

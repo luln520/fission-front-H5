@@ -19,7 +19,7 @@ export default function SettingPage({ userInfo }) {
     <div class="moremenus-1">
       <div class="moremenus-3">
         <div class="moremenus-4">
-          <span class="moremenus-5">常规</span>
+          <span class="moremenus-5">{translate(getText("常规"))}</span>
         </div>
         <div class="moremenus-6">
           <div class="moremenus-7">
@@ -31,7 +31,7 @@ export default function SettingPage({ userInfo }) {
               />
             </div>
             <div class="moremenus-12">
-              <span class="moremenus-13">提币</span>
+              <span class="moremenus-13">{translate(getText("提币"))}</span>
             </div>
           </div>
           <div class="moremenus-14">
@@ -43,7 +43,7 @@ export default function SettingPage({ userInfo }) {
               />
             </div>
             <div class="moremenus-19">
-              <span class="moremenus-20">充币</span>
+              <span class="moremenus-20">{translate(getText("充币"))}</span>
             </div>
           </div>
           <div class="moremenus-21">
@@ -55,14 +55,14 @@ export default function SettingPage({ userInfo }) {
               />
             </div>
             <div class="moremenus-26">
-              <span class="moremenus-27">闪兑</span>
+              <span class="moremenus-27">{translate(getText("闪兑"))}</span>
             </div>
           </div>
         </div>
       </div>
       <div class="moremenus-28">
         <div class="moremenus-29">
-          <span class="moremenus-30">交易</span>
+          <span class="moremenus-30">{translate(getText("交易"))}</span>
         </div>
         <div class="moremenus-31">
           <div class="moremenus-32">
@@ -74,7 +74,7 @@ export default function SettingPage({ userInfo }) {
               />
             </div>
             <div class="moremenus-37">
-              <span class="moremenus-38">永续</span>
+              <span class="moremenus-38">{translate(getText("永续"))}</span>
             </div>
           </div>
           <div class="moremenus-39">
@@ -86,7 +86,7 @@ export default function SettingPage({ userInfo }) {
               />
             </div>
             <div class="moremenus-44">
-              <span class="moremenus-45">交割合约</span>
+              <span class="moremenus-45">{translate(getText("交割合约"))}</span>
             </div>
           </div>
           <div class="moremenus-46">
@@ -98,14 +98,14 @@ export default function SettingPage({ userInfo }) {
               />
             </div>
             <div class="moremenus-51">
-              <span class="moremenus-52">划转</span>
+              <span class="moremenus-52">{translate(getText("划转"))}</span>
             </div>
           </div>
         </div>
       </div>
       <div class="moremenus-53">
         <div class="moremenus-54">
-          <span class="moremenus-55">其他</span>
+          <span class="moremenus-55">{translate(getText("其他"))}</span>
         </div>
         <div class="moremenus-56">
           <div class="moremenus-57">
@@ -117,7 +117,7 @@ export default function SettingPage({ userInfo }) {
               />
             </div>
             <div class="moremenus-62">
-              <span class="moremenus-63">帮助</span>
+              <span class="moremenus-63">{translate(getText("帮助"))}</span>
             </div>
           </div>
           <div class="moremenus-64">
@@ -129,7 +129,7 @@ export default function SettingPage({ userInfo }) {
               />
             </div>
             <div class="moremenus-69">
-              <span class="moremenus-70">客服</span>
+              <span class="moremenus-70">{translate(getText("客服"))}</span>
             </div>
           </div>
           <div class="moremenus-71">
@@ -141,7 +141,7 @@ export default function SettingPage({ userInfo }) {
               />
             </div>
             <div class="moremenus-76">
-              <span class="moremenus-77">平台介绍</span>
+              <span class="moremenus-77">{translate(getText("平台介绍"))}</span>
             </div>
           </div>
         </div>

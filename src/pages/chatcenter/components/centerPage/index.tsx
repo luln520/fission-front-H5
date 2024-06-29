@@ -18,7 +18,7 @@ export default function CenterPage({companyData}) {
     <>
       <div class="chatcenter-1">
         <div class="chatcenter-2">
-          <div class="chatcenter-3">客服中心</div>
+          <div class="chatcenter-3">{translate(getText("客服中心"))}</div>
           <div class="chatcenter-4">
             <div class="chatcenter-5">
               <img
@@ -45,32 +45,6 @@ export default function CenterPage({companyData}) {
           </div>
         </div>
       </div>
-
-      {/* <div className="chatcenter-16">
-        <div className="chatcenter-17">
-          <span className="chatcenter-18">{translate(getText("在線客服"))}</span>
-        </div>
-      </div>
-      <div className="chatcenter-19">
-        <div className="chatcenter-20">
-          <div className="chatcenter-21">
-            <div
-              className="chatcenter-22"
-              onClick={() => {
-                if (uid) {
-                  navigate("/chat");
-                } else {
-                  navigate("/murmurchat");
-                }
-              }}
-            >
-              <div className="chatcenter-23">
-                <span className="chatcenter-24">{translate(getText("在線客服"))}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 }

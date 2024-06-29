@@ -130,7 +130,7 @@ export default function ExtractList() {
   return (
     <div className="page">
       <TopBar2
-        title={translate(getText("出金"))}
+        title={translate(getText("提現"))}
         isBack={true}
         mini={translate(getText("提现明细"))}
         miniClick={() => {

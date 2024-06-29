@@ -61,7 +61,7 @@ export default function Info({ userInfo, sendAuth }) {
       <div class="idcardlb-2">
         <div class="idcardlb-3">
           <div class="idcardlb-4">
-            <span class="idcardlb-5">选择您的身份证件信息</span>
+            <span class="idcardlb-5">{translate(getText("选择您的身份证件信息"))}</span>
           </div>
           <div class="idcardlb-6">
             <div class="idcardlb-93">

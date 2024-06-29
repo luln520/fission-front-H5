@@ -24,34 +24,34 @@ export default function CenterPage({ teamInfo }) {
                 <div class="myTeam-6">
                   <div class="myTeam-7">
                     <div class="myTeam-8">
-                      <div class="myTeam-9">团队总人数</div>
+                      <div class="myTeam-9">{translate(getText("团队总人数"))}</div>
                       <div class="myTeam-10">3</div>
                     </div>
                     <div class="myTeam-11">
-                      <div class="myTeam-12">团队总收益</div>
+                      <div class="myTeam-12">{translate(getText("团队总收益"))}</div>
                       <div class="myTeam-13">30</div>
                     </div>
                   </div>
                   <div class="myTeam-14">
                     <div class="myTeam-15">
-                      <div class="myTeam-16">1级</div>
+                      <div class="myTeam-16">1{translate(getText("级"))}</div>
                       <div class="myTeam-17">1</div>
                     </div>
                     <div class="myTeam-18">
-                      <div class="myTeam-19">2级</div>
+                      <div class="myTeam-19">2{translate(getText("级"))}</div>
                       <div class="myTeam-20">1</div>
                     </div>
                     <div class="myTeam-21">
-                      <div class="myTeam-22">3级</div>
+                      <div class="myTeam-22">3{translate(getText("级"))}</div>
                       <div class="myTeam-23">1</div>
                     </div>
                   </div>
                 </div>
                 <div class="myTeam-24">
                   <div class="myTeam-25">
-                    <div class="myTeam-26">一级</div>
-                    <div class="myTeam-27">二级</div>
-                    <div class="myTeam-28">三级</div>
+                    <div class="myTeam-26">{translate(getText("一级"))}</div>
+                    <div class="myTeam-27">{translate(getText("二级"))}</div>
+                    <div class="myTeam-28">{translate(getText("三级"))}</div>
                     <div class="myTeam-29"></div>
                   </div>
                   <div class="myTeam-30">

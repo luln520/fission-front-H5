@@ -29,7 +29,7 @@ export default function BottomBar({ index }) {
           />
         </div>
         <div class={index == 1 ? "bottomBar-7" : "bottomBar-14"}>
-          <span class="bottomBar-8">首页</span>
+          <span class="bottomBar-8">{translate(getText("首页"))}</span>
         </div>
       </div>
       <div
@@ -48,7 +48,7 @@ export default function BottomBar({ index }) {
           />
         </div>
         <div class={index == 2 ? "bottomBar-7" : "bottomBar-14"}>
-          <span class="bottomBar-15">行情</span>
+          <span class="bottomBar-15">{translate(getText("行情"))}</span>
         </div>
       </div>
       <div
@@ -67,7 +67,7 @@ export default function BottomBar({ index }) {
           />
         </div>
         <div class={index == 3 ? "bottomBar-7" : "bottomBar-14"}>
-          <span class="bottomBar-22">交割合约</span>
+          <span class="bottomBar-22">{translate(getText("交割合约"))}</span>
         </div>
       </div>
       <div
@@ -86,7 +86,7 @@ export default function BottomBar({ index }) {
           />
         </div>
         <div class={index == 4 ? "bottomBar-7" : "bottomBar-14"}>
-          <span class="bottomBar-29">永续</span>
+          <span class="bottomBar-29">{translate(getText("永续"))}</span>
         </div>
       </div>
       <div
@@ -105,7 +105,7 @@ export default function BottomBar({ index }) {
           />
         </div>
         <div class={index == 5 ? "bottomBar-7" : "bottomBar-14"}>
-          <span class="bottomBar-36">资产</span>
+          <span class="bottomBar-36">{translate(getText("资产"))}</span>
         </div>
       </div>
     </div>

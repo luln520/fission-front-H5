@@ -99,7 +99,7 @@ export default function HomePopup({
           }}
         >
           <div class="homePopCenter-30">
-            <span class="homePopCenter-31">邀请码：{userInfo?.invit}</span>
+            <span class="homePopCenter-31">{translate(getText("邀请码"))}：{userInfo?.invit}</span>
           </div>
           <div class="homePopCenter-32">
             <img
@@ -190,7 +190,7 @@ export default function HomePopup({
             }}
           >
             <div class="homePopCenter-57">
-              <span class="homePopCenter-58">分享</span>
+              <span class="homePopCenter-58">{translate(getText("分享"))}</span>
             </div>
           </div>
           <div
@@ -200,7 +200,7 @@ export default function HomePopup({
             }}
           >
             <div class="homePopCenter-57">
-              <span class="homePopCenter-58">我的团队</span>
+              <span class="homePopCenter-58">{translate(getText("我的团队"))}</span>
             </div>
           </div>
           <div
@@ -222,7 +222,7 @@ export default function HomePopup({
             }}
           >
             <div class="homePopCenter-63">
-              <span class="homePopCenter-64">平台介绍</span>
+              <span class="homePopCenter-64">{translate(getText("平台介绍"))}</span>
             </div>
           </div>
           <div

@@ -212,9 +212,9 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
   return (
     <div class="homecoinlist-1">
       <div class="homecoinlist-2">
-        <div class="homecoinlist-3">交易对</div>
-        <div class="homecoinlist-4">最新价</div>
-        <div class="homecoinlist-5">24H跌涨幅</div>
+        <div class="homecoinlist-3">{translate(getText("交易对"))}</div>
+        <div class="homecoinlist-4">{translate(getText("最新价"))}</div>
+        <div class="homecoinlist-5">{translate(getText("24H"))}</div>
       </div>
       <div class="homecoinlist-6">
         {index == 1 && get1Nodes()}

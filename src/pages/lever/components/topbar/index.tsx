@@ -28,7 +28,7 @@ export default function TopBar({
         ></i>
         <div class="leverTopBarlb-4">
           <span class="leverTopBarlb-5">
-            {coinname?.toUpperCase()}/USDT 永续
+            {coinname?.toUpperCase()}/USDT {translate(getText("永续"))}
           </span>
         </div>
         <div
