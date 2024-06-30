@@ -16,7 +16,7 @@ export default function MyTeam() {
   const { t: translate } = useTranslation();
   //加载数据
   const loadTeamInfoData = async () => {
-    const data = await userApi.userTeams({uid});
+    const data = await userApi.userTeams({uid:106});
     if (data.ok) {
       setTeamInfo(data.data);
     }
