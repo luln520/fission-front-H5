@@ -9,7 +9,7 @@ import copy from "copy-to-clipboard";
 import html2canvas from "html2canvas";
 import { useEffect, useRef } from "react";
 
-export default function CenterPage({ userInfo }) {
+export default function CenterPage({ userInfo,teamInfo }) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   const la = localStorage.getItem("i18n");
@@ -97,9 +97,9 @@ export default function CenterPage({ userInfo }) {
           {translate(getText("点击保存二维码"))}
         </div>
         <div class="sharecenter-25">
-          <div class="sharecenter-26">{translate(getText("推荐人数"))}：0 / 1</div>
+          <div class="sharecenter-26">{translate(getText("推荐人数"))}：{teamInfo?.numCount}</div>
           <div class="sharecenter-27">{translate(getText("当前等级"))}：LV1</div>
-          <div class="sharecenter-28">{translate(getText("总收益"))}：0</div>
+          {/* <div class="sharecenter-28">{translate(getText("总收益"))}：0</div> */}
         </div>
         <div class="sharecenter-29">
           <div class="sharecenter-30">

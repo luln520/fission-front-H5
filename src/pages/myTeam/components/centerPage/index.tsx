@@ -43,7 +43,7 @@ export default function CenterPage({ teamInfo }) {
             <div class="myTeam-37">{item?.username}</div>
             <div class="myTeam-38">{item?.createTime}</div>
           </div>
-          <div class="myTeam-39">{item?.num}</div>
+          {/* <div class="myTeam-39">{item?.num}</div> */}
         </div>
       );
     }
