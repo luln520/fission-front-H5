@@ -57,13 +57,13 @@ export default function PropertyCenter({
           </div>
           <div class="propertycenterlb-21">
             <div class="propertycenterlb-22">
-              <span class="propertycenterlb-23">{translate(getText("今日收益"))}：0</span>
+              <span class="propertycenterlb-23">{translate(getText("今日收益"))}：{qbSum?.todaynum}</span>
             </div>
             {/* <i class="propertycenterlb-24"></i> */}
           </div>
           <div class="propertycenterlb-25">
             <div class="propertycenterlb-26">
-              <span class="propertycenterlb-27">{translate(getText("交易量"))}：0</span>
+              <span class="propertycenterlb-27">{translate(getText("交易量"))}：{qbSum?.count}</span>
             </div>
             {/* <i class="propertycenterlb-28"></i> */}
           </div>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { imageConfig } from "../../../../config/config";
@@ -9,6 +9,20 @@ export default function TopBuy({ setIsShowOrder, setType }) {
   const navigate = useNavigate();
   const [num, setNum] = useState(1);
   const { t: translate } = useTranslation();
+  const [upNum,setUpNum]= useState(50);
+  function getRandomNumberInRange(min, max, decimalPlaces) {  
+    // 生成一个[min, max)区间的随机数  
+    let rand = min + Math.random() * (max - min);  
+    // 使用toFixed()方法保留指定的小数位数，并转换回数字类型  
+    // 注意：toFixed()返回的是字符串，所以需要再次转换为数字  
+    return Number(rand.toFixed(decimalPlaces));  
+}
+  useEffect(()=>{
+    //开启定时器
+    const timer=setInterval(()=>{
+      setUpNum(getRandomNumberInRange(45,65,2));
+    },3000);
+  },[]);
   return (
     <div class="marketbuydivlb-1">
       <div
@@ -27,7 +41,7 @@ export default function TopBuy({ setIsShowOrder, setType }) {
         </div>
         <div class="marketbuydivlb-7">{translate(getText("看涨"))}</div>
         <div class="marketbuydivlb-8">
-          <span class="marketbuydivlb-9">61.82%</span>
+          <span class="marketbuydivlb-9">{upNum}%</span>
         </div>
       </div>
       <div
@@ -38,7 +52,7 @@ export default function TopBuy({ setIsShowOrder, setType }) {
         }}
       >
         <div class="marketbuydivlb-11">
-          <span class="marketbuydivlb-12">68.18%</span>
+          <span class="marketbuydivlb-12">{(100-upNum).toFixed(2)}%</span>
         </div>
         <div class="marketbuydivlb-13">
           <img
