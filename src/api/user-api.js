@@ -67,4 +67,11 @@ export const userApi = {
   userTeams: (param) => {
     return getRequest('/api/pc/user/userTeams', param);
   },
+   /**
+*获取配置
+*/
+getTwLeverSet: (param) => {
+  return getRequest('/api/pc/teamset/getTwLeverSet', param);
+},
+  
 };

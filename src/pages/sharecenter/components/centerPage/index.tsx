@@ -7,11 +7,12 @@ import "./index.css";
 import QRCode from "qrcodejs2";
 import copy from "copy-to-clipboard";
 import html2canvas from "html2canvas";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
-export default function CenterPage({ userInfo,teamInfo }) {
+export default function CenterPage({ userInfo, teamInfo, teamSets }) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
+  const [userLV, setuserLV] = useState("");
   const la = localStorage.getItem("i18n");
   const hostname = window.location.hostname;
 
@@ -42,6 +43,48 @@ export default function CenterPage({ userInfo,teamInfo }) {
     document.body.removeChild(link);
   }
 
+  
+  //获取
+  const getUserLV = () => {
+    //排序
+    teamSets.sort(function (a, b) {
+      return a.sort - b.sort;
+    });
+    for (const teamSet of teamSets) {
+      //判断等级
+      if (
+        teamInfo?.numCount >= teamSet?.min &&
+        teamInfo?.numCount <= teamSet?.max
+      ) {
+        setuserLV(teamSet?.name);
+        break;
+      }
+    }
+  };
+  //团队配置
+  const getTeamSetArray = () => {
+    const nodes = [];
+    //排序
+    teamSets.sort(function (a, b) {
+      return a.sort - b.sort;
+    });
+    for (const teamSet of teamSets) {
+      //写入元素
+      nodes.push(
+        <div class="sharecenter-39">
+          <div class="sharecenter-40">
+            <span class="sharecenter-41">{teamSet?.name}</span>
+          </div>
+          <div class="sharecenter-42">
+            <span class="sharecenter-43">
+              {teamSet?.min} ≤ N＜ {teamSet?.max}
+            </span>
+          </div>
+        </div>
+      );
+    }
+    return nodes;
+  };
   const handleCopy = (value) => {
     if (copy(value)) {
       Toast.show({ content: translate(getText("成功")) });
@@ -50,6 +93,9 @@ export default function CenterPage({ userInfo,teamInfo }) {
   useEffect(() => {
     creatQrCode();
   }, [userInfo]);
+  useEffect(() => {
+    getUserLV();
+  }, [teamSets,teamInfo]);
   return (
     <>
       <div class="sharecenter-1">
@@ -67,7 +113,9 @@ export default function CenterPage({ userInfo,teamInfo }) {
               }}
             >
               <div class="sharecenter-15">
-                <span class="sharecenter-16">{translate(getText("我的邀请码"))}:</span>
+                <span class="sharecenter-16">
+                  {translate(getText("我的邀请码"))}:
+                </span>
               </div>
               <div class="sharecenter-17"> {userInfo?.invit}</div>
               <i class="sharecenter-18"></i>
@@ -79,7 +127,9 @@ export default function CenterPage({ userInfo,teamInfo }) {
               }}
             >
               <div class="sharecenter-20">
-                <span class="sharecenter-21">{translate(getText("我的邀请链接"))}:</span>
+                <span class="sharecenter-21">
+                  {translate(getText("我的邀请链接"))}:
+                </span>
               </div>
               <div class="sharecenter-22">
                 {hostname}/register?invit={userInfo?.invit}
@@ -97,14 +147,20 @@ export default function CenterPage({ userInfo,teamInfo }) {
           {translate(getText("点击保存二维码"))}
         </div>
         <div class="sharecenter-25">
-          <div class="sharecenter-26">{translate(getText("推荐人数"))}：{teamInfo?.numCount}</div>
-          <div class="sharecenter-27">{translate(getText("当前等级"))}：LV1</div>
+          <div class="sharecenter-26">
+            {translate(getText("推荐人数"))}：{teamInfo?.numCount}
+          </div>
+          <div class="sharecenter-27">
+            {translate(getText("当前等级"))}：{userLV}
+          </div>
           {/* <div class="sharecenter-28">{translate(getText("总收益"))}：0</div> */}
         </div>
         <div class="sharecenter-29">
           <div class="sharecenter-30">
             <div class="sharecenter-31">
-              <span class="sharecenter-32">{translate(getText("规则说明"))}</span>
+              <span class="sharecenter-32">
+                {translate(getText("规则说明"))}
+              </span>
             </div>
             <i class="sharecenter-33"></i>
           </div>
@@ -113,88 +169,7 @@ export default function CenterPage({ userInfo,teamInfo }) {
               <div class="sharecenter-36">{translate(getText("团队等级"))}</div>
               <div class="sharecenter-37">{translate(getText("要求"))}</div>
             </div>
-            <div class="sharecenter-38">
-              <div class="sharecenter-39">
-                <div class="sharecenter-40">
-                  <span class="sharecenter-41">LV0</span>
-                </div>
-                <div class="sharecenter-42">
-                  <span class="sharecenter-43">0 ≤ N＜ 5</span>
-                </div>
-              </div>
-              <div class="sharecenter-44">
-                <div class="sharecenter-45">
-                  <span class="sharecenter-46">LV1</span>
-                </div>
-                <div class="sharecenter-47">
-                  <span class="sharecenter-48">5 ≤ N＜ 30</span>
-                </div>
-              </div>
-              <div class="sharecenter-49">
-                <div class="sharecenter-50">
-                  <span class="sharecenter-51">LV2</span>
-                </div>
-                <div class="sharecenter-52">
-                  <span class="sharecenter-53">30 ≤ N＜ 100</span>
-                </div>
-              </div>
-              <div class="sharecenter-54">
-                <div class="sharecenter-55">
-                  <span class="sharecenter-56">LV3</span>
-                </div>
-                <div class="sharecenter-57">
-                  <span class="sharecenter-58">100 ≤ N＜ 300</span>
-                </div>
-              </div>
-              <div class="sharecenter-59">
-                <div class="sharecenter-60">
-                  <span class="sharecenter-61">LV4</span>
-                </div>
-                <div class="sharecenter-62">
-                  <span class="sharecenter-63">300 ≤ N＜ 600</span>
-                </div>
-              </div>
-              <div class="sharecenter-64">
-                <div class="sharecenter-65">
-                  <span class="sharecenter-66">LV5</span>
-                </div>
-                <div class="sharecenter-67">
-                  <span class="sharecenter-68">600 ≤ N＜ 1000</span>
-                </div>
-              </div>
-              <div class="sharecenter-69">
-                <div class="sharecenter-70">
-                  <span class="sharecenter-71">LV6</span>
-                </div>
-                <div class="sharecenter-72">
-                  <span class="sharecenter-73">1000 ≤ N＜ 1500</span>
-                </div>
-              </div>
-              <div class="sharecenter-74">
-                <div class="sharecenter-75">
-                  <span class="sharecenter-76">LV7</span>
-                </div>
-                <div class="sharecenter-77">
-                  <span class="sharecenter-78">1500 ≤ N＜ 2500</span>
-                </div>
-              </div>
-              <div class="sharecenter-79">
-                <div class="sharecenter-80">
-                  <span class="sharecenter-81">LV8</span>
-                </div>
-                <div class="sharecenter-82">
-                  <span class="sharecenter-83">2500 ≤ N＜ 5000</span>
-                </div>
-              </div>
-              <div class="sharecenter-84">
-                <div class="sharecenter-85">
-                  <span class="sharecenter-86">LV9</span>
-                </div>
-                <div class="sharecenter-87">
-                  <span class="sharecenter-88">5000 ≤ N</span>
-                </div>
-              </div>
-            </div>
+            <div class="sharecenter-38">{getTeamSetArray()}</div>
           </div>
           <div class="sharecenter-89">
             <div class="sharecenter-90">
