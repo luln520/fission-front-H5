@@ -82,9 +82,9 @@ export default function DataListAndBuy({
           </div>
           <div
             class="leverListAndBuy-149"
-            style={{
-              width: "110%",
-            }}
+            // style={{
+            //   width: "110%",
+            // }}
           ></div>
         </div>
       );
@@ -164,16 +164,16 @@ export default function DataListAndBuy({
   };
 
   const getchangeNum = () => {
-    const openprice = coinListData[nowTab]?.close;
-    const type1num = zsNum;
-    const type2num = zyNum;
-    if (type == 1) {
-      setlossPrice(openprice * (1 - type1num * 0.01));
-      setwinPrice(openprice * (1 + type2num * 0.01));
-    } else {
-      setwinPrice(openprice * (1 - type1num * 0.01));
-      setlossPrice(openprice * (1 + type2num * 0.01));
-    }
+    // const openprice = coinListData[nowTab]?.close;
+    // const type1num = zsNum;
+    // const type2num = zyNum;
+    // if (type == 1) {
+    //   setlossPrice(openprice * (1 - type1num * 0.01));
+    //   setwinPrice(openprice * (1 + type2num * 0.01));
+    // } else {
+    //   setwinPrice(openprice * (1 - type1num * 0.01));
+    //   setlossPrice(openprice * (1 + type2num * 0.01));
+    // }
   };
 
   const getboomPrice = () => {

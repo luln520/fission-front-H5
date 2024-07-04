@@ -1991,7 +1991,7 @@
   position: absolute;
   max-width: 100%;
   background: rgba(4, 207, 153, 0.1);
-  width: 84.6932%;
+  width: 100%;
 }
 
 .leverListAndBuy-107:after {
@@ -2537,6 +2537,7 @@
   bottom: 0px;
   position: absolute;
   max-width: 100%;
+  width:  100%;
   background: rgba(243, 100, 100, 0.1);
 }
 

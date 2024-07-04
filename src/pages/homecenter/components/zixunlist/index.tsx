@@ -99,7 +99,6 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
         data = data.data;
         //判断颜色
         if (data[0].open > data[0].close) {
-          console.info(name, data[0]);
           type = 2;
         }
         data = data.reverse();

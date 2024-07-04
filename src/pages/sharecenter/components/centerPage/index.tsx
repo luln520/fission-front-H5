@@ -43,7 +43,6 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
     document.body.removeChild(link);
   }
 
-  
   //获取
   const getUserLV = () => {
     //排序
@@ -85,6 +84,38 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
     }
     return nodes;
   };
+
+  //团队信息
+  const getTeamArray = () => {
+    const oneTeamNum=teamInfo?.oneTeam?.length;
+    const twoTeamNum=teamInfo?.twoTeam?.length;
+    const threeTeamNum=teamInfo?.threeTeam?.length;
+    const nodes = [];
+    //排序
+    teamSets.sort(function (a, b) {
+      return a.sort - b.sort;
+    });
+    for (const teamSet of teamSets) {
+      //写入元素
+      nodes.push(
+        <div class="sharecenter-96">
+          <div class="sharecenter-97">
+            <span class="sharecenter-98">{teamSet?.name}</span>
+          </div>
+          <div class="sharecenter-99">
+            <span class="sharecenter-100">{parseInt(oneTeamNum/teamSet?.max*100)>100?100:parseInt(oneTeamNum/teamSet?.max*100)}%</span>
+          </div>
+          <div class="sharecenter-101">
+            <span class="sharecenter-102">{parseInt(twoTeamNum/teamSet?.max*100)>100?100:parseInt(twoTeamNum/teamSet?.max*100)}%</span>
+          </div>
+          <div class="sharecenter-103">
+            <span class="sharecenter-104">{parseInt(threeTeamNum/teamSet?.max*100)>100?100:parseInt(threeTeamNum/teamSet?.max*100)}%</span>
+          </div>
+        </div>
+      );
+    }
+    return nodes;
+  };
   const handleCopy = (value) => {
     if (copy(value)) {
       Toast.show({ content: translate(getText("成功")) });
@@ -95,7 +126,7 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
   }, [userInfo]);
   useEffect(() => {
     getUserLV();
-  }, [teamSets,teamInfo]);
+  }, [teamSets, teamInfo]);
   return (
     <>
       <div class="sharecenter-1">
@@ -178,148 +209,7 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
               <div class="sharecenter-93">{translate(getText("2级下级"))}</div>
               <div class="sharecenter-94">{translate(getText("3级下级"))}</div>
             </div>
-            <div class="sharecenter-95">
-              <div class="sharecenter-96">
-                <div class="sharecenter-97">
-                  <span class="sharecenter-98">LV0</span>
-                </div>
-                <div class="sharecenter-99">
-                  <span class="sharecenter-100">0%</span>
-                </div>
-                <div class="sharecenter-101">
-                  <span class="sharecenter-102">%</span>
-                </div>
-                <div class="sharecenter-103">
-                  <span class="sharecenter-104">%</span>
-                </div>
-              </div>
-              <div class="sharecenter-105">
-                <div class="sharecenter-106">
-                  <span class="sharecenter-107">LV1</span>
-                </div>
-                <div class="sharecenter-108">
-                  <span class="sharecenter-109">0%</span>
-                </div>
-                <div class="sharecenter-110">
-                  <span class="sharecenter-111">%</span>
-                </div>
-                <div class="sharecenter-112">
-                  <span class="sharecenter-113">%</span>
-                </div>
-              </div>
-              <div class="sharecenter-114">
-                <div class="sharecenter-115">
-                  <span class="sharecenter-116">LV2</span>
-                </div>
-                <div class="sharecenter-117">
-                  <span class="sharecenter-118">0%</span>
-                </div>
-                <div class="sharecenter-119">
-                  <span class="sharecenter-120">%</span>
-                </div>
-                <div class="sharecenter-121">
-                  <span class="sharecenter-122">%</span>
-                </div>
-              </div>
-              <div class="sharecenter-123">
-                <div class="sharecenter-124">
-                  <span class="sharecenter-125">LV3</span>
-                </div>
-                <div class="sharecenter-126">
-                  <span class="sharecenter-127">0%</span>
-                </div>
-                <div class="sharecenter-128">
-                  <span class="sharecenter-129">%</span>
-                </div>
-                <div class="sharecenter-130">
-                  <span class="sharecenter-131">%</span>
-                </div>
-              </div>
-              <div class="sharecenter-132">
-                <div class="sharecenter-133">
-                  <span class="sharecenter-134">LV4</span>
-                </div>
-                <div class="sharecenter-135">
-                  <span class="sharecenter-136">0%</span>
-                </div>
-                <div class="sharecenter-137">
-                  <span class="sharecenter-138">%</span>
-                </div>
-                <div class="sharecenter-139">
-                  <span class="sharecenter-140">%</span>
-                </div>
-              </div>
-              <div class="sharecenter-141">
-                <div class="sharecenter-142">
-                  <span class="sharecenter-143">LV5</span>
-                </div>
-                <div class="sharecenter-144">
-                  <span class="sharecenter-145">0%</span>
-                </div>
-                <div class="sharecenter-146">
-                  <span class="sharecenter-147">%</span>
-                </div>
-                <div class="sharecenter-148">
-                  <span class="sharecenter-149">%</span>
-                </div>
-              </div>
-              <div class="sharecenter-150">
-                <div class="sharecenter-151">
-                  <span class="sharecenter-152">LV6</span>
-                </div>
-                <div class="sharecenter-153">
-                  <span class="sharecenter-154">0%</span>
-                </div>
-                <div class="sharecenter-155">
-                  <span class="sharecenter-156">%</span>
-                </div>
-                <div class="sharecenter-157">
-                  <span class="sharecenter-158">%</span>
-                </div>
-              </div>
-              <div class="sharecenter-159">
-                <div class="sharecenter-160">
-                  <span class="sharecenter-161">LV7</span>
-                </div>
-                <div class="sharecenter-162">
-                  <span class="sharecenter-163">0%</span>
-                </div>
-                <div class="sharecenter-164">
-                  <span class="sharecenter-165">%</span>
-                </div>
-                <div class="sharecenter-166">
-                  <span class="sharecenter-167">%</span>
-                </div>
-              </div>
-              <div class="sharecenter-168">
-                <div class="sharecenter-169">
-                  <span class="sharecenter-170">LV8</span>
-                </div>
-                <div class="sharecenter-171">
-                  <span class="sharecenter-172">0%</span>
-                </div>
-                <div class="sharecenter-173">
-                  <span class="sharecenter-174">%</span>
-                </div>
-                <div class="sharecenter-175">
-                  <span class="sharecenter-176">%</span>
-                </div>
-              </div>
-              <div class="sharecenter-177">
-                <div class="sharecenter-178">
-                  <span class="sharecenter-179">LV9</span>
-                </div>
-                <div class="sharecenter-180">
-                  <span class="sharecenter-181">0%</span>
-                </div>
-                <div class="sharecenter-182">
-                  <span class="sharecenter-183">%</span>
-                </div>
-                <div class="sharecenter-184">
-                  <span class="sharecenter-185">%</span>
-                </div>
-              </div>
-            </div>
+            <div class="sharecenter-95">{getTeamArray()}</div>
           </div>
         </div>
       </div>

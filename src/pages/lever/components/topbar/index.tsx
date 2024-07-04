@@ -58,7 +58,7 @@ export default function TopBar({
             navigate("/leverroleinfo");
           }}
         ></i>
-        <i class="leverTopBarlb-9"></i>
+        {/* <i class="leverTopBarlb-9"></i> */}
       </div>
     </div>
   );
