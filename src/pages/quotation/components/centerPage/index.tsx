@@ -23,7 +23,11 @@ export default function CenterPage({
           class="quotation-29"
           key={key}
           onClick={() => {
-            navigate(`/trade/${key}`);
+            if (type == 1) {
+              navigate(`/trade/${key}`);
+            }else{
+              navigate(`/lever/${key}`);
+            }
           }}
         >
           <div class="quotation-30">
@@ -147,7 +151,9 @@ export default function CenterPage({
                     }}
                   >
                     <div class={type == 1 ? "quotation-10" : "quotation-12"}>
-                      <span class="quotation-10">{translate(getText("交割合约"))}</span>
+                      <span class="quotation-10">
+                        {translate(getText("交割合约"))}
+                      </span>
                     </div>
                   </div>
                   <div
@@ -157,7 +163,9 @@ export default function CenterPage({
                     }}
                   >
                     <div class={type == 2 ? "quotation-10" : "quotation-12"}>
-                      <span class="quotation-13">{translate(getText("永续"))}</span>
+                      <span class="quotation-13">
+                        {translate(getText("永续"))}
+                      </span>
                     </div>
                   </div>
                 </div>
