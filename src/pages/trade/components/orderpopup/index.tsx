@@ -51,8 +51,9 @@ export default function OrderPopup({
             setcykbl(cykbl);
           }}
         >
+          
           <div>{hyTime} </div>
-          <div>{cykbl}%</div>
+          {/* <div>{cykbl}%</div> */}
         </div>
       );
       nodes.push(node);
