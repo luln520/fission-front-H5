@@ -195,7 +195,7 @@ export default function HomePopup({
               <span class="homePopCenter-58">{translate(getText("分享"))}</span>
             </div>
           </div>
-          <div
+          {/* <div
             class="homePopCenter-56"
             onClick={() => {
               navigate("/myteam");
@@ -204,7 +204,7 @@ export default function HomePopup({
             <div class="homePopCenter-57">
               <span class="homePopCenter-58">{translate(getText("我的团队"))}</span>
             </div>
-          </div>
+          </div> */}
           <div
             class="homePopCenter-59"
             onClick={() => {

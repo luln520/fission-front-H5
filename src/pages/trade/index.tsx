@@ -37,6 +37,7 @@ export default function Trade() {
   const [successOrderNo, setsuccessOrderNo] = useState("");
   const [hysetInfo, setHysetInfo] = useState({});
   const [userInfo, setuserInfo] = useState([] as any[]);
+  const [mockUserInfo, setMockUserInfo] = useState({} as any);
   const [ctmarketlist, setCtmarketlist] = useState([] as any[]);
   const [collectlist, setcollectlist] = useState([] as any[]);
   const param = useParams();
@@ -84,6 +85,13 @@ export default function Trade() {
       setUserInfoData(data.data);
     }
   };
+    //加载数 据1
+    const getMockUserInfo = async () => {
+      const data = await userApi.mockUserInfo({ uid });
+      if (data.ok) {
+        setMockUserInfo(data.data);
+      }
+    };
   //加载数 据
   const loadhyorderData = async () => {
     const data = await contractApi.gethyorder({ uid });
@@ -218,6 +226,7 @@ export default function Trade() {
   }, [nowTab]);
   useEffect(() => {
     loadUserInfoData();
+    getMockUserInfo();
   }, []);
   return (
     <div className="page">
@@ -268,6 +277,7 @@ export default function Trade() {
         setyqsy={setyqsy}
         setType={setType}
         userInfo={userInfo}
+        mockUserInfo={mockUserInfo}
         hysetInfo={hysetInfo}
         buyCoin={buyCoin}
         isShowOrder={isShowOrder}

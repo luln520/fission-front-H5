@@ -71,7 +71,7 @@ export default function Property() {
     }
   };
 
-  //加载数 据
+  //加载数 据1
   const getMockUserInfo = async () => {
     const data = await userApi.mockUserInfo({ uid });
     if (data.ok) {

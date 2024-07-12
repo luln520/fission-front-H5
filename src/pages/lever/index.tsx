@@ -39,6 +39,7 @@ export default function Lever() {
   const [nowTab, setNowTab] = useState("");
   const [hysetInfo, setHysetInfo] = useState({});
   const [userInfo, setuserInfo] = useState([] as any[]);
+  const [mockUserInfo, setMockUserInfo] = useState({} as any);
   const [huobigetHistory, sethuobigetHistory] = useState([] as any[]);
   const [ctmarketlist, setCtmarketlist] = useState([] as any[]);
   const [collectlist, setcollectlist] = useState([] as any[]);
@@ -60,6 +61,13 @@ export default function Lever() {
     const data = await financeApi.userCoin({ uid });
     if (data.ok) {
       setuserInfo(data.data);
+    }
+  };
+  //加载数 据1
+  const getMockUserInfo = async () => {
+    const data = await userApi.mockUserInfo({ uid });
+    if (data.ok) {
+      setMockUserInfo(data.data);
     }
   };
 
@@ -228,6 +236,7 @@ export default function Lever() {
   const loadData = async () => {
     loadcollectlistData();
     loadUserCoinData();
+    getMockUserInfo();
     loadLeverListData();
   };
 
@@ -345,6 +354,7 @@ export default function Lever() {
         setyqsy={0}
         setType={setType}
         userInfo={userInfo}
+        mockUserInfo={mockUserInfo}
         hysetInfo={hysetInfo}
         buyCoin={buyCoin}
         isShowOrder={isShowOrder}

@@ -16,6 +16,7 @@ export default function DataListAndBuy({
   index,
   ctmarketlist,
   userInfo,
+  mockUserInfo,
   buyCoin,
   hysetInfo,
   setyqsy,
@@ -42,6 +43,7 @@ export default function DataListAndBuy({
   const [isUse, setIsUse] = useState(true);
   //
   const [visible, setVisible] = useState(false);
+  const propertyType = localStorage.getItem("propertyType");
 
   const getArray1 = () => {
     const nodes = [];
@@ -424,7 +426,7 @@ export default function DataListAndBuy({
             </div>
             <div class="leverListAndBuy-88">
               <span class="leverListAndBuy-89">
-                {translate(getText("可用数量"))} {userInfo?.usdt} USDT
+                {translate(getText("可用数量"))} {propertyType==1?userInfo?.usdt:mockUserInfo?.money} USDT
               </span>
             </div>
           </div>

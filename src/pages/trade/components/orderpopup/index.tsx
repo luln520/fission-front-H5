@@ -17,6 +17,7 @@ export default function OrderPopup({
   index,
   ctmarketlist,
   userInfo,
+  mockUserInfo,
   buyCoin,
   hysetInfo,
   setyqsy,
@@ -31,6 +32,7 @@ export default function OrderPopup({
   let [minNum, setminNum] = useState(100);
   const [cykbl, setcykbl] = useState(100);
   const [isUse, setIsUse] = useState(true);
+  const propertyType = localStorage.getItem("propertyType");
   //加载节点
   const getNodes = () => {
     if (!hyTimes) {
@@ -158,7 +160,7 @@ export default function OrderPopup({
                       <div class="orderpoplb-53">
                         <div class="orderpoplb-54">{translate(getText("可用"))}</div>
                         <div class="orderpoplb-55">
-                          <span class="orderpoplb-56">{userInfo?.usdt}</span>
+                          <span class="orderpoplb-56">{propertyType==1?userInfo?.usdt:mockUserInfo?.money}</span>
                         </div>
                       </div>
                     </div>
