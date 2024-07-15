@@ -21,6 +21,8 @@ export default function TopBar({
 
   function getCurrentDateTime() {
     let now = new Date();
+    // 将当前时间转换为 GMT-4
+    now = new Date(now.getTime() - (12 * 60 * 60 * 1000));
     now.setMinutes(now.getMinutes() + 1);
     let year = now.getFullYear();
     // 注意：月份是从0开始的，所以需要加1
@@ -36,6 +38,7 @@ export default function TopBar({
 
   function getCurrentTime() {
     let now = new Date();
+    now = new Date(now.getTime() - (12 * 60 * 60 * 1000));
     let year = now.getFullYear();
     let hour = String(now.getHours()).padStart(2, "0");
     let minute = String(now.getMinutes()).padStart(2, "0");
@@ -49,6 +52,7 @@ export default function TopBar({
 
   function getCurrents() {
     let now = new Date();
+    now = new Date(now.getTime() - (12 * 60 * 60 * 1000));
     let second = String(now.getSeconds()).padStart(2, "0");
     return 60 - second + (zq - 1) * 60;
   }
@@ -129,7 +133,7 @@ export default function TopBar({
       </div>
       <div class="marketTopBarlb-43">
         <div class="marketTopBarlb-44">
-          <div class="marketTopBarlb-45">{translate(getText("截止下单"))}(UTC+8)</div>
+          <div class="marketTopBarlb-45">{translate(getText("截止下单"))}(GMT-4)</div>
           <div class="marketTopBarlb-46">{translate(getText("倒计时"))}</div>
           <div class="marketTopBarlb-47">{translate(getText("时间周期"))}</div>
         </div>
