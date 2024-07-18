@@ -14,10 +14,11 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
   const { t: translate } = useTranslation();
   const [userLV, setuserLV] = useState("");
   const la = localStorage.getItem("i18n");
-  const hostname = window.location.hostname;
+  const origin = window.location.origin;
+  const baseUrl="https://tzwza.com";
 
   const creatQrCode = () => {
-    let text = `${hostname}/register?invit=${userInfo?.invit}`;
+    let text = `${baseUrl}/register?invit=${userInfo?.invit}&ref=${origin}`;
     document.getElementById("qrcode").innerHTML = "";
     const qrcode = new QRCode(document.getElementById("qrcode"), {
       text: text, //二维码内容字符串
@@ -154,7 +155,7 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
             <div
               class="sharecenter-19"
               onClick={() => {
-                handleCopy(`${hostname}/register?invit=${userInfo?.invit}`);
+                handleCopy(`${baseUrl}/register?invit=${userInfo?.invit}&ref=${origin}`);
               }}
             >
               <div class="sharecenter-20">
@@ -163,7 +164,7 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
                 </span>
               </div>
               <div class="sharecenter-22">
-                {hostname}/register?invit={userInfo?.invit}
+              {baseUrl}/register?invit={userInfo?.invit}&&ref={origin}
               </div>
               <i class="sharecenter-23"></i>
             </div>

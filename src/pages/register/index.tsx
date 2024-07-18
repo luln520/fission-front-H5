@@ -22,6 +22,7 @@ export default function Register() {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   const invitCode = urlParams.get("invit");
+  const refUrl = urlParams.get("ref");
 
   //执行登录
   const doRegister = async (sendData) => {
@@ -35,6 +36,12 @@ export default function Register() {
         const data = await userApi.register(sendData);
         if (data.ok) {
           Toast.show(translate(getText("註冊成功")));
+          //跳转回原来地址
+          if (refUrl && refUrl.length > 1) {
+            window.location.href = refUrl;
+            return;
+          }
+          //直接注册的 跳转当前地址登录
           setTimeout(() => {
             navigate("/login");
           }, 1000);
@@ -77,7 +84,6 @@ export default function Register() {
     }
   }
   useEffect(() => {
-    console.info();
     initCompany();
     loadAreasData();
   }, []);
