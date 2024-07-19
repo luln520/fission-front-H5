@@ -90,7 +90,7 @@ export default function OrderList({ hyorders, nowTab }) {
                   <span class="tradelistruning-27">{translate(getText("下单时间"))}</span>
                 </div>
                 <div class="tradelistruning-28">
-                  {data.buytime?.substring(0, 16)}
+                  {data.plantime?.substring(0, 16)}
                 </div>
               </div>
               {data.status==0&&<div class="tradelistruning-25">

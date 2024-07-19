@@ -284,10 +284,9 @@ export default function OrderPopup({
                       const plantime = formatDate(
                         new Date(selectTimes[selectIndex - 1]?.time)
                       );
-                      //结算时间戳
+                      //计划时间戳
                       let intplantime =
-                        selectTimes[selectIndex - 1]?.time +
-                        convertToSeconds(hyTimes[zq - 1]) * 1000;
+                        selectTimes[selectIndex - 1]?.time;
                       intplantime=parseInt(intplantime/1000)
                       buyCoin({
                         ccoinname: `${nowTab.toUpperCase()}/USDT`,
