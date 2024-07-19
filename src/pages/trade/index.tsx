@@ -243,6 +243,7 @@ export default function Trade() {
         coinListData={coinListData}
         zq={zq}
         setzq={setzq}
+        hysetInfo={hysetInfo}
       />
       <TopText zbs={zbs} nowzb={nowzb} setnowzb={setnowzb} nowtime={nowtime} setnowtime={setnowtime} times={times} settimeindex={settimeindex}/>
       {nowTab && (

@@ -280,6 +280,7 @@
   position: relative;
   height: 100%;
   overflow: scroll;
+  overflow-x: hidden;
 }
 
 .orderpoplb-19 {

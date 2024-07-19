@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Popup, Space, Button, Toast } from "antd-mobile";
 import "./index.css";
 import { useTranslation } from "react-i18next";
-import { getText } from "../../../../utils/util";
+import { convertToSeconds, getText } from "../../../../utils/util";
 import { useEffect, useRef, useState } from "react";
 import Search from "../../../../components/search";
 import { imageConfig } from "../../../../config/config";
@@ -285,14 +285,15 @@ export default function OrderPopup({
                         new Date(selectTimes[selectIndex - 1]?.time)
                       );
                       //结算时间戳
-                      const intplantime =
+                      let intplantime =
                         selectTimes[selectIndex - 1]?.time +
-                        addtimes[zq - 1] * 60 * 1000;
+                        convertToSeconds(hyTimes[zq - 1]) * 1000;
+                      intplantime=parseInt(intplantime/1000)
                       buyCoin({
                         ccoinname: `${nowTab.toUpperCase()}/USDT`,
                         ctzed: num,
                         ctzfx: type,
-                        ctime: hyTimes[type2 - 1].toUpperCase(),
+                        ctime: hyTimes[zq - 1],
                         cykbl,
                         plantime,
                         intplantime,

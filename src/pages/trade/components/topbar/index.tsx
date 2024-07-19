@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { imageConfig } from "../../../../config/config";
-import { getText } from "../../../../utils/util";
+import { convertToSeconds,getText } from "../../../../utils/util";
+
 import "./index.css";
 
 export default function TopBar({
@@ -13,16 +14,43 @@ export default function TopBar({
   setIsShowCoin,
   setvisibleInfoMsg,
   coinListData,
-  zq, setzq
+  zq,
+  setzq,
+  hysetInfo,
 }) {
   const navigate = useNavigate();
   const [num, setNum] = useState(1);
   const { t: translate } = useTranslation();
+  const [hyTimes, setHyTimes] = useState([]);
+
+   //加载节点
+   const getNodes = () => {
+    if (!hyTimes) {
+      return "";
+    }
+    const nodes = [];
+    for (let index = 0; index < hyTimes.length; index++) {
+      let hyTime = hyTimes[index];
+      const node = (
+        <div
+          class={zq === index + 1 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
+          onClick={() => {
+            setzq(index+1)
+          }}
+        >
+         {hyTime}
+        </div>
+      );
+      nodes.push(node);
+    }
+    return nodes;
+  };
+
 
   function getCurrentDateTime() {
     let now = new Date();
     // 将当前时间转换为 GMT-4
-    now = new Date(now.getTime() - (12 * 60 * 60 * 1000));
+    now = new Date(now.getTime() - 12 * 60 * 60 * 1000);
     now.setMinutes(now.getMinutes() + 1);
     let year = now.getFullYear();
     // 注意：月份是从0开始的，所以需要加1
@@ -38,12 +66,17 @@ export default function TopBar({
 
   function getCurrentTime() {
     let now = new Date();
-    now = new Date(now.getTime() - (12 * 60 * 60 * 1000));
+    now = new Date(now.getTime() - 12 * 60 * 60 * 1000);
     let year = now.getFullYear();
     let hour = String(now.getHours()).padStart(2, "0");
     let minute = String(now.getMinutes()).padStart(2, "0");
     let time1 = hour + ":" + minute;
-    now.setMinutes(now.getMinutes() + zq);
+    //获取时间
+    let addTime=0;
+    if(hyTimes ){
+      addTime=convertToSeconds(hyTimes[zq-1])
+    }
+    now.setSeconds(now.getSeconds() + addTime);
     minute = String(now.getMinutes()).padStart(2, "0");
     hour = String(now.getHours()).padStart(2, "0");
     let time2 = hour + ":" + minute;
@@ -52,10 +85,20 @@ export default function TopBar({
 
   function getCurrents() {
     let now = new Date();
-    now = new Date(now.getTime() - (12 * 60 * 60 * 1000));
+    now = new Date(now.getTime() - 12 * 60 * 60 * 1000);
     let second = String(now.getSeconds()).padStart(2, "0");
-    return 60 - second + (zq - 1) * 60;
+    //获取时间
+    let addTime=0;
+    if(hyTimes ){
+      addTime=convertToSeconds(hyTimes[zq-1])-60;
+    }
+    return 60 - second + addTime;
   }
+
+
+  useEffect(() => {
+    setHyTimes(hysetInfo?.hyTime);
+  }, [hysetInfo]);
 
   return (
     <div class="marketTopBarlb-1">
@@ -98,13 +141,15 @@ export default function TopBar({
         ></i>
       </div>
       <div class="marketTopBarlb-38">
-        <div
+
+      {getNodes()}
+        {/* <div
           class={zq == 1 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
           onClick={() => {
             setzq(1);
           }}
         >
-          60s
+          60s1
         </div>
         <div
           class={zq == 2 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
@@ -129,11 +174,13 @@ export default function TopBar({
           }}
         >
           10min
-        </div>
+        </div> */}
       </div>
       <div class="marketTopBarlb-43">
         <div class="marketTopBarlb-44">
-          <div class="marketTopBarlb-45">{translate(getText("截止下单"))}(GMT-4)</div>
+          <div class="marketTopBarlb-45">
+            {translate(getText("截止下单"))}(GMT-4)
+          </div>
           <div class="marketTopBarlb-46">{translate(getText("倒计时"))}</div>
           <div class="marketTopBarlb-47">{translate(getText("时间周期"))}</div>
         </div>

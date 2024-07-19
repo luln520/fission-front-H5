@@ -13,6 +13,9 @@ export const format00Time = (seconds) => {
 }
 
 export const convertToSeconds = (input) => {
+    if(!input){
+        return 0;
+    }
     // 解析输入的字符串
     const match = input.match(/^(\d+)([a-zA-Z]+)$/);
     if (!match) {
