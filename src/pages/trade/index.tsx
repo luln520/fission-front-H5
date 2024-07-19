@@ -48,6 +48,8 @@ export default function Trade() {
   const [visibleInfoMsg, setvisibleInfoMsg] = useState(false);
   let timer: any;
   const [companyData, setCompanyData] = useState({} as any);
+  //选择时间
+  const [zq, setzq] = useState(1);
   //贸易
   const [type, setType] = useState(1);
   //倒计时显示
@@ -188,7 +190,8 @@ export default function Trade() {
       // setChangeDaoJiShi(true);
       setIndex(1);
       setIsShowOrder(false);
-      setVisible(true);
+      // 显示下单后的弹窗
+      // setVisible(true);
     } else {
       Toast.show({ content: data.msg });
     }
@@ -238,6 +241,8 @@ export default function Trade() {
         setIsShowCoin={setIsShowCoin}
         setvisibleInfoMsg={setvisibleInfoMsg}
         coinListData={coinListData}
+        zq={zq}
+        setzq={setzq}
       />
       <TopText zbs={zbs} nowzb={nowzb} setnowzb={setnowzb} nowtime={nowtime} setnowtime={setnowtime} times={times} settimeindex={settimeindex}/>
       {nowTab && (
@@ -286,6 +291,7 @@ export default function Trade() {
         coinListData={coinListData}
         ctmarketlist={ctmarketlist}
         index={1}
+        zq={zq}
       />
 
       {/* 倒计时 */}

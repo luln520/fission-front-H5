@@ -11,7 +11,7 @@ export default function OrderList({ hyorders, nowTab }) {
   const { t: translate } = useTranslation();
   const tab = nowTab.toUpperCase() + "/USDT";
   const lan = localStorage.getItem("i18n");
-  const [type, setType] = useState(1);
+  const [type, setType] = useState(0);
   const getNode = () => {
     hyorders = hyorders.filter((data) => data.coinname === tab);
     hyorders = hyorders.filter((data) => data.status === type);
@@ -31,7 +31,7 @@ export default function OrderList({ hyorders, nowTab }) {
               status: data.status,
               isWin: data.isWin,
             };
-            if (data.status == 1) {
+            if (data.status == 1||data.status == 0) {
               return;
             }
             navigate(
@@ -43,7 +43,9 @@ export default function OrderList({ hyorders, nowTab }) {
             <div class="tradelistruning-4">
               <div class="tradelistruning-5">
                 <span class="tradelistruning-6">
-                  {translate(getText(data.status == 1 ? "委托中" : "已完成"))}
+                  {data.status == 0&&translate(getText("计划中"))}
+                  {data.status == 1&&translate(getText("委托中"))}
+                  {data.status == 2&&translate(getText("已完成"))}
                 </span>
               </div>
               {/* <div class="tradelistruning-7">撤单</div> */}
@@ -91,13 +93,21 @@ export default function OrderList({ hyorders, nowTab }) {
                   {data.buytime?.substring(0, 16)}
                 </div>
               </div>
+              {data.status==0&&<div class="tradelistruning-25">
+                <div class="tradelistruning-26">
+                  <span class="tradelistruning-27">{translate(getText("计划时间"))}</span>
+                </div>
+                <div class="tradelistruning-28">
+                  {formatDate(data.plantime)}
+                </div>
+              </div>}
               <div class="tradelistruning-29">
                 <div class="tradelistruning-30">
                   <span class="tradelistruning-31">{translate(getText("开仓价格"))}</span>
                 </div>
                 <div class="tradelistruning-32"> {data.buyprice}</div>
               </div>
-              {data.status != 1 && (
+              {(data.status != 0&&data.status != 1) && (
                 <div class="tradelistruning-33">
                   <div class="tradelistruning-34">
                     <span class="tradelistruning-35">{translate(getText("结算价格"))}</span>
@@ -111,7 +121,7 @@ export default function OrderList({ hyorders, nowTab }) {
                 </div>
                 <div class="tradelistruning-36"> {data.num.toFixed(2)}</div>
               </div>
-              {data.status != 1 && (
+              {(data.status != 0&&data.status != 1) && (
                 <div class="tradelistruning-33">
                   <div class="tradelistruning-34">
                     <span class="tradelistruning-35">{translate(getText("亏盈"))}</span>
@@ -143,6 +153,17 @@ export default function OrderList({ hyorders, nowTab }) {
     }
     return nodes;
   };
+
+  function formatDate(dateTime) {
+    const date=new Date(dateTime);
+    let year = date.getFullYear();
+    let month = String(date.getMonth() + 1).padStart(2, '0');
+    let day = String(date.getDate()).padStart(2, '0');
+    let hour = String(date.getHours()).padStart(2, '0');
+    let minute = String(date.getMinutes()).padStart(2, '0');
+    let second = String(date.getSeconds()).padStart(2, '0');
+    return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+}
   return (
     <div
       style={{
@@ -151,6 +172,16 @@ export default function OrderList({ hyorders, nowTab }) {
     >
       <div class="tradechangebar-1">
         <div class="tradechangebar-2">
+        <div class="tradechangebar-3">
+            <div
+              class={type == 0 ? "tradechangebar-4" : "tradechangebar-7"}
+              onClick={() => {
+                setType(0);
+              }}
+            >
+              <span class="tradechangebar-5">{translate(getText("计划订单"))}</span>
+            </div>
+          </div>
           <div class="tradechangebar-3">
             <div
               class={type == 1 ? "tradechangebar-4" : "tradechangebar-7"}

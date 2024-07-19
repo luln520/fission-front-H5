@@ -13,8 +13,8 @@ export default function TopBar({
   setIsShowCoin,
   setvisibleInfoMsg,
   coinListData,
+  zq, setzq
 }) {
-  const [zq, setzq] = useState(1);
   const navigate = useNavigate();
   const [num, setNum] = useState(1);
   const { t: translate } = useTranslation();

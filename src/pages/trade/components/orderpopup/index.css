@@ -278,8 +278,8 @@
   font-family: sans-serif;
   display: flex;
   position: relative;
-  overflow: hidden;
   height: 100%;
+  overflow: scroll;
 }
 
 .orderpoplb-19 {
@@ -288,7 +288,6 @@
   flex: 1 1 0%;
   position: relative;
   height: 100%;
-  overflow: hidden;
   scrollbar-width: none;
   font-family: sans-serif;
 }
@@ -304,7 +303,6 @@
   box-sizing: border-box;
   font-family: sans-serif;
   height: 100%;
-  overflow: hidden;
 }
 
 .orderpoplb-21 {
@@ -347,7 +345,8 @@
   -webkit-tap-highlight-color: transparent;
   position: absolute;
   left: 0px;
-  width: 100%;
+  width: 80%;
+  left: 15%;
   z-index: 3;
   pointer-events: none;
   top: 50%;
@@ -358,20 +357,6 @@
   background: rgba(255, 224, 166, 0.3);
   border-radius: 0.1875rem;
   height: 42px;
-}
-
-.orderpoplb-22:after {
-  bottom: 0px;
-  border-bottom: 1px solid rgb(229, 229, 229);
-  transform-origin: 0px 100%;
-  transform: scaleY(0.5);
-  content: " ";
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  color: rgb(229, 229, 229);
-  border-color: rgb(30, 39, 48) !important;
-  display: none;
 }
 
 .orderpoplb-22:before {
@@ -401,7 +386,6 @@
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
   scrollbar-width: none;
-  position: absolute;
   inset: 0px;
   overflow: hidden;
   display: block;
@@ -465,7 +449,6 @@
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
-  position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
