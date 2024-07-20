@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 import { imageConfig } from "../../../../config/config";
-import { convertToSeconds,getText } from "../../../../utils/util";
+import { convertToSeconds, getText } from "../../../../utils/util";
 
 import "./index.css";
 
@@ -23,8 +23,8 @@ export default function TopBar({
   const { t: translate } = useTranslation();
   const [hyTimes, setHyTimes] = useState([]);
 
-   //加载节点
-   const getNodes = () => {
+  //加载节点
+  const getNodes = () => {
     if (!hyTimes) {
       return "";
     }
@@ -35,10 +35,10 @@ export default function TopBar({
         <div
           class={zq === index + 1 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
           onClick={() => {
-            setzq(index+1)
+            setzq(index + 1);
           }}
         >
-         {hyTime}
+          {hyTime}
         </div>
       );
       nodes.push(node);
@@ -46,12 +46,16 @@ export default function TopBar({
     return nodes;
   };
 
-
   function getCurrentDateTime() {
     let now = new Date();
     // 将当前时间转换为 GMT-4
     now = new Date(now.getTime() - 12 * 60 * 60 * 1000);
-    now.setMinutes(now.getMinutes() + 1);
+    //间隔秒
+    if (hyTimes) {
+      const jgs = convertToSeconds(hyTimes[zq - 1]);
+      now = roundDownToNearestInterval(now, jgs);
+      now.setSeconds(now.getSeconds() + jgs);
+    }
     let year = now.getFullYear();
     // 注意：月份是从0开始的，所以需要加1
     let month = String(now.getMonth() + 1).padStart(2, "0");
@@ -67,16 +71,20 @@ export default function TopBar({
   function getCurrentTime() {
     let now = new Date();
     now = new Date(now.getTime() - 12 * 60 * 60 * 1000);
+    if (hyTimes) {
+      const jgs = convertToSeconds(hyTimes[zq - 1]);
+      now = roundDownToNearestInterval(now, jgs);
+    }
     let year = now.getFullYear();
     let hour = String(now.getHours()).padStart(2, "0");
     let minute = String(now.getMinutes()).padStart(2, "0");
     let time1 = hour + ":" + minute;
     //获取时间
-    let addTime=0;
-    if(hyTimes ){
-      addTime=convertToSeconds(hyTimes[zq-1])
+    //间隔秒
+    if (hyTimes) {
+      const jgs = convertToSeconds(hyTimes[zq - 1]);
+      now.setSeconds(now.getSeconds() + jgs);
     }
-    now.setSeconds(now.getSeconds() + addTime);
     minute = String(now.getMinutes()).padStart(2, "0");
     hour = String(now.getHours()).padStart(2, "0");
     let time2 = hour + ":" + minute;
@@ -84,18 +92,41 @@ export default function TopBar({
   }
 
   function getCurrents() {
+    let starts=0,ends=0;
     let now = new Date();
     now = new Date(now.getTime() - 12 * 60 * 60 * 1000);
-    let second = String(now.getSeconds()).padStart(2, "0");
-    //获取时间
-    let addTime=0;
-    if(hyTimes ){
-      addTime=convertToSeconds(hyTimes[zq-1])-60;
+    starts=parseInt(now.getTime()/1000);
+    if (hyTimes) {
+      const jgs = convertToSeconds(hyTimes[zq - 1]);
+      now = roundDownToNearestInterval(now, jgs);
+      now.setSeconds(now.getSeconds() + jgs);
+      ends=parseInt(now.getTime()/1000);
     }
-    return 60 - second + addTime;
+    return ends-starts ;
   }
 
-
+  //时间向下取值
+  function roundDownToNearestInterval(currentDate, seconds) {
+    let currentSeconds = currentDate.getSeconds();
+    let currentMinutes = currentDate.getMinutes();
+    let currentHours = currentDate.getHours();
+    // 计算当前时间总秒数
+    let totalSeconds =
+      currentHours * 3600 + currentMinutes * 60 + currentSeconds;
+    // 计算向下取整后的总秒数
+    let roundedTotalSeconds = Math.floor(totalSeconds / seconds) * seconds;
+    // 将向下取整后的总秒数转换为小时、分钟、秒
+    let roundedHours = Math.floor(roundedTotalSeconds / 3600);
+    let remainingSeconds = roundedTotalSeconds % 3600;
+    let roundedMinutes = Math.floor(remainingSeconds / 60);
+    let roundedSeconds = remainingSeconds % 60;
+    // 创建一个新的 Date 对象，设置小时、分钟、秒数为向下取整后的值
+    let roundedDate = new Date(currentDate);
+    roundedDate.setHours(roundedHours);
+    roundedDate.setMinutes(roundedMinutes);
+    roundedDate.setSeconds(roundedSeconds);
+    return roundedDate;
+  }
   useEffect(() => {
     setHyTimes(hysetInfo?.hyTime);
   }, [hysetInfo]);
@@ -141,8 +172,7 @@ export default function TopBar({
         ></i>
       </div>
       <div class="marketTopBarlb-38">
-
-      {getNodes()}
+        {getNodes()}
         {/* <div
           class={zq == 1 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
           onClick={() => {

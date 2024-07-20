@@ -34,13 +34,14 @@ export default function OrderPopup({
   const [cykbl, setcykbl] = useState(100);
   const [isUse, setIsUse] = useState(true);
   const propertyType = localStorage.getItem("propertyType");
-  const [addtimes, setaddtimes] = useState([1, 2, 5, 10]);
   const [selectTimes, setSelectTimes] = useState([]);
   //滚动
   const [scrollDistance, setScrollDistance] = useState(0);
   const divRef = useRef(null);
   const [selectIndex, setselectIndex] = useState(1);
   //加载节点
+  //百分比
+  const [bfbIndex, setbfbIndex] = useState(0);
   const getNodes = () => {
     if (!hyTimes) {
       return "";
@@ -84,15 +85,20 @@ export default function OrderPopup({
   };
 
   const getTimesStr = () => {
-    const addTime = addtimes[zq - 1];
     const timesStrArr = [];
     for (let index = 1; index <= 6; index++) {
       // 获取当前时间
       let currentTime = new Date();
       // 将当前时间转换为 GMT-4
       currentTime = new Date(currentTime.getTime() - 12 * 60 * 60 * 1000);
-      // 增加x分钟
-      currentTime.setMinutes(currentTime.getMinutes() + addTime * index);
+      //向下取整时间
+      if (hyTimes) {
+        const jgs = convertToSeconds(hyTimes[zq - 1]);
+        currentTime = roundDownToNearestInterval(currentTime, jgs);
+        currentTime.setSeconds(currentTime.getSeconds() + jgs*index);
+      }
+      // 增加时间
+      // currentTime.setMinutes(currentTime.getMinutes() + addTime * index);
       // 格式化为 HH:mm 格式
       let hours = currentTime.getHours().toString().padStart(2, "0"); // 获取小时，并确保两位数格式
       let minutes = currentTime.getMinutes().toString().padStart(2, "0"); // 获取分钟，并确保两位数格式
@@ -115,14 +121,37 @@ export default function OrderPopup({
     let second = String(date.getSeconds()).padStart(2, "0");
     return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
   }
+
+  //时间向下取值
+  function roundDownToNearestInterval(currentDate, seconds) {
+    let currentSeconds = currentDate.getSeconds();
+    let currentMinutes = currentDate.getMinutes();
+    let currentHours = currentDate.getHours();
+    // 计算当前时间总秒数
+    let totalSeconds =
+      currentHours * 3600 + currentMinutes * 60 + currentSeconds;
+    // 计算向下取整后的总秒数
+    let roundedTotalSeconds = Math.floor(totalSeconds / seconds) * seconds;
+    // 将向下取整后的总秒数转换为小时、分钟、秒
+    let roundedHours = Math.floor(roundedTotalSeconds / 3600);
+    let remainingSeconds = roundedTotalSeconds % 3600;
+    let roundedMinutes = Math.floor(remainingSeconds / 60);
+    let roundedSeconds = remainingSeconds % 60;
+    // 创建一个新的 Date 对象，设置小时、分钟、秒数为向下取整后的值
+    let roundedDate = new Date(currentDate);
+    roundedDate.setHours(roundedHours);
+    roundedDate.setMinutes(roundedMinutes);
+    roundedDate.setSeconds(roundedSeconds);
+    return roundedDate;
+  }
   useEffect(() => {
     setHyTimes(hysetInfo.hyTime);
     setHyTzeds(hysetInfo.hyTzed);
     setHyYkbls(hysetInfo.hyYkbl);
-    setcykbl(hysetInfo.hyYkbl ? hysetInfo.hyYkbl[0] : 100);
+    setcykbl(hysetInfo.hyYkbl ? hysetInfo.hyYkbl[zq - 1] : 100);
     // setNum(hysetInfo.hyTzed ? hysetInfo.hyTzed[0] : 100);
-    setminNum(hysetInfo.hyTzed ? hysetInfo.hyTzed[0] : 100);
-  }, [hysetInfo]);
+    setminNum(hysetInfo.hyTzed ? hysetInfo.hyTzed[zq - 1] : 100);
+  }, [hysetInfo, zq]);
 
   useEffect(() => {
     getTimesStr();
@@ -246,6 +275,8 @@ export default function OrderPopup({
                           name="num"
                           value={num}
                           onChange={(e) => {
+                            //清空百分比选项
+                            setbfbIndex(0);
                             setNum(parseInt(e.target.value));
                             setTimeout(() => {
                               if (e.target.value && cykbl) {
@@ -260,7 +291,77 @@ export default function OrderPopup({
                         />
                       </div>
                     </div>
-                    <div class="orderpoplb-62">{getNodes()}</div>
+                    <div class="orderpoplb-62">
+                      {/* {getNodes()} */}
+                      <div
+                        class={
+                          bfbIndex === 1 ? "orderpoplb-63" : "orderpoplb-64"
+                        }
+                        onClick={() => {
+                          setNum(
+                            parseInt(
+                              propertyType == 1
+                                ? userInfo?.usdt * 0.1
+                                : mockUserInfo?.money * 0.1
+                            )
+                          );
+                          setbfbIndex(1);
+                        }}
+                      >
+                        <div>10%</div>
+                      </div>
+                      <div
+                        class={
+                          bfbIndex === 2 ? "orderpoplb-63" : "orderpoplb-64"
+                        }
+                        onClick={() => {
+                          setNum(
+                            parseInt(
+                              propertyType == 1
+                                ? userInfo?.usdt * 0.2
+                                : mockUserInfo?.money * 0.2
+                            )
+                          );
+                          setbfbIndex(2);
+                        }}
+                      >
+                        <div>20%</div>
+                      </div>
+                      <div
+                        class={
+                          bfbIndex === 3 ? "orderpoplb-63" : "orderpoplb-64"
+                        }
+                        onClick={() => {
+                          setNum(
+                            parseInt(
+                              propertyType == 1
+                                ? userInfo?.usdt * 0.5
+                                : mockUserInfo?.money * 0.5
+                            )
+                          );
+                          setbfbIndex(3);
+                        }}
+                      >
+                        <div>50%</div>
+                      </div>
+                      <div
+                        class={
+                          bfbIndex === 4 ? "orderpoplb-63" : "orderpoplb-64"
+                        }
+                        onClick={() => {
+                          setNum(
+                            parseInt(
+                              propertyType == 1
+                                ? userInfo?.usdt * 1
+                                : mockUserInfo?.money * 1
+                            )
+                          );
+                          setbfbIndex(4);
+                        }}
+                      >
+                        <div>100%</div>
+                      </div>
+                    </div>
                   </div>
                   <div
                     class={type == 1 ? "orderpoplb-67" : "orderpoplb-67-1"}
@@ -285,9 +386,8 @@ export default function OrderPopup({
                         new Date(selectTimes[selectIndex - 1]?.time)
                       );
                       //计划时间戳
-                      let intplantime =
-                        selectTimes[selectIndex - 1]?.time;
-                      intplantime=parseInt(intplantime/1000)
+                      let intplantime = selectTimes[selectIndex - 1]?.time;
+                      intplantime = parseInt(intplantime / 1000);
                       buyCoin({
                         ccoinname: `${nowTab.toUpperCase()}/USDT`,
                         ctzed: num,
