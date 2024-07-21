@@ -290,7 +290,9 @@ export default function DataListAndBuy({
                 }}
               >
                 <div class="leverListAndBuy-10">
-                  <span class="leverListAndBuy-11">{translate(getText("做多"))}</span>
+                  <span class="leverListAndBuy-11">
+                    {translate(getText("做多"))}
+                  </span>
                 </div>
               </div>
               <div
@@ -300,7 +302,9 @@ export default function DataListAndBuy({
                 }}
               >
                 <div class="leverListAndBuy-10">
-                  <span class="leverListAndBuy-11">{translate(getText("做空"))}</span>
+                  <span class="leverListAndBuy-11">
+                    {translate(getText("做空"))}
+                  </span>
                 </div>
               </div>
             </div>
@@ -318,12 +322,14 @@ export default function DataListAndBuy({
                 <div class="leverListAndBuy-74">
                   <input
                     placeholder={translate(getText("输入数量"))}
-                    type="number"
+                    type="text"
                     maxlength="140"
                     class="leverListAndBuy-76"
                     value={num}
                     onChange={(e) => {
-                      setNum(e.target.value);
+                      let value = e.target.value;
+                      value = value.match(/\d+\.?\d{0,2}/, "");
+                      setNum(value ? value[0] : "");
                     }}
                   />
                 </div>
@@ -382,7 +388,9 @@ export default function DataListAndBuy({
               <div class="leverListAndBuy-84">
                 {/* <i class="leverListAndBuy-85"></i> */}
                 <div class="leverListAndBuy-86">
-                  <span class="leverListAndBuy-87">{translate(getText("止盈止损"))}</span>
+                  <span class="leverListAndBuy-87">
+                    {translate(getText("止盈止损"))}
+                  </span>
                 </div>
               </div>
             </div>
@@ -426,7 +434,8 @@ export default function DataListAndBuy({
             </div>
             <div class="leverListAndBuy-88">
               <span class="leverListAndBuy-89">
-                {translate(getText("可用数量"))} {propertyType==1?userInfo?.usdt:mockUserInfo?.money} USDT
+                {translate(getText("可用数量"))}{" "}
+                {propertyType == 1 ? userInfo?.usdt : mockUserInfo?.money} USDT
               </span>
             </div>
           </div>
@@ -462,7 +471,9 @@ export default function DataListAndBuy({
             });
           }}
         >
-          {type == 1 ? translate(getText("做多买入")) : translate(getText("做空买入"))}
+          {type == 1
+            ? translate(getText("做多买入"))
+            : translate(getText("做空买入"))}
         </div>
         <div class="leverListAndBuy-93">
           <span class="leverListAndBuy-94">
@@ -475,8 +486,12 @@ export default function DataListAndBuy({
       </div>
       <div class="leverListAndBuy-97">
         <div class="leverListAndBuy-98">
-          <div class="leverListAndBuy-99">{translate(getText("价格"))}(USDT)</div>
-          <div class="leverListAndBuy-100">{translate(getText("数量"))}({nowTab?.toUpperCase()})</div>
+          <div class="leverListAndBuy-99">
+            {translate(getText("价格"))}(USDT)
+          </div>
+          <div class="leverListAndBuy-100">
+            {translate(getText("数量"))}({nowTab?.toUpperCase()})
+          </div>
         </div>
         <div class="leverListAndBuy-101">
           {/*  */}

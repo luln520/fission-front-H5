@@ -277,7 +277,9 @@ export default function OrderPopup({
                           onChange={(e) => {
                             //清空百分比选项
                             setbfbIndex(0);
-                            setNum(parseInt(e.target.value));
+                            let value=e.target.value;
+                            value=value.match(/\d+\.?\d{0,2}/,'');
+                            setNum(value?value[0]:"");
                             setTimeout(() => {
                               if (e.target.value && cykbl) {
                                 setyqsy(
