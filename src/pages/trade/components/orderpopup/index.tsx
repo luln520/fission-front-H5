@@ -30,6 +30,7 @@ export default function OrderPopup({
   const [hyTimes, setHyTimes] = useState([]);
   const [hyTzeds, setHyTzeds] = useState([]);
   const [hyYkbls, setHyYkbls] = useState([]);
+  const [hyTzbls, setHyTzbls] = useState([]);
   let [minNum, setminNum] = useState(100);
   const [cykbl, setcykbl] = useState(100);
   const [isUse, setIsUse] = useState(true);
@@ -70,6 +71,36 @@ export default function OrderPopup({
     return nodes;
   };
 
+  //合约投资比例
+  const getNodesHytzbl = () => {
+    if (!hyTzbls) {
+      return "";
+    }
+    const nodes = [];
+    for (let index = 0; index < hyTzbls.length; index++) {
+      let hytzbl = hyTzbls[index];
+      const node = (
+        <div
+          class={bfbIndex === index + 1 ? "orderpoplb-63" : "orderpoplb-64"}
+          onClick={() => {
+            setNum(
+              parseInt(
+                propertyType == 1
+                  ? userInfo?.usdt * 0.01 * hytzbl
+                  : mockUserInfo?.money * 0.01 * hytzbl
+              )
+            );
+            setbfbIndex(index + 1);
+          }}
+        >
+          <div>{hytzbl}%</div>
+        </div>
+      );
+      nodes.push(node);
+    }
+    return nodes;
+  };
+
   const handleScroll = () => {
     const scrollTop = divRef.current.scrollTop;
     const scrollAmount = 41; // 每次滚动的基础值，可以根据需求调整
@@ -95,7 +126,7 @@ export default function OrderPopup({
       if (hyTimes) {
         const jgs = convertToSeconds(hyTimes[zq - 1]);
         currentTime = roundDownToNearestInterval(currentTime, jgs);
-        currentTime.setSeconds(currentTime.getSeconds() + jgs*index);
+        currentTime.setSeconds(currentTime.getSeconds() + jgs * index);
       }
       // 增加时间
       // currentTime.setMinutes(currentTime.getMinutes() + addTime * index);
@@ -148,6 +179,7 @@ export default function OrderPopup({
     setHyTimes(hysetInfo.hyTime);
     setHyTzeds(hysetInfo.hyTzed);
     setHyYkbls(hysetInfo.hyYkbl);
+    setHyTzbls(hysetInfo.hyTzbl);
     setcykbl(hysetInfo.hyYkbl ? hysetInfo.hyYkbl[zq - 1] : 100);
     // setNum(hysetInfo.hyTzed ? hysetInfo.hyTzed[0] : 100);
     setminNum(hysetInfo.hyTzed ? hysetInfo.hyTzed[zq - 1] : 100);
@@ -277,9 +309,9 @@ export default function OrderPopup({
                           onChange={(e) => {
                             //清空百分比选项
                             setbfbIndex(0);
-                            let value=e.target.value;
-                            value=value.match(/\d+\.?\d{0,2}/,'');
-                            setNum(value?value[0]:"");
+                            let value = e.target.value;
+                            value = value.match(/\d+\.?\d{0,2}/, "");
+                            setNum(value ? value[0] : "");
                             setTimeout(() => {
                               if (e.target.value && cykbl) {
                                 setyqsy(
@@ -293,77 +325,7 @@ export default function OrderPopup({
                         />
                       </div>
                     </div>
-                    <div class="orderpoplb-62">
-                      {/* {getNodes()} */}
-                      <div
-                        class={
-                          bfbIndex === 1 ? "orderpoplb-63" : "orderpoplb-64"
-                        }
-                        onClick={() => {
-                          setNum(
-                            parseInt(
-                              propertyType == 1
-                                ? userInfo?.usdt * 0.1
-                                : mockUserInfo?.money * 0.1
-                            )
-                          );
-                          setbfbIndex(1);
-                        }}
-                      >
-                        <div>10%</div>
-                      </div>
-                      <div
-                        class={
-                          bfbIndex === 2 ? "orderpoplb-63" : "orderpoplb-64"
-                        }
-                        onClick={() => {
-                          setNum(
-                            parseInt(
-                              propertyType == 1
-                                ? userInfo?.usdt * 0.2
-                                : mockUserInfo?.money * 0.2
-                            )
-                          );
-                          setbfbIndex(2);
-                        }}
-                      >
-                        <div>20%</div>
-                      </div>
-                      <div
-                        class={
-                          bfbIndex === 3 ? "orderpoplb-63" : "orderpoplb-64"
-                        }
-                        onClick={() => {
-                          setNum(
-                            parseInt(
-                              propertyType == 1
-                                ? userInfo?.usdt * 0.5
-                                : mockUserInfo?.money * 0.5
-                            )
-                          );
-                          setbfbIndex(3);
-                        }}
-                      >
-                        <div>50%</div>
-                      </div>
-                      <div
-                        class={
-                          bfbIndex === 4 ? "orderpoplb-63" : "orderpoplb-64"
-                        }
-                        onClick={() => {
-                          setNum(
-                            parseInt(
-                              propertyType == 1
-                                ? userInfo?.usdt * 1
-                                : mockUserInfo?.money * 1
-                            )
-                          );
-                          setbfbIndex(4);
-                        }}
-                      >
-                        <div>100%</div>
-                      </div>
-                    </div>
+                    <div class="orderpoplb-62">{getNodesHytzbl()}</div>
                   </div>
                   <div
                     class={type == 1 ? "orderpoplb-67" : "orderpoplb-67-1"}

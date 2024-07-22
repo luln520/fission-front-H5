@@ -159,17 +159,21 @@ export default function Trade() {
       let hyTimes = hysetInfoT?.hyTime.split(",");
       let hyTzeds = hysetInfoT?.hyTzed.split(",");
       let hyYkbls = hysetInfoT?.hyYkbl.split(",");
+      let hyTzbls= hysetInfoT?.hyTzbl.split(",");
       for (let index = 0; index < hyTimes.length; index++) {
         let hyTime = hyTimes[index];
         let hyTzed = hyTzeds[index];
         let hyYkbl = hyYkbls[index];
+        let hyTzbl = hyTzbls[index];
         hyTimes[index] = hyTime;
         hyTzeds[index] = parseInt(hyTzed);
         hyYkbls[index] = parseInt(hyYkbl);
+        hyTzbls[index] = parseInt(hyTzbl);
       }
       hysetInfoT.hyTime = hyTimes;
       hysetInfoT.hyTzed = hyTzeds;
       hysetInfoT.hyYkbl = hyYkbls;
+      hysetInfoT.hyTzbl = hyTzbls;
       setHysetInfo(hysetInfoT);
     }
   };
