@@ -97,7 +97,7 @@ export default function HomePopup({
         <div
           class="homePopCenter-29"
           onClick={() => {
-            handleCopy(userInfo?.invit);
+            handleCopy(userInfo?.userCode);
           }}
         >
           <div class="homePopCenter-30">
