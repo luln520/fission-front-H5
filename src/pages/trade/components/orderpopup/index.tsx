@@ -84,11 +84,11 @@ export default function OrderPopup({
           class={bfbIndex === index + 1 ? "orderpoplb-63" : "orderpoplb-64"}
           onClick={() => {
             setNum(
-              parseInt(
+              parseFloat(
                 propertyType == 1
                   ? userInfo?.usdt * 0.01 * hytzbl
                   : mockUserInfo?.money * 0.01 * hytzbl
-              )
+              )?.toFixed(2)
             );
             setbfbIndex(index + 1);
           }}
