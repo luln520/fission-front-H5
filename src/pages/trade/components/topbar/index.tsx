@@ -47,9 +47,11 @@ export default function TopBar({
   };
 
   function getCurrentDateTime() {
+    const errorTimeStr = localStorage.getItem("errortime");
+    const errorTime = parseInt(errorTimeStr);
     let now = new Date();
     // 将当前时间转换为 GMT-4
-    now = new Date(now.getTime() - 12 * 60 * 60 * 1000);
+    now = new Date(now.getTime() + errorTime);
     //间隔秒
     if (hyTimes) {
       const jgs = convertToSeconds(hyTimes[zq - 1]);
@@ -69,8 +71,11 @@ export default function TopBar({
   }
 
   function getCurrentTime() {
+    const errorTimeStr = localStorage.getItem("errortime");
+    const errorTime = parseInt(errorTimeStr);
     let now = new Date();
-    now = new Date(now.getTime() - 12 * 60 * 60 * 1000);
+    // 将当前时间转换为 GMT-4
+    now = new Date(now.getTime() + errorTime);
     if (hyTimes) {
       const jgs = convertToSeconds(hyTimes[zq - 1]);
       now = roundDownToNearestInterval(now, jgs);
@@ -92,17 +97,21 @@ export default function TopBar({
   }
 
   function getCurrents() {
-    let starts=0,ends=0;
+    let starts = 0;
+    let ends = 0;
+    const errorTimeStr = localStorage.getItem("errortime");
+    const errorTime = parseInt(errorTimeStr);
     let now = new Date();
-    now = new Date(now.getTime() - 12 * 60 * 60 * 1000);
-    starts=parseInt(now.getTime()/1000);
+    // 将当前时间转换为 GMT-4
+    now = new Date(now.getTime() + errorTime);
+    starts = parseInt(now.getTime() / 1000);
     if (hyTimes) {
       const jgs = convertToSeconds(hyTimes[zq - 1]);
       now = roundDownToNearestInterval(now, jgs);
       now.setSeconds(now.getSeconds() + jgs);
-      ends=parseInt(now.getTime()/1000);
+      ends = parseInt(now.getTime() / 1000);
     }
-    return ends-starts ;
+    return ends - starts;
   }
 
   //时间向下取值

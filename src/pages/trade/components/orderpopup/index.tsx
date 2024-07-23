@@ -118,10 +118,11 @@ export default function OrderPopup({
   const getTimesStr = () => {
     const timesStrArr = [];
     for (let index = 1; index <= 6; index++) {
-      // 获取当前时间
+      const errorTimeStr = localStorage.getItem("errortime");
+      const errorTime = parseInt(errorTimeStr);
       let currentTime = new Date();
       // 将当前时间转换为 GMT-4
-      currentTime = new Date(currentTime.getTime() - 12 * 60 * 60 * 1000);
+      currentTime = new Date(currentTime.getTime() + errorTime);
       //向下取整时间
       if (hyTimes) {
         const jgs = convertToSeconds(hyTimes[zq - 1]);

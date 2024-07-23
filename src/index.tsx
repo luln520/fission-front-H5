@@ -13,6 +13,7 @@ import { userApi } from "./api/user-api";
 import { kuangjiApi } from "./api/kuangm-api";
 import { localClear } from "./utils/local-util";
 import { Toast } from "antd-mobile";
+import { contractApi } from "./api/contract-api";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -94,6 +95,19 @@ async function initPropertyType() {
     localStorage.setItem("propertyType", 1);
   }
 }
+//初始化时间
+async function initTime() {
+  //判断修改
+  let res = await contractApi.time();
+  if (res.ok) {
+    //计算时间差
+    const baseTime=new Date(res?.data).getTime();
+    const nowTime=new Date().getTime();
+    localStorage.setItem("errortime", baseTime-nowTime);
+  } else {
+    localStorage.setItem("errortime", 0);
+  }
+}
 //初始化主题
 initThem();
 //公司 记载完成后再渲染页面
@@ -120,3 +134,5 @@ setInterval(() => {
 
 //初始化账户类型
 initPropertyType();
+//初始化时间
+initTime();

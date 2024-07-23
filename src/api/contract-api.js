@@ -52,4 +52,10 @@ export const contractApi = {
   orderNo: (param) => {
     return getRequest('/api/pc/contract/orderNo', param);
   },
+   /**
+   * 获取美国时间
+   */
+    time: (param) => {
+      return getRequest('/api/pc/contract/time', param);
+    },
 };
