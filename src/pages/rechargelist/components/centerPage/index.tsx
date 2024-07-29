@@ -82,7 +82,7 @@ export default function CenterPage({ coinList }) {
         <p class="rechargelist-9">{translate(getText("請選擇以下充值通道"))}</p>
         <div class="rechargelist-10">
           {getNode()}
-          <div
+          {/* <div
             class="rechargelist-11"
             onClick={() => {
               navigate("/c2cckcenter");
@@ -115,7 +115,7 @@ export default function CenterPage({ coinList }) {
                 <i class="rechargelist-27"></i>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div class="rechargelist-96"></div>
       </div>

@@ -36,7 +36,7 @@ export default function HomePopup({
       <div class="homePopCenter-1">
         <div class="homePopCenter-2">
           <div class="homePopCenter-3">
-            {isDark() && (
+            {/* {isDark() && (
               <div
                 class="homePopCenter-4-dark"
                 onClick={() => {
@@ -51,7 +51,7 @@ export default function HomePopup({
                   changeThem("dark");
                 }}
               ></div>
-            )}
+            )} */}
           </div>
         </div>
         <div class="homePopCenter-11">
