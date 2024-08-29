@@ -2090,6 +2090,12 @@
   pointer-events: none;
   border-color: rgb(30, 39, 48) !important;
 }
+.idcardlb-119 img,.idcardlb-132 img{
+  width: 225px;
+  height: 150px;
+  border-radius: 7px;
+  border: solid 1px rgb(34, 44, 56);
+}
 
 @media (prefers-color-scheme: dark) {
   .idcardlb-119 {
@@ -2313,6 +2319,9 @@
   height: 9.0625rem;
   line-height: 9.0625rem;
   position: relative;
+}
+.idcard-28-1{
+  margin-top: 1.25rem;
 }
 
 .idcardlb-133:after {

@@ -57,17 +57,17 @@ export default function Info({ userInfo, sendAuth }) {
     setPhone(userInfo?.phone);
   }, [userInfo]);
   return (
-    <div class="idcardlb-1">
-      <div class="idcardlb-2">
-        <div class="idcardlb-3">
-          <div class="idcardlb-4">
-            <span class="idcardlb-5">{translate(getText("选择您的身份证件信息"))}</span>
+    <div className="idcardlb-1">
+      <div className="idcardlb-2">
+        <div className="idcardlb-3">
+          <div className="idcardlb-4">
+            <span className="idcardlb-5">{translate(getText("选择您的身份证件信息"))}</span>
           </div>
-          <div class="idcardlb-6">
-            <div class="idcardlb-93">
-              <div class="idcardlb-94-1">
-                <div class="idcardlb-96">
-                  <div class="idcardlb-97">
+          <div className="idcardlb-6">
+            <div className="idcardlb-93">
+              <div className="idcardlb-94-1">
+                <div className="idcardlb-96">
+                  <div className="idcardlb-97">
                     <ConfigProvider
                       theme={{
                         components: {
@@ -99,10 +99,10 @@ export default function Info({ userInfo, sendAuth }) {
                 </div>
               </div>
             </div>
-            <div class="idcardlb-93">
-              <div class="idcardlb-94">
-                <div class="idcardlb-96">
-                  <div class="idcardlb-97">
+            <div className="idcardlb-93">
+              <div className="idcardlb-94">
+                <div className="idcardlb-96">
+                  <div className="idcardlb-97">
                     <input
                       placeholder={translate(getText("請輸入您的真實姓名"))}
                       value={realName}
@@ -113,16 +113,16 @@ export default function Info({ userInfo, sendAuth }) {
                       maxlength="999"
                       step=""
                       autocomplete="off"
-                      class="idcardlb-99"
+                      className="idcardlb-99"
                     />
                   </div>
                 </div>
               </div>
             </div>
-            <div class="idcardlb-93">
-              <div class="idcardlb-94">
-                <div class="idcardlb-96">
-                  <div class="idcardlb-97">
+            <div className="idcardlb-93">
+              <div className="idcardlb-94">
+                <div className="idcardlb-96">
+                  <div className="idcardlb-97">
                     <input
                       type="text"
                       placeholder={translate(getText("請填寫聯繫電話"))}
@@ -133,7 +133,7 @@ export default function Info({ userInfo, sendAuth }) {
                       maxlength="999"
                       step=""
                       autocomplete="off"
-                      class="idcardlb-99"
+                      className="idcardlb-99"
                     />
                   </div>
                 </div>
@@ -141,9 +141,9 @@ export default function Info({ userInfo, sendAuth }) {
             </div>
           </div>
         </div>
-        <div class="idcardlb-117">
-          <div class="idcardlb-118">
-            <div class="idcardlb-119">
+        <div className="idcardlb-117">
+          <div className="idcardlb-118">
+            <div className="idcardlb-119">
               <Upload
                 name="file"
                 accept="image/*"
@@ -157,10 +157,10 @@ export default function Info({ userInfo, sendAuth }) {
                   }}
                 >
                   {cardzm && (
-                    <div class="idcard-28-1">
+                    <div className="idcard-28-1">
                       <img
                         src={imageConfig.baseImageUrl + cardzm}
-                        class="idcard-30"
+                        className="idcard-30"
                       />
                     </div>
                   )}
@@ -168,10 +168,10 @@ export default function Info({ userInfo, sendAuth }) {
                     <div>
                       <img
                         src="/assets/idCard1_d-e6fc6248.png"
-                        class="idcardlb-120"
+                        className="idcardlb-120"
                       />
-                      <div class="idcardlb-121">
-                        <span class="idcardlb-122">
+                      <div className="idcardlb-121">
+                        <span className="idcardlb-122">
                           {translate(getText("證件正面照片"))}
                         </span>
                       </div>
@@ -182,8 +182,8 @@ export default function Info({ userInfo, sendAuth }) {
             </div>
           </div>
         </div>
-        <div class="idcardlb-131">
-          <div class="idcardlb-132">
+        <div className="idcardlb-131">
+          <div className="idcardlb-132">
             <Upload
               name="file"
               accept="image/*"
@@ -197,22 +197,22 @@ export default function Info({ userInfo, sendAuth }) {
                 }}
               >
                 {cardfm && (
-                  <div class="idcard-28-1">
+                  <div className="idcard-28-1">
                     <img
                       src={imageConfig.baseImageUrl + cardfm}
-                      class="idcard-30"
+                      className="idcard-30"
                     />
                   </div>
                 )}
                 {!cardfm && (
                   <div>
-                    <div class="idcardlb-133">
+                    <div className="idcardlb-133">
                       <img
                         src="/assets/idCard1_d-e6fc6248.png"
-                        class="idcardlb-134"
+                        className="idcardlb-134"
                       />
-                      <div class="idcardlb-135">
-                        <span class="idcardlb-136">
+                      <div className="idcardlb-135">
+                        <span className="idcardlb-136">
                           {translate(getText("證件反面照片"))}
                         </span>
                       </div>
@@ -223,33 +223,33 @@ export default function Info({ userInfo, sendAuth }) {
             </Upload>
           </div>
         </div>
-        {/* <div class="idcardlb-145">
-          <div class="idcardlb-146">
-            <div class="idcardlb-147">
+        {/* <div className="idcardlb-145">
+          <div className="idcardlb-146">
+            <div className="idcardlb-147">
               <img
                 src="/assets/idCard2_d-b374f793.png"
-                class="idcardlb-148"
+                className="idcardlb-148"
               />
-              <div class="idcardlb-149">
-                <span class="idcardlb-150">上传手持证件照片</span>
+              <div className="idcardlb-149">
+                <span className="idcardlb-150">上传手持证件照片</span>
               </div>
             </div>
           </div>
-          <div class="idcardlb-151">
-            <div class="idcardlb-153"></div>
-            <div class="idcardlb-154">
-              <div class="idcardlb-155">
-                <div class="idcardlb-156"></div>
+          <div className="idcardlb-151">
+            <div className="idcardlb-153"></div>
+            <div className="idcardlb-154">
+              <div className="idcardlb-155">
+                <div className="idcardlb-156"></div>
               </div>
-              <div class="idcardlb-157">
-                <div class="idcardlb-158"></div>
+              <div className="idcardlb-157">
+                <div className="idcardlb-158"></div>
               </div>
             </div>
           </div>
         </div> */}
-        <div class="idcardlb-159">
+        <div className="idcardlb-159">
           <div
-            class="idcardlb-160"
+            className="idcardlb-160"
             onClick={() => {
               if (userInfo?.rzstatus === 2) {
                 return;
