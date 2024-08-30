@@ -254,6 +254,9 @@ export default function Info({ userInfo, sendAuth }) {
               if (userInfo?.rzstatus === 2) {
                 return;
               }
+              if(!cardfm || !cardzm){
+                return
+              }
               sendAuth({
                 ...userInfo,
                 realName,
