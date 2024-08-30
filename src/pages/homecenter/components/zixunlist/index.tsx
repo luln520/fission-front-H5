@@ -24,74 +24,75 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
       const ctmarket = ctmarketlist[index];
       const key = ctmarket.coinname;
       nodes.push(
-        <div
-          class="zixunlist-2"
-          onClick={() => {
-            navigate(`/trade/${key}`);
-          }}
-        >
-          <div class="zixunlist-3">
-            <div class="zixunlist-4">
-              <span class="zixunlist-5">{key.toUpperCase()}USDT</span>
+          <div
+              class="zixunlist-2"
+              onClick={() => {
+                navigate(`/trade/${key}`)
+              }}
+          >
+            <div class="zixunlist-3">
+              <div class="zixunlist-4">
+                <span class="zixunlist-5">{key.toUpperCase()}USDT</span>
+              </div>
+            </div>
+            <div
+                class={
+                  coinListData[key]?.close > coinListData[key]?.open
+                      ? 'zixunlist-41'
+                      : 'zixunlist-7'
+                }
+            >
+              {coinListData[key]?.close ? coinListData[key]?.close : '--'}
+            </div>
+            <div class="zixunlist-8">
+              <canvas
+                  ref={
+                    index == 0 ? canvas1Ref : index == 1 ? canvas2Ref : canvas3Ref
+                  }
+                  style={{
+                    width: '100%',
+                    height:'3.16rem',
+                  }}
+              ></canvas>
             </div>
             <i
-              class={
-                coinListData[key]?.close > coinListData[key]?.open
-                  ? "zixunlist-40"
-                  : "zixunlist-6"
-              }
+                className={
+                  coinListData[key]?.close > coinListData[key]?.open
+                      ? 'zixunlist-40'
+                      : 'zixunlist-6'
+                }
             >
-              {coinListData[key]?.close < coinListData[key]?.open ? "" : "+"}
+              {coinListData[key]?.close < coinListData[key]?.open ? '' : '+'}
               {coinListData[key]?.close &&
-                (
-                  ((coinListData[key]?.close - coinListData[key]?.open) /
-                    coinListData[key]?.open) *
-                  100
-                ).toFixed(2)}
+                  (
+                      ((coinListData[key]?.close - coinListData[key]?.open) /
+                          coinListData[key]?.open) *
+                      100
+                  ).toFixed(2)}
               %
             </i>
-          </div>
-          <div
-            class={
-              coinListData[key]?.close > coinListData[key]?.open
-                ? "zixunlist-41"
-                : "zixunlist-7"
-            }
-          >
-            {coinListData[key]?.close ? coinListData[key]?.close : "--"}
-          </div>
-          <div class="zixunlist-8">
-            <canvas
-              ref={
-                index == 0 ? canvas1Ref : index == 1 ? canvas2Ref : canvas3Ref
-              }
-              style={{
-                width: "100%",
-              }}
-            ></canvas>
-          </div>
-        </div>
+          </div>,
       );
     }
-    return nodes;
+    return nodes
   };
 
   const getLogo = (name) => {
-    let logo = "";
+    let logo = ''
     for (const ctmarket of ctmarketlist) {
       if (name == ctmarket.coinname) {
-        logo = imageConfig.baseImageUrl + ctmarket.logo;
-        break;
+        logo = imageConfig.baseImageUrl + ctmarket.logo
+        break
       }
     }
-    return logo;
-  };
+    return logo
+  }
   //货币
   const loadHistoryData = async () => {
-    const maxLen = ctmarketlist.length > 3 ? 3 : ctmarketlist.length;
+    const maxLen = ctmarketlist.length > 3 ? 3 : ctmarketlist.length
     for (let index = 0; index < maxLen; index++) {
-      const ctmarket = ctmarketlist[index];
-      const name = ctmarket.coinname;
+      const ctmarket = ctmarketlist[index]
+      const name = ctmarket.coinname
       const drawData = [];
       let type = 1; //1 绿 2红
       let data = await huobiApi.getHistoryK(name + "usdt", "1day", 40);
@@ -125,28 +126,51 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
       return;
     }
     const ctx = canvas.getContext("2d");
+
     // 模拟股票价格数据
     const stockData = data;
+
     // 计算数据的最大值和最小值
     const maxValue = Math.max(...stockData);
     const minValue = Math.min(...stockData);
+
     // 定义画布的宽度和高度
     const canvasWidth = canvas.width;
     const canvasHeight = canvas.height;
+
     // 计算单位高度和单位宽度
     const unitX = canvasWidth / (stockData.length - 1);
     const unitY = canvasHeight / (maxValue - minValue);
+
     // 清空画布
     ctx.clearRect(0, 0, canvasWidth, canvasHeight);
+
+    // 创建渐变
+    const gradient = ctx.createLinearGradient(0, 0, 0, canvasHeight);
+    if (type == 1) {
+      gradient.addColorStop(0, "rgba(4, 207, 153, 0.5)"); // 顶部颜色
+      gradient.addColorStop(1, "rgba(4, 207, 153, 0)");   // 底部颜色
+    } else {
+      gradient.addColorStop(0, "rgba(243, 100, 100, 0.5)"); // 顶部颜色
+      gradient.addColorStop(1, "rgba(243, 100, 100, 0)");   // 底部颜色
+    }
+
     // 绘制折线图
     ctx.beginPath();
-    ctx.strokeStyle = type == 1 ? "rgb(4, 207, 153)" : "rgb(243, 100, 100)"; // 色线条
-    ctx.lineWidth = 6;
+    ctx.strokeStyle = type == 1 ? "rgb(4, 207, 153)" : "rgb(243, 100, 100)"; // 线条颜色
+    ctx.lineWidth = 2;
     ctx.moveTo(0, canvasHeight - (stockData[0] - minValue) * unitY);
     for (let i = 1; i < stockData.length; i++) {
       ctx.lineTo(i * unitX, canvasHeight - (stockData[i] - minValue) * unitY);
     }
     ctx.stroke();
+
+    // 填充渐变色
+    ctx.lineTo(canvasWidth, canvasHeight); // 将线条连接到右下角
+    ctx.lineTo(0, canvasHeight); // 将线条连接到左下角
+    ctx.closePath();
+    ctx.fillStyle = gradient;
+    ctx.fill();
   };
   //定时器画图
   useEffect(() => {
@@ -164,5 +188,7 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
       clearInterval(timeer);
     };
   }, [ctmarketlist]);
-  return <div class="zixunlist-1">{getNodes()}</div>;
+  return <div className="zixunlist-over-x">
+    <div className="zixunlist-1">{getNodes()}</div>
+  </div>;
 }

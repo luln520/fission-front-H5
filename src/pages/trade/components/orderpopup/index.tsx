@@ -81,7 +81,7 @@ export default function OrderPopup({
       let hytzbl = hyTzbls[index];
       const node = (
         <div
-          class={bfbIndex === index + 1 ? "orderpoplb-63" : "orderpoplb-64"}
+          class={`${bfbIndex === index + 1 ? "orderpoplb-63 orderpoplb-item-act" : "orderpoplb-64"} orderpoplb-item`}
           onClick={() => {
             setNum(
               parseFloat(
@@ -231,26 +231,28 @@ export default function OrderPopup({
                     </div>
                     {/* 选项 */}
                     <div
-                      class="orderpoplb-18"
-                      ref={divRef}
-                      onScroll={handleScroll}
+                        class="orderpoplb-18"
+                        ref={divRef}
+                        onScroll={handleScroll}
                     >
                       <div class="orderpoplb-19">
                         <div class="orderpoplb-20">
                           <div class="orderpoplb-21"></div>
                           <div class="orderpoplb-28">
                             {selectTimes.map((item, index) => (
-                              <div class="orderpoplb-29">
-                                <div
-                                  class={
-                                    selectIndex == index + 1
-                                      ? "orderpoplb-30"
-                                      : "orderpoplb-36"
-                                  }
-                                >
-                                  <span class="orderpoplb-31">{item.str}</span>
+                                <div class={`orderpoplb-29 ${selectIndex == index + 1
+                                    ? 'orderpoplb-act'
+                                    : ''}`}>
+                                  <div
+                                      class={
+                                        selectIndex == index + 1
+                                            ? 'orderpoplb-30'
+                                            : 'orderpoplb-36'
+                                      }
+                                  >
+                                    <span class="orderpoplb-31">{item.str}</span>
+                                  </div>
                                 </div>
-                              </div>
                             ))}
                             {/* <div class="orderpoplb-29">
                               <div class="orderpoplb-36">
@@ -267,104 +269,107 @@ export default function OrderPopup({
                       </div>
                     </div>
                   </div>
-                  <div class="orderpoplb-47">
-                    <div class="orderpoplb-48">
-                      <div class="orderpoplb-49">
-                        <div class="orderpoplb-50">
-                          {translate(getText("最小"))}
+
+                  <div className="orderpoplb-47">
+                    <div className="orderpoplb-58">
+                      <div className="orderpoplb-59">
+                        <input
+                            placeholder={translate(getText('最少10起買')).replace(
+                                '10',
+                                minNum,
+                            )}
+                            type="number"
+                            maxLength="140"
+                            autoComplete="off"
+                            className="orderpoplb-61"
+                            min={minNum}
+                            name="num"
+                            value={num}
+                            onChange={(e) => {
+                              //清空百分比选项
+                              setbfbIndex(0)
+                              let value = e.target.value
+                              value = value.match(/\d+\.?\d{0,2}/, '')
+                              setNum(value ? value[0] : '')
+                              setTimeout(() => {
+                                if (e.target.value && cykbl) {
+                                  setyqsy(
+                                      parseInt(e.target.value) * cykbl * 0.01,
+                                  )
+                                } else {
+                                  setyqsy(0)
+                                }
+                              }, 0)
+                            }}
+                        />
+                      </div>
+                    </div>
+                    <div className="orderpoplb-62">{getNodesHytzbl()}</div>
+                    <div className="orderpoplb-48">
+                      <div className="orderpoplb-49">
+                        <div className="orderpoplb-50">
+                          {translate(getText('最小'))}
                         </div>
-                        <div class="orderpoplb-51">
+                        <div className="orderpoplb-51">
                           <span class="orderpoplb-52">{minNum}</span>
                         </div>
                       </div>
-                      <div class="orderpoplb-53">
-                        <div class="orderpoplb-54">
-                          {translate(getText("可用"))}
+                      <div className="orderpoplb-53">
+                        <div className="orderpoplb-54">
+                          {translate(getText('可用'))}
                         </div>
-                        <div class="orderpoplb-55">
+                        <div className="orderpoplb-55">
                           <span class="orderpoplb-56">
                             {propertyType == 1
-                              ? userInfo?.usdt
-                              : mockUserInfo?.money}
+                                ? userInfo?.usdt
+                                : mockUserInfo?.money}
                           </span>
                         </div>
                       </div>
                     </div>
-                    <div class="orderpoplb-57">
-                      {translate(getText("数量"))}
-                    </div>
-                    <div class="orderpoplb-58">
-                      <div class="orderpoplb-59">
-                        <input
-                          placeholder={translate(getText("最少10起買")).replace(
-                            "10",
-                            minNum
-                          )}
-                          type="number"
-                          maxlength="140"
-                          autocomplete="off"
-                          class="orderpoplb-61"
-                          min={minNum}
-                          name="num"
-                          value={num}
-                          onChange={(e) => {
-                            //清空百分比选项
-                            setbfbIndex(0);
-                            let value = e.target.value;
-                            value = value.match(/\d+\.?\d{0,2}/, "");
-                            setNum(value ? value[0] : "");
-                            setTimeout(() => {
-                              if (e.target.value && cykbl) {
-                                setyqsy(
-                                  parseInt(e.target.value) * cykbl * 0.01
-                                );
-                              } else {
-                                setyqsy(0);
-                              }
-                            }, 0);
-                          }}
-                        />
-                      </div>
-                    </div>
-                    <div class="orderpoplb-62">{getNodesHytzbl()}</div>
+                    {/*<div className="orderpoplb-57">*/}
+                    {/*  {translate(getText('数量'))}*/}
+                    {/*</div>*/}
+
+
                   </div>
                   <div
-                    class={type == 1 ? "orderpoplb-67" : "orderpoplb-67-1"}
-                    onClick={() => {
-                      if (num < minNum) {
-                        Toast.show({
-                          content: `${translate(
-                            getText("最低投資額")
-                          )} ${minNum}`,
-                        });
-                        return;
-                      }
-                      if (!isUse) {
-                        return;
-                      }
-                      setIsUse(false);
-                      setTimeout(() => {
-                        setIsUse(true);
-                      }, 3000);
-                      //计划时间戳
-                      const plantime = formatDate(
-                        new Date(selectTimes[selectIndex - 1]?.time)
-                      );
-                      //计划时间戳
-                      let intplantime = selectTimes[selectIndex - 1]?.time;
-                      intplantime = parseInt(intplantime / 1000);
-                      buyCoin({
-                        ccoinname: `${nowTab.toUpperCase()}/USDT`,
-                        ctzed: num,
-                        ctzfx: type,
-                        ctime: hyTimes[zq - 1],
-                        cykbl,
-                        plantime,
-                        intplantime,
-                      });
-                    }}
+                      class={type == 1 ? 'orderpoplb-67' : 'orderpoplb-67-1'}
+                      onClick={() => {
+                        if (num < minNum) {
+                          Toast.show({
+                            content: `${translate(
+                                getText('最低投資額'),
+                            )} ${minNum}`,
+                          })
+                          return
+                        }
+                        if (!isUse) {
+                          return
+                        }
+                        setIsUse(false)
+                        setTimeout(() => {
+                          setIsUse(true)
+                        }, 3000)
+                        //计划时间戳
+                        const plantime = formatDate(
+                            new Date(selectTimes[selectIndex - 1]?.time),
+                        )
+                        //计划时间戳
+                        let intplantime = selectTimes[selectIndex - 1]?.time
+                        intplantime = parseInt(intplantime / 1000)
+                        buyCoin({
+                          ccoinname: `${nowTab.toUpperCase()}/USDT`,
+                          ctzed: num,
+                          ctzfx: type,
+                          ctime: hyTimes[zq - 1],
+                          cykbl,
+                          plantime,
+                          intplantime,
+                        })
+                      }}
                   >
-                    {translate(getText(type == 1 ? "看涨" : "看跌"))}
+                    {translate(getText(type == 1 ? '看涨' : '看跌'))}
                   </div>
                 </div>
               </div>

@@ -11,26 +11,32 @@ export default function Optionbox2({ loginmsg }) {
   const la = localStorage.getItem("i18n") ? localStorage.getItem("i18n") : "en";
   const companySkin = localStorage.getItem("companySkin");
   return (
-    <div class="optionbox2-1">
-      <div class="optionbox2-2">
-        <div class="optionbox2-3"></div>
-        <div class="optionbox2-4">
-          <div class="optionbox2-5">
-            <div class="optionbox2-6"></div>
+      <div class="optionbox2-1 optionbox2-transaction">
+        <div class="optionbox2-2">
+          <div class="optionbox2-3"></div>
+          <div class="optionbox2-4">
+            <div class="optionbox2-5">
+              <div class="optionbox2-6"></div>
+            </div>
+            <div class="optionbox2-7">
+              <div class="optionbox2-8"></div>
+            </div>
           </div>
-          <div class="optionbox2-7">
-            <div class="optionbox2-8"></div>
-          </div>
+          <img
+              src={"/home/Quick-transaction.png"}
+              draggable="false"
+              class="optionbox2-9"
+              onClick={() => {
+                navigate("/trade/btc");
+              }}
+          />
         </div>
-        <img
-          src={la=="zh"?"/assets/ad-49349ca8.png":"/assets/adEn-a9dec4b6.png"}
-          draggable="false"
-          class="optionbox2-9"
-          onClick={()=>{
-            navigate("/trade/btc");
-          }}
-        />
+        <header>Quick transaction</header>
+        <footer>Safe and convenient</footer>
+        <aside>
+          <img src="/home/trans-arrow-right.png"/>
+        </aside>
+
       </div>
-    </div>
   );
 }

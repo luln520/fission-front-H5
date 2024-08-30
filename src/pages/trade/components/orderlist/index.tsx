@@ -167,7 +167,6 @@ export default function OrderList({ hyorders, nowTab }) {
   return (
     <div
       style={{
-        borderTop: ".625rem solid #030708",
       }}
     >
       <div class="tradechangebar-1">

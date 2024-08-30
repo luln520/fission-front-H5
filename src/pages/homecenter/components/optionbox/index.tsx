@@ -13,17 +13,17 @@ export default function Optionbox({ loginmsg }) {
   const propertyType = localStorage.getItem("propertyType");
   return (
     <div class="optionbox-1">
-      <div class="optionbox-2">
+      <div class="optionbox-2 optionbox-box">
         {propertyType == 1 && (
           <div
-            class="optionbox-3"
+              className="optionbox-3 optionbox-item"
             onClick={() => {
               navigate("/extractlist");
             }}
           >
             <div class="optionbox-4">
               <img
-                src="/menus/tiBi_d.png"
+                src="/home/raise.png"
                 draggable="false"
                 class="optionbox-7"
               />
@@ -35,14 +35,14 @@ export default function Optionbox({ loginmsg }) {
         )}
         {propertyType == 1 && (
           <div
-            class="optionbox-10"
+            class="optionbox-10 optionbox-item"
             onClick={() => {
               navigate("/rechargelist");
             }}
           >
             <div class="optionbox-11">
               <img
-                src="/menus/chongBi_d.png"
+                src="/home/coin.png"
                 draggable="false"
                 class="optionbox-14"
               />
@@ -53,14 +53,14 @@ export default function Optionbox({ loginmsg }) {
           </div>
         )}
         <div
-          class="optionbox-17"
+          class="optionbox-17 optionbox-item"
           onClick={() => {
             navigate("/chatcenter");
           }}
         >
           <div class="optionbox-18">
             <img
-              src="/menus/keFu_d.png"
+              src="/home/service.png"
               draggable="false"
               class="optionbox-21"
             />
@@ -70,14 +70,14 @@ export default function Optionbox({ loginmsg }) {
           </div>
         </div>
         <div
-          class="optionbox-24"
+          class="optionbox-24 optionbox-item"
           onClick={() => {
             navigate("/changelanguage");
           }}
         >
           <div class="optionbox-25">
             <img
-              src="/menus/huaZhuan_d.png"
+              src="/home/Language.png"
               draggable="false"
               class="optionbox-28"
             />

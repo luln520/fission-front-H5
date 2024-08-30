@@ -37,7 +37,7 @@ async function initCompany() {
 async function initThem() {
   const them = localStorage.getItem("them");
   if (!them) {
-    changeThem("dark");
+    changeThem("light");
   } else {
     changeThem(them);
   }

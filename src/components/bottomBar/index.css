@@ -9,10 +9,11 @@
   position: fixed;
   left: 0px;
   right: 0px;
-  height: 3.125rem;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
   bottom: calc(0px + env(safe-area-inset-bottom) * 0.4);
   z-index: 998;
-  background: var(--them-background);
+  background: var(--them-color-white-bg);
   border-top: 1px solid #000;
 }
 
@@ -85,7 +86,7 @@
   scrollbar-width: none;
   font-family: sans-serif;
   font-size: 0.6875rem;
-  color: #fff;
+  color: var(--them-color-green-text);
 }
 
 .bottomBar-7:after {
@@ -164,7 +165,7 @@
   white-space: pre-line;
   scrollbar-width: none;
   font-family: sans-serif;
-  color: #5a6068;
+  color: var(--them-color-gray-text);
   font-size: 0.6875rem;
 }
 
@@ -419,4 +420,23 @@
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
+}
+
+.bottomBar-1 .img-box {
+  width: 1.63rem;
+  height: 1.63rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--them-color-gray-bg);
+  border-radius: 100%;
+  > img {
+    width: 1.2rem;
+    height: 1.2rem;
+    opacity: 0.88;
+    position: relative;
+  }
+}
+.bottomBar-1 .act .img-box {
+  background: var(--them-color-green-text);
 }

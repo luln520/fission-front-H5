@@ -3,6 +3,17 @@
   --boutton-background-color: white;
   --them-background: white;
   --them-color: ;
+  
+  --them-color-gray-bg: #F7F7F7;
+  --them-color-white-bg: #FFF;
+  
+  --them-color-black-text: #333333;
+  --them-color-red-text: #FF4F4F;
+  --them-color-red-deep-text: #D3415D;
+  --them-color-green-text: #04CF99;
+  --them-color-gray-text: #999999;
+  --them-color-gray-light-text: #ccc;
+  
 }
 
 * {

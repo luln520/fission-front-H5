@@ -298,7 +298,6 @@ export default function OrderList({
   return (
     <div
       style={{
-        borderTop: ".625rem solid #030708",
       }}
     >
       <div class="leverchangebar-1">
@@ -324,12 +323,13 @@ export default function OrderList({
             </div>
           </div>
         </div>
-        <div class="leverchangebar-12"></div>
+
+
       </div>
       <div
         style={{
           boxSizing: "border-box",
-          padding: "0 20px",
+          padding: "0 1rem",
         }}
       >
         {getNode1()}

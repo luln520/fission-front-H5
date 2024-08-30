@@ -13,7 +13,7 @@
   z-index: 10;
   height: 4.0625rem;
   padding: 0px 0.9375rem;
-  background: rgb(15, 23, 32);
+  /*background: rgb(15, 23, 32);*/
 }
 
 .marketbuydivlb-1:after {
@@ -27,7 +27,6 @@
   text-align: center;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
-  background-color: rgb(248, 248, 248);
   cursor: pointer;
   scrollbar-width: none;
   box-sizing: border-box;
@@ -67,12 +66,12 @@
   border-color: rgb(30, 39, 48) !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  .marketbuydivlb-2 {
-    color: rgb(214, 214, 214);
-    background-color: rgb(52, 52, 52);
-  }
-}
+/*@media (prefers-color-scheme: dark) {*/
+/*  .marketbuydivlb-2 {*/
+/*    color: rgb(214, 214, 214);*/
+/*    background-color: rgb(52, 52, 52);*/
+/*  }*/
+/*}*/
 
 .marketbuydivlb-3 {
   margin: 0px;
@@ -210,12 +209,12 @@
   border-color: rgb(30, 39, 48) !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  .marketbuydivlb-10 {
-    color: rgb(214, 214, 214);
-    background-color: rgb(52, 52, 52);
-  }
-}
+/*@media (prefers-color-scheme: dark) {*/
+/*  .marketbuydivlb-10 {*/
+/*    color: rgb(214, 214, 214);*/
+/*    background-color: rgb(52, 52, 52);*/
+/*  }*/
+/*}*/
 
 .marketbuydivlb-11 {
   margin: 0px;

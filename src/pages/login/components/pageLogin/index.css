@@ -102,6 +102,9 @@
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
+  color: #999999;
+  margin-top: 1.75rem;
+  margin-right: 1.28rem;
 }
 
 .loginboxnew-9 {
@@ -274,10 +277,13 @@
 .loginboxnew-20 {
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
-  display: block;
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: .88rem;
+  margin-top: 2.91rem;
 }
 
 .loginboxnew-20:after {
@@ -885,4 +891,116 @@
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
+}
+.loginboxnew-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2.78rem;
+   > header {
+     display: flex;
+     align-items: center;
+     > aside {
+       > img {
+         width: 3.69rem;
+         height: 3.69rem;
+       }
+     }
+     > main {
+       height: 3.19rem;
+       font-family: BMDoHyeon, BMDoHyeon;
+       font-weight: bolder;
+       font-size: 2.66rem;
+       color: #000000;
+       line-height: 3.28rem;
+       text-align: right;
+       font-style: normal;
+     }
+   }
+  > footer {
+    margin-top: .5rem;
+    font-family: SourceHanSansCN, SourceHanSansCN;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #999999;
+    line-height: 1.13rem;
+    letter-spacing: 2px;
+    text-align: right;
+    font-style: normal;
+  }
+}
+
+.loginboxnew-input-box {
+  padding: 0 .75rem;
+  position: relative;
+  > input {
+    height: 3.75rem;
+    width: 100%;
+    background: rgba(42, 52, 42, 0.16);
+    border-radius: 0.78rem;
+    border: none;
+    color: black !important;
+    padding: 0 1.4rem;
+    box-sizing: border-box;
+  }
+}
+.loginboxnew-forget {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 2.88rem;
+  font-weight: 400;
+  font-size: 0.81rem;
+  color: #999999;
+  line-height: 0.75rem;
+}
+.loginboxnew-remeber {
+  margin-top: 8.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .4rem;
+  > aside {
+    width: .33rem;
+    height: .33rem;
+    border-radius: 50%;
+    background: #66E793;
+  }
+}
+.loginboxnew-login {
+  height: 3.75rem;
+  background: #04CF99;
+  border-radius: 0.78rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-weight: bold;
+  font-size: 0.94rem;
+  color: #FFFFFF;
+  line-height: 0.75rem;
+}
+.loginboxnew-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  font-weight: 400;
+  font-size: 0.81rem;
+  color: #999999;
+  line-height: 0.75rem;
+}
+.loginboxnew-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  
+  font-weight: 400;
+  font-size: 0.81rem;
+  color: #999999;
+  line-height: 0.75rem;
+
+  margin-top: 4rem;
 }

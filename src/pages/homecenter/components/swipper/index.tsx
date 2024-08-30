@@ -9,7 +9,6 @@ export default function Swipper({ companyData }) {
     <div
       style={{
         height: "auto",
-        padding:"10px",
       }}
     >
       <Swiper loop autoplay>

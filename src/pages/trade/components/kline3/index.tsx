@@ -167,7 +167,7 @@ export default function MyChartComponent({
   }, [timeindex, nowTab,nowzb,nowtime]);
   return (
     <div>
-      <div id="k-line-chart" style={{ height: "280px", width: "100%" }}></div>
+      <div id="k-line-chart" style={{ backgroundColor: '#fff', height: "280px", width: "100%" }}></div>
     </div>
   );
 }

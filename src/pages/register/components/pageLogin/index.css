@@ -6,6 +6,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
     padding: 0.9375rem;
+  background: #FFFFFF;
+  min-height: 100vh;
 }
 
 .registercenter-1:after {
@@ -62,6 +64,13 @@
     scrollbar-width: none;
     box-sizing: border-box;
     font-family: sans-serif;
+  height: 1rem;
+  font-weight: bold;
+  font-size: 1.13rem;
+  color: #333333;
+  line-height: 1rem;
+  text-align: left;
+  font-style: normal;
 }
 
 .registercenter-6 {
@@ -102,6 +111,13 @@
     scrollbar-width: none;
     box-sizing: border-box;
     font-family: sans-serif;
+  height: 0.75rem;
+  font-weight: 400;
+  font-size: 0.94rem;
+  color: #999999;
+  line-height: 0.75rem;
+  text-align: right;
+  font-style: normal;
 }
 
 .registercenter-9 {
@@ -322,10 +338,12 @@
 .registercenter-23 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    display: block;
     scrollbar-width: none;
     box-sizing: border-box;
     font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: .88rem;
 }
 
 .registercenter-23:after {
@@ -1200,10 +1218,13 @@
 .registercenterphone-2 {
     margin: 0px;
     -webkit-tap-highlight-color: transparent;
-    display: block;
     scrollbar-width: none;
     box-sizing: border-box;
     font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: .88rem;
+
 }
 
 .registercenterphone-2:after {
@@ -2066,4 +2087,68 @@
 
 .registercenterphone-47:after {
     border-color: rgb(30, 39, 48) !important;
+}
+.registercenter-input-box {
+  padding: 0 .75rem;
+  position: relative;
+  > input {
+    height: 3.75rem;
+    width: 100%;
+    background: rgba(42, 52, 42, 0.16);
+    border-radius: 0.78rem;
+    border: none;
+    color: black !important;
+    padding: 0 1.4rem;
+    box-sizing: border-box;
+  }
+}
+.registercenter-code {
+  position: absolute;
+  right: 1.87rem;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  > section {
+    font-weight: 400;
+    font-size: 0.94rem;
+    color: #04CF99;
+    line-height: 0.75rem;
+    text-align: right;
+    font-style: normal;
+  }
+}
+.registercenter-submit {
+  height: 3.75rem;
+  margin: 6.66rem .75rem 0;
+  background: #04CF99;
+  border-radius: 0.78rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.94rem;
+  color: #FFFFFF;
+  line-height: 0.75rem;
+}
+
+.registercenter-switch {
+  margin: 1.19rem 0;
+  font-weight: 400;
+  font-size: 0.81rem;
+  color: #999999;
+  line-height: 0.75rem;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+.registercenterphone-area {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.6rem;
+  
 }

@@ -327,9 +327,6 @@ export default function Lever() {
   return (
     <div
       className="page"
-      style={{
-        backgroundColor: "#1b1d23",
-      }}
     >
       <TopBar
         coinname={param.name}

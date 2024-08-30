@@ -26,9 +26,10 @@
   position: relative;
   scrollbar-width: none;
   font-family: sans-serif;
-  width: 1.3125rem;
-  height: 1.3125rem;
+  width: 2rem;
+  height: 2rem;
   zoom: 1.08;
+  opacity: .9;
 }
 
 .hometopbar-2:active {

@@ -5,7 +5,6 @@
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
-  padding: 0.9375rem;
 }
 
 .homecoinlist-1:after {
@@ -82,7 +81,6 @@
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
-  margin-top: 0.625rem;
 }
 
 .homecoinlist-6:after {
@@ -135,8 +133,13 @@
   position: relative;
   scrollbar-width: none;
   font-family: sans-serif;
-  width: 1.5625rem;
-  height: 1.5625rem;
+  height: 3rem;
+  width: 3rem;
+  background: var(--them-color-gray-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .88rem;
 }
 
 .homecoinlist-9:after {
@@ -170,12 +173,8 @@
   scrollbar-width: none;
   font-family: sans-serif;
   user-select: none;
-  display: block;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
+  width: 1.4rem;
+  height: 1.4rem;
 }
 
 .homecoinlist-13 {
@@ -276,12 +275,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
   color: rgb(255, 255, 255);
-  margin-left: auto;
   width: 4.0625rem;
   text-align: center;
   border-radius: 0.1875rem;
   font-size: 0.75rem;
-  padding: 0.25rem 0px;
 }
 
 .homecoinlist-19:after {
@@ -3214,4 +3211,46 @@
 
 .homecoinlist-227:after {
   border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-item {
+  margin: 0 1rem;
+  border-radius: 0;
+  background: var(--them-color-white-bg);
+  padding: .5rem .75rem;
+}
+.homecoinlist-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.homecoinlist-key {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--them-color-black-text);
+}
+.homecoinlist-usdt {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: var(--them-color-gray-text);
+}
+.homecoinlist-close {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  flex: 1;
+  > header {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--them-color-black-text);
+  }
+  > footer {
+    font-weight: bold;
+    font-size: 0.75rem;
+    color: var(--them-color-green-text);
+  }
+}
+.homecoinlist-red {
+  color: var(--them-color-red-text) !important;
 }

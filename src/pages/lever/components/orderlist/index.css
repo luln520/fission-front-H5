@@ -942,12 +942,16 @@
   -webkit-tap-highlight-color: transparent;
   list-style-type: none;
   margin: 0px;
-  background: rgb(26, 23, 23);
+  /*background: rgb(26, 23, 23);*/
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 11px;
   padding: 11px;
-  color: rgb(130, 130, 131);
+  color: var(--them-color-black-text);
+  background-image: url(/public/orderList/order-list-bg.png);
+  background-position-x: -2rem;
+  /*height: 13rem;*/
+
 }
 .leverorderlistItem11-4-1 {
   -webkit-tap-highlight-color: transparent;
@@ -978,7 +982,6 @@
   /* height: 100px; */
   display: flex;
   -webkit-box-align: center;
-  align-items: center;
   flex-wrap: nowrap;
   width: 75%;
   min-height: 100px;
@@ -1013,6 +1016,7 @@
 .leverorderlistItem11-10 {
   -webkit-tap-highlight-color: transparent;
   margin: 0px;
+  margin-bottom: 1.25rem;
 }
 
 .leverorderlistItem11-11 {
@@ -1026,6 +1030,7 @@
 .leverorderlistItem11-12 {
   -webkit-tap-highlight-color: transparent;
   margin: 0px;
+  margin-bottom: 1.25rem;
 }
 
 .leverorderlistItem11-13 {
@@ -1064,6 +1069,7 @@
 .leverorderlistItem11-18 {
   -webkit-tap-highlight-color: transparent;
   margin: 0px;
+  margin-bottom: 1.25rem;
 }
 
 .leverorderlistItem11-19 {
@@ -1077,6 +1083,7 @@
 .leverorderlistItem11-20 {
   -webkit-tap-highlight-color: transparent;
   margin: 0px;
+  margin-bottom: 1.25rem;
 }
 
 .leverorderlistItem11-21 {
@@ -1115,6 +1122,7 @@
 .leverorderlistItem11-26 {
   -webkit-tap-highlight-color: transparent;
   margin: 0px;
+  margin-bottom: 1.25rem;
 }
 
 .leverorderlistItem11-27 {
@@ -1128,6 +1136,7 @@
 .leverorderlistItem11-28 {
   -webkit-tap-highlight-color: transparent;
   margin: 0px;
+  margin-bottom: 1.25rem;
 }
 
 .leverorderlistItem11-29 {
@@ -1156,6 +1165,7 @@
 .leverorderlistItem11-31 {
   -webkit-tap-highlight-color: transparent;
   margin: 0px;
+  margin-top: .25rem;
   font-weight: 700;
   color: rgb(199, 203, 206);
   min-height: 20px;
@@ -1164,6 +1174,7 @@
 .leverorderlistItem11-32 {
   -webkit-tap-highlight-color: transparent;
   margin: 0px;
+  margin-bottom: 1.25rem;
   color: rgb(28, 173, 144) !important;
 }
 
@@ -1184,6 +1195,7 @@
 .leverorderlistItem11-34 {
   -webkit-tap-highlight-color: transparent;
   margin: 0px;
+  margin-bottom: 1.25rem;
   background: rgb(205, 78, 101);
   height: 28px;
   width: 99px;
@@ -1924,13 +1936,16 @@
 }
 
 .leverchangebar-1 {
-  margin: 0px;
   -webkit-tap-highlight-color: transparent;
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
-  width: 100%;
-  height: 100%;
+  margin: .75rem 1rem;
+  background: var(--them-color-white-bg);
+  border-radius: .63rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .leverchangebar-2 {
@@ -1980,7 +1995,7 @@
   scrollbar-width: none;
   font-family: sans-serif;
   white-space: nowrap;
-  color: var(--boutton-background-color);
+  color: var(--them-color-green-text);
 }
 
 .leverchangebar-4:after {
@@ -2027,7 +2042,7 @@
   scrollbar-width: none;
   font-family: sans-serif;
   white-space: nowrap;
-  color: rgb(100, 101, 102);
+  color: var(--them-color-gray-text);
 }
 
 .leverchangebar-7:after {
@@ -2102,8 +2117,51 @@
   width: 23.25px;
   height: 0.1875rem;
   border-radius: 3.125rem;
+  /*background-image: url(/public/orderList/order-list-bg.png);*/
+  /*background-position-x: -2rem;*/
+  /*height: 13rem;*/
 }
 
 .leverchangebar-12:after {
   border-color: rgb(30, 39, 48) !important;
+}
+.leverchangebar-12 {
+  padding: 1rem;
+  background-color: #f5f8fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
+
+.info-title {
+  font-size: 0.9rem;
+  color: var(--them-color-gray-text);
+  font-weight: 500;
+}
+
+.info-value {
+  font-size: 1rem;
+  color: var(--them-color-black-text);
+}
+
+.info-long {
+  color: var(--them-color-green-text);
+  font-weight: 700;
+}
+
+.info-expected {
+  color: var(--them-color-green-text);
 }

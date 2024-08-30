@@ -1,10 +1,13 @@
 .optionbox-1 {
-  margin: 0px;
+  margin-top: .75rem;
+  width: 100vw;
+  padding: 0 1rem;
   -webkit-tap-highlight-color: transparent;
   display: block;
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
+  height: 4.88rem;
 }
 
 .optionbox-1:after {
@@ -18,7 +21,7 @@
   font-family: sans-serif;
   display: flex;
   align-items: center;
-  margin: 0.9375rem 0px;
+  gap: .47rem;
 }
 
 .optionbox-2:after {
@@ -55,9 +58,8 @@
   position: relative;
   scrollbar-width: none;
   font-family: sans-serif;
-  width: 2.1875rem;
-  height: 2.1875rem;
-  margin-bottom: 0.3125rem;
+  width: 2.88rem;
+  height: 2.88rem;
 }
 
 .optionbox-4:after {
@@ -95,7 +97,6 @@
   font-size: 0.8125rem;
   text-align: center;
   display: block;
-  min-height: 2.3125rem;
   color: rgb(205, 206, 207);
 }
 
@@ -141,9 +142,8 @@
   position: relative;
   scrollbar-width: none;
   font-family: sans-serif;
-  width: 2.1875rem;
-  height: 2.1875rem;
-  margin-bottom: 0.3125rem;
+  width: 2.88rem;
+  height: 2.88rem;
 }
 
 .optionbox-11:after {
@@ -181,7 +181,6 @@
   font-size: 0.8125rem;
   text-align: center;
   display: block;
-  min-height: 2.3125rem;
   color: rgb(205, 206, 207);
 }
 
@@ -227,9 +226,8 @@
   position: relative;
   scrollbar-width: none;
   font-family: sans-serif;
-  width: 2.1875rem;
-  height: 2.1875rem;
-  margin-bottom: 0.3125rem;
+  width: 2.88rem;
+  height: 2.88rem;
 }
 
 .optionbox-18:after {
@@ -267,7 +265,6 @@
   font-size: 0.8125rem;
   text-align: center;
   display: block;
-  min-height: 2.3125rem;
   color: rgb(205, 206, 207);
 }
 
@@ -313,9 +310,8 @@
   position: relative;
   scrollbar-width: none;
   font-family: sans-serif;
-  width: 2.1875rem;
-  height: 2.1875rem;
-  margin-bottom: 0.3125rem;
+  width: 2.88rem;
+  height: 2.88rem;
 }
 
 .optionbox-25:after {
@@ -353,7 +349,6 @@
   font-size: 0.8125rem;
   text-align: center;
   display: block;
-  min-height: 2.3125rem;
   color: rgb(205, 206, 207);
 }
 
@@ -367,4 +362,19 @@
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
+}
+
+.optionbox-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100%;
+}
+.optionbox-item {
+  background: var(--them-color-white-bg);
+  width: 100%;
+  border-radius: .63rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
 }
