@@ -62,7 +62,12 @@ export default function HomePopup({
             </div>
           </div>
 
-          <div className="auth-section">
+          <div onClick={() => {
+            if (userInfo?.rzstatus === 2) {
+              return;
+            }
+            navigate("/idcard");
+          }} className="auth-section">
             <div className="auth-info">
               <div className="auth-title">{translate(getText("身份認證"))}</div>
               <div className="auth-status">{translate(getText(types[userInfo?.rzstatus]))}</div>

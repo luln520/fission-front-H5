@@ -35,12 +35,13 @@ async function initCompany() {
 
 //初始化主题
 async function initThem() {
-  const them = localStorage.getItem("them");
-  if (!them) {
-    changeThem("light");
-  } else {
-    changeThem(them);
-  }
+  changeThem("light");
+  localStorage.setItem("them", "light")
+  // const them = localStorage.getItem("them");
+  // if (!them) {
+  // } else {
+  //   changeThem(them);
+  // }
 }
 //指纹生成
 async function fingerMake() {

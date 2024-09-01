@@ -78,7 +78,7 @@
   margin: 0;
   border-radius: 0;
   overflow: hidden;
-  background: rgb(15, 23, 32);
+  /* background: rgb(15, 23, 32); */
 }
 
 .helplist-6:after {
@@ -239,7 +239,7 @@
   font-weight: 700;
   display: block;
   padding: 1.5625rem 0.9375rem 0px;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 .helplist-14:after {
@@ -344,7 +344,7 @@
   font-family: sans-serif;
   flex: 1 1 0%;
   font-size: 0.875rem;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 .helplist-22:after {

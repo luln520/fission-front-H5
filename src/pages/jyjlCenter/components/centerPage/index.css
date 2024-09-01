@@ -82,7 +82,6 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
-  color: #fff;
 }
 
 .help-5:focus {
@@ -115,7 +114,6 @@
   display: inline-block;
   height: 24px;
   margin-left: 4px;
-  color: #fff;
 }
 
 .help-5:before {

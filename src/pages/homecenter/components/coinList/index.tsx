@@ -54,19 +54,17 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
             </div>
           </div>
           <div className="homecoinlist-close">
-            <header>
-              {coinListData[key]?.close}
-            </header>
-            <footer className={coinListData[key]?.close < coinListData[key]?.open ? "homecoinlist-red" : ''}>
-              {coinListData[key]?.close < coinListData[key]?.open ? "" : "+"}
-              {coinListData[key]?.close &&
-                  (
-                      ((coinListData[key]?.close - coinListData[key]?.open) /
-                          coinListData[key]?.open) *
-                      100
-                  ).toFixed(2)}
-              %
-            </footer>
+            {coinListData[key]?.close}
+          </div>
+          <div className="homecoinlist-up" style={{background: coinListData[key]?.close < coinListData[key]?.open ? "#FF0000" : "#04CF99"}}>
+            {coinListData[key]?.close < coinListData[key]?.open ? "" : "+"}
+            {coinListData[key]?.close &&
+                (
+                    ((coinListData[key]?.close - coinListData[key]?.open) /
+                        coinListData[key]?.open) *
+                    100
+                ).toFixed(2)}
+            %
           </div>
         </div>
       );

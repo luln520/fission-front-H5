@@ -19,7 +19,7 @@
   vertical-align: baseline;
   background: transparent;
   width: 100%;
-  color: #fff;
+  /* color: #fff; */
   overflow: scroll;
 }
 
@@ -36,7 +36,7 @@
   outline: 0px;
   vertical-align: baseline;
   background: transparent;
-  color: #fff;
+  /* color: #fff; */
   text-align: left;
 }
 

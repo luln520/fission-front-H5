@@ -52,7 +52,7 @@
   font-weight: 700;
   font-size: 2.1875rem;
   margin: undefined;
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
 }
 
 .setting-4:after {
@@ -101,7 +101,8 @@
   border-radius: 0.5rem;
   margin: undefined;
   padding: 0.9375rem 0 0;
-  background: rgb(15, 23, 32);
+  background: gainsboro;
+  /* background: rgb(15, 23, 32); */
 }
 
 .setting-8:after {
@@ -140,7 +141,7 @@
   margin-right: auto;
   font-size: 0.875rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
 }
 
 .setting-10:after {
@@ -171,7 +172,7 @@
   justify-content: flex-end;
   font-size: 0.875rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.5) !important;
+  /* color: rgba(255, 255, 255, 0.5) !important; */
 }
 
 .setting-12:after {
@@ -229,7 +230,7 @@
   margin-right: auto;
   font-size: 0.875rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.8);
+  /* color: rgba(255, 255, 255, 0.8); */
 }
 
 .setting-15:after {
@@ -260,7 +261,7 @@
   justify-content: flex-end;
   font-size: 0.875rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.5) !important;
+  /* color: rgba(255, 255, 255, 0.5) !important; */
 }
 
 .setting-17:after {
@@ -283,7 +284,7 @@
   overflow: hidden;
   position: relative;
   border: 0px;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
   outline: 0px;
   padding: 0px;
   line-height: 1;
@@ -313,9 +314,8 @@
   border-color: rgb(30, 39, 48) !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  .setting-18 {
-    color: rgb(214, 214, 214);
+/* @media (prefers-color-scheme: dark) { */
+  /* .setting-18 { color: rgb(214, 214, 214);
     background-color: rgb(52, 52, 52);
   }
-}
+} */

@@ -54,7 +54,7 @@
   font-family: sans-serif;
   display: block;
   margin-bottom: 0.625rem;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
   font-size: 1rem;
   font-weight: 700;
 }
@@ -1561,7 +1561,7 @@
   border: 0px;
   height: 2.8125rem;
   border-radius: 0.5rem;
-  background: rgb(34, 44, 56);
+  /* background: rgb(34, 44, 56); */
 }
 
 .idcardlb-94-1 {
@@ -1580,7 +1580,7 @@
   border: 0px;
   height: 2.8125rem;
   border-radius: 0.5rem;
-  background: rgb(34, 44, 56);
+  /* background: rgb(34, 44, 56); */
 }
 
 .idcardlb-94:after {
@@ -1612,7 +1612,7 @@
   font-family: sans-serif;
   flex: 1 1 0%;
   background: inherit;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
   height: 2.6875rem;
   font-size: 0.9375rem;
 }
@@ -2739,7 +2739,7 @@
   left: 0px;
   bottom: 0px;
   right: -1px;
-  background: rgb(15, 23, 32);
+  /* background: rgb(15, 23, 32); */
 }
 
 .idcardlb-159:after {

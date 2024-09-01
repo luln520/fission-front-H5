@@ -238,25 +238,25 @@ export default function CenterPage({
                     }
                   }}
               >
-                <aside>
+                <aside className="market-center-list-item-img">
                   <img src={getLogo(key)} draggable={false}/>
                 </aside>
                 <main>
                   <header>{key.toUpperCase()}</header>
                   <footer>USDT</footer>
                 </main>
-                <section>
-                  <header>{item.close}</header>
-                  <footer style={{color: item.close < coinListData[key]?.open ? "#FF0000" : "#04CF99"}}>
-                    {coinListData[key]?.close < coinListData[key]?.open ? "" : "+"}
-                    {coinListData[key]?.close &&
-                        (
-                            ((coinListData[key]?.close - coinListData[key]?.open) /
-                                coinListData[key]?.open) *
-                            100
-                        ).toFixed(2)}
-                    %
-                  </footer>
+                <div className="market-center-list-item-close">
+                  {item.close}
+                </div>
+                <section style={{background: item.close < coinListData[key]?.open ? "#FF0000" : "#04CF99"}} className="market-center-list-item-up">
+                  {coinListData[key]?.close < coinListData[key]?.open ? "" : "+"}
+                  {coinListData[key]?.close &&
+                      (
+                          ((coinListData[key]?.close - coinListData[key]?.open) /
+                              coinListData[key]?.open) *
+                          100
+                      ).toFixed(2)}
+                  %
                 </section>
 
               </div>

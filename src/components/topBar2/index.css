@@ -20,8 +20,8 @@
   right: 0px;
   top: 0px;
   z-index: 980;
-  background: var(--them-background);
-  color: rgb(255, 255, 255);
+  /*background: var(--them-background);*/
+  /*color: rgb(255, 255, 255);*/
 }
 
 .topBar2-2:after {
@@ -127,7 +127,7 @@
   font-size: 22px;
   font-weight: normal;
   top: 0px;
-  color: rgb(255, 255, 255);
+  /*color: rgb(255, 255, 255);*/
 }
 
 .topBar2-8:before {
@@ -177,7 +177,7 @@
   line-height: 31px;
   -webkit-box-flex: 1;
   flex: 1 1 0%;
-  color: rgb(255, 255, 255);
+  /*color: rgb(255, 255, 255);*/
   font-size: 16px;
   font-weight: normal;
 }

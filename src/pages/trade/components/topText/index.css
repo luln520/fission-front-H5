@@ -206,7 +206,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgb(255, 255, 255);
 }
 
 .listmin-3:after {
@@ -258,7 +257,6 @@
   font-size: 1rem;
   font-weight: 700;
   margin-left: auto;
-  color: rgb(255, 255, 255);
   display: none;
 }
 
@@ -334,7 +332,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgb(255, 255, 255);
+  /*color: rgb(255, 255, 255);*/
 }
 
 .listvol-3:after {
@@ -386,7 +384,7 @@
   font-size: 1rem;
   font-weight: 700;
   margin-left: auto;
-  color: rgb(255, 255, 255);
+  /*color: rgb(255, 255, 255);*/
   display: none;
 }
 
@@ -443,7 +441,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
 }
 
 .listvol-9:after {
@@ -551,7 +548,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
 }
 
 .listvol-15:after {
@@ -659,7 +655,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-21:after {
@@ -767,7 +763,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-27:after {
@@ -875,7 +871,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-33:after {
@@ -983,7 +979,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-39:after {
@@ -1091,7 +1087,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-45:after {
@@ -1199,7 +1195,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-51:after {
@@ -1307,7 +1303,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-57:after {
@@ -1415,7 +1411,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-63:after {
@@ -1523,7 +1519,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-69:after {
@@ -1631,7 +1627,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-75:after {
@@ -1739,7 +1735,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
+  /*color: rgba(255, 255, 255, 0.4);*/
 }
 
 .listvol-81:after {
@@ -1847,7 +1843,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
 }
 
 .listvol-87:after {
@@ -1955,7 +1950,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
 }
 
 .listvol-93:after {
@@ -2049,7 +2043,6 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 60vw;
-  color: rgba(255, 255, 255, 0.4);
 }
 
 .listvol-99:after {

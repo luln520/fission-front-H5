@@ -169,7 +169,7 @@
   border-radius: 0.5rem;
   margin: undefined;
   padding: 0 0.9375rem;
-  background: rgb(15, 23, 32);
+  background: rgba(240, 193, 99, 0.1);
 }
 
 .sharecenter-13:after {
@@ -220,7 +220,7 @@
   font-family: sans-serif;
   font-size: 0.875rem;
   margin-right: auto;
-  color: rgba(255, 255, 255, 0.4);
+  /* color: rgba(255, 255, 255, 0.4); */
 }
 
 .sharecenter-15:after {
@@ -251,7 +251,7 @@
   justify-content: flex-end;
   font-weight: 400;
   font-size: 0.875rem;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 .sharecenter-17:after {
@@ -268,7 +268,7 @@
   font-style: normal;
   font-size: 1.0625rem;
   margin-left: 0.625rem;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 .sharecenter-18:after {
@@ -323,7 +323,7 @@
   font-family: sans-serif;
   font-size: 0.875rem;
   margin-right: auto;
-  color: rgba(255, 255, 255, 0.4);
+  /* color: rgba(255, 255, 255, 0.4); */
 }
 
 .sharecenter-20:after {
@@ -354,7 +354,7 @@
   justify-content: flex-end;
   font-weight: 400;
   font-size: 0.875rem;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 .sharecenter-22:after {
@@ -371,7 +371,7 @@
   font-style: normal;
   font-size: 1.0625rem;
   margin-left: 0.625rem;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 .sharecenter-23:after {
@@ -398,7 +398,7 @@
   overflow: hidden;
   position: relative;
   border: 0px;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
   outline: 0px;
   padding: 0px;
   line-height: 1;
@@ -517,7 +517,7 @@
   font-family: sans-serif;
   display: flex;
   align-items: center;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 .sharecenter-30:after {

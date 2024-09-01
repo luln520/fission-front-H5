@@ -37,7 +37,7 @@
   font-family: sans-serif;
   font-size: 1.0625rem;
   font-weight: 700;
-  color: rgb(238, 238, 238);
+  /*color: rgb(238, 238, 238);*/
 }
 
 .chatcenter-3:after {
@@ -55,7 +55,7 @@
   margin-top: 0.9375rem;
   padding: 0.875rem;
   border-radius: 0.4375rem;
-  background: rgb(12, 18, 24);
+  background: gainsboro;
 }
 
 .chatcenter-4:active {
@@ -129,7 +129,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   flex: 1 1 0%;
-  color: rgb(238, 238, 238);
+  /*color: rgb(238, 238, 238);*/
 }
 
 .chatcenter-9:after {

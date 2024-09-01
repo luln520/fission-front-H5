@@ -1075,11 +1075,11 @@
   width: 35px;
   height: 35px;
   font-size: 11px;
-  color: rgb(255, 255, 255);
+  /*color: black;*/
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   border: none;
-  background-color: rgb(42, 45, 53);
+  background-color: gainsboro;
 }
 
 .leverOrderPopup-84 {
@@ -1087,7 +1087,7 @@
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
   font-size: 20px;
-  color: rgb(255, 255, 255);
+  /*color: rgb(255, 255, 255);*/
 }
 
 .leverOrderPopup-85 {
@@ -1104,7 +1104,7 @@
   margin: 0px 2px;
   -webkit-box-flex: 1;
   flex: 1 1 0%;
-  color: rgb(255, 255, 255);
+  /*color: rgb(255, 255, 255);*/
   width: 50px;
   height: 35px;
   text-align: center;
@@ -1114,7 +1114,7 @@
   border-right: 0px none;
   border-left: 0px none;
   border-image: initial;
-  background-color: rgb(42, 45, 53);
+  background-color: gainsboro;
 }
 
 .leverOrderPopup-87 {
@@ -1196,8 +1196,9 @@
   height: 35px;
   border: none;
   font-size: 11px;
-  color: rgb(255, 255, 255);
-  background-color: rgb(42, 45, 53);
+  /*color: rgb(255, 255, 255);*/
+  color: black;
+  background-color: gainsboro;
 }
 
 .leverOrderPopup-91 {
@@ -1205,7 +1206,7 @@
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
   font-size: 20px;
-  color: rgb(255, 255, 255);
+  /*color: rgb(255, 255, 255);*/
 }
 
 .leverOrderPopup-92 {

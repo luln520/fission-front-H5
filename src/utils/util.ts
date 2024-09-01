@@ -164,7 +164,7 @@ export function changeCompanyData(companyData) {
 
 //修改主题
 export function changeThem(type) {
-    const colors = ['#0f1720', '#fff'];
+    const colors = ['#0f1720', '#F7F7F7'];
     //改黑色
     if (type == "dark") {
         localStorage.setItem("them", "dark");
@@ -187,5 +187,6 @@ export function changeThem(type) {
 
 //判断主题
 export function isDark() {
-    return localStorage.getItem("them") == "dark";
+  return false;
+    // return localStorage.getItem("them") == "dark";
 }

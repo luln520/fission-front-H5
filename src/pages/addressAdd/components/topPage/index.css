@@ -10,7 +10,7 @@
   background: transparent;
   -webkit-font-smoothing: antialiased;
   text-align: center;
-  color: #fff;
+  
 }
 
 .addressTop-2 {
@@ -39,7 +39,7 @@
   padding-top: 20px;
   text-align: left;
   padding-left: 1rem;
-  color: #fff;
+  /**/
 }
 
 .addressTop-4 {
@@ -83,7 +83,7 @@
   font-size: 15px;
   vertical-align: baseline;
   background: transparent;
-  color: #fff;
+  /**/
   padding-right: 20px;
 }
 
@@ -556,7 +556,7 @@
   font-size: 15px;
   vertical-align: baseline;
   background: transparent;
-  color: #fff;
+  
   padding-right: 20px;
 }
 
@@ -578,7 +578,7 @@
   display: flex;
   width: 100%;
   overflow: hidden;
-  color: #fff;
+  
   line-height: 24px;
   flex: 1 1 0%;
 }
@@ -614,7 +614,7 @@
   flex: 1 1 0%;
   position: relative;
   overflow: visible;
-  color: #fff;
+  
   text-align: left;
   overflow-wrap: break-word;
 }
@@ -642,7 +642,7 @@
 .addressTop-29 {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  color: #fff;
+  
   font: inherit;
   margin: 0px;
   overflow: visible;
