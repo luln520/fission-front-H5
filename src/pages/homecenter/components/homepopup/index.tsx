@@ -116,6 +116,7 @@ export default function HomePopup({
                 }}
             >
               {translate(getText("分享"))}
+
             </div>
             <div
                 className="menu-item"
@@ -123,7 +124,13 @@ export default function HomePopup({
                   navigate("/noice");
                 }}
             >
+              <Badge content={loginmsg?.noticeCount ? loginmsg?.noticeCount : 0} 
+className="menu-item-badge" >
+              <div>
+
               {translate(getText("留言列表"))}
+              </div>
+              </Badge>
             </div>
             <div
                 className="menu-item"

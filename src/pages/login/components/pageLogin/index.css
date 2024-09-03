@@ -268,6 +268,7 @@
   position: relative;
   margin: 0;
   border-radius: 0;
+  margin-top: 12vh;
 }
 
 .loginboxnew-19:after {
@@ -282,7 +283,7 @@
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  gap: .88rem;
+  gap: 0.88rem;
   margin-top: 2.91rem;
 }
 
@@ -892,35 +893,39 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.loginboxnew-header{
+.loginboxnew-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin-top: 2.78rem;
-   > header {
-     display: flex;
-     align-items: center;
-     > aside {
-       > img {
-         width: 3.69rem;
-         height: 3.69rem;
-       }
-     }
-     > main {
-       height: 3.19rem;
-       font-family: BMDoHyeon, BMDoHyeon;
-       font-weight: bolder;
-       font-size: 2.66rem;
-       color: #000000;
-       line-height: 3.28rem;
-       text-align: right;
-       font-style: normal;
-     }
-   }
+  > img {
+    width: 44vw;
+    aspect-ratio: 1/1;
+  }
+  > header {
+    display: flex;
+    align-items: center;
+    > aside {
+      > img {
+        width: 3.69rem;
+        height: 3.69rem;
+      }
+    }
+    > main {
+      height: 3.19rem;
+      font-family: BMDoHyeon, BMDoHyeon;
+      font-weight: bolder;
+      font-size: 2.66rem;
+      color: #000000;
+      line-height: 3.28rem;
+      text-align: right;
+      font-style: normal;
+    }
+  }
   > footer {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     font-family: SourceHanSansCN, SourceHanSansCN;
     font-weight: 400;
     font-size: 0.75rem;
@@ -933,7 +938,7 @@
 }
 
 .loginboxnew-input-box {
-  padding: 0 .75rem;
+  padding: 0 0.75rem;
   position: relative;
   > input {
     height: 3.75rem;
@@ -956,36 +961,36 @@
   line-height: 0.75rem;
 }
 .loginboxnew-remeber {
-  margin-top: 8.3rem;
+  margin-top: 3.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .4rem;
+  gap: 0.4rem;
   > aside {
-    width: .33rem;
-    height: .33rem;
+    width: 0.33rem;
+    height: 0.33rem;
     border-radius: 50%;
-    background: #66E793;
+    background: #66e793;
   }
 }
 .loginboxnew-login {
   height: 3.75rem;
-  background: #04CF99;
+  background: #04cf99;
   border-radius: 0.78rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   font-weight: bold;
   font-size: 0.94rem;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 0.75rem;
 }
 .loginboxnew-phone {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .5rem;
+  gap: 0.5rem;
   font-weight: 400;
   font-size: 0.81rem;
   color: #999999;
@@ -995,8 +1000,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .5rem;
-  
+  gap: 0.5rem;
+
   font-weight: 400;
   font-size: 0.81rem;
   color: #999999;

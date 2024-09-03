@@ -97,3 +97,20 @@
 .menu-item:hover {
   background-color: #f9f9f9;
 }
+
+.menu-item-badge {
+  right: -1.6rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  
+}
+.menu-item-badge .adm-badge-content{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid white;
+  font-size: .9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

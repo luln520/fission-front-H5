@@ -65,7 +65,7 @@
 }
 
 .helplist-6 {
-  -webkit-tap-highlight-color: transparent;
+-webkit-tap-highlight-color: transparent;
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
@@ -78,7 +78,6 @@
   margin: 0;
   border-radius: 0;
   overflow: hidden;
-  /* background: rgb(15, 23, 32); */
 }
 
 .helplist-6:after {
@@ -96,7 +95,7 @@
   height: 2.5rem;
   border-radius: 0.3125rem;
   flex: 1 1 0%;
-  background: rgb(23, 31, 42);
+  background: #FFFACD; /* 浅黄色 */
 }
 
 .helplist-7:after {
@@ -136,7 +135,7 @@
   height: 2.5rem;
   flex: 1 1 0%;
   background: transparent;
-  color: rgb(238, 238, 238);
+  /* color: rgb(238, 238, 238); */
 }
 
 .helplist-9:after {

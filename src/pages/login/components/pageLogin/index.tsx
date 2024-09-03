@@ -46,15 +46,10 @@ export default function PageLogin({doLogin, companyData, nologinmsg}) {
           </div>
         </div>
         <div className="loginboxnew-header">
-          <header>
-            <aside>
               <img src="/login/logo.png"/>
-            </aside>
-            <main>STS</main>
-          </header>
-          <footer>
+          {/* <footer>
             Welcome to register
-          </footer>
+          </footer> */}
         </div>
 
         <div class="loginboxnew-19">
