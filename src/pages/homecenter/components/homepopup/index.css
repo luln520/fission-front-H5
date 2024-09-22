@@ -1,5 +1,6 @@
 .homePopCenter-1 {
   padding: 20px;
+  padding-top: 66px;
   background-color: var(--them-background);
   font-family: Arial, sans-serif;
 }
@@ -41,7 +42,7 @@
   position: relative;
   margin-top: 20px;
   padding: 10px;
-  background-image: url('/public/home/ide-bg.png');
+  background-image: url("/public/home/ide-bg.png");
   background-size: cover;
   border-radius: 8px;
   display: flex;
@@ -70,7 +71,7 @@
   width: 1.94rem;
   height: 1.94rem;
   border-radius: 100%;
-  border: 0.09rem solid #FFFFFF;
+  border: 0.09rem solid #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,14 +103,13 @@
   right: -1.6rem;
   width: 1.6rem;
   height: 1.6rem;
-  
 }
-.menu-item-badge .adm-badge-content{
+.menu-item-badge .adm-badge-content {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   border: 1px solid white;
-  font-size: .9rem;
+  font-size: 0.9rem;
   display: flex;
   align-items: center;
   justify-content: center;

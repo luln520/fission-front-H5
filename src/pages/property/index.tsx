@@ -67,6 +67,8 @@ export default function Property() {
   const loadData = async () => {
     const data = await financeApi.userCoin({ uid });
     if (data.ok) {
+      console.log(data.data);
+
       setuserInfo(data.data);
     }
   };

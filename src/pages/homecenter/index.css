@@ -1,0 +1,93 @@
+.home-center {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home-center-top {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #04cf99; /* 绿色背景色 */
+  border-bottom: 0.02667rem solid #1e7e34; /* 深绿色边框 */
+  box-sizing: border-box;
+  padding: 0 16px;
+  z-index: 2001;
+  color: white; /* 确保文字在绿色背景上可读 */
+}
+
+/* 如果导航栏有图标或按钮，调整颜色以适应绿色背景 */
+.home-center-top .icon,
+.home-center-top .menu-button {
+  color: white; /* 白色图标和按钮文本颜色 */
+}
+
+.home-center-top a {
+  color: white; /* 链接文字也设为白色，确保可读性 */
+}
+
+.home-center-top a:hover {
+  color: #d4f5e9; /* 鼠标悬停时的颜色，可以选择浅绿色 */
+}
+.home-center-top-right {
+  display: flex;
+  > img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+}
+.home-center-top-more {
+  width: 24px;
+  font-size: 24px;
+  margin-left: 13px;
+}
+.home-center-top-right-more {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABvSURBVHgB7ZTBDYAgDEU/xiVYBBxK1FFUHEpYSq3xzqWVhPQdeuxLm98aa+0FQToIIy7oqYxhRpgWcBL3FUfcGliR0RRVF7wxdX6Acx6c5JyQ0/kJnuYSd0CCf1ZE45CRE+pJ6B3UF+i7LqIxLXIDkMojzKyOedEAAAAASUVORK5CYII=);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 15.4px;
+  height: 25px;
+  width: 16px;
+}
+.bget-logo {
+  flex-shrink: 0;
+  /* width: 77px; */
+  height: 44px;
+}
+
+.home-center-content {
+  flex: 1;
+  overflow: auto;
+  min-height: 0;
+}
+
+.home-center-content-top {
+  display: flex;
+  background-color: #191919;
+  flex-direction: column;
+}
+.home-title-left {
+  display: flex;
+  flex-direction: column;
+  margin: 33px;
+  margin-bottom: 41px;
+  .title1 {
+    color: #c1ed11;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .title2 {
+    color: #fff;
+    font-size: 17px;
+  }
+}
+
+.home-center-content-top-img {
+  margin: 12px;
+  margin-bottom: 4px;
+  > img {
+    width: calc(100% - 24px);
+  }
+}
