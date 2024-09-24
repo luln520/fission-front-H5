@@ -4,6 +4,7 @@
   scrollbar-width: none;
 }
 .zixunlist-1 {
+  overflow-y: hidden;
   margin: 0px;
   -webkit-tap-highlight-color: transparent;
   scrollbar-width: none;
@@ -70,7 +71,7 @@
 }
 
 .zixunlist-5 {
-  margin-top: 1.28rem ;
+  margin-top: .6rem ;
   -webkit-tap-highlight-color: transparent;
   scrollbar-width: none;
   box-sizing: border-box;
@@ -98,7 +99,7 @@
   border-radius: 0.125rem;
   margin-left: 0.3125rem;
   position: absolute;
-  bottom: 1rem;
+  bottom: .5rem;
 }
 
 .zixunlist-6:after {
@@ -130,8 +131,8 @@
   scrollbar-width: none;
   box-sizing: border-box;
   font-family: sans-serif;
-  height: 3.16rem;
-  margin-bottom: 2rem;
+  height: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .zixunlist-8:after {
@@ -569,7 +570,7 @@
   border-radius: 0.125rem;
   margin-left: 0.3125rem;
   position: absolute;
-  bottom: 1rem;
+  bottom: .5rem;
 }
 
 .zixunlist-40:after {

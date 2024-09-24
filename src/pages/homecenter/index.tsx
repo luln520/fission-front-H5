@@ -21,6 +21,7 @@ import HomePopup from "./components/homepopup";
 import { userApi } from "../../api/user-api";
 import { useNavigate } from "react-router-dom";
 import { localClear } from "../../utils/local-util";
+import { imageConfig } from "../../config/config";
 
 export default function HomeCenter() {
   const reader = new FileReader();
@@ -80,7 +81,11 @@ export default function HomeCenter() {
   return (
     <div className="page home-center">
       <div className="home-center-top">
-        <img alt="" className="bget-logo" src="/login/logo.png"></img>
+        <img
+          alt=""
+          className="bget-logo"
+          src={imageConfig.baseImageUrl + companyData?.companyLogo}
+        ></img>
         <div
           onClick={() => {
             if (login) {

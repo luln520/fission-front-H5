@@ -24,75 +24,75 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
       const ctmarket = ctmarketlist[index];
       const key = ctmarket.coinname;
       nodes.push(
+        <div
+          class="zixunlist-2"
+          onClick={() => {
+            navigate(`/trade/${key}`);
+          }}
+        >
+          <div class="zixunlist-3">
+            <div class="zixunlist-4">
+              <span class="zixunlist-5">{key.toUpperCase()}USDT</span>
+            </div>
+          </div>
           <div
-              class="zixunlist-2"
-              onClick={() => {
-                navigate(`/trade/${key}`)
-              }}
+            class={
+              coinListData[key]?.close > coinListData[key]?.open
+                ? "zixunlist-41"
+                : "zixunlist-7"
+            }
           >
-            <div class="zixunlist-3">
-              <div class="zixunlist-4">
-                <span class="zixunlist-5">{key.toUpperCase()}USDT</span>
-              </div>
-            </div>
-            <div
-                class={
-                  coinListData[key]?.close > coinListData[key]?.open
-                      ? 'zixunlist-41'
-                      : 'zixunlist-7'
-                }
-            >
-              {coinListData[key]?.close ? coinListData[key]?.close : '--'}
-            </div>
-            <div class="zixunlist-8">
-              <canvas
-                  ref={
-                    index == 0 ? canvas1Ref : index == 1 ? canvas2Ref : canvas3Ref
-                  }
-                  style={{
-                    width: '100%',
-                    height:'3.16rem',
-                  }}
-              ></canvas>
-            </div>
-            <i
-                className={
-                  coinListData[key]?.close > coinListData[key]?.open
-                      ? 'zixunlist-40'
-                      : 'zixunlist-6'
-                }
-            >
-              {coinListData[key]?.close < coinListData[key]?.open ? '' : '+'}
-              {coinListData[key]?.close &&
-                  (
-                      ((coinListData[key]?.close - coinListData[key]?.open) /
-                          coinListData[key]?.open) *
-                      100
-                  ).toFixed(2)}
-              %
-            </i>
-          </div>,
+            {coinListData[key]?.close ? coinListData[key]?.close : "--"}
+          </div>
+          <div class="zixunlist-8">
+            <canvas
+              ref={
+                index == 0 ? canvas1Ref : index == 1 ? canvas2Ref : canvas3Ref
+              }
+              style={{
+                width: "100%",
+                height: "2.5rem",
+              }}
+            ></canvas>
+          </div>
+          <i
+            className={
+              coinListData[key]?.close > coinListData[key]?.open
+                ? "zixunlist-40"
+                : "zixunlist-6"
+            }
+          >
+            {coinListData[key]?.close < coinListData[key]?.open ? "" : "+"}
+            {coinListData[key]?.close &&
+              (
+                ((coinListData[key]?.close - coinListData[key]?.open) /
+                  coinListData[key]?.open) *
+                100
+              ).toFixed(2)}
+            %
+          </i>
+        </div>
       );
     }
-    return nodes
+    return nodes;
   };
 
   const getLogo = (name) => {
-    let logo = ''
+    let logo = "";
     for (const ctmarket of ctmarketlist) {
       if (name == ctmarket.coinname) {
-        logo = imageConfig.baseImageUrl + ctmarket.logo
-        break
+        logo = imageConfig.baseImageUrl + ctmarket.logo;
+        break;
       }
     }
-    return logo
-  }
+    return logo;
+  };
   //货币
   const loadHistoryData = async () => {
-    const maxLen = ctmarketlist.length > 3 ? 3 : ctmarketlist.length
+    const maxLen = ctmarketlist.length > 3 ? 3 : ctmarketlist.length;
     for (let index = 0; index < maxLen; index++) {
-      const ctmarket = ctmarketlist[index]
-      const name = ctmarket.coinname
+      const ctmarket = ctmarketlist[index];
+      const name = ctmarket.coinname;
       const drawData = [];
       let type = 1; //1 绿 2红
       let data = await huobiApi.getHistoryK(name + "usdt", "1day", 40);
@@ -149,10 +149,10 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
     const gradient = ctx.createLinearGradient(0, 0, 0, canvasHeight);
     if (type == 1) {
       gradient.addColorStop(0, "rgba(4, 207, 153, 0.5)"); // 顶部颜色
-      gradient.addColorStop(1, "rgba(4, 207, 153, 0)");   // 底部颜色
+      gradient.addColorStop(1, "rgba(4, 207, 153, 0)"); // 底部颜色
     } else {
       gradient.addColorStop(0, "rgba(243, 100, 100, 0.5)"); // 顶部颜色
-      gradient.addColorStop(1, "rgba(243, 100, 100, 0)");   // 底部颜色
+      gradient.addColorStop(1, "rgba(243, 100, 100, 0)"); // 底部颜色
     }
 
     // 绘制折线图
@@ -188,7 +188,9 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
       clearInterval(timeer);
     };
   }, [ctmarketlist]);
-  return <div className="zixunlist-over-x">
-    <div className="zixunlist-1">{getNodes()}</div>
-  </div>;
+  return (
+    <div className="zixunlist-over-x">
+      <div className="zixunlist-1">{getNodes()}</div>
+    </div>
+  );
 }
