@@ -51,7 +51,7 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
               }
               style={{
                 width: "100%",
-                height: "2.5rem",
+                height: "1.5rem",
               }}
             ></canvas>
           </div>
