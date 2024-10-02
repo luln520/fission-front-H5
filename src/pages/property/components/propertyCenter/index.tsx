@@ -32,6 +32,8 @@ export default function PropertyCenter({
   const btcClose = btcData?.close ?? 1;
   const ethClose = ethData?.close ?? 1;
 
+  const usdt = propertyType == 1 ? userInfo?.usdt : mockUserInfo?.money;
+
   return (
     <div className="propertycenterlb-new">
       <div>
@@ -93,10 +95,8 @@ export default function PropertyCenter({
       <div className="wallet-summary">
         <div className="total-asset">
           <p className="title">{translate(getText("账户总资产"))}(USDT)</p>
-          <p className="amount">
-            {propertyType == 1 ? userInfo?.usdt : mockUserInfo?.money}
-          </p>
-          <p className="approximate">≈{userInfo?.usdt} USD</p>
+          <p className="amount">{usdt}</p>
+          <p className="approximate">≈{usdt} USD</p>
         </div>
         <div className="wallet-actions">
           <button
@@ -142,12 +142,12 @@ export default function PropertyCenter({
           <div className="asset-info">
             <span className="asset-name">USDT</span>
             <p className="available">
-              {translate(getText("可用"))} {userInfo?.usdt}
+              {translate(getText("可用"))} {usdt}
             </p>
           </div>
           <div className="asset-values">
-            <p className="asset-amount">{userInfo?.usdt}</p>
-            <p className="asset-usd">≈{userInfo?.usdt * 1}USD</p>
+            <p className="asset-amount">{usdt}</p>
+            <p className="asset-usd">≈{usdt * 1}USD</p>
             {/* <p className="frozen">冻结 0.24995000</p> */}
           </div>
         </div>
@@ -156,13 +156,13 @@ export default function PropertyCenter({
           <div className="asset-info">
             <span className="asset-name">BTC</span>
             <p className="available">
-              {translate(getText("可用"))} {userInfo?.usdt / btcClose}
+              {translate(getText("可用"))} {usdt / btcClose}
             </p>
           </div>
           <div className="asset-values">
-            <p className="asset-amount">{userInfo?.usdt / btcClose}</p>
+            <p className="asset-amount">{usdt / btcClose}</p>
 
-            <p className="asset-usd">≈{userInfo?.usdt}USD</p>
+            <p className="asset-usd">≈{usdt}USD</p>
             {/* <p className="frozen">冻结 0.24995000</p> */}
           </div>
         </div>
@@ -171,12 +171,12 @@ export default function PropertyCenter({
           <div className="asset-info">
             <span className="asset-name">ETH</span>
             <p className="available">
-              {translate(getText("可用"))} {userInfo?.usdt / ethClose}
+              {translate(getText("可用"))} {usdt / ethClose}
             </p>
           </div>
           <div className="asset-values">
-            <p className="asset-amount">{userInfo?.usdt / ethClose}</p>
-            <p className="asset-usd">≈{userInfo?.usdt}USD</p>
+            <p className="asset-amount">{usdt / ethClose}</p>
+            <p className="asset-usd">≈{usdt}USD</p>
             {/* <p className="frozen">冻结 0.00000000</p> */}
           </div>
         </div>

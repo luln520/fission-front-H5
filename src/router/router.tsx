@@ -213,7 +213,7 @@ export default function AppRouter() {
     if (uid && userCode && companyId) {
       return element;
     } else {
-      return <Navigate to="/login" />;
+      return <Navigate to="/login-page" />;
     }
   };
 
@@ -253,6 +253,7 @@ export default function AppRouter() {
                 <ScrollToTop>
                   <Routes>
                     <Route path="/login" element={<Login />}></Route>
+                    <Route path="/login-page" element={<Login />}></Route>
                     <Route path="/register" element={<Register />}></Route>
                     <Route path="/homecenter" element={<HomeCenter />}></Route>
                     <Route
@@ -440,7 +441,7 @@ export default function AppRouter() {
                       path="/addresslist"
                       element={getElement(<AddressList />)}
                     ></Route>
-                     <Route
+                    <Route
                       path="/myteam"
                       element={getElement(<MyTeam />)}
                     ></Route>

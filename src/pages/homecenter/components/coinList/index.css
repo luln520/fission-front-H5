@@ -3242,6 +3242,7 @@
   font-weight: 500;
   font-size: 1rem;
   color: var(--them-color-black-text);
+  justify-content: space-between;
   > header {
   }
   > footer {

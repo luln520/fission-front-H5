@@ -51,7 +51,7 @@ export default function SettingPage({ userInfo }) {
             localStorage.removeItem("uid");
             localStorage.removeItem("username");
             localStorage.removeItem("x-access-token");
-            navigate("/login");
+            navigate("/login-page");
           }}
         >
           {translate(getText("退出登錄"))}

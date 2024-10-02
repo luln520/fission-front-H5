@@ -15,17 +15,13 @@ export default function HomeTopBar({ companyData, setIShowHomePop }) {
         onClick={() => {
           if (login) {
             setIShowHomePop(true);
-          }else{
+          } else {
             localClear();
-            navigate("/login");
+            navigate("/login-page");
           }
         }}
       >
-        <img
-          src="/home/profile.png"
-          draggable="false"
-          class="hometopbar-5"
-        />
+        <img src="/home/profile.png" draggable="false" class="hometopbar-5" />
       </div>
       <div
         class="hometopbar-6"
@@ -33,11 +29,7 @@ export default function HomeTopBar({ companyData, setIShowHomePop }) {
           navigate("/chatcenter");
         }}
       >
-        <img
-          src="/image/kf_d.png"
-          draggable="false"
-          class="hometopbar-9"
-        />
+        <img src="/image/kf_d.png" draggable="false" class="hometopbar-9" />
       </div>
     </div>
   );

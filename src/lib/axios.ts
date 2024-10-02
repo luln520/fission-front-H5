@@ -1,21 +1,33 @@
-import axios, { AxiosRequestConfig } from 'axios';
-import { getToken } from '../utils/token-util';
-import { localClear } from '../utils/local-util';
-import { Toast } from 'antd-mobile';
+import axios, { AxiosRequestConfig } from "axios";
+import { getToken } from "../utils/token-util";
+import { localClear } from "../utils/local-util";
+import { Toast } from "antd-mobile";
 //基础请求地址
 const hostname = window.location.hostname;
 const apiUrlMap = {
-  "localhost": "https://1.gqjys.co",//"http://127.0.0.1:1084",
-  '206.238.199.169': "https://1.gqjys.co",
-}
-export const BASE_API_URL = apiUrlMap[hostname] ? apiUrlMap[hostname] : '';
-export const BASE_IMG_URL = BASE_API_URL.replace(":1025", '');
+  localhost: "https://1.gqjys.co", //"http://127.0.0.1:1084",
+  "206.238.199.169": "https://1.gqjys.co",
+};
+export const BASE_API_URL = apiUrlMap[hostname] ? apiUrlMap[hostname] : "";
+export const BASE_IMG_URL = BASE_API_URL.replace(":1025", "");
 //
-const TOKEN_HEADER: string = 'x-access-token';
+const TOKEN_HEADER: string = "x-access-token";
 const smartAxios = axios.create({
   baseURL: BASE_API_URL,
 });
-const outPath = ['/', '/login', "/download", "/reloadpassword", "/downloadInfo", "/register", '/homecenter', '/murmurchat','/chatcenter',"/changelanguage"]
+const outPath = [
+  "/",
+  "/login",
+  "/login-page",
+  "/download",
+  "/reloadpassword",
+  "/downloadInfo",
+  "/register",
+  "/homecenter",
+  "/murmurchat",
+  "/chatcenter",
+  "/changelanguage",
+];
 
 // ================================= 请求拦截器 =================================
 
@@ -33,9 +45,9 @@ smartAxios.interceptors.request.use(
     if (language) {
       if (config.method === "get" || config.method === "GET") {
         if (!config.params) {
-          config.params = {}
+          config.params = {};
         }
-        config.params['language'] = language;
+        config.params["language"] = language;
       }
       //post添加token
       if (config.method === "post" || config.method === "POST") {
@@ -49,9 +61,9 @@ smartAxios.interceptors.request.use(
     if (userCode) {
       if (config.method === "get" || config.method === "GET") {
         if (!config.params) {
-          config.params = {}
+          config.params = {};
         }
-        config.params['userCode'] = userCode;
+        config.params["userCode"] = userCode;
       }
       //post添加token
       if (config.method === "post" || config.method === "POST") {
@@ -67,7 +79,7 @@ smartAxios.interceptors.request.use(
       //get添加token
       if (config.method === "get" || config.method === "GET") {
         if (!config.params) {
-          config.params = {}
+          config.params = {};
         }
         config.params["token"] = token;
       }
@@ -82,23 +94,23 @@ smartAxios.interceptors.request.use(
       //判断是否需要跳转
       if (!outPath.includes(window.location.pathname)) {
         Toast.show({
-          content: 'Please login',
+          content: "Please login",
           duration: 1000,
         });
         setTimeout(() => {
-          window.location.href = "/login";
+          window.location.href = "/login-page";
         }, 1000);
         return;
       }
       delete config.headers[TOKEN_HEADER];
     }
     //公司id添加
-    if (companyIdStr && companyIdStr != '' && companyIdStr != 'undefined') {
+    if (companyIdStr && companyIdStr != "" && companyIdStr != "undefined") {
       const companyId = parseInt(companyIdStr);
       //get添加companyId
       if (config.method === "get" || config.method === "GET") {
         if (!config.params) {
-          config.params = {}
+          config.params = {};
         }
         config.params["companyId"] = companyId;
       }
@@ -129,13 +141,13 @@ smartAxios.interceptors.response.use(
       // `token` 过期或者账号已在别处登录
       if (res.code === 30007) {
         Toast.show({
-          content: 'Please login',
+          content: "Please login",
           duration: 1000,
         });
         localClear();
         //跳转到登录页面，直接使用页面刷新的策略
         setTimeout(() => {
-          window.location.href = '/';
+          window.location.href = "/";
         }, 300);
         return Promise.resolve(res);
       }
@@ -148,8 +160,8 @@ smartAxios.interceptors.response.use(
     // 对响应错误做点什么
     if (error) {
       Toast.show({
-        content: 'error',
-        icon: 'fail',
+        content: "error",
+        icon: "fail",
         duration: 1000,
       });
     }
@@ -171,35 +183,39 @@ export const request = <T = any>(config: AxiosRequestConfig): Promise<T> => {
  * post请求
  */
 export const postRequest = <T = any>(url: string, data: any): Promise<T> => {
-  return request({ data, url, method: 'post' });
+  return request({ data, url, method: "post" });
 };
 
 /**
  * get请求
  */
 export const getRequest = <T = any>(url: string, params?: any): Promise<T> => {
-  return request({ url, method: 'get', params });
+  return request({ url, method: "get", params });
 };
 
 /**
  * 下载
  */
-export const download = function (fileName: string, url: string, params?: any): void {
+export const download = function (
+  fileName: string,
+  url: string,
+  params?: any
+): void {
   request({
-    method: 'get',
+    method: "get",
     url: url,
     params: params,
-    responseType: 'blob',
+    responseType: "blob",
   })
     .then((data) => {
       if (!data) {
         return;
       }
       let url = window.URL.createObjectURL(new Blob([data]));
-      let link = document.createElement('a');
-      link.style.display = 'none';
+      let link = document.createElement("a");
+      link.style.display = "none";
       link.href = url;
-      link.setAttribute('download', fileName);
+      link.setAttribute("download", fileName);
       document.body.appendChild(link);
       link.click();
     })

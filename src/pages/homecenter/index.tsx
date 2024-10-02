@@ -92,7 +92,7 @@ export default function HomeCenter() {
               setIShowHomePop(true);
             } else {
               localClear();
-              navigate("/login");
+              navigate("/login-page");
             }
           }}
           className="home-center-top-right"

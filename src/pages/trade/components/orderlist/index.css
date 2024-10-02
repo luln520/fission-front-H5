@@ -335,8 +335,10 @@
   font-family: sans-serif;
   border-radius: 0.5rem;
   margin: undefined;
-  padding: 0;
-  background: gainsboro;
+  padding: 11px;
+  color: var(--them-color-black-text);
+  background-image: url(/public/orderList/order-list-bg.png);
+  background-position-x: -2rem;
 }
 
 .tradelistruning-8:after {

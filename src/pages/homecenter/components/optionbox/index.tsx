@@ -16,14 +16,14 @@ export default function Optionbox({ loginmsg }) {
       <div class="optionbox-2 optionbox-box">
         {propertyType == 1 && (
           <div
-              className="optionbox-3 optionbox-item"
+            className="optionbox-3 optionbox-item"
             onClick={() => {
               navigate("/extractlist");
             }}
           >
             <div class="optionbox-4">
               <img
-                src="/home/raise.png"
+                src="/home/raise2.png"
                 draggable="false"
                 class="optionbox-7"
               />
@@ -42,7 +42,7 @@ export default function Optionbox({ loginmsg }) {
           >
             <div class="optionbox-11">
               <img
-                src="/home/coin.png"
+                src="/home/coin2.png"
                 draggable="false"
                 class="optionbox-14"
               />

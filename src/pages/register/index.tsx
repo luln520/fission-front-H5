@@ -43,7 +43,7 @@ export default function Register() {
           }
           //直接注册的 跳转当前地址登录
           setTimeout(() => {
-            navigate("/login");
+            navigate("/login-page");
           }, 1000);
         } else {
           Toast.show(data.msg);

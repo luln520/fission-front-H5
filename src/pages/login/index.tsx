@@ -1,15 +1,14 @@
-import "./index.css";
-import PageLogin from "./components/pageLogin";
-import { userApi } from "../../api/user-api";
-import { saveToken } from "../../utils/token-util";
-import { useNavigate } from "react-router-dom";
 import { Toast } from "antd-mobile";
+import { useState, useContext, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { getText } from "../../utils/util";
+import { useNavigate } from "react-router-dom";
 import { companyApi } from "../../api/company";
-import { useContext, useEffect, useState } from "react";
-import TopBar4 from "../../components/topBar4";
+import { userApi } from "../../api/user-api";
 import { NoLoginMsgContext } from "../../router/router";
+import { saveToken } from "../../utils/token-util";
+import { getText } from "../../utils/util";
+import PageLogin from "./components/pageLogin";
+import "./index.css";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -47,6 +46,7 @@ export default function Login() {
   useEffect(() => {
     initCompany();
   }, []);
+
   return (
     <div className="page">
       <PageLogin

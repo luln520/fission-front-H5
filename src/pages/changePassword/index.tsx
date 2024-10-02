@@ -18,9 +18,9 @@ export default function ChangePassword() {
       Toast.show({ content: data.data });
       localStorage.clear();
       setTimeout(() => {
-        window.location.href="/login";
+        window.location.href = "/login-page";
       }, 500);
-    }else{
+    } else {
       Toast.show({ content: data.msg });
     }
   };

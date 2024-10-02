@@ -35,7 +35,7 @@ export default function ReloadPassword() {
             duration: 1000,
           });
           setTimeout(() => {
-            navigate("/login");
+            navigate("/login-page");
           }, 1000);
         } else {
           Toast.show({
@@ -91,7 +91,7 @@ export default function ReloadPassword() {
   }, []);
   return (
     <div className="page">
-      <TopBar title={''} isBack={true} />
+      <TopBar title={""} isBack={true} />
       <PageRegister
         doEditpassword={doEditpassword}
         areas={areas}
