@@ -37,7 +37,7 @@
     font-weight: 700;
     font-size: 2.1875rem;
     margin: undefined;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(30, 39, 48);
   }
   
   .reloadPassword-3:after {
@@ -89,7 +89,7 @@
     left: 0px;
     right: 0px;
     position: static !important;
-    background: rgb(15, 23, 32);
+    background: #04cf99;
     margin: 0px -0.9375rem 0.625rem;
   }
   
@@ -417,7 +417,7 @@
     display: block;
     height: 100%;
     background: none;
-    color: inherit;
+    color: rgb(16 15 15);
     opacity: 1;
     font: inherit;
     letter-spacing: inherit;
@@ -637,8 +637,8 @@
   
   @media (prefers-color-scheme: dark) {
     .reloadPassword-37 {
-      color: rgb(214, 214, 214);
-      background-color: rgb(52, 52, 52);
+      color: rgb(255, 255, 255);
+      background-color: #04cf99;
     }
   }
   .reloadPassword-38 {
@@ -987,8 +987,8 @@
   
   @media (prefers-color-scheme: dark) {
     .reloadPassword-54 {
-      color: rgb(214, 214, 214);
-      background-color: rgb(52, 52, 52);
+      color: rgb(255, 255, 255);
+      background-color: #04cf99;
     }
   }
   
@@ -1077,7 +1077,7 @@
     align-items: center;
     font-size: 0.875rem;
     margin: undefined;
-    color: hsla(0, 0%, 100%, 0.6);
+    color: hsla(0, 0%, 0%, 0.6);
   }
   
   .reloadPasswordPhone-6:active {
@@ -1207,7 +1207,7 @@
     display: block;
     height: 100%;
     background: none;
-    color: inherit;
+    color: rgb(30, 39, 48);
     opacity: 1;
     font: inherit;
     letter-spacing: inherit;
@@ -1377,7 +1377,7 @@
   }
   
   .reloadPasswordPhone-22:after {
-    border-color: rgb(30, 39, 48) !important;
+    border-color: #04cf99 !important;
   }
   
   .reloadPasswordPhone-23 {
@@ -1427,8 +1427,8 @@
   
   @media (prefers-color-scheme: dark) {
     .reloadPasswordPhone-23 {
-      color: rgb(214, 214, 214);
-      background-color: rgb(52, 52, 52);
+      color: rgb(255, 255, 255);
+      background-color: #04cf99;
     }
   }
   .reloadPasswordPhone-24 {

@@ -30,7 +30,7 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
     for (const key of coinListDataTemp) {
       nodes.push(
         <div
-          class={
+          className={
             coinListData[key]?.close > coinListData[key]?.open
               ? "homecoinlist-7 homecoinlist-item"
               : "homecoinlist-46 homecoinlist-item"
@@ -40,12 +40,12 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
             navigate(`/trade/${key}`);
           }}
         >
-          <div class="homecoinlist-8">
-            <div class="homecoinlist-9">
+          <div className="homecoinlist-8">
+            <div className="homecoinlist-9">
               <img
                 src={getLogo(key)}
                 draggable="false"
-                class="homecoinlist-12"
+                className="homecoinlist-12"
               />
             </div>
             <div className="homecoinlist-name">
@@ -98,7 +98,7 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
     for (const key of coinListDataTemp) {
       nodes.push(
         <div
-          class={
+          className={
             coinListData[key]?.close > coinListData[key]?.open
               ? "homecoinlist-7 homecoinlist-item"
               : "homecoinlist-46 homecoinlist-item"
@@ -108,12 +108,12 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
             navigate(`/trade/${key}`);
           }}
         >
-          <div class="homecoinlist-8">
-            <div class="homecoinlist-9">
+          <div className="homecoinlist-8">
+            <div className="homecoinlist-9">
               <img
                 src={getLogo(key)}
                 draggable="false"
-                class="homecoinlist-12"
+                className="homecoinlist-12"
               />
             </div>
             <div className="homecoinlist-name">
@@ -156,7 +156,7 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
     for (const key in coinListDataTemp) {
       nodes.push(
         <div
-          class={
+          className={
             coinListData[key]?.close > coinListData[key]?.open
               ? "homecoinlist-7 homecoinlist-item"
               : "homecoinlist-46 homecoinlist-item"
@@ -166,12 +166,12 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
             navigate(`/trade/${key}`);
           }}
         >
-          <div class="homecoinlist-8">
-            <div class="homecoinlist-9">
+          <div className="homecoinlist-8">
+            <div className="homecoinlist-9">
               <img
                 src={getLogo(key)}
                 draggable="false"
-                class="homecoinlist-12"
+                className="homecoinlist-12"
               />
             </div>
             <div className="homecoinlist-name">
@@ -202,13 +202,13 @@ export default function CoinList({ coinListData, ctmarketlist, index }) {
     return logo;
   };
   return (
-    <div class="homecoinlist-1">
-      {/*<div class="homecoinlist-2">*/}
-      {/*  <div class="homecoinlist-3">{translate(getText("交易对"))}</div>*/}
-      {/*  <div class="homecoinlist-4">{translate(getText("最新价"))}</div>*/}
-      {/*  <div class="homecoinlist-5">{translate(getText("24H"))}</div>*/}
+    <div className="homecoinlist-1">
+      {/*<div className="homecoinlist-2">*/}
+      {/*  <div className="homecoinlist-3">{translate(getText("交易对"))}</div>*/}
+      {/*  <div className="homecoinlist-4">{translate(getText("最新价"))}</div>*/}
+      {/*  <div className="homecoinlist-5">{translate(getText("24H"))}</div>*/}
       {/*</div>*/}
-      <div class="homecoinlist-6">
+      <div className="homecoinlist-6">
         {index == 1 && get1Nodes()}
         {index == 2 && get2Nodes()}
         {index == 3 && get3Nodes()}

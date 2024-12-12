@@ -20,15 +20,15 @@ export default function CenterPage({ czList }) {
           <li class="rechargeorderlist-4">
             <div class="rechargeorderlist-5">
               <h1 class="rechargeorderlist-6">
-                {cz.num} {cz.coin.toUpperCase()}
+                {cz.amount} USDT
               </h1>
               <div class="rechargeorderlist-7">
                 <span class="rechargeorderlist-8">
-                  <small class="rechargeorderlist-9"> {cz.addtime}</small>
+                  <small class="rechargeorderlist-9"> {cz.createTime}</small>
                 </span>
               </div>
             </div>
-            <div class="rechargeorderlist-10">
+            {/*<div class="rechargeorderlist-10">
               <p class="rechargeorderlist-11">
                 {translate(
                   getText(
@@ -40,7 +40,7 @@ export default function CenterPage({ czList }) {
                   )
                 )}
               </p>
-            </div>
+            </div>*/}
           </li>
         </>
       );

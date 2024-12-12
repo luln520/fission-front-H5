@@ -5,8 +5,10 @@ import { useNavigate } from "react-router-dom";
 import DataEmpty from "../../../../components/dataempty";
 import { getText } from "../../../../utils/util";
 import "./index.css";
+import { contractApi } from "../../../../api/contract-api";
 
 export default function OrderList({ hyorders, nowTab }) {
+  const [showCancelButton, setShowCancelButton] = useState(true);  
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   const tab = nowTab.toUpperCase() + "/USDT";
@@ -48,7 +50,16 @@ export default function OrderList({ hyorders, nowTab }) {
                   {data.status == 2&&translate(getText("已完成"))}
                 </span>
               </div>
-              {/* <div class="tradelistruning-7">撤单</div> */}
+              {showCancelButton && (
+                <div class="tradelistruning-7" onClick={async () => {
+                  const result = await contractApi.closeOrder({ orderNo: data.orderNo });
+                  if (result.ok) {
+                    navigate(0);
+                  }
+                }}>
+                  {translate(getText("撤单"))}
+                </div>
+              )}
             </div>
             <div class="tradelistruning-8">
               <div class="tradelistruning-9">
@@ -164,6 +175,30 @@ export default function OrderList({ hyorders, nowTab }) {
     let second = String(date.getSeconds()).padStart(2, '0');
     return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
 }
+// function formatDate(dateTime) {
+//   try {
+//       // 使用更安全的日期解析方法
+//       const date = new Date(Date.parse(dateTime));
+      
+//       // 检查日期是否有效
+//       if (isNaN(date.getTime())) {
+//           console.error("Invalid date input:", dateTime);
+//           return dateTime; // 如果解析失败，返回原始输入
+//       }
+
+//       let year = date.getFullYear();
+//       let month = String(date.getMonth() + 1).padStart(2, '0');
+//       let day = String(date.getDate()).padStart(2, '0');
+//       let hour = String(date.getHours()).padStart(2, '0');
+//       let minute = String(date.getMinutes()).padStart(2, '0');
+//       let second = String(date.getSeconds()).padStart(2, '0');
+      
+//       return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+//   } catch (error) {
+//       console.error("formatDate处理错误:", error);
+//       return dateTime; // 出错时返回原始输入
+//   }
+// }
   return (
     <div
       style={{
@@ -176,6 +211,7 @@ export default function OrderList({ hyorders, nowTab }) {
               class={type == 0 ? "tradechangebar-4" : "tradechangebar-7"}
               onClick={() => {
                 setType(0);
+                setShowCancelButton(true);
               }}
             >
               <span class="tradechangebar-5">{translate(getText("计划订单"))}</span>
@@ -186,6 +222,7 @@ export default function OrderList({ hyorders, nowTab }) {
               class={type == 1 ? "tradechangebar-4" : "tradechangebar-7"}
               onClick={() => {
                 setType(1);
+                setShowCancelButton(false);
               }}
             >
               <span class="tradechangebar-5">{translate(getText("交割订单"))}</span>
@@ -196,6 +233,7 @@ export default function OrderList({ hyorders, nowTab }) {
               class={type == 2 ? "tradechangebar-4" : "tradechangebar-7"}
               onClick={() => {
                 setType(2);
+                setShowCancelButton(false);
               }}
             >
               <span class="tradechangebar-8">{translate(getText("历史订单"))}</span>

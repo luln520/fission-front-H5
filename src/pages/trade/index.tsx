@@ -158,7 +158,7 @@ export default function Trade() {
       let hysetInfoT = data.data;
       let hyTimes = hysetInfoT?.hyTime.split(",");
       let hyTzeds = hysetInfoT?.hyTzed.split(",");
-      let hyYkbls = hysetInfoT?.hyYkbl.split(",");
+      let hyYkbls = hysetInfoT.hyYkbl.split(",");
       let hyTzbls= hysetInfoT?.hyTzbl.split(",");
       for (let index = 0; index < hyTimes.length; index++) {
         let hyTime = hyTimes[index];
@@ -167,7 +167,7 @@ export default function Trade() {
         let hyTzbl = hyTzbls[index];
         hyTimes[index] = hyTime;
         hyTzeds[index] = parseInt(hyTzed);
-        hyYkbls[index] = parseInt(hyYkbl);
+        //hyYkbls[index] = parseInt(hyYkbl);
         hyTzbls[index] = parseInt(hyTzbl);
       }
       hysetInfoT.hyTime = hyTimes;

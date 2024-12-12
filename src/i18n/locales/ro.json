@@ -900,6 +900,7 @@
   "联系客服服务": "Contactați serviciul de servicii pentru clienți",
   "请输入密码": "Vă rugăm să introduceți parola",
   "请输入邮箱": "Vă rugăm să introduceți căsuța poștală",
+  "请输入邮箱或手机号码": "Vă rugăm să introduceți e-mailul sau numărul de telefon mobil",
   "常规": "Rutină",
   "闪兑": "Bliț",
   "划转": "Transfer",
@@ -958,5 +959,6 @@
   "截止下单": "Comandă din",
   "倒计时": "Numărătoarea",
   "安装说明": "Instructiuni de instalare",
-  "隐藏小额币种": "Ascundeți monede mici"
+  "隐藏小额币种": "Ascundeți monede mici",
+  "撤单": "Anulați comanda"
 }

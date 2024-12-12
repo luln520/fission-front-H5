@@ -68,7 +68,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
                   username: e.target.value,
                 });
               }}
-              placeholder={translate(getText("请输入邮箱"))}
+              placeholder={translate(getText("请输入邮箱或手机号码"))}
               type=""
               maxLength={999}
               step=""
@@ -121,7 +121,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
             {translate(getText("登錄"))}
           </div>
 
-          <div className="loginboxnew-phone">
+          {/*<div className="loginboxnew-phone">
             <svg
               width=".94rem"
               height=".94rem"
@@ -157,7 +157,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
               </g>
             </svg>
             Login with Phone Number
-          </div>
+          </div>*/}
 
           <div
             onClick={() => {

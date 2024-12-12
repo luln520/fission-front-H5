@@ -437,7 +437,7 @@
   "確定訂單平倉並追反單嗎？": "Déterminez-vous l'ordre et chassez-vous l'homologue?",
   "確定撤單嗎？": "Êtes-vous sûr de retirer la facture?",
   "確定鎖倉嗎？": "Êtes-vous sûr de verrouiller?",
-  "充幣": "Pièce de monnaie",
+  "充幣": "Recharger",
   "提幣": "Augmenter",
   "劃轉": "Transfert",
   "可用": "Disponible",
@@ -898,6 +898,7 @@
   "联系客服服务": "Contactez le service de service client",
   "请输入密码": "S'il vous plaît entrer le mot de passe",
   "请输入邮箱": "Veuillez saisir votre e-mail",
+  "请输入邮箱或手机号码": "Veuillez entrer votre email ou votre numéro de téléphone portable",
   "常规": "conventionnel",
   "闪兑": "Éclair",
   "划转": "Transfert",
@@ -959,5 +960,6 @@
   "计划订单": "Planifier la commande",
   "计划时间": "temps de planification",
   "计划中": "avoir l'intention",
-  "隐藏小额币种": "Masquer les petites monnaies"
+  "隐藏小额币种": "Masquer les petites monnaies",
+  "撤单": "Annuler la commande"
 }

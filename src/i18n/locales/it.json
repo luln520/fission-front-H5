@@ -898,6 +898,7 @@
   "联系客服服务": "Contatta il servizio clienti",
   "请输入密码": "Inserisci la password",
   "请输入邮箱": "Inserisci la tua email",
+  "请输入邮箱或手机号码": "Inserisci la tua email o il numero di cellulare",
   "常规": "convenzionale",
   "闪兑": "Veloce",
   "划转": "Trasferimento",
@@ -959,5 +960,6 @@
   "计划订单": "Ordine del piano",
   "计划时间": "Tempo di pianificazione",
   "计划中": "avere intenzione",
-  "隐藏小额币种": "Nascondi le piccole monete"
+  "隐藏小额币种": "Nascondi le piccole monete",
+  "撤单": "Annulla l'ordine"
 }

@@ -10,8 +10,8 @@ export default function TopPage({ coinList, addAddress, delAddress }) {
   const { t: translate } = useTranslation();
   const [sendData, setSendData] = useState({
     name: "",
-    czline: "",
-    oid: 0,
+    czline: "TRON",
+    oid: 60,
     address: "",
     remark: "",
   });
@@ -64,10 +64,10 @@ export default function TopPage({ coinList, addAddress, delAddress }) {
   };
   //点击回调提前处理
   const callBack = () => {
-    if (!(sendData.name && sendData.address)) {
-      Toast.show({ content: translate(getText("請填寫完整信息")) });
-      return;
-    }
+    // if (!(sendData.name && sendData.address)) {
+    //   Toast.show({ content: translate(getText("請填寫完整信息")) });
+    //   return;
+    // }
     addAddress(sendData);
   };
 

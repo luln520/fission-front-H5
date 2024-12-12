@@ -123,10 +123,10 @@ initCompany()
 //指纹
 fingerMake();
 //有效登陆判断
-getUserInfo();
-setInterval(() => {
-  getUserInfo();
-}, 1000 * 60 * 10);
+// getUserInfo();
+// setInterval(() => {
+//   getUserInfo();
+// }, 1000 * 60 * 10);
 
 //替换 NaN
 setInterval(() => {

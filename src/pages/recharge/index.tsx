@@ -24,28 +24,29 @@ export default function Recharge() {
   const param = useParams();
   //加载种类
   const loadCoinData = async () => {
-    const data = await coinApi.list();
+    const data = await coinApi.address({uid, coinId: param?.id});
     if (data.ok) {
-      setCoinList(data.data);
-      //设置使用
-      for (const item of data.data) {
-        if (param?.id == item.id) {
-          setUse(item);
-          //加载价格
-          if (item.name != "usdt") {
-            loadCoinPriceData(item.name);
-          }
-        }
-      }
+      setUse(data.data);
+      // setCoinList(data.data);
+      // //设置使用
+      // for (const item of data.data) {
+      //   if (param?.id == item.id) {
+      //     setUse(item);
+      //     //加载价格
+      //     if (item.name != "usdt") {
+      //       loadCoinPriceData(item.name);
+      //     }
+      //   }
+      // }
     }
   };
   //加载价格
-  const loadCoinPriceData = async (name) => {
-    const data = await huobiApi.getPrice(name);
-    if (data.status == "ok") {
-      setcoinPriceData(data.data[0]);
-    }
-  };
+  // const loadCoinPriceData = async (name) => {
+  //   const data = await huobiApi.getPrice(name);
+  //   if (data.status == "ok") {
+  //     setcoinPriceData(data.data[0]);
+  //   }
+  // };
 
   //发送
   const sendRecharge = async (sendData) => {

@@ -898,6 +898,7 @@
   "联系客服服务": "Póngase en contacto con el servicio de servicio al cliente",
   "请输入密码": "Por favor introduzca la contraseña",
   "请输入邮箱": "Ingrese su correo electrónico",
+  "请输入邮箱或手机号码": "Por favor introduce tu correo electrónico o número de teléfono móvil",
   "常规": "convencional",
   "闪兑": "Destello",
   "划转": "Transferir",
@@ -959,5 +960,6 @@
   "计划订单": "Orden de plan",
   "计划时间": "Tiempo de planificación",
   "计划中": "pretender",
-  "隐藏小额币种": "Ocultar monedas pequeñas"
+  "隐藏小额币种": "Ocultar monedas pequeñas",
+  "撤单": "Cancelar pedido"
 }

@@ -898,6 +898,7 @@
   "联系客服服务": "Liên hệ với dịch vụ dịch vụ khách hàng",
   "请输入密码": "Xin vui lòng nhập mật khẩu",
   "请输入邮箱": "Vui lòng nhập email của bạn",
+  "请输入邮箱或手机号码": "Vui lòng nhập email hoặc số điện thoại di động của bạn",
   "常规": "thông thường",
   "闪兑": "Tốc biến",
   "划转": "Chuyển khoản",
@@ -959,5 +960,6 @@
   "计划订单": "Lập kế hoạch đơn đặt hàng",
   "计划时间": "thời gian lập kế hoạch",
   "计划中": "có ý định",
-  "隐藏小额币种": "Ẩn các mục tiền tệ nhỏ"
+  "隐藏小额币种": "Ẩn các mục tiền tệ nhỏ",
+  "撤单": "Hủy đơn hàng"
 }

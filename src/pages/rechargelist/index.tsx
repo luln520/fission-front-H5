@@ -22,7 +22,7 @@ export default function RechargeList() {
   const [coinList, setCoinList] = useState([] as any[]);
   //加载种类
   const loadCoinData = async () => {
-    const data = await coinApi.list();
+    const data = await coinApi.list({uid: uid});
     if (data.ok) {
       //排序
       data.data.sort(function (a, b) {

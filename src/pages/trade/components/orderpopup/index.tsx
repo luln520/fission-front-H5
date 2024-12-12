@@ -114,15 +114,24 @@ export default function OrderPopup({
     //   behavior: "smooth", // 可以选择 smooth 或者 auto
     // });
   };
+  function convertGMT4() {
+    let now = new Date();
+    let timezoneOffset = now.getTimezoneOffset();
+    let offsetInHours = timezoneOffset / 60;
+    let gmt4Offset = -4 + offsetInHours;
+    let gmt4Timestamp = now.getTime() + (gmt4Offset * 60 * 60 * 1000);
+    let gmt4Time = new Date(gmt4Timestamp);
+    return gmt4Time;
+  }
 
   const getTimesStr = () => {
     const timesStrArr = [];
     for (let index = 1; index <= 6; index++) {
       const errorTimeStr = localStorage.getItem("errortime");
       const errorTime = parseInt(errorTimeStr);
-      let currentTime = new Date();
+      let currentTime = convertGMT4();
       // 将当前时间转换为 GMT-4
-      currentTime = new Date(currentTime.getTime() + errorTime);
+      //currentTime = new Date(currentTime.getTime() + errorTime);
       //向下取整时间
       if (hyTimes) {
         const jgs = convertToSeconds(hyTimes[zq - 1]);
@@ -144,6 +153,52 @@ export default function OrderPopup({
     setSelectTimes(timesStrArr);
   };
 
+//   const getTimesStr = () => {
+//     const timesStrArr = [];
+//     const errorTimeStr = localStorage.getItem("errortime");
+//     const errorTime = Number(errorTimeStr) || 0;
+
+//     // 获取基准时间
+//     const baseTime = new Date();
+    
+//     for (let index = 1; index <= 6; index++) {
+//         try {
+//             // 从基准时间开始计算
+//             let currentTime = new Date(baseTime.getTime() + errorTime);
+
+//             if (hyTimes && hyTimes[zq - 1]) {
+//                 const jgs = convertToSeconds(hyTimes[zq - 1]);
+                
+//                 // 使用基准时间 + 间隔时间
+//                 currentTime = new Date(
+//                     baseTime.getTime() + 
+//                     errorTime + 
+//                     (jgs * index * 1000)
+//                 );
+//             }
+
+//             // 手动格式化时间
+//             const hours = currentTime.getHours().toString().padStart(2, '0');
+//             const minutes = currentTime.getMinutes().toString().padStart(2, '0');
+//             const formattedTime = `${hours}:${minutes}`;
+
+//             console.log("当前时间：", formattedTime, currentTime.getTime());
+            
+//             timesStrArr.push({
+//                 time: currentTime.getTime(),
+//                 str: formattedTime,
+//             });
+//         } catch (error) {
+//             console.error("日期处理错误:", error);
+//             timesStrArr.push({
+//                 time: Date.now(),
+//                 str: "00:00",
+//             });
+//         }
+//     }
+//     setSelectTimes(timesStrArr);
+// };
+
   function formatDate(date) {
     let year = date.getFullYear();
     let month = String(date.getMonth() + 1).padStart(2, "0");
@@ -153,6 +208,30 @@ export default function OrderPopup({
     let second = String(date.getSeconds()).padStart(2, "0");
     return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
   }
+  // function formatDate(dateTime) {
+  //   try {
+  //       // 使用更安全的日期解析方法
+  //       const date = new Date(Date.parse(dateTime));
+        
+  //       // 检查日期是否有效
+  //       if (isNaN(date.getTime())) {
+  //           console.error("Invalid date input:", dateTime);
+  //           return dateTime; // 如果解析失败，返回原始输入
+  //       }
+  
+  //       let year = date.getFullYear();
+  //       let month = String(date.getMonth() + 1).padStart(2, '0');
+  //       let day = String(date.getDate()).padStart(2, '0');
+  //       let hour = String(date.getHours()).padStart(2, '0');
+  //       let minute = String(date.getMinutes()).padStart(2, '0');
+  //       let second = String(date.getSeconds()).padStart(2, '0');
+        
+  //       return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+  //   } catch (error) {
+  //       console.error("formatDate处理错误:", error);
+  //       return dateTime; // 出错时返回原始输入
+  //   }
+  // }
 
   //时间向下取值
   function roundDownToNearestInterval(currentDate, seconds) {
@@ -181,7 +260,22 @@ export default function OrderPopup({
     setHyTzeds(hysetInfo.hyTzed);
     setHyYkbls(hysetInfo.hyYkbl);
     setHyTzbls(hysetInfo.hyTzbl);
+
     setcykbl(hysetInfo.hyYkbl ? hysetInfo.hyYkbl[zq - 1] : 100);
+
+    if(hysetInfo.hyYkbl) {
+      const rangeStr = hysetInfo.hyYkbl ? hysetInfo.hyYkbl[zq - 1] : 100;
+
+      if (!String(rangeStr).includes('-')) {
+        setcykbl(rangeStr);
+      }else {
+        const [min, max] = rangeStr.split('-').map(Number);
+        const randomValue = Math.floor(Math.random() * (max - min + 1)) + min;
+        setcykbl(randomValue);
+      }
+      
+    }
+    
     // setNum(hysetInfo.hyTzed ? hysetInfo.hyTzed[0] : 100);
     setminNum(hysetInfo.hyTzed ? hysetInfo.hyTzed[zq - 1] : 100);
   }, [hysetInfo, zq]);
@@ -189,6 +283,14 @@ export default function OrderPopup({
   useEffect(() => {
     getTimesStr();
   }, [zq, isShowOrder]);
+
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     getTimesStr();
+  //   }, 10000); // 每 60 秒执行一次
+  //   return () => clearInterval(intervalId); // 清理定时器
+  // }, [zq,hyTimes]);
+
   return (
     <Popup
       visible={isShowOrder}

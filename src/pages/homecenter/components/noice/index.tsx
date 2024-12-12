@@ -15,38 +15,38 @@ export default function Noice({ content }) {
   };
   return (
     <div
-      class="homenotice-1"
+      className="homenotice-1"
       onClick={() => {
         navigate("/noiceInfo");
       }}
     >
-      <div class="homenotice-2">
-        <div class="homenotice-3">
-          <span class="homenotice-5"></span>
+      <div className="homenotice-2">
+        <div className="homenotice-3">
+          <span className="homenotice-5"></span>
           <img
             src="/home/notice.png"
             draggable="false"
-            class="homenotice-6"
+            className="homenotice-6"
           />
         </div>
       </div>
-      <div class="homenotice-7">
-        <div class="homenotice-8">{getContent()}</div>
+      <div className="homenotice-7">
+        <div className="homenotice-8">{getContent()}</div>
       </div>
-      <div class="homenotice-9">
-        <div class="homenotice-10">
-          <div class="homenotice-12">
-            <div class="homenotice-13">
-              <div class="homenotice-14"></div>
+      <div className="homenotice-9">
+        <div className="homenotice-10">
+          <div className="homenotice-12">
+            <div className="homenotice-13">
+              <div className="homenotice-14"></div>
             </div>
-            <div class="homenotice-15">
-              <div class="homenotice-16"></div>
+            <div className="homenotice-15">
+              <div className="homenotice-16"></div>
             </div>
           </div>
           <img
             src="/home/right-arrow.png"
             draggable="false"
-            class="homenotice-17"
+            className="homenotice-17"
           />
         </div>
       </div>

@@ -15,5 +15,9 @@ export const coinApi = {
   */
   find: (param) => {
     return getRequest('/api/pc/coin/find', param);
-  }
+  },
+
+  address: (param) => {
+    return getRequest('/api/pc/coin/address', param);
+  },
 };

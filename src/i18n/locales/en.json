@@ -897,7 +897,8 @@
   "记住我的密码": "Remember my password",
   "联系客服服务": "Contact customer service service",
   "请输入密码": "Please enter the password",
-  "请输入邮箱": "please input your email",
+  "请输入邮箱": "Please input your email",
+  "请输入邮箱或手机号码": "Please enter your email or mobile phone number",
   "常规": "conventional",
   "闪兑": "Flash",
   "划转": "Transfer",
@@ -959,5 +960,6 @@
   "计划订单": "Plan order",
   "计划时间": "planning time",
   "计划中": "intend",
-  "隐藏小额币种": "Hide small currencies"
+  "隐藏小额币种": "Hide small currencies",
+  "撤单": "close order"
 }
