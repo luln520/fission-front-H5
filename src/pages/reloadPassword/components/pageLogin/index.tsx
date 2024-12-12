@@ -89,27 +89,27 @@ export default function PageRegister({
 
   return (
     <>
-      <div className="reloadPassword-1">
-        <div className="reloadPassword-2">
-          <div className="reloadPassword-3">
-            <div className="reloadPassword-4">
-              <span className="reloadPassword-5">{translate(getText("找回密码"))}</span>
+      <div class="reloadPassword-1">
+        <div class="reloadPassword-2">
+          <div class="reloadPassword-3">
+            <div class="reloadPassword-4">
+              <span class="reloadPassword-5">{translate(getText("找回密码"))}</span>
             </div>
           </div>
         </div>
-        <div className="reloadPassword-6">
-          <div className="reloadPassword-7">
-            <div className="reloadPassword-8">
-              <div className="reloadPassword-9">
-                <div className="reloadPassword-10">
-                  <div className="reloadPassword-11">
+        <div class="reloadPassword-6">
+          <div class="reloadPassword-7">
+            <div class="reloadPassword-8">
+              <div class="reloadPassword-9">
+                <div class="reloadPassword-10">
+                  <div class="reloadPassword-11">
                     <div
-                      className={
+                      class={
                         !isPhone ? "reloadPassword-12" : "reloadPassword-15"
                       }
                     >
                       <div
-                        className="reloadPassword-13"
+                        class="reloadPassword-13"
                         onClick={() => {
                           setIsPhone(false);
                           setPasswordType1(true);
@@ -119,16 +119,16 @@ export default function PageRegister({
                           changeType(2);
                         }}
                       >
-                        <span className="reloadPassword-14">{translate(getText("邮箱"))}</span>
+                        <span class="reloadPassword-14">{translate(getText("邮箱"))}</span>
                       </div>
                     </div>
                     <div
-                      className={
+                      class={
                         isPhone ? "reloadPassword-12" : "reloadPassword-15"
                       }
                     >
                       <div
-                        className="reloadPassword-16"
+                        class="reloadPassword-16"
                         onClick={() => {
                           setIsPhone(true);
                           setPasswordType1(true);
@@ -138,7 +138,7 @@ export default function PageRegister({
                           changeType(1);
                         }}
                       >
-                        <span className="reloadPassword-17">{translate(getText("手机"))}</span>
+                        <span class="reloadPassword-17">{translate(getText("手机"))}</span>
                       </div>
                     </div>
                   </div>
@@ -149,13 +149,13 @@ export default function PageRegister({
         </div>
         {/* 邮箱 */}
         {!isPhone && (
-          <div className="reloadPassword-19">
-            <div className="reloadPassword-20">
-              <div className="reloadPassword-21">
-                <div className="reloadPassword-22">
-                  <div className="reloadPassword-23"></div>
-                  <div className="reloadPassword-24">
-                    <div className="reloadPassword-25">
+          <div class="reloadPassword-19">
+            <div class="reloadPassword-20">
+              <div class="reloadPassword-21">
+                <div class="reloadPassword-22">
+                  <div class="reloadPassword-23"></div>
+                  <div class="reloadPassword-24">
+                    <div class="reloadPassword-25">
                       <input
                         name="username"
                         value={sendData.username}
@@ -165,18 +165,18 @@ export default function PageRegister({
                         maxlength="999"
                         step=""
                         autocomplete="off"
-                        className="reloadPassword-27"
+                        class="reloadPassword-27"
                       />
                     </div>
                   </div>
-                  <div className="reloadPassword-28"></div>
+                  <div class="reloadPassword-28"></div>
                 </div>
               </div>
-              <div className="reloadPassword-29">
-                <div className="reloadPassword-30">
-                  <div className="reloadPassword-31"></div>
-                  <div className="reloadPassword-32">
-                    <div className="reloadPassword-33">
+              <div class="reloadPassword-29">
+                <div class="reloadPassword-30">
+                  <div class="reloadPassword-31"></div>
+                  <div class="reloadPassword-32">
+                    <div class="reloadPassword-33">
                       <input
                         name="regcode"
                         value={sendData.regcode}
@@ -186,13 +186,13 @@ export default function PageRegister({
                         maxlength="999"
                         step=""
                         autocomplete="off"
-                        className="reloadPassword-35"
+                        class="reloadPassword-35"
                       />
                     </div>
                   </div>
-                  <div className="reloadPassword-36">
+                  <div class="reloadPassword-36">
                     <div
-                      className="reloadPassword-37"
+                      class="reloadPassword-37"
                       onClick={() => {
                         if (show60) {
                           return;
@@ -208,11 +208,11 @@ export default function PageRegister({
                   </div>
                 </div>
               </div>
-              <div className="reloadPassword-38">
-                <div className="reloadPassword-39">
-                  <div className="reloadPassword-40"></div>
-                  <div className="reloadPassword-41">
-                    <div className="reloadPassword-42">
+              <div class="reloadPassword-38">
+                <div class="reloadPassword-39">
+                  <div class="reloadPassword-40"></div>
+                  <div class="reloadPassword-41">
+                    <div class="reloadPassword-42">
                       <input
                         name="password"
                         value={sendData.password}
@@ -222,11 +222,11 @@ export default function PageRegister({
                         maxlength="999"
                         step=""
                         autocomplete="off"
-                        className="reloadPassword-44"
+                        class="reloadPassword-44"
                       />
                     </div>
                   </div>
-                  <div className="reloadPassword-45"></div>
+                  <div class="reloadPassword-45"></div>
                 </div>
               </div>
             </div>
@@ -235,12 +235,12 @@ export default function PageRegister({
         {/* 手机 */}
 
         {isPhone && (
-          <div className="reloadPasswordPhone-1">
-            <div className="reloadPasswordPhone-2">
-              <div className="reloadPasswordPhone-3">
-                <div className="reloadPasswordPhone-4">
-                  <div className="reloadPasswordPhone-5">
-                    <div className="reloadPasswordPhone-6">
+          <div class="reloadPasswordPhone-1">
+            <div class="reloadPasswordPhone-2">
+              <div class="reloadPasswordPhone-3">
+                <div class="reloadPasswordPhone-4">
+                  <div class="reloadPasswordPhone-5">
+                    <div class="reloadPasswordPhone-6">
                       <div
                         style={{
                           height: "30px",
@@ -295,8 +295,8 @@ export default function PageRegister({
                       </div>
                     </div>
                   </div>
-                  <div className="reloadPasswordPhone-10">
-                    <div className="reloadPasswordPhone-11">
+                  <div class="reloadPasswordPhone-10">
+                    <div class="reloadPasswordPhone-11">
                       <input
                         name="username"
                         value={sendData.username}
@@ -306,18 +306,18 @@ export default function PageRegister({
                         maxlength="999"
                         step=""
                         autocomplete="off"
-                        className="reloadPasswordPhone-13"
+                        class="reloadPasswordPhone-13"
                       />
                     </div>
                   </div>
-                  <div className="reloadPasswordPhone-14"></div>
+                  <div class="reloadPasswordPhone-14"></div>
                 </div>
               </div>
-              <div className="reloadPasswordPhone-15">
-                <div className="reloadPasswordPhone-16">
-                  <div className="reloadPasswordPhone-17"></div>
-                  <div className="reloadPasswordPhone-18">
-                    <div className="reloadPasswordPhone-19">
+              <div class="reloadPasswordPhone-15">
+                <div class="reloadPasswordPhone-16">
+                  <div class="reloadPasswordPhone-17"></div>
+                  <div class="reloadPasswordPhone-18">
+                    <div class="reloadPasswordPhone-19">
                       <input
                         name="regcode"
                         value={sendData.regcode}
@@ -327,13 +327,13 @@ export default function PageRegister({
                         maxlength="999"
                         step=""
                         autocomplete="off"
-                        className="reloadPasswordPhone-21"
+                        class="reloadPasswordPhone-21"
                       />
                     </div>
                   </div>
-                  <div className="reloadPasswordPhone-22">
+                  <div class="reloadPasswordPhone-22">
                     <div
-                      className="reloadPasswordPhone-23"
+                      class="reloadPasswordPhone-23"
                       onClick={() => {
                         if (show60) {
                           return;
@@ -351,11 +351,11 @@ export default function PageRegister({
                   </div>
                 </div>
               </div>
-              <div className="reloadPasswordPhone-24">
-                <div className="reloadPasswordPhone-25">
-                  <div className="reloadPasswordPhone-26"></div>
-                  <div className="reloadPasswordPhone-27">
-                    <div className="reloadPasswordPhone-28">
+              <div class="reloadPasswordPhone-24">
+                <div class="reloadPasswordPhone-25">
+                  <div class="reloadPasswordPhone-26"></div>
+                  <div class="reloadPasswordPhone-27">
+                    <div class="reloadPasswordPhone-28">
                       <input
                         name="password"
                         value={sendData.password}
@@ -365,11 +365,11 @@ export default function PageRegister({
                         maxlength="999"
                         step=""
                         autocomplete="off"
-                        className="reloadPasswordPhone-30"
+                        class="reloadPasswordPhone-30"
                       />
                     </div>
                   </div>
-                  <div className="reloadPasswordPhone-31"></div>
+                  <div class="reloadPasswordPhone-31"></div>
                 </div>
               </div>
             </div>
@@ -377,7 +377,7 @@ export default function PageRegister({
         )}
 
         <div
-          className="reloadPassword-54"
+          class="reloadPassword-54"
           onClick={() => {
             const data = { ...sendData };
             if (data.type === 1) {

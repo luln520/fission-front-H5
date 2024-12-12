@@ -18,27 +18,27 @@ export default function TopBar({
   const [num, setNum] = useState(1);
   const { t: translate } = useTranslation();
   return (
-    <div className="leverTopBarlb-1">
-      <div className="leverTopBarlb-2">
+    <div class="leverTopBarlb-1">
+      <div class="leverTopBarlb-2">
         <i
-          className="leverTopBarlb-3"
+          class="leverTopBarlb-3"
           onClick={() => {
             setIsShowCoin(true);
           }}
         ></i>
-        <div className="leverTopBarlb-4">
-          <span className="leverTopBarlb-5">
+        <div class="leverTopBarlb-4">
+          <span class="leverTopBarlb-5">
             {coinname?.toUpperCase()}/USDT {translate(getText("永续"))}
           </span>
         </div>
         <div
-          className={
+          class={
             coinListData[coinname]?.close > coinListData[coinname]?.open
               ? "leverTopBarlb-6-1"
               : "leverTopBarlb-6"
           }
         >
-          <span className="leverTopBarlb-7">
+          <span class="leverTopBarlb-7">
             {coinListData[coinname]?.close < coinListData[coinname]?.open
               ? ""
               : "+"}
@@ -53,12 +53,12 @@ export default function TopBar({
           </span>
         </div>
         <i
-          className="leverTopBarlb-8"
+          class="leverTopBarlb-8"
           onClick={() => {
             navigate("/leverroleinfo");
           }}
         ></i>
-        {/* <i className="leverTopBarlb-9"></i> */}
+        {/* <i class="leverTopBarlb-9"></i> */}
       </div>
     </div>
   );

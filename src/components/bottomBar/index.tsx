@@ -30,13 +30,13 @@ export default function BottomBar({ index }) {
             <title>home切图</title>
             <g id="页面-1"
                stroke="none"
-               strokeWidth="1"
+               stroke-width="1"
                fill="none"
-               fillRule="evenodd">
+               fill-rule="evenodd">
               <g id="Home"
                  transform="translate(-70.000000, -1489.000000)"
                  fill={index == 1 ? 'var(--them-color-white-bg)' : 'var(--them-color-gray-text)'}
-                 fillRule="nonzero">
+                 fill-rule="nonzero">
                 <g id="编组-9"
                    transform="translate(0.000000, 1458.000000)">
                   <g id="编组-3"
@@ -76,14 +76,14 @@ export default function BottomBar({ index }) {
             <title>Market切图</title>
             <g id="页面-1"
                stroke="none"
-               strokeWidth="1"
+               stroke-width="1"
                fill="none"
-               fillRule="evenodd"
+               fill-rule="evenodd"
                opacity="0.883324033">
               <g id="Home"
                  transform="translate(-215.000000, -1489.000000)"
                  fill={index === 2 ? 'var(--them-color-white-bg)' : 'var(--them-color-gray-text)'}
-                 fillRule="nonzero">
+                 fill-rule="nonzero">
                 <g id="编组-9"
                    transform="translate(0.000000, 1458.000000)">
                   <g id="编组-12"
@@ -120,10 +120,10 @@ export default function BottomBar({ index }) {
               viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink">
             <title>Contract切图</title>
-            <g id="页面-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.883324033">
+            <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.883324033">
               <g id="Home" transform="translate(-361.000000, -1489.000000)"
                  fill={index === 3 ? 'var(--them-color-white-bg)' : 'var(--them-color-gray-text)'}
-                 fillRule="nonzero">
+                 fill-rule="nonzero">
                 <g id="编组-9" transform="translate(0.000000, 1458.000000)">
                   <g id="编组-12备份" transform="translate(333.500000, 19.000000)">
                     <g id="Contract" transform="translate(27.500000, 12.000000)">
@@ -154,10 +154,10 @@ export default function BottomBar({ index }) {
               viewBox="0 0 27 28" version="1.1" xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink">
             <title>Sustain切图</title>
-            <g id="页面-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.883324033">
+            <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.883324033">
               <g id="Home" transform="translate(-512.000000, -1489.000000)"
                  fill={index === 4 ? 'var(--them-color-white-bg)' : 'var(--them-color-gray-text)'}
-                 fillRule="nonzero">
+                 fill-rule="nonzero">
                 <g id="编组-9" transform="translate(0.000000, 1458.000000)">
                   <g id="编组-12备份-2" transform="translate(490.000000, 19.000000)">
                     <g id="Sustain" transform="translate(22.000000, 12.000000)">
@@ -188,10 +188,10 @@ export default function BottomBar({ index }) {
               viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink">
             <title>编组</title>
-            <g id="页面-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.883324033">
+            <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.883324033">
               <g id="Home" transform="translate(-652.000000, -1489.000000)"
                  fill={index === 5 ? 'var(--them-color-white-bg)' : 'var(--them-color-gray-text)'}
-                 fillRule="nonzero">
+                 fill-rule="nonzero">
                 <g id="编组-9" transform="translate(0.000000, 1458.000000)">
                   <g id="Assets" transform="translate(634.000000, 19.000000)">
                     <g id="Assets切图" transform="translate(18.000000, 12.000000)">

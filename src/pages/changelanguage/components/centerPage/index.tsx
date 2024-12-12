@@ -24,15 +24,15 @@ export default function CenterPage() {
     for (const landata of languagesData) {
       nodes.push(
         <div
-          className="languagechange-6"
+          class="languagechange-6"
           onClick={() => {
             changelan(landata?.code);
           }}
         >
-          <div className="languagechange-7">
-            <span className="languagechange-8">{landata?.title}</span>
+          <div class="languagechange-7">
+            <span class="languagechange-8">{landata?.title}</span>
           </div>
-          {landata?.code == lan && <i className="languagechange-9"></i>}
+          {landata?.code == lan && <i class="languagechange-9"></i>}
         </div>
       );
     }
@@ -40,13 +40,13 @@ export default function CenterPage() {
   };
 
   return (
-    <div className="languagechange-1">
-      <div className="languagechange-2">
-        <div className="languagechange-3">
-          <span className="languagechange-4">{translate(getText("語言選擇"))}</span>
+    <div class="languagechange-1">
+      <div class="languagechange-2">
+        <div class="languagechange-3">
+          <span class="languagechange-4">{translate(getText("語言選擇"))}</span>
         </div>
       </div>
-      <div className="languagechange-5">{getArray()}</div>
+      <div class="languagechange-5">{getArray()}</div>
     </div>
   );
 }

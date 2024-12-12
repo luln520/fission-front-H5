@@ -32,18 +32,18 @@ export default function CenterPage({ teamInfo }) {
     for (let index = 0; index < array.length; index++) {
       const item = array[index];
       nodes.push(
-        <div className="myTeam-31">
-          <div className="myTeam-32">{index + 1}</div>
-          <div className="myTeam-33">
-            <div className="myTeam-34">
-              <div className="myTeam-35"></div>
+        <div class="myTeam-31">
+          <div class="myTeam-32">{index + 1}</div>
+          <div class="myTeam-33">
+            <div class="myTeam-34">
+              <div class="myTeam-35"></div>
             </div>
           </div>
-          <div className="myTeam-36">
-            <div className="myTeam-37">{item?.username}</div>
-            <div className="myTeam-38">{item?.createTime}</div>
+          <div class="myTeam-36">
+            <div class="myTeam-37">{item?.username}</div>
+            <div class="myTeam-38">{item?.createTime}</div>
           </div>
-          {/* <div className="myTeam-39">{item?.num}</div> */}
+          {/* <div class="myTeam-39">{item?.num}</div> */}
         </div>
       );
     }
@@ -55,43 +55,43 @@ export default function CenterPage({ teamInfo }) {
   };
   return (
     <>
-      <div className="myTeam-1">
-        <div className="myTeam-2">
-          <div className="myTeam-3">
-            <div className="myTeam-4">
-              <div className="myTeam-5">
-                <div className="myTeam-6">
-                  <div className="myTeam-7">
-                    <div className="myTeam-8">
-                      <div className="myTeam-9">
+      <div class="myTeam-1">
+        <div class="myTeam-2">
+          <div class="myTeam-3">
+            <div class="myTeam-4">
+              <div class="myTeam-5">
+                <div class="myTeam-6">
+                  <div class="myTeam-7">
+                    <div class="myTeam-8">
+                      <div class="myTeam-9">
                         {translate(getText("团队总人数"))}
                       </div>
-                      <div className="myTeam-10">{teamInfo?.numCount}</div>
+                      <div class="myTeam-10">{teamInfo?.numCount}</div>
                     </div>
-                    {/* <div className="myTeam-11">
-                      <div className="myTeam-12">{translate(getText("团队总收益"))}</div>
-                      <div className="myTeam-13">30</div>
+                    {/* <div class="myTeam-11">
+                      <div class="myTeam-12">{translate(getText("团队总收益"))}</div>
+                      <div class="myTeam-13">30</div>
                     </div> */}
                   </div>
-                  <div className="myTeam-14">
-                    <div className="myTeam-15">
-                      <div className="myTeam-16">1{translate(getText("级"))}</div>
-                      <div className="myTeam-17">{teamInfo?.oneTeam?.length}</div>
+                  <div class="myTeam-14">
+                    <div class="myTeam-15">
+                      <div class="myTeam-16">1{translate(getText("级"))}</div>
+                      <div class="myTeam-17">{teamInfo?.oneTeam?.length}</div>
                     </div>
-                    <div className="myTeam-18">
-                      <div className="myTeam-19">2{translate(getText("级"))}</div>
-                      <div className="myTeam-20">{teamInfo?.twoTeam?.length}</div>
+                    <div class="myTeam-18">
+                      <div class="myTeam-19">2{translate(getText("级"))}</div>
+                      <div class="myTeam-20">{teamInfo?.twoTeam?.length}</div>
                     </div>
-                    <div className="myTeam-21">
-                      <div className="myTeam-22">3{translate(getText("级"))}</div>
-                      <div className="myTeam-23">{teamInfo?.threeTeam?.length}</div>
+                    <div class="myTeam-21">
+                      <div class="myTeam-22">3{translate(getText("级"))}</div>
+                      <div class="myTeam-23">{teamInfo?.threeTeam?.length}</div>
                     </div>
                   </div>
                 </div>
-                <div className="myTeam-24">
-                  <div className="myTeam-25">
+                <div class="myTeam-24">
+                  <div class="myTeam-25">
                     <div
-                      className={index == 1 ? "myTeam-26" : "myTeam-27"}
+                      class={index == 1 ? "myTeam-26" : "myTeam-27"}
                       onClick={() => {
                         setIndex(1);
                       }}
@@ -99,7 +99,7 @@ export default function CenterPage({ teamInfo }) {
                       {translate(getText("一级"))}
                     </div>
                     <div
-                      className={index == 2 ? "myTeam-26" : "myTeam-27"}
+                      class={index == 2 ? "myTeam-26" : "myTeam-27"}
                       onClick={() => {
                         setIndex(2);
                       }}
@@ -107,7 +107,7 @@ export default function CenterPage({ teamInfo }) {
                       {translate(getText("二级"))}
                     </div>
                     <div
-                      className={index == 3 ? "myTeam-26" : "myTeam-27"}
+                      class={index == 3 ? "myTeam-26" : "myTeam-27"}
                       onClick={() => {
                         setIndex(3);
                       }}
@@ -115,7 +115,7 @@ export default function CenterPage({ teamInfo }) {
                       {translate(getText("三级"))}
                     </div>
                   </div>
-                  <div className="myTeam-30">{getArrayNodes()}</div>
+                  <div class="myTeam-30">{getArrayNodes()}</div>
                 </div>
               </div>
             </div>

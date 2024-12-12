@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-/**
- * 币种
- */
-import { getRequest, postRequest } from '../lib/axios';
-
-export const coinApi = {
-  /**
-   * 列表 分页
-   */
-  list: (param) => {
-    return getRequest('/api/pc/coin/list', param);
-  },
-  /**
-  * 得到单个详情
-  */
-  find: (param) => {
-    return getRequest('/api/pc/coin/find', param);
-  }
-};
-=======
 /**
  * 币种
  */
@@ -42,4 +21,3 @@ export const coinApi = {
     return getRequest('/api/pc/coin/address', param);
   },
 };
->>>>>>> 200492d5b0310fcfce9039951debf669ab731894

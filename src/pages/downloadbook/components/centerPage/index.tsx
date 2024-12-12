@@ -11,9 +11,9 @@ export default function DownlandPage({ companyData }) {
   const title = localStorage.getItem("title");
   const lan = localStorage.getItem("i18n");
   return (
-    <div className="downloadBook-1">
-      <div className="downloadBook-2">1、{translate(getText("允许下载描述文件"))}</div>
-      <div className="downloadBook-3">
+    <div class="downloadBook-1">
+      <div class="downloadBook-2">1、{translate(getText("允许下载描述文件"))}</div>
+      <div class="downloadBook-3">
         <img
           src={
             lan == "zh"
@@ -21,11 +21,11 @@ export default function DownlandPage({ companyData }) {
               : "/assets/1-en-610918eb.png"
           }
           draggable="false"
-          className="downloadBook-10"
+          class="downloadBook-10"
         />
       </div>
-      <div className="downloadBook-11">2、{translate(getText("已下载描述文件"))}</div>
-      <div className="downloadBook-12">
+      <div class="downloadBook-11">2、{translate(getText("已下载描述文件"))}</div>
+      <div class="downloadBook-12">
         <img
           src={
             lan == "zh"
@@ -33,11 +33,11 @@ export default function DownlandPage({ companyData }) {
               : "/assets/2-en-af2f1248.png"
           }
           draggable="false"
-          className="downloadBook-19"
+          class="downloadBook-19"
         />
       </div>
-      <div className="downloadBook-20">3、{translate(getText("进入手机【设置】找到【通用】"))}</div>
-      <div className="downloadBook-21">
+      <div class="downloadBook-20">3、{translate(getText("进入手机【设置】找到【通用】"))}</div>
+      <div class="downloadBook-21">
         <img
           src={
             lan == "zh"
@@ -45,11 +45,11 @@ export default function DownlandPage({ companyData }) {
               : "/assets/3-en-1f2da0a1.png"
           }
           draggable="false"
-          className="downloadBook-28"
+          class="downloadBook-28"
         />
       </div>
-      <div className="downloadBook-29">4、{translate(getText("描述文件与设备管理器"))}</div>
-      <div className="downloadBook-30">
+      <div class="downloadBook-29">4、{translate(getText("描述文件与设备管理器"))}</div>
+      <div class="downloadBook-30">
         <img
           src={
             lan == "zh"
@@ -57,11 +57,11 @@ export default function DownlandPage({ companyData }) {
               : "/assets/4-en-94044ee0.png"
           }
           draggable="false"
-          className="downloadBook-37"
+          class="downloadBook-37"
         />
       </div>
-      <div className="downloadBook-38">5、{translate(getText("点击该描述文件"))}</div>
-      <div className="downloadBook-39">
+      <div class="downloadBook-38">5、{translate(getText("点击该描述文件"))}</div>
+      <div class="downloadBook-39">
         <img
           src={
             lan == "zh"
@@ -69,7 +69,7 @@ export default function DownlandPage({ companyData }) {
               : "	/assets/5-en-33b51c38.png"
           }
           draggable="false"
-          className="downloadBook-46"
+          class="downloadBook-46"
         />
       </div>
     </div>

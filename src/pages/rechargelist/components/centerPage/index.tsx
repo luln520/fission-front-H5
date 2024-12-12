@@ -22,38 +22,38 @@ export default function CenterPage({ coinList }) {
       const data = coinList[i];
       const node = (
         <div
-          className="rechargelist-11"
+          class="rechargelist-11"
           onClick={() => {
             navigate(`/recharge/${data?.id}`);
           }}
         >
-          <div className="rechargelist-12">
-            <div className="rechargelist-13">
-              <div className="rechargelist-14">
+          <div class="rechargelist-12">
+            <div class="rechargelist-13">
+              <div class="rechargelist-14">
                 <img
                   src={imageConfig.baseImageUrl + data?.img}
-                  className="rechargelist-16"
+                  class="rechargelist-16"
                 />
-                <div className="rechargelist-17">
-                  <div className="rechargelist-18">
-                    <div className="rechargelist-19"></div>
+                <div class="rechargelist-17">
+                  <div class="rechargelist-18">
+                    <div class="rechargelist-19"></div>
                   </div>
-                  <div className="rechargelist-20">
-                    <div className="rechargelist-21"></div>
+                  <div class="rechargelist-20">
+                    <div class="rechargelist-21"></div>
                   </div>
                 </div>
               </div>
-              <div className="rechargelist-22">
-                <span className="rechargelist-23">{`${data.name.toUpperCase()}${
+              <div class="rechargelist-22">
+                <span class="rechargelist-23">{`${data.name.toUpperCase()}${
                   data.czline ? `(${data.czline})`.toUpperCase() : ""
                 }`}</span>
               </div>
             </div>
-            <div className="rechargelist-24">
-              <span className="rechargelist-25">
-                <span className="rechargelist-26">{translate(getText("前往購買"))}</span>
+            <div class="rechargelist-24">
+              <span class="rechargelist-25">
+                <span class="rechargelist-26">{translate(getText("前往購買"))}</span>
               </span>
-              <i className="rechargelist-27"></i>
+              <i class="rechargelist-27"></i>
             </div>
           </div>
         </div>
@@ -64,14 +64,14 @@ export default function CenterPage({ coinList }) {
   };
 
   return (
-    <div className="rechargelist-1">
-      <div className="rechargelist-2">
-        <div className="rechargelist-3">
-          <div data-v-01dfbd2e="" className="rechargelist-4">
-            <div data-v-01dfbd2e="" id="_top" className="rechargelist-5">
-              <div data-v-01dfbd2e="" id="rtf41" className="rechargelist-6">
-                <div className="rechargelist-7">
-                  <p className="rechargelist-8">
+    <div class="rechargelist-1">
+      <div class="rechargelist-2">
+        <div class="rechargelist-3">
+          <div data-v-01dfbd2e="" class="rechargelist-4">
+            <div data-v-01dfbd2e="" id="_top" class="rechargelist-5">
+              <div data-v-01dfbd2e="" id="rtf41" class="rechargelist-6">
+                <div class="rechargelist-7">
+                  <p class="rechargelist-8">
                     {translate(getText("請如實填寫實際轉賬金額，否則可能導致系統審核無法通過，影響充值進度。"))}
                   </p>
                 </div>
@@ -79,45 +79,45 @@ export default function CenterPage({ coinList }) {
             </div>
           </div>
         </div>
-        <p className="rechargelist-9">{translate(getText("請選擇以下充值通道"))}</p>
-        <div className="rechargelist-10">
+        <p class="rechargelist-9">{translate(getText("請選擇以下充值通道"))}</p>
+        <div class="rechargelist-10">
           {getNode()}
           {/* <div
-            className="rechargelist-11"
+            class="rechargelist-11"
             onClick={() => {
               navigate("/c2cckcenter");
             }}
           >
-            <div className="rechargelist-12">
-              <div className="rechargelist-13">
-                <div className="rechargelist-14">
+            <div class="rechargelist-12">
+              <div class="rechargelist-13">
+                <div class="rechargelist-14">
                   <img
                     src="/costIco/20220324033547378184.png"
-                    className="rechargelist-16"
+                    class="rechargelist-16"
                   />
-                  <div className="rechargelist-17">
-                    <div className="rechargelist-18">
-                      <div className="rechargelist-19"></div>
+                  <div class="rechargelist-17">
+                    <div class="rechargelist-18">
+                      <div class="rechargelist-19"></div>
                     </div>
-                    <div className="rechargelist-20">
-                      <div className="rechargelist-21"></div>
+                    <div class="rechargelist-20">
+                      <div class="rechargelist-21"></div>
                     </div>
                   </div>
                 </div>
-                <div className="rechargelist-22">
-                  <span className="rechargelist-23">{translate(getText("C2C充值"))}</span>
+                <div class="rechargelist-22">
+                  <span class="rechargelist-23">{translate(getText("C2C充值"))}</span>
                 </div>
               </div>
-              <div className="rechargelist-24">
-                <span className="rechargelist-25">
-                  <span className="rechargelist-26">{translate(getText("前往購買"))}</span>
+              <div class="rechargelist-24">
+                <span class="rechargelist-25">
+                  <span class="rechargelist-26">{translate(getText("前往購買"))}</span>
                 </span>
-                <i className="rechargelist-27"></i>
+                <i class="rechargelist-27"></i>
               </div>
             </div>
           </div> */}
         </div>
-        <div className="rechargelist-96"></div>
+        <div class="rechargelist-96"></div>
       </div>
     </div>
   );

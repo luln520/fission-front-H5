@@ -45,7 +45,7 @@ export default function CoinPopup({
     for (const key in coinListDataTemp) {
       nodes.push(
         <div
-          className={
+          class={
             nowTab == key ? "coinPopupTopTitlelb-13" : "coinPopupTopTitlelb-12"
           }
           onClick={() => {
@@ -78,24 +78,24 @@ export default function CoinPopup({
       position="left"
       bodyStyle={{ backgroundColor: "#f5f5f5" }}
     >
-      <div className="coinPopupTopTitlelb-1">
-        <div className="coinPopupTopTitlelb-2">
-          <div className="coinPopupTopTitlelb-3">
-            <div className="coinPopupTopTitlelb-4">
-              <div className="coinPopupTopTitlelb-5">
-                <div className="coinPopupTopTitlelb-6">
-                  <div className="coinPopupTopTitlelb-7">
+      <div class="coinPopupTopTitlelb-1">
+        <div class="coinPopupTopTitlelb-2">
+          <div class="coinPopupTopTitlelb-3">
+            <div class="coinPopupTopTitlelb-4">
+              <div class="coinPopupTopTitlelb-5">
+                <div class="coinPopupTopTitlelb-6">
+                  <div class="coinPopupTopTitlelb-7">
                     <i
-                      className="coinPopupTopTitlelb-8"
+                      class="coinPopupTopTitlelb-8"
                       onClick={() => {
                         setIsShowCoin(false);
                       }}
                     ></i>
                   </div>
-                  <div className="coinPopupTopTitlelb-9">
-                    <span className="coinPopupTopTitlelb-10">{translate(getText("永续合约"))}</span>
+                  <div class="coinPopupTopTitlelb-9">
+                    <span class="coinPopupTopTitlelb-10">{translate(getText("永续合约"))}</span>
                   </div>
-                  <div className="coinPopupTopTitlelb-11">{getNodes()}</div>
+                  <div class="coinPopupTopTitlelb-11">{getNodes()}</div>
                 </div>
               </div>
             </div>

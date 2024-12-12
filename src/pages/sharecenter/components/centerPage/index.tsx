@@ -71,12 +71,12 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
     for (const teamSet of teamSets) {
       //写入元素
       nodes.push(
-        <div className="sharecenter-39">
-          <div className="sharecenter-40">
-            <span className="sharecenter-41">{teamSet?.name}</span>
+        <div class="sharecenter-39">
+          <div class="sharecenter-40">
+            <span class="sharecenter-41">{teamSet?.name}</span>
           </div>
-          <div className="sharecenter-42">
-            <span className="sharecenter-43">
+          <div class="sharecenter-42">
+            <span class="sharecenter-43">
               {teamSet?.min} ≤ N＜ {teamSet?.max}
             </span>
           </div>
@@ -99,18 +99,18 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
     for (const teamSet of teamSets) {
       //写入元素
       nodes.push(
-        <div className="sharecenter-96">
-          <div className="sharecenter-97">
-            <span className="sharecenter-98">{teamSet?.name}</span>
+        <div class="sharecenter-96">
+          <div class="sharecenter-97">
+            <span class="sharecenter-98">{teamSet?.name}</span>
           </div>
-          <div className="sharecenter-99">
-            <span className="sharecenter-100">{parseInt(oneTeamNum/teamSet?.max*100)>100?100:parseInt(oneTeamNum/teamSet?.max*100)}%</span>
+          <div class="sharecenter-99">
+            <span class="sharecenter-100">{parseInt(oneTeamNum/teamSet?.max*100)>100?100:parseInt(oneTeamNum/teamSet?.max*100)}%</span>
           </div>
-          <div className="sharecenter-101">
-            <span className="sharecenter-102">{parseInt(twoTeamNum/teamSet?.max*100)>100?100:parseInt(twoTeamNum/teamSet?.max*100)}%</span>
+          <div class="sharecenter-101">
+            <span class="sharecenter-102">{parseInt(twoTeamNum/teamSet?.max*100)>100?100:parseInt(twoTeamNum/teamSet?.max*100)}%</span>
           </div>
-          <div className="sharecenter-103">
-            <span className="sharecenter-104">{parseInt(threeTeamNum/teamSet?.max*100)>100?100:parseInt(threeTeamNum/teamSet?.max*100)}%</span>
+          <div class="sharecenter-103">
+            <span class="sharecenter-104">{parseInt(threeTeamNum/teamSet?.max*100)>100?100:parseInt(threeTeamNum/teamSet?.max*100)}%</span>
           </div>
         </div>
       );
@@ -130,87 +130,87 @@ export default function CenterPage({ userInfo, teamInfo, teamSets }) {
   }, [teamSets, teamInfo]);
   return (
     <>
-      <div className="sharecenter-1">
-        <div className="sharecenter-2">
-          <div className="sharecenter-3">
-            <div id="qrcode" className="sharecenter-4"></div>
+      <div class="sharecenter-1">
+        <div class="sharecenter-2">
+          <div class="sharecenter-3">
+            <div id="qrcode" class="sharecenter-4"></div>
           </div>
         </div>
-        <div className="sharecenter-12">
-          <div className="sharecenter-13">
+        <div class="sharecenter-12">
+          <div class="sharecenter-13">
             <div
-              className="sharecenter-14"
+              class="sharecenter-14"
               onClick={() => {
                 handleCopy(`${userInfo?.invit}`);
               }}
             >
-              <div className="sharecenter-15">
-                <span className="sharecenter-16">
+              <div class="sharecenter-15">
+                <span class="sharecenter-16">
                   {translate(getText("我的邀请码"))}:
                 </span>
               </div>
-              <div className="sharecenter-17"> {userInfo?.invit}</div>
-              <i className="sharecenter-18"></i>
+              <div class="sharecenter-17"> {userInfo?.invit}</div>
+              <i class="sharecenter-18"></i>
             </div>
             <div
-              className="sharecenter-19"
+              class="sharecenter-19"
               onClick={() => {
                 handleCopy(`${baseUrl}/register?invit=${userInfo?.invit}&ref=${origin}`);
               }}
             >
-              <div className="sharecenter-20">
-                <span className="sharecenter-21">
+              <div class="sharecenter-20">
+                <span class="sharecenter-21">
                   {translate(getText("我的邀请链接"))}:
                 </span>
               </div>
-              <div className="sharecenter-22">
+              <div class="sharecenter-22">
               {baseUrl}/register?invit={userInfo?.invit}&&ref={origin}
               </div>
-              <i className="sharecenter-23"></i>
+              <i class="sharecenter-23"></i>
             </div>
           </div>
         </div>
         <div
-          className="sharecenter-24"
+          class="sharecenter-24"
           onClick={() => {
             saveQRCode();
           }}
         >
           {translate(getText("点击保存二维码"))}
         </div>
-        <div className="sharecenter-25">
-          <div className="sharecenter-26">
+        <div class="sharecenter-25">
+          <div class="sharecenter-26">
             {translate(getText("推荐人数"))}：{teamInfo?.numCount}
           </div>
-          <div className="sharecenter-27">
+          <div class="sharecenter-27">
             {translate(getText("当前等级"))}：{userLV}
           </div>
-          {/* <div className="sharecenter-28">{translate(getText("总收益"))}：0</div> */}
+          {/* <div class="sharecenter-28">{translate(getText("总收益"))}：0</div> */}
         </div>
-        <div className="sharecenter-29">
-          <div className="sharecenter-30">
-            <div className="sharecenter-31">
-              <span className="sharecenter-32">
+        <div class="sharecenter-29">
+          <div class="sharecenter-30">
+            <div class="sharecenter-31">
+              <span class="sharecenter-32">
                 {translate(getText("规则说明"))}
               </span>
             </div>
-            <i className="sharecenter-33"></i>
+            <i class="sharecenter-33"></i>
           </div>
-          <div className="sharecenter-34">
-            <div className="sharecenter-35">
-              <div className="sharecenter-36">{translate(getText("团队等级"))}</div>
-              <div className="sharecenter-37">{translate(getText("要求"))}</div>
+          <div class="sharecenter-34">
+            <div class="sharecenter-35">
+              <div class="sharecenter-36">{translate(getText("团队等级"))}</div>
+              <div class="sharecenter-37">{translate(getText("要求"))}</div>
             </div>
-            <div className="sharecenter-38">{getTeamSetArray()}</div>
+            <div class="sharecenter-38">{getTeamSetArray()}</div>
           </div>
-          <div className="sharecenter-89">
-            <div className="sharecenter-90">
-              <div className="sharecenter-91">{translate(getText("团队等级"))}</div>
-              <div className="sharecenter-92">{translate(getText("1级下级"))}</div>
-              <div className="sharecenter-93">{translate(getText("2级下级"))}</div>
-              <div className="sharecenter-94">{translate(getText("3级下级"))}</div>
+          <div class="sharecenter-89">
+            <div class="sharecenter-90">
+              <div class="sharecenter-91">{translate(getText("团队等级"))}</div>
+              <div class="sharecenter-92">{translate(getText("1级下级"))}</div>
+              <div class="sharecenter-93">{translate(getText("2级下级"))}</div>
+              <div class="sharecenter-94">{translate(getText("3级下级"))}</div>
             </div>
-            <div className="sharecenter-95">{getTeamArray()}</div>
+            <div class="sharecenter-95">{getTeamArray()}</div>
           </div>
         </div>
       </div>

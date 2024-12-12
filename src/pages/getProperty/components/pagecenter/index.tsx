@@ -13,23 +13,23 @@ export default function PageCenter({ mockUserAmount }) {
   const { t: translate } = useTranslation();
   const lan = localStorage.getItem("i18n");
   return (
-    <div className="getProperty-1">
-      <div className="getProperty-2">
+    <div class="getProperty-1">
+      <div class="getProperty-2">
         <img
           src={lan=="zh"?"/assets/demo-eb3970a3.png":"/assets/demo2-07a4ab7b.png"}
           draggable="false"
-          className="getProperty-9"
+          class="getProperty-9"
         />
       </div>
-      <div className="getProperty-10">
-        <div className="getProperty-11">1、{translate(getText("该资产仅允许在模拟账户模式下使用"))}</div>
-        <div className="getProperty-12">2、{translate(getText("为防止滥用，1个月内仅允许领取一次"))}</div>
-        <div className="getProperty-13">
+      <div class="getProperty-10">
+        <div class="getProperty-11">1、{translate(getText("该资产仅允许在模拟账户模式下使用"))}</div>
+        <div class="getProperty-12">2、{translate(getText("为防止滥用，1个月内仅允许领取一次"))}</div>
+        <div class="getProperty-13">
           3、{translate(getText("领取资产将在原基础上新增领取资产金额，并不改变持仓状态"))}
         </div>
-        <div className="getProperty-14">4、{translate(getText("如您有其他疑问，请联系客服"))}</div>
+        <div class="getProperty-14">4、{translate(getText("如您有其他疑问，请联系客服"))}</div>
         <div
-          className="getProperty-15"
+          class="getProperty-15"
           onClick={() => {
             mockUserAmount();
           }}

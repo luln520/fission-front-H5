@@ -235,32 +235,32 @@ export default function OrderPopup({
       position="bottom"
       bodyStyle={{ width: "100vw", height: "90vh", backgroundColor: "#f5f5f5" }}
     >
-      <div className="leverOrderPopup-1">
-        <div className="leverOrderPopup-2">
-          <div className="leverOrderPopup-3">
-            <div className="leverOrderPopup-4">
-              <div className="leverOrderPopup-5">
-                <p className="leverOrderPopup-6">{translate(getText("訂單確認"))}</p>
+      <div class="leverOrderPopup-1">
+        <div class="leverOrderPopup-2">
+          <div class="leverOrderPopup-3">
+            <div class="leverOrderPopup-4">
+              <div class="leverOrderPopup-5">
+                <p class="leverOrderPopup-6">{translate(getText("訂單確認"))}</p>
                 <div
-                  className="leverOrderPopup-7"
+                  class="leverOrderPopup-7"
                   onClick={() => {
                     setIsShowOrder(false);
                   }}
                 ></div>
               </div>
-              <div className="leverOrderPopup-8">
-                <div className="leverOrderPopup-9">
-                  <div className="leverOrderPopup-10">
-                    <div className="leverOrderPopup-11">
-                      <div className="leverOrderPopup-12">
-                        <div className="leverOrderPopup-13">
-                          <div className="leverOrderPopup-14">
-                            <div className="leverOrderPopup-15">{translate(getText("市價"))}</div>
-                            {/* <div className="leverOrderPopup-16">掛單</div> */}
+              <div class="leverOrderPopup-8">
+                <div class="leverOrderPopup-9">
+                  <div class="leverOrderPopup-10">
+                    <div class="leverOrderPopup-11">
+                      <div class="leverOrderPopup-12">
+                        <div class="leverOrderPopup-13">
+                          <div class="leverOrderPopup-14">
+                            <div class="leverOrderPopup-15">{translate(getText("市價"))}</div>
+                            {/* <div class="leverOrderPopup-16">掛單</div> */}
                           </div>
-                          <div className="leverOrderPopup-17">
+                          <div class="leverOrderPopup-17">
                             <div
-                              className={
+                              class={
                                 type == 1
                                   ? "leverOrderPopup-18"
                                   : "leverOrderPopup-19"
@@ -272,7 +272,7 @@ export default function OrderPopup({
                               {translate(getText("買多"))}
                             </div>
                             <div
-                              className={
+                              class={
                                 type == 2
                                   ? "leverOrderPopup-18-1"
                                   : "leverOrderPopup-19"
@@ -284,15 +284,15 @@ export default function OrderPopup({
                               {translate(getText("買空"))}
                             </div>
                           </div>
-                          <div className="leverOrderPopup-80">
+                          <div class="leverOrderPopup-80">
                             {translate(getText("保证金"))}
                           </div>
-                          <div className="leverOrderPopup-81">
-                            <div className="leverOrderPopup-82">
-                              <div className="leverOrderPopup-83">
-                                <div className="leverOrderPopup-84">
+                          <div class="leverOrderPopup-81">
+                            <div class="leverOrderPopup-82">
+                              <div class="leverOrderPopup-83">
+                                <div class="leverOrderPopup-84">
                                   <span
-                                    className="leverOrderPopup-85"
+                                    class="leverOrderPopup-85"
                                     onClick={() => {
                                       if (num && num > 0.1) {
                                         setNum(num - 0.1);
@@ -303,16 +303,16 @@ export default function OrderPopup({
                                   </span>
                                 </div>
                               </div>
-                              <div className="leverOrderPopup-86">
-                                <div className="leverOrderPopup-87">
-                                  <div className="leverOrderPopup-88"></div>
+                              <div class="leverOrderPopup-86">
+                                <div class="leverOrderPopup-87">
+                                  <div class="leverOrderPopup-88"></div>
                                   <input
                                     maxlength="140"
                                     enterkeyhint="done"
                                     autocomplete="off"
                                     type="number"
                                     min={minNum}
-                                    className="leverOrderPopup-89"
+                                    class="leverOrderPopup-89"
                                     value={num}
                                     onChange={(e) => {
                                       setNum(e.target.value);
@@ -320,10 +320,10 @@ export default function OrderPopup({
                                   />
                                 </div>
                               </div>
-                              <div className="leverOrderPopup-90">
-                                <div className="leverOrderPopup-91">
+                              <div class="leverOrderPopup-90">
+                                <div class="leverOrderPopup-91">
                                   <span
-                                    className="leverOrderPopup-92"
+                                    class="leverOrderPopup-92"
                                     onClick={() => {
                                       if (num) {
                                         setNum(num + 0.1);
@@ -338,27 +338,27 @@ export default function OrderPopup({
                               </div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-53">
-                            <div className="leverOrderPopup-54">
+                          <div class="leverOrderPopup-53">
+                            <div class="leverOrderPopup-54">
                               {translate(getText("止盈"))}
                             </div>
-                            <div className="leverOrderPopup-55">
-                              <div className="leverOrderPopup-56"></div>
+                            <div class="leverOrderPopup-55">
+                              <div class="leverOrderPopup-56"></div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-57">
-                            <div className="leverOrderPopup-58">
-                              <div className="leverOrderPopup-59">
+                          <div class="leverOrderPopup-57">
+                            <div class="leverOrderPopup-58">
+                              <div class="leverOrderPopup-59">
                                 {leverSet2 && getLeverSet2Nodes()}
                               </div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-81">
-                            <div className="leverOrderPopup-82">
-                              <div className="leverOrderPopup-83">
-                                <div className="leverOrderPopup-84">
+                          <div class="leverOrderPopup-81">
+                            <div class="leverOrderPopup-82">
+                              <div class="leverOrderPopup-83">
+                                <div class="leverOrderPopup-84">
                                   <span
-                                    className="leverOrderPopup-85"
+                                    class="leverOrderPopup-85"
                                     onClick={() => {
                                       if (zyNum && zyNum > 1) {
                                         setzyNum(zyNum - 1);
@@ -369,15 +369,15 @@ export default function OrderPopup({
                                   </span>
                                 </div>
                               </div>
-                              <div className="leverOrderPopup-86">
-                                <div className="leverOrderPopup-87">
-                                  <div className="leverOrderPopup-88"></div>
+                              <div class="leverOrderPopup-86">
+                                <div class="leverOrderPopup-87">
+                                  <div class="leverOrderPopup-88"></div>
                                   <input
                                     maxlength="140"
                                     enterkeyhint="done"
                                     autocomplete="off"
                                     type="number"
-                                    className="leverOrderPopup-89"
+                                    class="leverOrderPopup-89"
                                     value={zyNum}
                                     onChange={(e) => {
                                       setzyNum(e.target.value);
@@ -385,10 +385,10 @@ export default function OrderPopup({
                                   />
                                 </div>
                               </div>
-                              <div className="leverOrderPopup-90">
-                                <div className="leverOrderPopup-91">
+                              <div class="leverOrderPopup-90">
+                                <div class="leverOrderPopup-91">
                                   <span
-                                    className="leverOrderPopup-92"
+                                    class="leverOrderPopup-92"
                                     onClick={() => {
                                       if (zyNum) {
                                         setzyNum(zyNum + 1);
@@ -404,27 +404,27 @@ export default function OrderPopup({
                             </div>
                           </div>
                           {/*  */}
-                          <div className="leverOrderPopup-53">
-                            <div className="leverOrderPopup-54">
+                          <div class="leverOrderPopup-53">
+                            <div class="leverOrderPopup-54">
                               {translate(getText("止損"))}
                             </div>
-                            <div className="leverOrderPopup-55">
-                              <div className="leverOrderPopup-56"></div>
+                            <div class="leverOrderPopup-55">
+                              <div class="leverOrderPopup-56"></div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-57">
-                            <div className="leverOrderPopup-58">
-                              <div className="leverOrderPopup-59">
+                          <div class="leverOrderPopup-57">
+                            <div class="leverOrderPopup-58">
+                              <div class="leverOrderPopup-59">
                                 {leverSet1 && getLeverSet1Nodes()}
                               </div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-81">
-                            <div className="leverOrderPopup-82">
-                              <div className="leverOrderPopup-83">
-                                <div className="leverOrderPopup-84">
+                          <div class="leverOrderPopup-81">
+                            <div class="leverOrderPopup-82">
+                              <div class="leverOrderPopup-83">
+                                <div class="leverOrderPopup-84">
                                   <span
-                                    className="leverOrderPopup-85"
+                                    class="leverOrderPopup-85"
                                     onClick={() => {
                                       if (zsNum && zsNum > 1) {
                                         setzsNum(zsNum - 1);
@@ -435,15 +435,15 @@ export default function OrderPopup({
                                   </span>
                                 </div>
                               </div>
-                              <div className="leverOrderPopup-86">
-                                <div className="leverOrderPopup-87">
-                                  <div className="leverOrderPopup-88"></div>
+                              <div class="leverOrderPopup-86">
+                                <div class="leverOrderPopup-87">
+                                  <div class="leverOrderPopup-88"></div>
                                   <input
                                     maxlength="140"
                                     enterkeyhint="done"
                                     autocomplete="off"
                                     type="number"
-                                    className="leverOrderPopup-89"
+                                    class="leverOrderPopup-89"
                                     value={zsNum}
                                     onChange={(e) => {
                                       setzsNum(e.target.value);
@@ -451,10 +451,10 @@ export default function OrderPopup({
                                   />
                                 </div>
                               </div>
-                              <div className="leverOrderPopup-90">
-                                <div className="leverOrderPopup-91">
+                              <div class="leverOrderPopup-90">
+                                <div class="leverOrderPopup-91">
                                   <span
-                                    className="leverOrderPopup-92"
+                                    class="leverOrderPopup-92"
                                     onClick={() => {
                                       if (zsNum) {
                                         setzsNum(zsNum + 1);
@@ -469,56 +469,56 @@ export default function OrderPopup({
                               </div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-41">
-                            <div className="leverOrderPopup-42">
-                              <div className="leverOrderPopup-46">
-                                <div className="leverOrderPopup-47">{translate(getText("手續費"))}:</div>
-                                <div className="leverOrderPopup-48">
+                          <div class="leverOrderPopup-41">
+                            <div class="leverOrderPopup-42">
+                              <div class="leverOrderPopup-46">
+                                <div class="leverOrderPopup-47">{translate(getText("手續費"))}:</div>
+                                <div class="leverOrderPopup-48">
                                   {hysetInfo?.hySxf}
                                 </div>
                               </div>
-                              {/* <div className="leverOrderPopup-46">
-                                <div className="leverOrderPopup-47">强平价格:</div>
-                                <div className="leverOrderPopup-48">
+                              {/* <div class="leverOrderPopup-46">
+                                <div class="leverOrderPopup-47">强平价格:</div>
+                                <div class="leverOrderPopup-48">
                                   {boomPrice}
                                 </div>
                               </div> */}
-                              <div className="leverOrderPopup-49">
-                                <div className="leverOrderPopup-50">{translate(getText("可用餘額"))}:</div>
-                                <div className="leverOrderPopup-51">
+                              <div class="leverOrderPopup-49">
+                                <div class="leverOrderPopup-50">{translate(getText("可用餘額"))}:</div>
+                                <div class="leverOrderPopup-51">
                                   {userInfo?.usdt?.toFixed(2)} USDT
                                 </div>
                               </div>
-                              <div className="leverOrderPopup-49">
-                                <div className="leverOrderPopup-50">
+                              <div class="leverOrderPopup-49">
+                                <div class="leverOrderPopup-50">
                                   {translate(getText("最低投資額"))}:
                                 </div>
-                                <div className="leverOrderPopup-51">
+                                <div class="leverOrderPopup-51">
                                   10{/*  {minNum}*/}
                                 </div>
                               </div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-53">
-                            <div className="leverOrderPopup-54">{translate(getText("杠杆倍數"))}</div>
-                            <div className="leverOrderPopup-55">
-                              <div className="leverOrderPopup-56"></div>
+                          <div class="leverOrderPopup-53">
+                            <div class="leverOrderPopup-54">{translate(getText("杠杆倍數"))}</div>
+                            <div class="leverOrderPopup-55">
+                              <div class="leverOrderPopup-56"></div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-57">
-                            <div className="leverOrderPopup-58">
-                              <div className="leverOrderPopup-59">
+                          <div class="leverOrderPopup-57">
+                            <div class="leverOrderPopup-58">
+                              <div class="leverOrderPopup-59">
                                 {leverage && getLeverageNodes()}
                               </div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-65">
-                            <div className="leverOrderPopup-67">
-                              <div className="leverOrderPopup-68">
-                                <div className="leverOrderPopup-69">
-                                  <div className="leverOrderPopup-70">
+                          <div class="leverOrderPopup-65">
+                            <div class="leverOrderPopup-67">
+                              <div class="leverOrderPopup-68">
+                                <div class="leverOrderPopup-69">
+                                  <div class="leverOrderPopup-70">
                                     <span
-                                      className="leverOrderPopup-71"
+                                      class="leverOrderPopup-71"
                                       onClick={() => {
                                         if (bsnum && bsnum > 1) {
                                           setbsNum(bsnum - 1);
@@ -529,16 +529,16 @@ export default function OrderPopup({
                                     </span>
                                   </div>
                                 </div>
-                                <div className="leverOrderPopup-72">
-                                  <div className="leverOrderPopup-73">
-                                    <div className="leverOrderPopup-74"></div>
+                                <div class="leverOrderPopup-72">
+                                  <div class="leverOrderPopup-73">
+                                    <div class="leverOrderPopup-74"></div>
                                     <input
                                       maxlength="140"
                                       step="0.000000000000000001"
                                       enterkeyhint="done"
                                       autocomplete="off"
                                       type="number"
-                                      className="leverOrderPopup-75"
+                                      class="leverOrderPopup-75"
                                       value={bsnum}
                                       onChange={(e) => {
                                         setbsNum(e.target.value);
@@ -546,10 +546,10 @@ export default function OrderPopup({
                                     />
                                   </div>
                                 </div>
-                                <div className="leverOrderPopup-76">
-                                  <div className="leverOrderPopup-77">
+                                <div class="leverOrderPopup-76">
+                                  <div class="leverOrderPopup-77">
                                     <span
-                                      className="leverOrderPopup-78"
+                                      class="leverOrderPopup-78"
                                       onClick={() => {
                                         setbsNum(bsnum + 1);
                                       }}
@@ -561,14 +561,14 @@ export default function OrderPopup({
                               </div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-65">
-                            <div className="leverOrderPopup-66">{translate(getText("止損價"))}</div>
-                            <div className="leverOrderPopup-67">
-                              <div className="leverOrderPopup-68">
-                                <div className="leverOrderPopup-69">
-                                  <div className="leverOrderPopup-70">
+                          <div class="leverOrderPopup-65">
+                            <div class="leverOrderPopup-66">{translate(getText("止損價"))}</div>
+                            <div class="leverOrderPopup-67">
+                              <div class="leverOrderPopup-68">
+                                <div class="leverOrderPopup-69">
+                                  <div class="leverOrderPopup-70">
                                     <span
-                                      className="leverOrderPopup-71"
+                                      class="leverOrderPopup-71"
                                       onClick={() => {
                                         if (lossPrice && lossPrice > 0.1) {
                                           setlossPrice(lossPrice - 0.1);
@@ -579,16 +579,16 @@ export default function OrderPopup({
                                     </span>
                                   </div>
                                 </div>
-                                <div className="leverOrderPopup-72">
-                                  <div className="leverOrderPopup-73">
-                                    <div className="leverOrderPopup-74"></div>
+                                <div class="leverOrderPopup-72">
+                                  <div class="leverOrderPopup-73">
+                                    <div class="leverOrderPopup-74"></div>
                                     <input
                                       maxlength="140"
                                       step="0.000000000000000001"
                                       enterkeyhint="done"
                                       autocomplete="off"
                                       type="number"
-                                      className="leverOrderPopup-75"
+                                      class="leverOrderPopup-75"
                                       value={lossPrice}
                                       onChange={(e) => {
                                         setlossPrice(e.target.value);
@@ -596,10 +596,10 @@ export default function OrderPopup({
                                     />
                                   </div>
                                 </div>
-                                <div className="leverOrderPopup-76">
-                                  <div className="leverOrderPopup-77">
+                                <div class="leverOrderPopup-76">
+                                  <div class="leverOrderPopup-77">
                                     <span
-                                      className="leverOrderPopup-78"
+                                      class="leverOrderPopup-78"
                                       onClick={() => {
                                         if (lossPrice) {
                                           setlossPrice(lossPrice + 0.1);
@@ -615,14 +615,14 @@ export default function OrderPopup({
                               </div>
                             </div>
                           </div>
-                          <div className="leverOrderPopup-79">
-                            <div className="leverOrderPopup-80">{translate(getText("止盈價"))}</div>
-                            <div className="leverOrderPopup-81">
-                              <div className="leverOrderPopup-82">
-                                <div className="leverOrderPopup-83">
-                                  <div className="leverOrderPopup-84">
+                          <div class="leverOrderPopup-79">
+                            <div class="leverOrderPopup-80">{translate(getText("止盈價"))}</div>
+                            <div class="leverOrderPopup-81">
+                              <div class="leverOrderPopup-82">
+                                <div class="leverOrderPopup-83">
+                                  <div class="leverOrderPopup-84">
                                     <span
-                                      className="leverOrderPopup-85"
+                                      class="leverOrderPopup-85"
                                       onClick={() => {
                                         if (winPrice && winPrice > 0.1) {
                                           setwinPrice(winPrice - 0.1);
@@ -633,15 +633,15 @@ export default function OrderPopup({
                                     </span>
                                   </div>
                                 </div>
-                                <div className="leverOrderPopup-86">
-                                  <div className="leverOrderPopup-87">
-                                    <div className="leverOrderPopup-88"></div>
+                                <div class="leverOrderPopup-86">
+                                  <div class="leverOrderPopup-87">
+                                    <div class="leverOrderPopup-88"></div>
                                     <input
                                       maxlength="140"
                                       enterkeyhint="done"
                                       autocomplete="off"
                                       type="number"
-                                      className="leverOrderPopup-89"
+                                      class="leverOrderPopup-89"
                                       value={winPrice}
                                       onChange={(e) => {
                                         setwinPrice(e.target.value);
@@ -649,10 +649,10 @@ export default function OrderPopup({
                                     />
                                   </div>
                                 </div>
-                                <div className="leverOrderPopup-90">
-                                  <div className="leverOrderPopup-91">
+                                <div class="leverOrderPopup-90">
+                                  <div class="leverOrderPopup-91">
                                     <span
-                                      className="leverOrderPopup-92"
+                                      class="leverOrderPopup-92"
                                       onClick={() => {
                                         if (winPrice) {
                                           setwinPrice(winPrice + 0.1);
@@ -670,9 +670,9 @@ export default function OrderPopup({
                           </div>
                         </div>
                       </div>
-                      <div className="leverOrderPopup-93">
+                      <div class="leverOrderPopup-93">
                         <div
-                          className={
+                          class={
                             type == 1
                               ? "leverOrderPopup-94"
                               : "leverOrderPopup-94-1"
@@ -713,40 +713,40 @@ export default function OrderPopup({
           setVisible(false);
         }}
       >
-        <div className="orderconfim-1">
-          <div className="orderconfim-2">
-            <p className="orderconfim-3">{translate(getText("訂單確認"))}</p>
-            <div className="orderconfim-4"></div>
+        <div class="orderconfim-1">
+          <div class="orderconfim-2">
+            <p class="orderconfim-3">{translate(getText("訂單確認"))}</p>
+            <div class="orderconfim-4"></div>
           </div>
-          <div className="orderconfim-5">
-            <div className="orderconfim-6">
-              <div className="orderconfim-7">
-                <p className="orderconfim-8">{translate(getText("名稱"))}</p>
-                <p className="orderconfim-9">{translate(getText("方向"))}</p>
-                <p className="orderconfim-10">{translate(getText("現價"))}</p>
-                <p className="orderconfim-11">{translate(getText("保证金"))}</p>
+          <div class="orderconfim-5">
+            <div class="orderconfim-6">
+              <div class="orderconfim-7">
+                <p class="orderconfim-8">{translate(getText("名稱"))}</p>
+                <p class="orderconfim-9">{translate(getText("方向"))}</p>
+                <p class="orderconfim-10">{translate(getText("現價"))}</p>
+                <p class="orderconfim-11">{translate(getText("保证金"))}</p>
               </div>
-              <div className="orderconfim-12">
-                <p className="orderconfim-13">
+              <div class="orderconfim-12">
+                <p class="orderconfim-13">
                   {nowTab?.toUpperCase()}
-                  <span className="orderconfim-14">/USDT</span>
+                  <span class="orderconfim-14">/USDT</span>
                 </p>
-                <p className={type == 1 ? "orderconfim-15" : "orderconfim-15-1"}>
+                <p class={type == 1 ? "orderconfim-15" : "orderconfim-15-1"}>
                   {translate(getText(type == 1 ? "買多" : "買空"))}
                 </p>
-                <p className="orderconfim-16">{coinListData[nowTab]?.close}</p>
-                <p className="orderconfim-17">{num}</p>
+                <p class="orderconfim-16">{coinListData[nowTab]?.close}</p>
+                <p class="orderconfim-17">{num}</p>
               </div>
             </div>
-            <div className="orderconfim-18">
-              <div className="orderconfim-19">
-                <p className="orderconfim-20">{translate(getText("可用餘額"))}:{userInfo?.usdt}</p>
-                <p className="orderconfim-21">{translate(getText("手續費"))}:{hysetInfo?.hySxf}</p>
+            <div class="orderconfim-18">
+              <div class="orderconfim-19">
+                <p class="orderconfim-20">{translate(getText("可用餘額"))}:{userInfo?.usdt}</p>
+                <p class="orderconfim-21">{translate(getText("手續費"))}:{hysetInfo?.hySxf}</p>
               </div>
             </div>
-            <div className="orderconfim-22">
+            <div class="orderconfim-22">
               <div
-                className="orderconfim-23"
+                class="orderconfim-23"
                 onClick={() => {
                   buyCoin({
                     ccoinname: `${nowTab.toUpperCase()}/USDT`,

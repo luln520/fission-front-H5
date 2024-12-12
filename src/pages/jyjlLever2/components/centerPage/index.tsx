@@ -58,9 +58,9 @@ export default function CenterPage({
           data.buyprice)
       ).toFixed(4);
       const node = (
-        <li className="leverorderlistItem11-4-1">
+        <li class="leverorderlistItem11-4-1">
           <div
-            className="leverorderlistItem11-5"
+            class="leverorderlistItem11-5"
             onClick={() => {
               const sendData = {
                 orderNo: data.orderNo,
@@ -79,35 +79,35 @@ export default function CenterPage({
               );
             }}
           >
-            <div className="leverorderlistItem11-6">
-              <div className="leverorderlistItem11-7">
-                <div className="leverorderlistItem11-8">
-                  <p className="leverorderlistItem1-9">
+            <div class="leverorderlistItem11-6">
+              <div class="leverorderlistItem11-7">
+                <div class="leverorderlistItem11-8">
+                  <p class="leverorderlistItem1-9">
                     {translate(getText("交易品種"))}
                   </p>
-                  <p className="leverorderlistItem1-10">{data.coinname}</p>
-                  <p className="leverorderlistItem1-11">
+                  <p class="leverorderlistItem1-10">{data.coinname}</p>
+                  <p class="leverorderlistItem1-11">
                     {translate(getText("保证金"))}
                   </p>
-                  <p className="leverorderlistItem1-12">{data.num?.toFixed(4)}</p>
-                  <p className="leverorderlistItem1-13">
+                  <p class="leverorderlistItem1-12">{data.num?.toFixed(4)}</p>
+                  <p class="leverorderlistItem1-13">
                     {translate(getText("倍数"))}
                   </p>
-                  <p className="leverorderlistItem1-14">{data.fold}</p>
+                  <p class="leverorderlistItem1-14">{data.fold}</p>
                 </div>
               </div>
-              <div className="leverorderlistItem11-15">
-                <div className="leverorderlistItem11-16">
-                  <p className="leverorderlistItem1-17">
+              <div class="leverorderlistItem11-15">
+                <div class="leverorderlistItem11-16">
+                  <p class="leverorderlistItem1-17">
                     {translate(getText("開倉價"))}
                   </p>
-                  <p className="leverorderlistItem1-18">
+                  <p class="leverorderlistItem1-18">
                     {data.buyprice?.toFixed(4)}
                   </p>
-                  <p className="leverorderlistItem1-19">
+                  <p class="leverorderlistItem1-19">
                     {translate(getText(data.status == 1 ? "現價" : "结算價"))}
                   </p>
-                  <p className="leverorderlistItem1-20">
+                  <p class="leverorderlistItem1-20">
                     {data.status == 1 &&
                       coinListData[
                         data.coinname.replace("/USDT", "").toLowerCase()
@@ -115,21 +115,21 @@ export default function CenterPage({
                     {data.status != 1 && data.sellprice}
                     &nbsp;
                   </p>
-                  <p className="leverorderlistItem1-21">
+                  <p class="leverorderlistItem1-21">
                     {translate(getText("强平价格"))}
                   </p>
-                  <p className="leverorderlistItem1-22">
+                  <p class="leverorderlistItem1-22">
                     {data.boomPrice?.toFixed(4)}
                   </p>
                 </div>
               </div>
-              <div className="leverorderlistItem1-23">
-                <div className="leverorderlistItem1-24">
-                  <p className="leverorderlistItem1-25">
+              <div class="leverorderlistItem1-23">
+                <div class="leverorderlistItem1-24">
+                  <p class="leverorderlistItem1-25">
                     {translate(getText("方向"))}
                   </p>
                   <p
-                    className={
+                    class={
                       data.hyzd == 1
                         ? "leverorderlistItem11-32"
                         : "leverorderlistItem11-32-1"
@@ -137,25 +137,25 @@ export default function CenterPage({
                   >
                     {translate(getText(data.hyzd == 1 ? "買多" : "買空"))}
                   </p>
-                  <p className="leverorderlistItem1-25">
+                  <p class="leverorderlistItem1-25">
                     {translate(getText("止損價"))}
                   </p>
-                  <p className="leverorderlistItem1-26">{data.lossPrice}</p>
-                  <p className="leverorderlistItem1-27">
+                  <p class="leverorderlistItem1-26">{data.lossPrice}</p>
+                  <p class="leverorderlistItem1-27">
                     {translate(getText("止盈價"))}
                   </p>
-                  <p className="leverorderlistItem1-28">{data.winPrice}</p>
+                  <p class="leverorderlistItem1-28">{data.winPrice}</p>
                 </div>
               </div>
             </div>
-            <div className="leverorderlistItem11-29">
+            <div class="leverorderlistItem11-29">
               {data.status == 1 && (
-                <div className="leverorderlistItem11-30">
-                  <p className="leverorderlistItem1-31">
+                <div class="leverorderlistItem11-30">
+                  <p class="leverorderlistItem1-31">
                     {translate(getText("預期收益"))}
                   </p>
                   <p
-                    className={
+                    class={
                       (priceyd < 0 && data.hyzd == 1) ||
                       (priceyd > 0 && data.hyzd == 2)
                         ? "leverorderlistItem11-32"
@@ -170,12 +170,12 @@ export default function CenterPage({
                 </div>
               )}
               {data.status == 2 && (
-                <div className="leverorderlistItem11-30">
-                  <p className="leverorderlistItem11-3">
+                <div class="leverorderlistItem11-30">
+                  <p class="leverorderlistItem11-3">
                     {translate(getText("收益"))}
                   </p>
                   <p
-                    className={
+                    class={
                       data.ploss > 0
                         ? "leverorderlistItem11-32"
                         : "leverorderlistItem11-32-1"
@@ -192,9 +192,9 @@ export default function CenterPage({
             </div>
           </div>
           {data.status == 1 && (
-            <div className="leverorderlistItem11-33">
+            <div class="leverorderlistItem11-33">
               <p
-                className="leverorderlistItem11-34"
+                class="leverorderlistItem11-34"
                 onClick={(e) => {
                   Dialog.confirm({
                     title: translate(getText("提示")),
@@ -217,7 +217,7 @@ export default function CenterPage({
                 {translate(getText("平倉"))}
               </p>
               <p
-                className="leverorderlistItem11-35"
+                class="leverorderlistItem11-35"
                 onClick={() => {
                   settempData(data);
                   setaddnumVisible(true);
@@ -227,7 +227,7 @@ export default function CenterPage({
                 {translate(getText("加仓"))}
               </p>
               <p
-                className="leverorderlistItem11-35"
+                class="leverorderlistItem11-35"
                 onClick={() => {
                   settempData(data);
                   setstrutcnumVisible(true);
@@ -237,7 +237,7 @@ export default function CenterPage({
                 {translate(getText("减仓"))}
               </p>
               <p
-                className="leverorderlistItem11-36"
+                class="leverorderlistItem11-36"
                 onClick={() => {
                   settempData(data);
                   seteditLossWinVisible(true);
@@ -250,11 +250,11 @@ export default function CenterPage({
             </div>
           )}
           {data.status == 1 && (
-            <div className="leverorderlistItem11-37">
-              {/* <p className="leverorderlistItem11-38">設定止盈止損</p> */}
-              {/* <p className="leverorderlistItem11-39">鎖倉</p> */}
+            <div class="leverorderlistItem11-37">
+              {/* <p class="leverorderlistItem11-38">設定止盈止損</p> */}
+              {/* <p class="leverorderlistItem11-39">鎖倉</p> */}
               {/* <p
-                        className="leverorderlistItem11-40"
+                        class="leverorderlistItem11-40"
                       >
                         詳細
                       </p> */}
@@ -391,9 +391,9 @@ export default function CenterPage({
   return (
     <div>
       {/* 头部 */}
-      <div className="leverorderlistTopBar-1">
+      <div class="leverorderlistTopBar-1">
         <div
-          className={
+          class={
             index == 1 ? "leverorderlistTopBar-2" : "leverorderlistTopBar-3"
           }
           onClick={() => {
@@ -403,7 +403,7 @@ export default function CenterPage({
           {translate(getText("在持"))}
         </div>
         <div
-          className={
+          class={
             index == 2 ? "leverorderlistTopBar-2" : "leverorderlistTopBar-3"
           }
           onClick={() => {
@@ -413,7 +413,7 @@ export default function CenterPage({
           {translate(getText("已成交"))}
         </div>
         <div
-          className={
+          class={
             index == 3 ? "leverorderlistTopBar-2" : "leverorderlistTopBar-3"
           }
           onClick={() => {
@@ -424,7 +424,7 @@ export default function CenterPage({
         </div>
       </div>
       {/* 列表 */}
-      <ul className="leverorderlistItem1-3">
+      <ul class="leverorderlistItem1-3">
         {index == 1 && getNode1()}
         {index != 1 && getNode2()}
       </ul>
@@ -458,13 +458,13 @@ export default function CenterPage({
           }}
         >
           {translate(getText("订单号"))}：{tempData?.orderNo}
-          <div className="leverOrderPopup-80">{translate(getText("数量"))}：</div>
-          <div className="leverOrderPopup-81">
-            <div className="leverOrderPopup-82">
-              <div className="leverOrderPopup-83">
-                <div className="leverOrderPopup-84">
+          <div class="leverOrderPopup-80">{translate(getText("数量"))}：</div>
+          <div class="leverOrderPopup-81">
+            <div class="leverOrderPopup-82">
+              <div class="leverOrderPopup-83">
+                <div class="leverOrderPopup-84">
                   <span
-                    className="leverOrderPopup-85"
+                    class="leverOrderPopup-85"
                     onClick={() => {
                       if (addnum && addnum > 0.1) {
                         setaddnum(addnum - 0.1);
@@ -475,15 +475,15 @@ export default function CenterPage({
                   </span>
                 </div>
               </div>
-              <div className="leverOrderPopup-86">
-                <div className="leverOrderPopup-87">
-                  <div className="leverOrderPopup-88"></div>
+              <div class="leverOrderPopup-86">
+                <div class="leverOrderPopup-87">
+                  <div class="leverOrderPopup-88"></div>
                   <input
                     maxlength="140"
                     enterkeyhint="done"
                     autocomplete="off"
                     type="number"
-                    className="leverOrderPopup-89"
+                    class="leverOrderPopup-89"
                     value={addnum}
                     onChange={(e) => {
                       setaddnum(e.target.value);
@@ -491,10 +491,10 @@ export default function CenterPage({
                   />
                 </div>
               </div>
-              <div className="leverOrderPopup-90">
-                <div className="leverOrderPopup-91">
+              <div class="leverOrderPopup-90">
+                <div class="leverOrderPopup-91">
                   <span
-                    className="leverOrderPopup-92"
+                    class="leverOrderPopup-92"
                     onClick={() => {
                       if (addnum) {
                         setaddnum(addnum + 0.1);
@@ -539,13 +539,13 @@ export default function CenterPage({
           }}
         >
           {translate(getText("订单号"))}：{tempData?.orderNo}
-          <div className="leverOrderPopup-80">{translate(getText("数量"))}：</div>
-          <div className="leverOrderPopup-81">
-            <div className="leverOrderPopup-82">
-              <div className="leverOrderPopup-83">
-                <div className="leverOrderPopup-84">
+          <div class="leverOrderPopup-80">{translate(getText("数量"))}：</div>
+          <div class="leverOrderPopup-81">
+            <div class="leverOrderPopup-82">
+              <div class="leverOrderPopup-83">
+                <div class="leverOrderPopup-84">
                   <span
-                    className="leverOrderPopup-85"
+                    class="leverOrderPopup-85"
                     onClick={() => {
                       if (strutcnum && strutcnum > 0.1) {
                         setstrutcnum(strutcnum - 0.1);
@@ -556,15 +556,15 @@ export default function CenterPage({
                   </span>
                 </div>
               </div>
-              <div className="leverOrderPopup-86">
-                <div className="leverOrderPopup-87">
-                  <div className="leverOrderPopup-88"></div>
+              <div class="leverOrderPopup-86">
+                <div class="leverOrderPopup-87">
+                  <div class="leverOrderPopup-88"></div>
                   <input
                     maxlength="140"
                     enterkeyhint="done"
                     autocomplete="off"
                     type="number"
-                    className="leverOrderPopup-89"
+                    class="leverOrderPopup-89"
                     value={strutcnum}
                     onChange={(e) => {
                       setstrutcnum(e.target.value);
@@ -572,10 +572,10 @@ export default function CenterPage({
                   />
                 </div>
               </div>
-              <div className="leverOrderPopup-90">
-                <div className="leverOrderPopup-91">
+              <div class="leverOrderPopup-90">
+                <div class="leverOrderPopup-91">
                   <span
-                    className="leverOrderPopup-92"
+                    class="leverOrderPopup-92"
                     onClick={() => {
                       if (strutcnum) {
                         setstrutcnum(strutcnum + 0.1);
@@ -622,13 +622,13 @@ export default function CenterPage({
           }}
         >
           {translate(getText("订单号"))}：{tempData?.orderNo}
-          <div className="leverOrderPopup-80">{translate(getText("止盈"))}：</div>
-          <div className="leverOrderPopup-81">
-            <div className="leverOrderPopup-82">
-              <div className="leverOrderPopup-83">
-                <div className="leverOrderPopup-84">
+          <div class="leverOrderPopup-80">{translate(getText("止盈"))}：</div>
+          <div class="leverOrderPopup-81">
+            <div class="leverOrderPopup-82">
+              <div class="leverOrderPopup-83">
+                <div class="leverOrderPopup-84">
                   <span
-                    className="leverOrderPopup-85"
+                    class="leverOrderPopup-85"
                     onClick={() => {
                       if (winnum && winnum > 0.1) {
                         setwinnum(winnum - 0.1);
@@ -639,15 +639,15 @@ export default function CenterPage({
                   </span>
                 </div>
               </div>
-              <div className="leverOrderPopup-86">
-                <div className="leverOrderPopup-87">
-                  <div className="leverOrderPopup-88"></div>
+              <div class="leverOrderPopup-86">
+                <div class="leverOrderPopup-87">
+                  <div class="leverOrderPopup-88"></div>
                   <input
                     maxlength="140"
                     enterkeyhint="done"
                     autocomplete="off"
                     type="number"
-                    className="leverOrderPopup-89"
+                    class="leverOrderPopup-89"
                     value={winnum}
                     onChange={(e) => {
                       setwinnum(e.target.value);
@@ -655,10 +655,10 @@ export default function CenterPage({
                   />
                 </div>
               </div>
-              <div className="leverOrderPopup-90">
-                <div className="leverOrderPopup-91">
+              <div class="leverOrderPopup-90">
+                <div class="leverOrderPopup-91">
                   <span
-                    className="leverOrderPopup-92"
+                    class="leverOrderPopup-92"
                     onClick={() => {
                       if (winnum) {
                         setwinnum(winnum + 0.1);
@@ -673,13 +673,13 @@ export default function CenterPage({
               </div>
             </div>
           </div>
-          <div className="leverOrderPopup-80">{translate(getText("止損"))}：</div>
-          <div className="leverOrderPopup-81">
-            <div className="leverOrderPopup-82">
-              <div className="leverOrderPopup-83">
-                <div className="leverOrderPopup-84">
+          <div class="leverOrderPopup-80">{translate(getText("止損"))}：</div>
+          <div class="leverOrderPopup-81">
+            <div class="leverOrderPopup-82">
+              <div class="leverOrderPopup-83">
+                <div class="leverOrderPopup-84">
                   <span
-                    className="leverOrderPopup-85"
+                    class="leverOrderPopup-85"
                     onClick={() => {
                       if (lossnum && lossnum > 0.1) {
                         setlossnum(lossnum - 0.1);
@@ -690,15 +690,15 @@ export default function CenterPage({
                   </span>
                 </div>
               </div>
-              <div className="leverOrderPopup-86">
-                <div className="leverOrderPopup-87">
-                  <div className="leverOrderPopup-88"></div>
+              <div class="leverOrderPopup-86">
+                <div class="leverOrderPopup-87">
+                  <div class="leverOrderPopup-88"></div>
                   <input
                     maxlength="140"
                     enterkeyhint="done"
                     autocomplete="off"
                     type="number"
-                    className="leverOrderPopup-89"
+                    class="leverOrderPopup-89"
                     value={lossnum}
                     onChange={(e) => {
                       setlossnum(e.target.value);
@@ -706,10 +706,10 @@ export default function CenterPage({
                   />
                 </div>
               </div>
-              <div className="leverOrderPopup-90">
-                <div className="leverOrderPopup-91">
+              <div class="leverOrderPopup-90">
+                <div class="leverOrderPopup-91">
                   <span
-                    className="leverOrderPopup-92"
+                    class="leverOrderPopup-92"
                     onClick={() => {
                       if (lossnum) {
                         setlossnum(lossnum + 0.1);

@@ -39,118 +39,118 @@ export default function CenterPage({ info, closeOrder }) {
     }
   };
   return (
-    <div id="depositDetails" className="depositDetails-1">
-      <div className="depositDetails-2">
-        <div className="depositDetails-3">
+    <div id="depositDetails" class="depositDetails-1">
+      <div class="depositDetails-2">
+        <div class="depositDetails-3">
           {(info?.status == 1 || info?.status == 4 || info?.status == 6) && (
             <img
               src="/depositDetails/icon_wait.svg"
               alt=""
-              className="depositDetails-4"
+              class="depositDetails-4"
             />
           )}
           {info?.status == 2 && (
             <img
               src="/depositDetails/success.svg"
               alt=""
-              className="depositDetails-4"
+              class="depositDetails-4"
             />
           )}
           {(info?.status == 3 || info?.status == 5) && (
             <img
               src="/depositDetails/error.svg"
               alt=""
-              className="depositDetails-4"
+              class="depositDetails-4"
             />
           )}
         </div>
         {info.type == 1 && (
-          <h4 className="depositDetails-5">{statusStr[info?.status - 1]}</h4>
+          <h4 class="depositDetails-5">{statusStr[info?.status - 1]}</h4>
         )}
         {info.type == 2 && (
-          <h4 className="depositDetails-5">{statusStr2[info?.status - 1]}</h4>
+          <h4 class="depositDetails-5">{statusStr2[info?.status - 1]}</h4>
         )}
       </div>
-      <div className="depositDetails-6">
-        <div className="depositDetails-7">
-          <div className="depositDetails-8">
-            <div className="depositDetails-9">
-              <span className="depositDetails-10">
+      <div class="depositDetails-6">
+        <div class="depositDetails-7">
+          <div class="depositDetails-8">
+            <div class="depositDetails-9">
+              <span class="depositDetails-10">
                 {translate(getText("訂單號"))}
               </span>
             </div>
-            <div className="depositDetails-11">
-              <span className="depositDetails-12">{info?.orderNo}</span>
+            <div class="depositDetails-11">
+              <span class="depositDetails-12">{info?.orderNo}</span>
             </div>
             <img
               src="/depositDetails/icon_copy.svg"
               alt=""
-              className="depositDetails-13"
+              class="depositDetails-13"
               onClick={() => {
                 handleCopy(info?.orderNo);
               }}
             />
           </div>
-          <div className="depositDetails-14">
-            <div className="depositDetails-15">
-              <span className="depositDetails-16">
+          <div class="depositDetails-14">
+            <div class="depositDetails-15">
+              <span class="depositDetails-16">
                 {translate(getText("時間"))}
               </span>
             </div>
-            <div className="depositDetails-17">
-              <span className="depositDetails-18">{info?.createTime}</span>
+            <div class="depositDetails-17">
+              <span class="depositDetails-18">{info?.createTime}</span>
             </div>
           </div>
-          <div className="depositDetails-19">
-            <div className="depositDetails-20">
-              <span className="depositDetails-21">
+          <div class="depositDetails-19">
+            <div class="depositDetails-20">
+              <span class="depositDetails-21">
                 {translate(getText("交易金額"))}
               </span>
             </div>
-            <div className="depositDetails-22">
-              <span className="depositDetails-23">{info?.czNum}</span>
+            <div class="depositDetails-22">
+              <span class="depositDetails-23">{info?.czNum}</span>
             </div>
           </div>
-          <div className="depositDetails-19">
-            <div className="depositDetails-20">
-              <span className="depositDetails-21">
+          <div class="depositDetails-19">
+            <div class="depositDetails-20">
+              <span class="depositDetails-21">
                 {translate(getText("銀行卡"))}
               </span>
             </div>
-            <div className="depositDetails-22">
-              <span className="depositDetails-23">
+            <div class="depositDetails-22">
+              <span class="depositDetails-23">
                 {bankTypeStr[info?.bankType - 1]}
               </span>
             </div>
           </div>
-          <div className="depositDetails-19">
-            <div className="depositDetails-20">
-              <span className="depositDetails-21">
+          <div class="depositDetails-19">
+            <div class="depositDetails-20">
+              <span class="depositDetails-21">
                 {translate(getText("银行卡号"))}
               </span>
             </div>
-            <div className="depositDetails-22">
-              <span className="depositDetails-23">{info?.twC2cBank?.bankNo}</span>
+            <div class="depositDetails-22">
+              <span class="depositDetails-23">{info?.twC2cBank?.bankNo}</span>
             </div>
           </div>
-          <div className="depositDetails-19">
-            <div className="depositDetails-20">
-              <span className="depositDetails-21">
+          <div class="depositDetails-19">
+            <div class="depositDetails-20">
+              <span class="depositDetails-21">
                 {translate(getText("收款人姓名"))}
               </span>
             </div>
-            <div className="depositDetails-22">
-              <span className="depositDetails-23">{info?.twC2cBank?.name}</span>
+            <div class="depositDetails-22">
+              <span class="depositDetails-23">{info?.twC2cBank?.name}</span>
             </div>
           </div>
-          <div className="depositDetails-44">
-            <div className="depositDetails-45">
-              <span className="depositDetails-46">
+          <div class="depositDetails-44">
+            <div class="depositDetails-45">
+              <span class="depositDetails-46">
                 {translate(getText("备注信息"))}
               </span>
             </div>
-            <div className="depositDetails-47">
-              <span className="depositDetails-48">{info?.remark}</span>
+            <div class="depositDetails-47">
+              <span class="depositDetails-48">{info?.remark}</span>
             </div>
           </div>
           {info?.status == 4 && (
