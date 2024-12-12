@@ -53,12 +53,12 @@ export default function DataListAndBuy({
         break
       }
       nodes.push(
-          <div class="leverListAndBuy-102">
-            <div class="leverListAndBuy-103">
-              <span class="leverListAndBuy-104">{data.price}</span>
+          <div className="leverListAndBuy-102">
+            <div className="leverListAndBuy-103">
+              <span className="leverListAndBuy-104">{data.price}</span>
             </div>
-            <div class="leverListAndBuy-105">
-              <span class="leverListAndBuy-106">{data.amount?.toFixed(5)}</span>
+            <div className="leverListAndBuy-105">
+              <span className="leverListAndBuy-106">{data.amount?.toFixed(5)}</span>
             </div>
           </div>,
       )
@@ -74,12 +74,12 @@ export default function DataListAndBuy({
         continue
       }
       nodes.push(
-          <div class="leverListAndBuy-144">
-            <div class="leverListAndBuy-145">
-              <span class="leverListAndBuy-146">{data.price}</span>
+          <div className="leverListAndBuy-144">
+            <div className="leverListAndBuy-145">
+              <span className="leverListAndBuy-146">{data.price}</span>
             </div>
-            <div class="leverListAndBuy-147">
-              <span class="leverListAndBuy-148">{data.amount?.toFixed(5)}</span>
+            <div className="leverListAndBuy-147">
+              <span className="leverListAndBuy-148">{data.amount?.toFixed(5)}</span>
             </div>
           </div>,
       )
@@ -407,15 +407,15 @@ export default function DataListAndBuy({
                     }}
                 >+</div>
               </div>
-              {/* <div class="leverListAndBuy-78">
-              <div class="leverListAndBuy-79">25%</div>
-              <div class="leverListAndBuy-80">50%</div>
-              <div class="leverListAndBuy-81">75%</div>
-              <div class="leverListAndBuy-82">100%</div>
+              {/* <div className="leverListAndBuy-78">
+              <div className="leverListAndBuy-79">25%</div>
+              <div className="leverListAndBuy-80">50%</div>
+              <div className="leverListAndBuy-81">75%</div>
+              <div className="leverListAndBuy-82">100%</div>
             </div> */}
               <div className="leverListAndBuy-83">
                 <div className="leverListAndBuy-84">
-                  {/* <i class="leverListAndBuy-85"></i> */}
+                  {/* <i className="leverListAndBuy-85"></i> */}
                   <div className="leverListAndBuy-86">
                   <span className="leverListAndBuy-87">
                     {translate(getText('止盈止损'))}

@@ -51,17 +51,17 @@ export default function PropertyCenter({
             <g
               id="页面-1"
               stroke="none"
-              stroke-width="1"
+              strokeWidth="1"
               fill="none"
-              fill-rule="evenodd"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              fillRule="evenodd"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <g
                 id="Assets"
                 transform="translate(-670.000000, -130.000000)"
                 stroke="#2B2B2B"
-                stroke-width="3.5"
+                strokeWidth="3.5"
               >
                 <g id="编组-11" transform="translate(670.000000, 130.000000)">
                   <g id="编组-8" transform="translate(6.400852, 7.083792)">
@@ -155,9 +155,9 @@ export default function PropertyCenter({
                     <path
                       fill="none"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="m9 18l6-6l-6-6"
                     />
                   </svg>
@@ -182,9 +182,9 @@ export default function PropertyCenter({
                 <path
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M5 12h14m-7-7l7 7l-7 7"
                 />
               </svg>

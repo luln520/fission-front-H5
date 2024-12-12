@@ -10,10 +10,10 @@ export default function TopBuy({ setIsShowOrder, setType }) {
   const [num, setNum] = useState(1);
   const { t: translate } = useTranslation();
   return (
-    <div class="marketbuydiv-1">
-      <div class="marketbuydiv-2">
+    <div className="marketbuydiv-1">
+      <div className="marketbuydiv-2">
         <div
-          class="marketbuydiv-3"
+          className="marketbuydiv-3"
           onClick={() => {
             setIsShowOrder(true);
             setType(1);
@@ -22,7 +22,7 @@ export default function TopBuy({ setIsShowOrder, setType }) {
           {translate(getText("買多"))}
         </div>
         <div
-          class="marketbuydiv-4"
+          className="marketbuydiv-4"
           onClick={() => {
             setIsShowOrder(true);
             setType(2);

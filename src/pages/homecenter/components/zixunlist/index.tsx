@@ -25,18 +25,18 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
       const key = ctmarket.coinname;
       nodes.push(
         <div
-          class="zixunlist-2"
+          className="zixunlist-2"
           onClick={() => {
             navigate(`/trade/${key}`);
           }}
         >
-          <div class="zixunlist-3">
-            <div class="zixunlist-4">
-              <span class="zixunlist-5">{key.toUpperCase()}USDT</span>
+          <div className="zixunlist-3">
+            <div className="zixunlist-4">
+              <span className="zixunlist-5">{key.toUpperCase()}USDT</span>
             </div>
           </div>
           <div
-            class={
+            className={
               coinListData[key]?.close > coinListData[key]?.open
                 ? "zixunlist-41"
                 : "zixunlist-7"
@@ -44,7 +44,7 @@ export default function Zixunlist({ coinListData, ctmarketlist }) {
           >
             {coinListData[key]?.close ? coinListData[key]?.close : "--"}
           </div>
-          <div class="zixunlist-8">
+          <div className="zixunlist-8">
             <canvas
               ref={
                 index == 0 ? canvas1Ref : index == 1 ? canvas2Ref : canvas3Ref

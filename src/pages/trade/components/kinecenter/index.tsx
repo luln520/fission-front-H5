@@ -25,7 +25,7 @@ export default function KineCenter({
       const time = times[i];
       nodes.push(
         <li
-          class={timeindex == i + 1 ? "kinecenter-3" : "kinecenter-4"}
+          className={timeindex == i + 1 ? "kinecenter-3" : "kinecenter-4"}
           onClick={() => {
             settimeindex(i + 1);
           }}
@@ -40,11 +40,11 @@ export default function KineCenter({
   //渲染k
 
   return (
-    <div class="kinecenter-1">
-      {/* <ul class="kinecenter-2">{getTimesArray()}</ul> */}
-      <div class="kinecenter-11">
+    <div className="kinecenter-1">
+      {/* <ul className="kinecenter-2">{getTimesArray()}</ul> */}
+      <div className="kinecenter-11">
         {/* k线图 */}
-        <div id="kline" class="kinecenter-12">
+        <div id="kline" className="kinecenter-12">
           <KLine3
             nowTab={nowTab}
             setIndex={setIndex}

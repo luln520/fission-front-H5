@@ -20,7 +20,7 @@ export default function CenterPage({
     for (const key in coinListDataTemp) {
       nodes.push(
         <div
-          class="quotation-29"
+          className="quotation-29"
           key={key}
           onClick={() => {
             if (type == 1) {
@@ -30,28 +30,28 @@ export default function CenterPage({
             }
           }}
         >
-          <div class="quotation-30">
-            <div class="quotation-31">
-              <span class="quotation-32">{key.toUpperCase()}/USDT</span>
+          <div className="quotation-30">
+            <div className="quotation-31">
+              <span className="quotation-32">{key.toUpperCase()}/USDT</span>
             </div>
-            <div class="quotation-33">
-              <span class="quotation-34">
+            <div className="quotation-33">
+              <span className="quotation-34">
                 VOL：{(coinListData[key]?.vol / 10000).toFixed(2)}M
               </span>
             </div>
           </div>
-          <div class="quotation-35">
-            <span class="quotation-36">
-              <div class="quotation-37">
-                <span class="quotation-38">{coinListData[key]?.close}</span>
+          <div className="quotation-35">
+            <span className="quotation-36">
+              <div className="quotation-37">
+                <span className="quotation-38">{coinListData[key]?.close}</span>
               </div>
-              <div class="quotation-39">
-                <span class="quotation-40">$ {coinListData[key]?.close}</span>
+              <div className="quotation-39">
+                <span className="quotation-40">$ {coinListData[key]?.close}</span>
               </div>
             </span>
           </div>
           <div
-            class={
+            className={
               coinListData[key]?.close < coinListData[key]?.open
                 ? "quotation-41"
                 : "quotation-54"
@@ -68,33 +68,33 @@ export default function CenterPage({
           </div>
         </div>
         // <li
-        //   class="quotationcenter-37"
+        //   className="quotationcenter-37"
         //   key={key}
         //   onClick={() => {
         //     navigate(`/trade/${key}`);
         //   }}
         // >
-        //   <div class="quotationcenter-38">
-        //     <div class="quotationcenter-39">
-        //       <div class="quotationcenter-40">
-        //         <img src={getLogo(key)} class="quotationcenter-42" />
+        //   <div className="quotationcenter-38">
+        //     <div className="quotationcenter-39">
+        //       <div className="quotationcenter-40">
+        //         <img src={getLogo(key)} className="quotationcenter-42" />
         //       </div>
         //     </div>
-        //     <div class="quotationcenter-43">
-        //       <span class="quotationcenter-44">
+        //     <div className="quotationcenter-43">
+        //       <span className="quotationcenter-44">
         //         {key.toUpperCase()}
-        //         <small class="quotationcenter-45">/USDT</small>
+        //         <small className="quotationcenter-45">/USDT</small>
         //       </span>
-        //       <p class="quotationcenter-46">
+        //       <p className="quotationcenter-46">
         //         {translate(getText("量"))}：
         //         {(coinListData[key]?.vol / 10000).toFixed(2)}
         //         {translate(getText("萬"))}
         //       </p>
         //     </div>
         //   </div>
-        //   <div class="quotationcenter-47">
+        //   <div className="quotationcenter-47">
         //     <span
-        //       class={
+        //       className={
         //         coinListData[key]?.close < coinListData[key]?.open
         //           ? "quotationcenter-132"
         //           : "quotationcenter-48"
@@ -103,9 +103,9 @@ export default function CenterPage({
         //       {coinListData[key]?.close}
         //     </span>
         //   </div>
-        //   <div class="quotationcenter-49">
+        //   <div className="quotationcenter-49">
         //     <div
-        //       class={
+        //       className={
         //         coinListData[key]?.close < coinListData[key]?.open
         //           ? "quotationcenter-134"
         //           : "quotationcenter-50"
@@ -163,14 +163,14 @@ export default function CenterPage({
               <g
                 id="页面-1"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
-                fill-rule="evenodd"
+                fillRule="evenodd"
               >
                 <g
                   id="Market"
                   transform="translate(-205.000000, -139.000000)"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                 >
                   <g id="编组-4" transform="translate(205.000000, 139.000000)">
                     <g id="编组-2" transform="translate(10.916667, 3.000000)">
@@ -214,14 +214,14 @@ export default function CenterPage({
               <g
                 id="页面-1"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
-                fill-rule="evenodd"
+                fillRule="evenodd"
               >
                 <g
                   id="Market"
                   transform="translate(-205.000000, -139.000000)"
-                  fill-rule="nonzero"
+                  fillRule="nonzero"
                 >
                   <g id="编组-4" transform="translate(205.000000, 139.000000)">
                     <g id="编组-2" transform="translate(10.916667, 3.000000)">

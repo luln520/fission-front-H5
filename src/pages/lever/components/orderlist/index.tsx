@@ -51,18 +51,18 @@ export default function OrderList({
     );
     for (const data of leverorders) {
       nodes.push(
-        <li class="orderlisttab-24">
-          <span class="orderlisttab-25">{data.coinname}</span>
-          {orderindex == 1 && <span class="orderlisttab-26">{data.num}</span>}
-          <span class="orderlisttab-27">{data.sellprice}</span>
+        <li className="orderlisttab-24">
+          <span className="orderlisttab-25">{data.coinname}</span>
+          {orderindex == 1 && <span className="orderlisttab-26">{data.num}</span>}
+          <span className="orderlisttab-27">{data.sellprice}</span>
           <span
-            class={data.hyzd == 1 ? "orderlisttab-28" : "orderlisttab-28-1"}
+            className={data.hyzd == 1 ? "orderlisttab-28" : "orderlisttab-28-1"}
           >
             {data.hyzd == 1
               ? translate(getText("買多"))
               : translate(getText("買空"))}
           </span>
-          {/* <span class="orderlisttab-29">0</span> */}
+          {/* <span className="orderlisttab-29">0</span> */}
         </li>
       );
     }
@@ -86,9 +86,9 @@ export default function OrderList({
           data.buyprice)
       ).toFixed(4);
       const node = (
-        <li class="leverorderlistItem11-4">
+        <li className="leverorderlistItem11-4">
           <div
-            class="leverorderlistItem11-5"
+            className="leverorderlistItem11-5"
             onClick={() => {
               const sendData = {
                 orderNo: data.orderNo,
@@ -107,35 +107,35 @@ export default function OrderList({
               );
             }}
           >
-            <div class="leverorderlistItem11-6">
-              <div class="leverorderlistItem11-7">
-                <div class="leverorderlistItem11-8">
-                  <p class="leverorderlistItem11-9">
+            <div className="leverorderlistItem11-6">
+              <div className="leverorderlistItem11-7">
+                <div className="leverorderlistItem11-8">
+                  <p className="leverorderlistItem11-9">
                     {translate(getText("交易品種"))}
                   </p>
-                  <p class="leverorderlistItem11-10">{data.coinname}</p>
-                  <p class="leverorderlistItem11-11">
+                  <p className="leverorderlistItem11-10">{data.coinname}</p>
+                  <p className="leverorderlistItem11-11">
                     {translate(getText("保证金"))}
                   </p>
-                  <p class="leverorderlistItem11-12">{data.num?.toFixed(4)}</p>
-                  <p class="leverorderlistItem11-13">
+                  <p className="leverorderlistItem11-12">{data.num?.toFixed(4)}</p>
+                  <p className="leverorderlistItem11-13">
                     {translate(getText("倍数"))}
                   </p>
-                  <p class="leverorderlistItem11-14">{data.fold}</p>
+                  <p className="leverorderlistItem11-14">{data.fold}</p>
                 </div>
               </div>
-              <div class="leverorderlistItem11-15">
-                <div class="leverorderlistItem11-16">
-                  <p class="leverorderlistItem11-17">
+              <div className="leverorderlistItem11-15">
+                <div className="leverorderlistItem11-16">
+                  <p className="leverorderlistItem11-17">
                     {translate(getText("開倉價"))}
                   </p>
-                  <p class="leverorderlistItem11-18">
+                  <p className="leverorderlistItem11-18">
                     {data.buyprice?.toFixed(4)}
                   </p>
-                  <p class="leverorderlistItem11-19">
+                  <p className="leverorderlistItem11-19">
                     {translate(getText(data.status == 1 ? "現價" : "结算價"))}
                   </p>
-                  <p class="leverorderlistItem11-20">
+                  <p className="leverorderlistItem11-20">
                     {data.status == 1 &&
                       coinListData[
                         data.coinname.replace("/USDT", "").toLowerCase()
@@ -143,21 +143,21 @@ export default function OrderList({
                     {data.status != 1 && data.sellprice}
                     &nbsp;
                   </p>
-                  <p class="leverorderlistItem11-21">
+                  <p className="leverorderlistItem11-21">
                     {translate(getText("强平价格"))}
                   </p>
-                  <p class="leverorderlistItem11-22">
+                  <p className="leverorderlistItem11-22">
                     {data.boomPrice?.toFixed(4)}
                   </p>
                 </div>
               </div>
-              <div class="leverorderlistItem11-23">
-                <div class="leverorderlistItem11-24">
-                  <p class="leverorderlistItem11-25">
+              <div className="leverorderlistItem11-23">
+                <div className="leverorderlistItem11-24">
+                  <p className="leverorderlistItem11-25">
                     {translate(getText("方向"))}
                   </p>
                   <p
-                    class={
+                    className={
                       data.hyzd == 1
                         ? "leverorderlistItem11-32"
                         : "leverorderlistItem11-32-1"
@@ -165,29 +165,29 @@ export default function OrderList({
                   >
                     {translate(getText(data.hyzd == 1 ? "買多" : "買空"))}
                   </p>
-                  <p class="leverorderlistItem11-25">
+                  <p className="leverorderlistItem11-25">
                     {translate(getText("止損價"))}
                   </p>
-                  <p class="leverorderlistItem11-26">
+                  <p className="leverorderlistItem11-26">
                     {data.lossPrice?.toFixed(4)}
                   </p>
-                  <p class="leverorderlistItem11-27">
+                  <p className="leverorderlistItem11-27">
                     {translate(getText("止盈價"))}
                   </p>
-                  <p class="leverorderlistItem11-28">
+                  <p className="leverorderlistItem11-28">
                     {data.winPrice?.toFixed(4)}
                   </p>
                 </div>
               </div>
             </div>
-            <div class="leverorderlistItem11-29">
+            <div className="leverorderlistItem11-29">
               {data.status == 1 && (
-                <div class="leverorderlistItem11-30">
-                  <p class="leverorderlistItem11-31">
+                <div className="leverorderlistItem11-30">
+                  <p className="leverorderlistItem11-31">
                     {translate(getText("預期收益"))}
                   </p>
                   <p
-                    class={
+                    className={
                       (priceyd < 0 && data.hyzd == 1) ||
                       (priceyd > 0 && data.hyzd == 2)
                         ? "leverorderlistItem11-32"
@@ -202,12 +202,12 @@ export default function OrderList({
                 </div>
               )}
               {data.status == 2 && (
-                <div class="leverorderlistItem11-30">
-                  <p class="leverorderlistItem11-31">
+                <div className="leverorderlistItem11-30">
+                  <p className="leverorderlistItem11-31">
                     {translate(getText("收益"))}
                   </p>
                   <p
-                    class={
+                    className={
                       data.ploss > 0
                         ? "leverorderlistItem11-32"
                         : "leverorderlistItem11-32-1"
@@ -221,9 +221,9 @@ export default function OrderList({
             </div>
           </div>
           {data.status == 1 && (
-            <div class="leverorderlistItem11-33">
+            <div className="leverorderlistItem11-33">
               <p
-                class="leverorderlistItem11-34"
+                className="leverorderlistItem11-34"
                 onClick={(e) => {
                   Dialog.confirm({
                     title: translate(getText("提示")),
@@ -246,7 +246,7 @@ export default function OrderList({
                 {translate(getText("平倉"))}
               </p>
               <p
-                class="leverorderlistItem11-35"
+                className="leverorderlistItem11-35"
                 onClick={() => {
                   settempData(data);
                   setaddnumVisible(true);
@@ -256,7 +256,7 @@ export default function OrderList({
                 {translate(getText("加仓"))}
               </p>
               <p
-                class="leverorderlistItem11-35"
+                className="leverorderlistItem11-35"
                 onClick={() => {
                   settempData(data);
                   setstrutcnumVisible(true);
@@ -266,7 +266,7 @@ export default function OrderList({
                 {translate(getText("减仓"))}
               </p>
               <p
-                class="leverorderlistItem11-36"
+                className="leverorderlistItem11-36"
                 onClick={() => {
                   settempData(data);
                   seteditLossWinVisible(true);
@@ -279,11 +279,11 @@ export default function OrderList({
             </div>
           )}
           {data.status == 1 && (
-            <div class="leverorderlistItem11-37">
-              {/* <p class="leverorderlistItem11-38">設定止盈止損</p> */}
-              {/* <p class="leverorderlistItem11-39">鎖倉</p> */}
+            <div className="leverorderlistItem11-37">
+              {/* <p className="leverorderlistItem11-38">設定止盈止損</p> */}
+              {/* <p className="leverorderlistItem11-39">鎖倉</p> */}
               {/* <p
-                        class="leverorderlistItem11-40"
+                        className="leverorderlistItem11-40"
                       >
                         詳細
                       </p> */}
@@ -300,26 +300,26 @@ export default function OrderList({
       style={{
       }}
     >
-      <div class="leverchangebar-1">
-        <div class="leverchangebar-2">
-          <div class="leverchangebar-3">
+      <div className="leverchangebar-1">
+        <div className="leverchangebar-2">
+          <div className="leverchangebar-3">
             <div
-              class={orderindex == 1 ? "leverchangebar-4" : "leverchangebar-7"}
+              className={orderindex == 1 ? "leverchangebar-4" : "leverchangebar-7"}
               onClick={() => {
                 setorderindex(1);
               }}
             >
-              <span class="leverchangebar-5">{translate(getText("持仓"))}</span>
+              <span className="leverchangebar-5">{translate(getText("持仓"))}</span>
             </div>
           </div>
-          <div class="leverchangebar-6">
+          <div className="leverchangebar-6">
             <div
-              class={orderindex == 2 ? "leverchangebar-4" : "leverchangebar-7"}
+              className={orderindex == 2 ? "leverchangebar-4" : "leverchangebar-7"}
               onClick={() => {
                 setorderindex(2);
               }}
             >
-              <span class="leverchangebar-8">{translate(getText("历史委托"))}</span>
+              <span className="leverchangebar-8">{translate(getText("历史委托"))}</span>
             </div>
           </div>
         </div>
@@ -358,13 +358,13 @@ export default function OrderList({
           }}
         >
           {translate(getText("订单号"))}：{tempData?.orderNo}
-          <div class="leverOrderPopup-80">{translate(getText("数量"))}：</div>
-          <div class="leverOrderPopup-81">
-            <div class="leverOrderPopup-82">
-              <div class="leverOrderPopup-83">
-                <div class="leverOrderPopup-84">
+          <div className="leverOrderPopup-80">{translate(getText("数量"))}：</div>
+          <div className="leverOrderPopup-81">
+            <div className="leverOrderPopup-82">
+              <div className="leverOrderPopup-83">
+                <div className="leverOrderPopup-84">
                   <span
-                    class="leverOrderPopup-85"
+                    className="leverOrderPopup-85"
                     onClick={() => {
                       if (addnum && addnum > 0.1) {
                         setaddnum(addnum - 0.1);
@@ -375,15 +375,15 @@ export default function OrderList({
                   </span>
                 </div>
               </div>
-              <div class="leverOrderPopup-86">
-                <div class="leverOrderPopup-87">
-                  <div class="leverOrderPopup-88"></div>
+              <div className="leverOrderPopup-86">
+                <div className="leverOrderPopup-87">
+                  <div className="leverOrderPopup-88"></div>
                   <input
                     maxlength="140"
                     enterkeyhint="done"
                     autocomplete="off"
                     type="number"
-                    class="leverOrderPopup-89"
+                    className="leverOrderPopup-89"
                     value={addnum}
                     onChange={(e) => {
                       setaddnum(e.target.value);
@@ -391,10 +391,10 @@ export default function OrderList({
                   />
                 </div>
               </div>
-              <div class="leverOrderPopup-90">
-                <div class="leverOrderPopup-91">
+              <div className="leverOrderPopup-90">
+                <div className="leverOrderPopup-91">
                   <span
-                    class="leverOrderPopup-92"
+                    className="leverOrderPopup-92"
                     onClick={() => {
                       if (addnum) {
                         setaddnum(addnum + 0.1);
@@ -435,13 +435,13 @@ export default function OrderList({
           }}
         >
           {translate(getText("订单号"))}：{tempData?.orderNo}
-          <div class="leverOrderPopup-80">{translate(getText("数量"))}：</div>
-          <div class="leverOrderPopup-81">
-            <div class="leverOrderPopup-82">
-              <div class="leverOrderPopup-83">
-                <div class="leverOrderPopup-84">
+          <div className="leverOrderPopup-80">{translate(getText("数量"))}：</div>
+          <div className="leverOrderPopup-81">
+            <div className="leverOrderPopup-82">
+              <div className="leverOrderPopup-83">
+                <div className="leverOrderPopup-84">
                   <span
-                    class="leverOrderPopup-85"
+                    className="leverOrderPopup-85"
                     onClick={() => {
                       if (strutcnum && strutcnum > 0.1) {
                         setstrutcnum(strutcnum - 0.1);
@@ -452,15 +452,15 @@ export default function OrderList({
                   </span>
                 </div>
               </div>
-              <div class="leverOrderPopup-86">
-                <div class="leverOrderPopup-87">
-                  <div class="leverOrderPopup-88"></div>
+              <div className="leverOrderPopup-86">
+                <div className="leverOrderPopup-87">
+                  <div className="leverOrderPopup-88"></div>
                   <input
                     maxlength="140"
                     enterkeyhint="done"
                     autocomplete="off"
                     type="number"
-                    class="leverOrderPopup-89"
+                    className="leverOrderPopup-89"
                     value={strutcnum}
                     onChange={(e) => {
                       setstrutcnum(e.target.value);
@@ -468,10 +468,10 @@ export default function OrderList({
                   />
                 </div>
               </div>
-              <div class="leverOrderPopup-90">
-                <div class="leverOrderPopup-91">
+              <div className="leverOrderPopup-90">
+                <div className="leverOrderPopup-91">
                   <span
-                    class="leverOrderPopup-92"
+                    className="leverOrderPopup-92"
                     onClick={() => {
                       if (strutcnum) {
                         setstrutcnum(strutcnum + 0.1);
@@ -514,13 +514,13 @@ export default function OrderList({
           }}
         >
           {translate(getText("订单号"))}：{tempData?.orderNo}
-          <div class="leverOrderPopup-80">{translate(getText("止盈"))}：</div>
-          <div class="leverOrderPopup-81">
-            <div class="leverOrderPopup-82">
-              <div class="leverOrderPopup-83">
-                <div class="leverOrderPopup-84">
+          <div className="leverOrderPopup-80">{translate(getText("止盈"))}：</div>
+          <div className="leverOrderPopup-81">
+            <div className="leverOrderPopup-82">
+              <div className="leverOrderPopup-83">
+                <div className="leverOrderPopup-84">
                   <span
-                    class="leverOrderPopup-85"
+                    className="leverOrderPopup-85"
                     onClick={() => {
                       if (winnum && winnum > 0.1) {
                         setwinnum(winnum - 0.1);
@@ -531,15 +531,15 @@ export default function OrderList({
                   </span>
                 </div>
               </div>
-              <div class="leverOrderPopup-86">
-                <div class="leverOrderPopup-87">
-                  <div class="leverOrderPopup-88"></div>
+              <div className="leverOrderPopup-86">
+                <div className="leverOrderPopup-87">
+                  <div className="leverOrderPopup-88"></div>
                   <input
                     maxlength="140"
                     enterkeyhint="done"
                     autocomplete="off"
                     type="number"
-                    class="leverOrderPopup-89"
+                    className="leverOrderPopup-89"
                     value={winnum}
                     onChange={(e) => {
                       setwinnum(e.target.value);
@@ -547,10 +547,10 @@ export default function OrderList({
                   />
                 </div>
               </div>
-              <div class="leverOrderPopup-90">
-                <div class="leverOrderPopup-91">
+              <div className="leverOrderPopup-90">
+                <div className="leverOrderPopup-91">
                   <span
-                    class="leverOrderPopup-92"
+                    className="leverOrderPopup-92"
                     onClick={() => {
                       if (winnum) {
                         setwinnum(winnum + 0.1);
@@ -565,13 +565,13 @@ export default function OrderList({
               </div>
             </div>
           </div>
-          <div class="leverOrderPopup-80">{translate(getText("止損"))}：</div>
-          <div class="leverOrderPopup-81">
-            <div class="leverOrderPopup-82">
-              <div class="leverOrderPopup-83">
-                <div class="leverOrderPopup-84">
+          <div className="leverOrderPopup-80">{translate(getText("止損"))}：</div>
+          <div className="leverOrderPopup-81">
+            <div className="leverOrderPopup-82">
+              <div className="leverOrderPopup-83">
+                <div className="leverOrderPopup-84">
                   <span
-                    class="leverOrderPopup-85"
+                    className="leverOrderPopup-85"
                     onClick={() => {
                       if (lossnum && lossnum > 0.1) {
                         setlossnum(lossnum - 0.1);
@@ -582,15 +582,15 @@ export default function OrderList({
                   </span>
                 </div>
               </div>
-              <div class="leverOrderPopup-86">
-                <div class="leverOrderPopup-87">
-                  <div class="leverOrderPopup-88"></div>
+              <div className="leverOrderPopup-86">
+                <div className="leverOrderPopup-87">
+                  <div className="leverOrderPopup-88"></div>
                   <input
                     maxlength="140"
                     enterkeyhint="done"
                     autocomplete="off"
                     type="number"
-                    class="leverOrderPopup-89"
+                    className="leverOrderPopup-89"
                     value={lossnum}
                     onChange={(e) => {
                       setlossnum(e.target.value);
@@ -598,10 +598,10 @@ export default function OrderList({
                   />
                 </div>
               </div>
-              <div class="leverOrderPopup-90">
-                <div class="leverOrderPopup-91">
+              <div className="leverOrderPopup-90">
+                <div className="leverOrderPopup-91">
                   <span
-                    class="leverOrderPopup-92"
+                    className="leverOrderPopup-92"
                     onClick={() => {
                       if (lossnum) {
                         setlossnum(lossnum + 0.1);

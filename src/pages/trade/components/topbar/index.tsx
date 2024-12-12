@@ -33,7 +33,7 @@ export default function TopBar({
       let hyTime = hyTimes[index];
       const node = (
         <div
-          class={zq === index + 1 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
+          className={zq === index + 1 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
           onClick={() => {
             setzq(index + 1);
           }}
@@ -141,25 +141,25 @@ export default function TopBar({
   }, [hysetInfo]);
 
   return (
-    <div class="marketTopBarlb-1">
-      <div class="marketTopBarlb-2">
+    <div className="marketTopBarlb-1">
+      <div className="marketTopBarlb-2">
         <i
-          class="marketTopBarlb-3"
+          className="marketTopBarlb-3"
           onClick={() => {
             setIsShowCoin(true);
           }}
         ></i>
-        <div class="marketTopBarlb-4">
-          <span class="marketTopBarlb-5">{coinname?.toUpperCase()}/USDT</span>
+        <div className="marketTopBarlb-4">
+          <span className="marketTopBarlb-5">{coinname?.toUpperCase()}/USDT</span>
         </div>
         <div
-          class={
+          className={
             coinListData[coinname]?.close > coinListData[coinname]?.open
               ? "marketTopBarlb-6-1"
               : "marketTopBarlb-6"
           }
         >
-          <span class="marketTopBarlb-7">
+          <span className="marketTopBarlb-7">
             {coinListData[coinname]?.close < coinListData[coinname]?.open
               ? ""
               : "+"}
@@ -174,16 +174,16 @@ export default function TopBar({
           </span>
         </div>
         <i
-          class="marketTopBarlb-8"
+          className="marketTopBarlb-8"
           onClick={() => {
             setvisibleInfoMsg(true);
           }}
         ></i>
       </div>
-      <div class="marketTopBarlb-38">
+      <div className="marketTopBarlb-38">
         {getNodes()}
         {/* <div
-          class={zq == 1 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
+          className={zq == 1 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
           onClick={() => {
             setzq(1);
           }}
@@ -191,7 +191,7 @@ export default function TopBar({
           60s1
         </div>
         <div
-          class={zq == 2 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
+          className={zq == 2 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
           onClick={() => {
             setzq(2);
           }}
@@ -199,7 +199,7 @@ export default function TopBar({
           120s
         </div>
         <div
-          class={zq == 3 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
+          className={zq == 3 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
           onClick={() => {
             setzq(3);
           }}
@@ -207,7 +207,7 @@ export default function TopBar({
           5min
         </div>
         <div
-          class={zq == 4 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
+          className={zq == 4 ? "marketTopBarlb-39" : "marketTopBarlb-40"}
           onClick={() => {
             setzq(4);
           }}
@@ -215,20 +215,20 @@ export default function TopBar({
           10min
         </div> */}
       </div>
-      <div class="marketTopBarlb-43">
-        <div class="marketTopBarlb-44">
-          <div class="marketTopBarlb-45">
+      <div className="marketTopBarlb-43">
+        <div className="marketTopBarlb-44">
+          <div className="marketTopBarlb-45">
             {translate(getText("截止下单"))}(GMT-4)
           </div>
-          <div class="marketTopBarlb-46">{translate(getText("倒计时"))}</div>
-          <div class="marketTopBarlb-47">{translate(getText("时间周期"))}</div>
+          <div className="marketTopBarlb-46">{translate(getText("倒计时"))}</div>
+          <div className="marketTopBarlb-47">{translate(getText("时间周期"))}</div>
         </div>
-        <div class="marketTopBarlb-48">
-          <div class="marketTopBarlb-49">{getCurrentDateTime()}</div>
-          <div class="marketTopBarlb-50">
-            <span class="marketTopBarlb-51">{getCurrents()} s</span>
+        <div className="marketTopBarlb-48">
+          <div className="marketTopBarlb-49">{getCurrentDateTime()}</div>
+          <div className="marketTopBarlb-50">
+            <span className="marketTopBarlb-51">{getCurrents()} s</span>
           </div>
-          <div class="marketTopBarlb-52">{getCurrentTime()}</div>
+          <div className="marketTopBarlb-52">{getCurrentTime()}</div>
         </div>
       </div>
     </div>

@@ -61,35 +61,35 @@ export default function CenterPage({
   });
 
   return (
-    <div class="extract-1">
-      <div class="extract-2">
-        <div class="extract-3">
-          <div class="extract-4">
-            <ul class="extract-5">
-              <li class="extract-6">
-                <div class="extract-7">
+    <div className="extract-1">
+      <div className="extract-2">
+        <div className="extract-3">
+          <div className="extract-4">
+            <ul className="extract-5">
+              <li className="extract-6">
+                <div className="extract-7">
                   <img
                     src={imageConfig.baseImageUrl + use?.img}
-                    class="extract-9"
+                    className="extract-9"
                   />
-                  <div class="extract-10">
-                    <div class="extract-11">
-                      <div class="extract-12"></div>
+                  <div className="extract-10">
+                    <div className="extract-11">
+                      <div className="extract-12"></div>
                     </div>
-                    <div class="extract-13">
-                      <div class="extract-14"></div>
+                    <div className="extract-13">
+                      <div className="extract-14"></div>
                     </div>
                   </div>
                 </div>
-                <p class="extract-15">
+                <p className="extract-15">
                   {use?.name?.toUpperCase()} {translate(getText("提現"))}
                 </p>
               </li>
-              <li class="extract-25">
-                <p class="extract-26">{translate(getText("提幣地址"))}</p>
-                <div class="extract-27">
+              <li className="extract-25">
+                <p className="extract-26">{translate(getText("提幣地址"))}</p>
+                <div className="extract-27">
                   <div
-                    class="extract-28"
+                    className="extract-28"
                     onClick={() => {
                       setVisible(true);
                     }}
@@ -98,20 +98,20 @@ export default function CenterPage({
                       style={{
                         pointerEvents: "none",
                       }}
-                      class="extract-30"
+                      className="extract-30"
                       placeholder={translate(getText("請輸入提幣地址"))}
                       value={address}
                     />
                   </div>
                 </div>
               </li>
-              <li class="extract-31">
-                <p class="extract-32">{translate(getText("提幣數量"))}(USDT)</p>
-                <div class="extract-33">
-                  <div class="extract-34">
+              <li className="extract-31">
+                <p className="extract-32">{translate(getText("提幣數量"))}(USDT)</p>
+                <div className="extract-33">
+                  <div className="extract-34">
                     <input
                       type="number"
-                      class="extract-36"
+                      className="extract-36"
                       placeholder={translate(getText("請輸入提幣數量"))}
                       type="number"
                       id="usdtmoney"
@@ -132,16 +132,16 @@ export default function CenterPage({
                     />
                   </div>
                 </div>
-                <div class="extract-37">
-                  <span class="extract-38">
+                <div className="extract-37">
+                  <span className="extract-38">
                     {translate(getText("可用:"))}
                     {userInfo?.usdt} USDT
                   </span>
                 </div>
               </li>
             </ul>
-            <div class="extract-50">
-              <div class="extract-51">
+            <div className="extract-50">
+              <div className="extract-51">
                 {translate(getText("預計到賬數量："))}
                 {`${num / coinPriceData?.close}` == "NaN"
                   ? num
@@ -149,7 +149,7 @@ export default function CenterPage({
                 {use?.name?.toUpperCase()}
               </div>
               <div
-                class="extract-52"
+                className="extract-52"
                 onClick={() => {
                   callBack();
                 }}

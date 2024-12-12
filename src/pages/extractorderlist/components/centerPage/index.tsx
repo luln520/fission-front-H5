@@ -18,19 +18,19 @@ export default function CenterPage({ txList }) {
       console.info(cz);
       const node = (
         <>
-          <li class="rechargeorderlist-4">
-            <div class="rechargeorderlist-5">
-              <h1 class="rechargeorderlist-6">
+          <li className="rechargeorderlist-4">
+            <div className="rechargeorderlist-5">
+              <h1 className="rechargeorderlist-6">
                 {cz.currenyNum} {cz.currenyName?.toUpperCase()}
               </h1>
-              <div class="rechargeorderlist-7">
-                <span class="rechargeorderlist-8">
-                  <small class="rechargeorderlist-9"> {cz.addtime}</small>
+              <div className="rechargeorderlist-7">
+                <span className="rechargeorderlist-8">
+                  <small className="rechargeorderlist-9"> {cz.addtime}</small>
                 </span>
               </div>
             </div>
-            <div class="rechargeorderlist-10">
-              <p class="rechargeorderlist-11">
+            <div className="rechargeorderlist-10">
+              <p className="rechargeorderlist-11">
                 {translate(
                   getText(
                     cz.status === 1
@@ -50,9 +50,9 @@ export default function CenterPage({ txList }) {
     return nodes;
   };
   return (
-    <div class="rechargeorderlist-1">
-      <div class="rechargeorderlist-2">
-        <ul class="rechargeorderlist-3"> {getCzNodes()}</ul>
+    <div className="rechargeorderlist-1">
+      <div className="rechargeorderlist-2">
+        <ul className="rechargeorderlist-3"> {getCzNodes()}</ul>
       </div>
     </div>
   );

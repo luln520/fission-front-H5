@@ -20,7 +20,7 @@ export default function OrderList({ hyorders, nowTab }) {
       const data = hyorders[index];
       const node = (
         <div
-          class="tradelistruning-2"
+          className="tradelistruning-2"
           onClick={() => {
             const sendData = {
               orderNo: data.orderNo,
@@ -39,27 +39,27 @@ export default function OrderList({ hyorders, nowTab }) {
             );
           }}
         >
-          <div class="tradelistruning-3">
-            <div class="tradelistruning-4">
-              <div class="tradelistruning-5">
-                <span class="tradelistruning-6">
+          <div className="tradelistruning-3">
+            <div className="tradelistruning-4">
+              <div className="tradelistruning-5">
+                <span className="tradelistruning-6">
                   {data.status == 0&&translate(getText("计划中"))}
                   {data.status == 1&&translate(getText("委托中"))}
                   {data.status == 2&&translate(getText("已完成"))}
                 </span>
               </div>
-              {/* <div class="tradelistruning-7">撤单</div> */}
+              {/* <div className="tradelistruning-7">撤单</div> */}
             </div>
-            <div class="tradelistruning-8">
-              <div class="tradelistruning-9">
-                <div class="tradelistruning-10">
-                  <span class="tradelistruning-11">{translate(getText("产品"))}</span>
+            <div className="tradelistruning-8">
+              <div className="tradelistruning-9">
+                <div className="tradelistruning-10">
+                  <span className="tradelistruning-11">{translate(getText("产品"))}</span>
                 </div>
-                <div class="tradelistruning-12"> {data.coinname}</div>
+                <div className="tradelistruning-12"> {data.coinname}</div>
               </div>
-              <div class="tradelistruning-13">
-                <div class="tradelistruning-14">
-                  <span class="tradelistruning-15">{translate(getText("方向"))}</span>
+              <div className="tradelistruning-13">
+                <div className="tradelistruning-14">
+                  <span className="tradelistruning-15">{translate(getText("方向"))}</span>
                 </div>
                 <div
                   className={
@@ -73,60 +73,60 @@ export default function OrderList({ hyorders, nowTab }) {
                     : translate(getText("看跌"))}
                 </div>
               </div>
-              <div class="tradelistruning-17">
-                <div class="tradelistruning-18">
-                  <span class="tradelistruning-19">{translate(getText("时间周期"))}</span>
+              <div className="tradelistruning-17">
+                <div className="tradelistruning-18">
+                  <span className="tradelistruning-19">{translate(getText("时间周期"))}</span>
                 </div>
-                <div class="tradelistruning-20">{data.time}</div>
+                <div className="tradelistruning-20">{data.time}</div>
               </div>
-              <div class="tradelistruning-21">
-                <div class="tradelistruning-22">
-                  <span class="tradelistruning-23">{translate(getText("数量"))}</span>
+              <div className="tradelistruning-21">
+                <div className="tradelistruning-22">
+                  <span className="tradelistruning-23">{translate(getText("数量"))}</span>
                 </div>
-                <div class="tradelistruning-24"> {data.num.toFixed(2)}</div>
+                <div className="tradelistruning-24"> {data.num.toFixed(2)}</div>
               </div>
-              <div class="tradelistruning-25">
-                <div class="tradelistruning-26">
-                  <span class="tradelistruning-27">{translate(getText("下单时间"))}</span>
+              <div className="tradelistruning-25">
+                <div className="tradelistruning-26">
+                  <span className="tradelistruning-27">{translate(getText("下单时间"))}</span>
                 </div>
-                <div class="tradelistruning-28">
+                <div className="tradelistruning-28">
                   {data.plantime?.substring(0, 16)}
                 </div>
               </div>
-              {data.status==0&&<div class="tradelistruning-25">
-                <div class="tradelistruning-26">
-                  <span class="tradelistruning-27">{translate(getText("计划时间"))}</span>
+              {data.status==0&&<div className="tradelistruning-25">
+                <div className="tradelistruning-26">
+                  <span className="tradelistruning-27">{translate(getText("计划时间"))}</span>
                 </div>
-                <div class="tradelistruning-28">
+                <div className="tradelistruning-28">
                   {formatDate(data.plantime)}
                 </div>
               </div>}
-              <div class="tradelistruning-29">
-                <div class="tradelistruning-30">
-                  <span class="tradelistruning-31">{translate(getText("开仓价格"))}</span>
+              <div className="tradelistruning-29">
+                <div className="tradelistruning-30">
+                  <span className="tradelistruning-31">{translate(getText("开仓价格"))}</span>
                 </div>
-                <div class="tradelistruning-32"> {data.buyprice}</div>
+                <div className="tradelistruning-32"> {data.buyprice}</div>
               </div>
               {(data.status != 0&&data.status != 1) && (
-                <div class="tradelistruning-33">
-                  <div class="tradelistruning-34">
-                    <span class="tradelistruning-35">{translate(getText("结算价格"))}</span>
+                <div className="tradelistruning-33">
+                  <div className="tradelistruning-34">
+                    <span className="tradelistruning-35">{translate(getText("结算价格"))}</span>
                   </div>
-                  <div class="tradelistruning-36"> {data.sellprice}</div>
+                  <div className="tradelistruning-36"> {data.sellprice}</div>
                 </div>
               )}
-              <div class="tradelistruning-33">
-                <div class="tradelistruning-34">
-                  <span class="tradelistruning-35">{translate(getText("成交量"))}</span>
+              <div className="tradelistruning-33">
+                <div className="tradelistruning-34">
+                  <span className="tradelistruning-35">{translate(getText("成交量"))}</span>
                 </div>
-                <div class="tradelistruning-36"> {data.num.toFixed(2)}</div>
+                <div className="tradelistruning-36"> {data.num.toFixed(2)}</div>
               </div>
               {(data.status != 0&&data.status != 1) && (
-                <div class="tradelistruning-33">
-                  <div class="tradelistruning-34">
-                    <span class="tradelistruning-35">{translate(getText("亏盈"))}</span>
+                <div className="tradelistruning-33">
+                  <div className="tradelistruning-34">
+                    <span className="tradelistruning-35">{translate(getText("亏盈"))}</span>
                   </div>
-                  <div class="tradelistruning-36">
+                  <div className="tradelistruning-36">
                     {data.isWin == 1 ? "+" : "-"}
                     {data.ploss}
                   </div>
@@ -169,40 +169,40 @@ export default function OrderList({ hyorders, nowTab }) {
       style={{
       }}
     >
-      <div class="tradechangebar-1">
-        <div class="tradechangebar-2">
-        <div class="tradechangebar-3">
+      <div className="tradechangebar-1">
+        <div className="tradechangebar-2">
+        <div className="tradechangebar-3">
             <div
-              class={type == 0 ? "tradechangebar-4" : "tradechangebar-7"}
+              className={type == 0 ? "tradechangebar-4" : "tradechangebar-7"}
               onClick={() => {
                 setType(0);
               }}
             >
-              <span class="tradechangebar-5">{translate(getText("计划订单"))}</span>
+              <span className="tradechangebar-5">{translate(getText("计划订单"))}</span>
             </div>
           </div>
-          <div class="tradechangebar-3">
+          <div className="tradechangebar-3">
             <div
-              class={type == 1 ? "tradechangebar-4" : "tradechangebar-7"}
+              className={type == 1 ? "tradechangebar-4" : "tradechangebar-7"}
               onClick={() => {
                 setType(1);
               }}
             >
-              <span class="tradechangebar-5">{translate(getText("交割订单"))}</span>
+              <span className="tradechangebar-5">{translate(getText("交割订单"))}</span>
             </div>
           </div>
-          <div class="tradechangebar-6">
+          <div className="tradechangebar-6">
             <div
-              class={type == 2 ? "tradechangebar-4" : "tradechangebar-7"}
+              className={type == 2 ? "tradechangebar-4" : "tradechangebar-7"}
               onClick={() => {
                 setType(2);
               }}
             >
-              <span class="tradechangebar-8">{translate(getText("历史订单"))}</span>
+              <span className="tradechangebar-8">{translate(getText("历史订单"))}</span>
             </div>
           </div>
         </div>
-        <div class="tradechangebar-12"></div>
+        <div className="tradechangebar-12"></div>
       </div>
       <div
         style={{

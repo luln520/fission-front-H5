@@ -7,6 +7,7 @@ const hostname = window.location.hostname;
 const apiUrlMap = {
   localhost: "https://1.gqjys.co", //"http://127.0.0.1:1084",
   "206.238.199.169": "https://1.gqjys.co",
+    "192.168.101.102":"https://5t5.co"
 };
 export const BASE_API_URL = apiUrlMap[hostname] ? apiUrlMap[hostname] : "";
 export const BASE_IMG_URL = BASE_API_URL.replace(":1025", "");

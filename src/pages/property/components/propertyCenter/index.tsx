@@ -61,17 +61,17 @@ export default function PropertyCenter({
               <g
                 id="页面-1"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
-                fill-rule="evenodd"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                fillRule="evenodd"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <g
                   id="Assets"
                   transform="translate(-670.000000, -130.000000)"
                   stroke="#2B2B2B"
-                  stroke-width="3.5"
+                  strokeWidth="3.5"
                 >
                   <g id="编组-11" transform="translate(670.000000, 130.000000)">
                     <g id="编组-8" transform="translate(6.400852, 7.083792)">

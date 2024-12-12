@@ -54,7 +54,7 @@ export default function OrderPopup({
       let cykbl = hyYkbls[index];
       const node = (
         <div
-          class={type2 === index + 1 ? "orderpoplb-63" : "orderpoplb-64"}
+          className={type2 === index + 1 ? "orderpoplb-63" : "orderpoplb-64"}
           onClick={() => {
             setType2(index + 1);
             setminNum(hyTzed);
@@ -81,7 +81,7 @@ export default function OrderPopup({
       let hytzbl = hyTzbls[index];
       const node = (
         <div
-          class={`${bfbIndex === index + 1 ? "orderpoplb-63 orderpoplb-item-act" : "orderpoplb-64"} orderpoplb-item`}
+          className={`${bfbIndex === index + 1 ? "orderpoplb-63 orderpoplb-item-act" : "orderpoplb-64"} orderpoplb-item`}
           onClick={() => {
             setNum(
               parseFloat(
@@ -198,70 +198,70 @@ export default function OrderPopup({
       position="bottom"
       bodyStyle={{ width: "100vw", backgroundColor: "#f5f5f5" }}
     >
-      <div class="orderpoplb-1">
-        <div class="orderpoplb-2">
-          <div class="orderpoplb-3"></div>
-          <div class="orderpoplb-4">
-            <span class="orderpoplb-5">{nowTab?.toUpperCase()}/USDT</span>
+      <div className="orderpoplb-1">
+        <div className="orderpoplb-2">
+          <div className="orderpoplb-3"></div>
+          <div className="orderpoplb-4">
+            <span className="orderpoplb-5">{nowTab?.toUpperCase()}/USDT</span>
           </div>
           <i
-            class="orderpoplb-6"
+            className="orderpoplb-6"
             onClick={() => {
               setIsShowOrder(false);
             }}
           ></i>
         </div>
-        <div class="orderpoplb-7">
-          <div class="orderpoplb-8">
-            <div class="orderpoplb-9">
-              <div class="orderpoplb-10">
-                <div class="orderpoplb-11">
+        <div className="orderpoplb-7">
+          <div className="orderpoplb-8">
+            <div className="orderpoplb-9">
+              <div className="orderpoplb-10">
+                <div className="orderpoplb-11">
                   {/* 时间选择 */}
-                  <div class="orderpoplb-12">
+                  <div className="orderpoplb-12">
                     {/* 固定 */}
-                    <div class="orderpoplb-22">
-                      <div class="orderpoplb-23">
-                        <div class="orderpoplb-24">
-                          <div class="orderpoplb-25"></div>
+                    <div className="orderpoplb-22">
+                      <div className="orderpoplb-23">
+                        <div className="orderpoplb-24">
+                          <div className="orderpoplb-25"></div>
                         </div>
-                        <div class="orderpoplb-26">
-                          <div class="orderpoplb-27"></div>
+                        <div className="orderpoplb-26">
+                          <div className="orderpoplb-27"></div>
                         </div>
                       </div>
                     </div>
                     {/* 选项 */}
                     <div
-                        class="orderpoplb-18"
+                        className="orderpoplb-18"
                         ref={divRef}
                         onScroll={handleScroll}
                     >
-                      <div class="orderpoplb-19">
-                        <div class="orderpoplb-20">
-                          <div class="orderpoplb-21"></div>
-                          <div class="orderpoplb-28">
+                      <div className="orderpoplb-19">
+                        <div className="orderpoplb-20">
+                          <div className="orderpoplb-21"></div>
+                          <div className="orderpoplb-28">
                             {selectTimes.map((item, index) => (
-                                <div class={`orderpoplb-29 ${selectIndex == index + 1
+                                <div className={`orderpoplb-29 ${selectIndex == index + 1
                                     ? 'orderpoplb-act'
                                     : ''}`}>
                                   <div
-                                      class={
+                                      className={
                                         selectIndex == index + 1
                                             ? 'orderpoplb-30'
                                             : 'orderpoplb-36'
                                       }
                                   >
-                                    <span class="orderpoplb-31">{item.str}</span>
+                                    <span className="orderpoplb-31">{item.str}</span>
                                   </div>
                                 </div>
                             ))}
-                            {/* <div class="orderpoplb-29">
-                              <div class="orderpoplb-36">
-                                <span class="orderpoplb-31">21:35</span>
+                            {/* <div className="orderpoplb-29">
+                              <div className="orderpoplb-36">
+                                <span className="orderpoplb-31">21:35</span>
                               </div>
                             </div>
-                            <div class="orderpoplb-35">
-                              <div class="orderpoplb-30">
-                                <span class="orderpoplb-37">21:37</span>
+                            <div className="orderpoplb-35">
+                              <div className="orderpoplb-30">
+                                <span className="orderpoplb-37">21:37</span>
                               </div>
                             </div> */}
                           </div>
@@ -311,7 +311,7 @@ export default function OrderPopup({
                           {translate(getText('最小'))}
                         </div>
                         <div className="orderpoplb-51">
-                          <span class="orderpoplb-52">{minNum}</span>
+                          <span className="orderpoplb-52">{minNum}</span>
                         </div>
                       </div>
                       <div className="orderpoplb-53">
@@ -319,7 +319,7 @@ export default function OrderPopup({
                           {translate(getText('可用'))}
                         </div>
                         <div className="orderpoplb-55">
-                          <span class="orderpoplb-56">
+                          <span className="orderpoplb-56">
                             {propertyType == 1
                                 ? userInfo?.usdt
                                 : mockUserInfo?.money}
@@ -334,7 +334,7 @@ export default function OrderPopup({
 
                   </div>
                   <div
-                      class={type == 1 ? 'orderpoplb-67' : 'orderpoplb-67-1'}
+                      className={type == 1 ? 'orderpoplb-67' : 'orderpoplb-67-1'}
                       onClick={() => {
                         if (num < minNum) {
                           Toast.show({

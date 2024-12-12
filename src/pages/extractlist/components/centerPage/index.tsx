@@ -31,22 +31,22 @@ export default function CenterPage({
       const data = coinList[i];
       const node = (
         <div
-          class="extractlist-5"
+          className="extractlist-5"
           onClick={() => {
             navigate(`/extract/${data?.id}`);
           }}
         >
-          <div class="extractlist-6">
-            <div class="extractlist-7">
-              <div class="extractlist-8">
-                <div class="extractlist-9"></div>
+          <div className="extractlist-6">
+            <div className="extractlist-7">
+              <div className="extractlist-8">
+                <div className="extractlist-9"></div>
                 <img
                   src={imageConfig.baseImageUrl + data?.img}
-                  class="extractlist-10"
+                  className="extractlist-10"
                 />
               </div>
-              <div class="extractlist-11">
-                <span class="extractlist-12">
+              <div className="extractlist-11">
+                <span className="extractlist-12">
                   {`${data.name.toUpperCase()}${
                     data.czline ? `(${data.czline})`.toUpperCase() : ""
                   }`}
@@ -55,11 +55,11 @@ export default function CenterPage({
                 </span>
               </div>
             </div>
-            <div class="extractlist-13">
-              <span class="extractlist-14">
-                <span class="extractlist-15">{translate(getText("提現"))}</span>
+            <div className="extractlist-13">
+              <span className="extractlist-14">
+                <span className="extractlist-15">{translate(getText("提現"))}</span>
               </span>
-              <i class="extractlist-16"></i>
+              <i className="extractlist-16"></i>
             </div>
           </div>
         </div>
@@ -69,44 +69,44 @@ export default function CenterPage({
     return nodes;
   };
   return (
-    <div class="extractlist-1">
-      <div class="extractlist-2">
-        <div class="extractlist-3"></div>
-        <div class="extractlist-4">
+    <div className="extractlist-1">
+      <div className="extractlist-2">
+        <div className="extractlist-3"></div>
+        <div className="extractlist-4">
           {getNode()}
 
           {c2ctxStatus == 1 && (
             <div
-              class="extractlist-5"
+              className="extractlist-5"
               onClick={() => {
                 if (c2ctxStatus == 1) {
                   setVisibleTK(true);
                 }
               }}
             >
-              <div class="extractlist-6">
-                <div class="extractlist-7">
-                  <div class="extractlist-8">
+              <div className="extractlist-6">
+                <div className="extractlist-7">
+                  <div className="extractlist-8">
                     <img
                       src="/level/20240216074328978161.png"
-                      class="extractlist-10"
+                      className="extractlist-10"
                     />
                   </div>
-                  <div class="extractlist-11">
-                    <span class="extractlist-12">{translate(getText("C2C提現"))}</span>
+                  <div className="extractlist-11">
+                    <span className="extractlist-12">{translate(getText("C2C提現"))}</span>
                   </div>
                 </div>
-                <div class="extractlist-13">
-                  <span class="extractlist-14">
-                    <span class="extractlist-15">{translate(getText("提現"))}</span>
+                <div className="extractlist-13">
+                  <span className="extractlist-14">
+                    <span className="extractlist-15">{translate(getText("提現"))}</span>
                   </span>
-                  <i class="extractlist-16"></i>
+                  <i className="extractlist-16"></i>
                 </div>
               </div>
             </div>
           )}
         </div>
-        <div class="extractlist-89"></div>
+        <div className="extractlist-89"></div>
       </div>
     </div>
   );

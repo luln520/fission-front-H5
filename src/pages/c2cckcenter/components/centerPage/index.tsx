@@ -18,32 +18,32 @@ export default function CenterPage({
     for (const item of list) {
       nodes.push(
         <div
-          class="c2cckcenter-5"
+          className="c2cckcenter-5"
           onClick={() => {
             setVisibleCK(true);
             setcurrencyId(item?.id);
           }}
         >
-          <div class="c2cckcenter-6">
-            <div class="c2cckcenter-7">
+          <div className="c2cckcenter-6">
+            <div className="c2cckcenter-7">
               <img
                 src="/costIco/20220324033547378184.png"
                 draggable="true"
-                class="c2cckcenter-9"
+                className="c2cckcenter-9"
               />
-              <div class="c2cckcenter-10">
-                <div class="c2cckcenter-11">
-                  <div class="c2cckcenter-12"></div>
+              <div className="c2cckcenter-10">
+                <div className="c2cckcenter-11">
+                  <div className="c2cckcenter-12"></div>
                 </div>
-                <div class="c2cckcenter-13">
-                  <div class="c2cckcenter-14"></div>
+                <div className="c2cckcenter-13">
+                  <div className="c2cckcenter-14"></div>
                 </div>
               </div>
             </div>
             {lan == "zh" ? item.name : item.currency}
             {translate(getText("充值"))}
           </div>
-          <i class="c2cckcenter-15"></i>
+          <i className="c2cckcenter-15"></i>
         </div>
       );
     }
@@ -52,13 +52,13 @@ export default function CenterPage({
 
   return (
     <div className="c2ccell-1">
-      <div class="c2cckcenter-1">
-        <div class="c2cckcenter-2">
-          <div id="mylist" class="c2cckcenter-3">
-            <p class="c2cckcenter-4">{translate(getText("請選擇充值通道"))}</p>
+      <div className="c2cckcenter-1">
+        <div className="c2cckcenter-2">
+          <div id="mylist" className="c2cckcenter-3">
+            <p className="c2cckcenter-4">{translate(getText("請選擇充值通道"))}</p>
             {getArray()}
           </div>
-          <div class="c2cckcenter-93"></div>
+          <div className="c2cckcenter-93"></div>
         </div>
       </div>
 

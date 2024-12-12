@@ -13,39 +13,39 @@ export default function ListPage({ addressList, delAddress, coinList }) {
     for (const data of addressList) {
       const node = (
         <>
-          <div class="addresslist-5">
-            <div class="addresslist-6">
-              <div class="addresslist-7">
+          <div className="addresslist-5">
+            <div className="addresslist-6">
+              <div className="addresslist-7">
                 <img
                   src={imageConfig.baseImageUrl + getLogo(data.name)}
                   draggable="true"
-                  class="addresslist-9"
+                  className="addresslist-9"
                 />
               </div>
             </div>
-            <div class="addresslist-10">
-              <p class="addresslist-11">
+            <div className="addresslist-10">
+              <p className="addresslist-11">
                 {translate(getText("幣種："))}
-                <br class="addresslist-12" />
-                <div class="addresslist-13">
-                  <span class="addresslist-14">{`${data?.name.toUpperCase()}${
+                <br className="addresslist-12" />
+                <div className="addresslist-13">
+                  <span className="addresslist-14">{`${data?.name.toUpperCase()}${
                     data.czline ? `-${data.czline}`.toUpperCase() : ""
                   }`}</span>
                 </div>
               </p>
-              <p class="addresslist-15">
+              <p className="addresslist-15">
                 {translate(getText("地址："))}
-                <br class="addresslist-16" />
-                <div class="addresslist-17">
-                  <span class="addresslist-18">{data.addr}</span>
+                <br className="addresslist-16" />
+                <div className="addresslist-17">
+                  <span className="addresslist-18">{data.addr}</span>
                 </div>
               </p>
-              <p class="addresslist-19">
+              <p className="addresslist-19">
                 {translate(getText("日期："))}
 
-                <br class="addresslist-20" />
-                <div class="addresslist-21">
-                  <span class="addresslist-22">{data?.addtime}</span>
+                <br className="addresslist-20" />
+                <div className="addresslist-21">
+                  <span className="addresslist-22">{data?.addtime}</span>
                 </div>
               </p>
             </div>
@@ -81,13 +81,13 @@ export default function ListPage({ addressList, delAddress, coinList }) {
     return "";
   };
   return (
-    <div class="addresslist-1">
-      <div class="addresslist-2">
-        <div class="addresslist-3">
-          <div class="addresslist-4">
+    <div className="addresslist-1">
+      <div className="addresslist-2">
+        <div className="addresslist-3">
+          <div className="addresslist-4">
             {getAddressNodes()}
             <div
-              class="addresslist-41"
+              className="addresslist-41"
               onClick={() => {
                 navigate("/addressadd");
               }}

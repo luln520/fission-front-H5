@@ -27,17 +27,17 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
   };
 
   return (
-    <div class="loginboxnew-1">
-      <div class="loginboxnew-2">
-        <div class="loginboxnew-3">
-          <div class="loginboxnew-4">
-            {/*<span class="loginboxnew-5">{translate(getText("登錄"))}</span>*/}
+    <div className="loginboxnew-1">
+      <div className="loginboxnew-2">
+        <div className="loginboxnew-3">
+          <div className="loginboxnew-4">
+            {/*<span className="loginboxnew-5">{translate(getText("登錄"))}</span>*/}
           </div>
         </div>
-        <div class="loginboxnew-6">
-          <div class="loginboxnew-7">
+        <div className="loginboxnew-6">
+          <div className="loginboxnew-7">
             <span
-              class="loginboxnew-8"
+              className="loginboxnew-8"
               onClick={() => {
                 navigate("/changelanguage");
               }}
@@ -56,8 +56,8 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
           </footer> */}
       </div>
 
-      <div class="loginboxnew-19">
-        <div class="loginboxnew-20">
+      <div className="loginboxnew-19">
+        <div className="loginboxnew-20">
           <div className="loginboxnew-input-box">
             <input
               name="username"
@@ -134,16 +134,16 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
               <g
                 id="页面-1"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
-                fill-rule="evenodd"
-                stroke-linejoin="round"
+                fillRule="evenodd"
+                strokeLinejoin="round"
               >
                 <g
                   id="log-on"
                   transform="translate(-199.000000, -1323.000000)"
                   stroke="#999999"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <g id="编组-4" transform="translate(199.000000, 1323.000000)">
                     <g id="编组" transform="translate(5.000000, 5.000000)">
@@ -177,15 +177,15 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
               <g
                 id="页面-1"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
-                fill-rule="evenodd"
+                fillRule="evenodd"
               >
                 <g
                   id="log-on"
                   transform="translate(-255.000000, -1500.000000)"
                   stroke="#B1B1B1"
-                  stroke-width="2"
+                  strokeWidth="2"
                 >
                   <g id="编组-8" transform="translate(255.000000, 1500.000000)">
                     <g id="编组-7" transform="translate(3.000000, 3.000000)">
@@ -205,7 +205,7 @@ export default function PageLogin({ doLogin, companyData, nologinmsg }) {
                       <path
                         d="M16,5 C16,5 18.8093487,6.78685796 19,10"
                         id="路径-10"
-                        stroke-linecap="round"
+                        strokeLinecap="round"
                       ></path>
                     </g>
                   </g>

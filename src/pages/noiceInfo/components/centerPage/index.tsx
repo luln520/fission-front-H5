@@ -12,19 +12,19 @@ export default function CenterPage({content}) {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
   return (
-    <div class="noiceInfo-1">
-      <div class="noiceInfo-2">
-        <div class="noiceInfo-3">
-          <div class="noiceInfo-4">
+    <div className="noiceInfo-1">
+      <div className="noiceInfo-2">
+        <div className="noiceInfo-3">
+          <div className="noiceInfo-4">
             {content}
           </div>
         </div>
-        <div class="noiceInfo-5">
-          <div class="noiceInfo-6">
-            <div class="noiceInfo-7">
-              <div class="noiceInfo-8">
-                <div class="noiceInfo-9">
-                  <img src="" class="noiceInfo-10" />
+        <div className="noiceInfo-5">
+          <div className="noiceInfo-6">
+            <div className="noiceInfo-7">
+              <div className="noiceInfo-8">
+                <div className="noiceInfo-9">
+                  <img src="" className="noiceInfo-10" />
                 </div>
               </div>
             </div>

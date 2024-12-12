@@ -44,16 +44,16 @@ export default function Info({ userInfo, sendCardsc }) {
     setCardsc(userInfo?.cardsc);
   }, [userInfo]);
   return (
-    <div class="idcardlb-1">
-      <div class="idcardlb-2">
-        <div class="idcardlb-3">
-          <div class="idcardlb-4">
-            <span class="idcardlb-5">{translate(getText("證件手持照片"))}</span>
+    <div className="idcardlb-1">
+      <div className="idcardlb-2">
+        <div className="idcardlb-3">
+          <div className="idcardlb-4">
+            <span className="idcardlb-5">{translate(getText("證件手持照片"))}</span>
           </div>
         </div>
-        <div class="idcardlb-117">
-          <div class="idcardlb-118">
-            <div class="idcardlb-119">
+        <div className="idcardlb-117">
+          <div className="idcardlb-118">
+            <div className="idcardlb-119">
               <Upload
                 name="file"
                 accept="image/*"
@@ -67,10 +67,10 @@ export default function Info({ userInfo, sendCardsc }) {
                   }}
                 >
                   {cardsc && (
-                    <div class="idcard-28-1">
+                    <div className="idcard-28-1">
                       <img
                         src={imageConfig.baseImageUrl + cardsc}
-                        class="idcard-30"
+                        className="idcard-30"
                       />
                     </div>
                   )}
@@ -78,10 +78,10 @@ export default function Info({ userInfo, sendCardsc }) {
                     <div>
                       <img
                         src="/assets/idCard2_d-b374f793.png"
-                        class="idcardlb-148"
+                        className="idcardlb-148"
                       />
-                      <div class="idcardlb-149">
-                        <span class="idcardlb-150">
+                      <div className="idcardlb-149">
+                        <span className="idcardlb-150">
                           {translate(getText("證件手持照片"))}
                         </span>
                       </div>
@@ -92,9 +92,9 @@ export default function Info({ userInfo, sendCardsc }) {
             </div>
           </div>
         </div>
-        <div class="idcardlb-159">
+        <div className="idcardlb-159">
           <div
-            class="idcardlb-160"
+            className="idcardlb-160"
             onClick={() => {
               if (!cardsc) {
                 return;
