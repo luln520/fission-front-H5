@@ -1,0 +1,288 @@
+.orderInfo-1 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  padding-top: 10px;
+}
+
+.orderInfo-2 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  /* border-top: 0.1px solid rgb(247, 248, 250); */
+  height: 45px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.orderInfo-3 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(144, 151, 167);
+}
+
+.orderInfo-4 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(77, 82, 96);
+  flex: 1 1 0%;
+  text-align: end;
+}
+
+.orderInfo-5 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  border-top: 0.1px solid rgb(247, 248, 250);
+  height: 45px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.orderInfo-6 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(144, 151, 167);
+}
+
+.orderInfo-7 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(77, 82, 96);
+  flex: 1 1 0%;
+  text-align: end;
+}
+
+.orderInfo-8 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  border-top: 0.1px solid rgb(247, 248, 250);
+  height: 45px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.orderInfo-9 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(144, 151, 167);
+}
+
+.orderInfo-10 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(77, 82, 96);
+  flex: 1 1 0%;
+  text-align: end;
+}
+
+.orderInfo-11 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  border-top: 0.1px solid rgb(247, 248, 250);
+  height: 45px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.orderInfo-12 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(144, 151, 167);
+}
+
+.orderInfo-13 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(77, 82, 96);
+  flex: 1 1 0%;
+  text-align: end;
+}
+
+.orderInfo-14 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  border-top: 0.1px solid rgb(247, 248, 250);
+  height: 45px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.orderInfo-15 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(144, 151, 167);
+}
+
+.orderInfo-16 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(77, 82, 96);
+  flex: 1 1 0%;
+  text-align: end;
+}
+
+.orderInfo-17 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  border-top: 0.1px solid rgb(247, 248, 250);
+  height: 45px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.orderInfo-18 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(144, 151, 167);
+}
+
+.orderInfo-19 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(77, 82, 96);
+  flex: 1 1 0%;
+  text-align: end;
+}

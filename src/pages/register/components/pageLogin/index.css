@@ -1,0 +1,2156 @@
+.registercenter-1 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.9375rem;
+  background: #FFFFFF;
+  min-height: 100vh;
+}
+
+.registercenter-1:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-2 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.registercenter-2:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-3 {
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 2.1875rem;
+    margin: undefined;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.registercenter-3:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-4 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    white-space: pre-line;
+    scrollbar-width: none;
+    font-family: sans-serif;
+}
+
+.registercenter-4:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-5 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  height: 1rem;
+  font-weight: bold;
+  font-size: 1.13rem;
+  color: #333333;
+  line-height: 1rem;
+  text-align: left;
+  font-style: normal;
+}
+
+.registercenter-6 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin: undefined;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.8125rem;
+}
+
+.registercenter-6:active {
+    opacity: 0.7;
+}
+
+.registercenter-6:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-7 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    white-space: pre-line;
+    scrollbar-width: none;
+    font-family: sans-serif;
+}
+
+.registercenter-7:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-8 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  height: 0.75rem;
+  font-weight: 400;
+  font-size: 0.94rem;
+  color: #999999;
+  line-height: 0.75rem;
+  text-align: right;
+  font-style: normal;
+}
+
+.registercenter-9 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-9:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-10 {
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    width: 100%;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    z-index: 2;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    position: static !important;
+    background: rgb(15, 23, 32);
+    margin: 0px -0.9375rem 0.625rem;
+}
+
+.registercenter-10:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-11 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: inherit;
+}
+
+.registercenter-12 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: inherit;
+    overflow: auto;
+}
+
+.registercenter-13 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.registercenter-14 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.registercenter-14:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-15 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    height: 50px;
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    margin-left: 1.0625rem;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    margin-right: 0.9375rem;
+    border-bottom: solid 3px rgb(240, 193, 99);
+}
+
+.registercenter-15:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-16 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+
+.registercenter-16:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-17 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-18 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    height: 50px;
+    font-size: 1rem;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    margin-left: 1.0625rem;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    margin-right: 0.9375rem;
+}
+
+.registercenter-18:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-19 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+
+.registercenter-19:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-20 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-21 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: absolute;
+    transition: none;
+    transform: translateX(17.765625px);
+    bottom: 0px;
+    width: 37.328125px;
+    height: 0.1875rem;
+    background: rgb(240, 193, 99);
+    border-radius: 3.125rem;
+}
+
+.registercenter-21:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-22 {
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+}
+
+.registercenter-22:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-23 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: .88rem;
+}
+
+.registercenter-23:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-24 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-24:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-25 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenter-25:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-26 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-26:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-27 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenter-27:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-28 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenter-29 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-29:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-30 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenter-31 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-31:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-32 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-32:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-33 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenter-33:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-34 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-34:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-35 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenter-35:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-36 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenter-37 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-37:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-38 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenter-39 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-39:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-40 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    outline: 0px;
+    padding: 0px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 3.75rem;
+    height: 2.1875rem;
+    border-radius: 3.125rem;
+    font-size: 0.875rem;
+    color: rgb(240, 193, 99);
+    background: rgb(0, 0, 0);
+}
+
+.registercenter-40:after {
+    top: 0px;
+    left: 0px;
+    transform: scale(0.5);
+    transform-origin: 0px 0px;
+    display: none;
+    content: "";
+    position: absolute;
+    inset: 0px;
+    border: 0px;
+    pointer-events: none;
+    border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .registercenter-40 {
+        color: rgb(214, 214, 214);
+        background-color: rgb(52, 52, 52);
+    }
+}
+
+.registercenter-41 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-41:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-42 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenter-42:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-43 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-43:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-44 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenter-44:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-45 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenter-46 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-46:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-47 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenter-48 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-48:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-49 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-49:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-50 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenter-50:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-51 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-51:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-52 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenter-52:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-53 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenter-54 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-54:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-55 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenter-56 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-56:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-57 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenter-57:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-58 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenter-58:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-59 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-59:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-60 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenter-60:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-61 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenter-62 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenter-62:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-63 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenter-64 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenter-64:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenter-65 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    outline: 0px;
+    padding: 0px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin-top: 1.875rem;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1rem;
+    background: rgb(240, 193, 99);
+    border-radius: 3.125rem;
+}
+
+.registercenter-65:after {
+    top: 0px;
+    left: 0px;
+    transform: scale(0.5);
+    transform-origin: 0px 0px;
+    display: none;
+    content: "";
+    position: absolute;
+    inset: 0px;
+    border: 0px;
+    pointer-events: none;
+    border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .registercenter-65 {
+        color: rgb(214, 214, 214);
+        background-color: rgb(52, 52, 52);
+    }
+}
+
+.registercenterphone-1 {
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+}
+
+.registercenterphone-1:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-2 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: .88rem;
+
+}
+
+.registercenterphone-2:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-3 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-3:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-4 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-4:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-5 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin-right: 0.625rem;
+}
+
+.registercenterphone-5:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-6 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.registercenterphone-6:active {
+    opacity: 0.7;
+}
+
+.registercenterphone-6:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-7 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    white-space: pre-line;
+    scrollbar-width: none;
+    font-family: sans-serif;
+}
+
+.registercenterphone-7:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-8 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-9 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: iconfont !important;
+    font-style: normal;
+    font-size: 0.875rem;
+    margin-left: 0.25rem;
+}
+
+.registercenterphone-9:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-9:before {
+    content: "";
+}
+
+.registercenterphone-10 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-10:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-11 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-12 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-12:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-13 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-14 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-14:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-15 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-15:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-16 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-16:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-17 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-17:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-18 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-18:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-19 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-20 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-20:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-21 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-22 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-22:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-23 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+    position: relative;
+    border: 0px;
+    outline: 0px;
+    padding: 0px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 3.75rem;
+    height: 2.1875rem;
+    border-radius: 3.125rem;
+    font-size: 0.875rem;
+    color: rgb(240, 193, 99);
+    background: rgb(0, 0, 0);
+}
+
+.registercenterphone-23:after {
+    top: 0px;
+    left: 0px;
+    transform: scale(0.5);
+    transform-origin: 0px 0px;
+    display: none;
+    content: "";
+    position: absolute;
+    inset: 0px;
+    border: 0px;
+    pointer-events: none;
+    border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .registercenterphone-23 {
+        color: rgb(214, 214, 214);
+        background-color: rgb(52, 52, 52);
+    }
+}
+
+.registercenterphone-24 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-24:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-25 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-25:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-26 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-26:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-27 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-27:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-28 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-29 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-29:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-30 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-31 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-31:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-32 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-32:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-33 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-33:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-34 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-34:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-35 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-35:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-36 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-37 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-37:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-38 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-39 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-39:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-40 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0.46875rem 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.registercenterphone-40:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-41 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 0%;
+}
+
+.registercenterphone-41:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-42 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-42:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-43 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    overflow: hidden;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    height: 2.25rem;
+    flex: 1 1 0%;
+    background: inherit;
+    color: rgb(255, 255, 255);
+}
+
+.registercenterphone-43:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-44 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registercenterphone-45 {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: gray;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: pre;
+    word-break: keep-all;
+    pointer-events: none;
+    line-height: inherit;
+    top: auto !important;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.registercenterphone-45:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+
+.registercenterphone-46 {
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: inherit;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 100%;
+    background: none;
+    color: inherit;
+    opacity: 1;
+    font: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    text-indent: inherit;
+    text-transform: inherit;
+    text-shadow: inherit;
+}
+
+.registercenterphone-47 {
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.registercenterphone-47:after {
+    border-color: rgb(30, 39, 48) !important;
+}
+.registercenter-input-box {
+  padding: 0 .75rem;
+  position: relative;
+
+}
+.registercenter-input-box > input {
+    height: 3.75rem;
+    width: 100%;
+    background: rgba(42, 52, 42, 0.16);
+    border-radius: 0.78rem;
+    border: none;
+    color: black !important;
+    padding: 0 1.4rem;
+    box-sizing: border-box;
+}
+.registercenter-code {
+  position: absolute;
+  right: 1.87rem;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+
+}
+.registercenter-code > section {
+    font-weight: 400;
+    font-size: 0.94rem;
+    color: #04CF99;
+    line-height: 0.75rem;
+    text-align: right;
+    font-style: normal;
+}
+.registercenter-submit {
+  height: 3.75rem;
+  margin: 6.66rem .75rem 0;
+  background: #04CF99;
+  border-radius: 0.78rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.94rem;
+  color: #FFFFFF;
+  line-height: 0.75rem;
+}
+
+.registercenter-switch {
+  margin: 1.19rem 0;
+  font-weight: 400;
+  font-size: 0.81rem;
+  color: #999999;
+  line-height: 0.75rem;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+.registercenterphone-area {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.6rem;
+  
+}

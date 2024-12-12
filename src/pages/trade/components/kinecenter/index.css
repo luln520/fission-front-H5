@@ -1,0 +1,221 @@
+.kinecenter-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.kinecenter-2 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  margin-top: 10px;
+  display: flex;
+  padding: 0px 15px;
+  margin-bottom: 15px;
+}
+
+.kinecenter-3 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 2px solid var(--boutton-background-color);
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: rgb(43, 49, 57);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-right: 1px;
+  width: 46px !important;
+  background-image: linear-gradient(45deg,var(--boutton-background-color), var(--boutton-background-color)),
+    linear-gradient(rgb(43, 49, 57), rgb(43, 49, 57));
+  background-blend-mode: normal, normal;
+}
+
+.kinecenter-4 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: rgb(43, 49, 57);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-right: 1px;
+  width: 46px !important;
+}
+
+.kinecenter-5 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: rgb(43, 49, 57);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-right: 1px;
+  width: 46px !important;
+}
+
+.kinecenter-6 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: rgb(43, 49, 57);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-right: 1px;
+  width: 46px !important;
+}
+
+.kinecenter-7 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: rgb(43, 49, 57);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-right: 1px;
+  width: 46px !important;
+}
+
+.kinecenter-8 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: rgb(43, 49, 57);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-right: 1px;
+  width: 46px !important;
+}
+
+.kinecenter-9 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: rgb(43, 49, 57);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-right: 1px;
+  width: 46px !important;
+}
+
+.kinecenter-10 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: rgb(43, 49, 57);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-right: 1px;
+  width: 46px !important;
+}
+
+.kinecenter-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.kinecenter-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100% !important;
+  background-color: rgb(27, 29, 35);
+}
+
+.kinecenter-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  margin-top: 41px;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 83px !important;
+  color: rgb(255, 255, 255);
+}
+
+.kinecenter-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 177px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(43, 49, 57);
+  border-radius: 2px;
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+}
+
+.kinecenter-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 177px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(43, 49, 57);
+  border-radius: 2px;
+  padding: 10px;
+  border: none;
+}

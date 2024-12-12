@@ -1,0 +1,381 @@
+.lockupKJ-1 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 25px 0px 9px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: var(--boutton-background-color);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100vw;
+  color: rgb(255, 255, 255);
+}
+
+.lockupKJ-2 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: transparent;
+  margin-left: 18px;
+  font-weight: 400;
+}
+
+.lockupKJ-3 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-4 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 30px;
+  vertical-align: baseline;
+  background: transparent;
+  margin-left: 18px;
+  font-weight: 400;
+}
+
+.lockupKJ-5 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-5:last-child {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.lockupKJ-6 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-6:last-child {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.lockupKJ-7 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 12px 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: rgba(255, 255, 255, 0.2);
+  width: 100vw;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.lockupKJ-8 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-9 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-align: center;
+}
+
+.lockupKJ-9:first-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.lockupKJ-9:last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.lockupKJ-10 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-11 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-11:first-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.lockupKJ-11:last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.lockupKJ-12 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-13 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-14 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-align: center;
+}
+
+.lockupKJ-14:first-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.lockupKJ-14:last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.lockupKJ-15 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-16 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-16:first-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.lockupKJ-16:last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.lockupKJ-17 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-18 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-19 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-align: center;
+}
+
+.lockupKJ-19:first-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.lockupKJ-19:last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.lockupKJ-20 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-21 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-21:first-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.lockupKJ-21:last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.lockupKJ-22 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.lockupKJ-23 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 5px 20px;
+  border: 0px;
+  outline: 0px;
+  font-size: 15px;
+  vertical-align: baseline;
+  background: rgba(255, 255, 255, 0.82);
+  position: absolute;
+  right: 0px;
+  top: 41px;
+  color: rgb(54, 54, 54);
+  font-weight: 400;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.lockupKJ-24 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}

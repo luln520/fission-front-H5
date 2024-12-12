@@ -1,0 +1,93 @@
+/* 全局样式 */
+:root {
+  --boutton-background-color: white;
+  --them-background: #F7F7F7;
+  --them-color: ;
+  
+  --them-color-gray-bg: #F7F7F7;
+  --them-color-white-bg: #FFF;
+  
+  --them-color-black-text: #333333;
+  --them-color-red-text: #FF4F4F;
+  --them-color-red-deep-text: #D3415D;
+  --them-color-green-text: #04CF99;
+  --them-color-gray-text: #999999;
+  --them-color-gray-light-text: #ccc;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: var(--them-background);
+  min-height: 100vh;
+  width: 100vw;
+  min-width: 320px;
+}
+
+
+.iconEyeClose {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  position: relative;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-family: vant-icon;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  font-size: 16px;
+  line-height: inherit;
+  color: #969799;
+}
+
+.iconEyeClose:before {
+  content: "\F035";
+}
+
+
+.iconEyeOpen {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  position: relative;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-family: vant-icon;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  font-size: 16px;
+  line-height: inherit;
+  color: #969799;
+}
+
+.iconEyeOpen:before {
+  content: "\F055";
+}

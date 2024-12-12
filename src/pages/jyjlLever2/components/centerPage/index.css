@@ -1,0 +1,1160 @@
+.leverorderlistTopBar-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  position: relative;
+  background-color: transparent;
+}
+
+.leverorderlistTopBar-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  font-weight: bold;
+  color: var(--boutton-background-color);
+}
+
+.leverorderlistTopBar-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  /* color: #fff; */
+}
+
+.leverorderlistTopBar-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  color: rgb(48, 49, 51);
+}
+
+.leverorderlistTopBar-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  color: rgb(48, 49, 51);
+}
+
+.leverorderlistTopBar-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  color: rgb(48, 49, 51);
+}
+
+.leverorderlistTopBar-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  color: rgb(48, 49, 51);
+}
+
+.leverorderlistTopBar-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  width: 22px;
+  transform: translate(21px, -100%);
+  transition-duration: 0.5s;
+  background-color: var(--boutton-background-color);
+  height: 3px;
+  border-radius: 3px;
+}
+
+
+.leverorderlistItem1-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100%;
+  color: rgb(48, 49, 51);
+  font-size: 15px;
+}
+
+.leverorderlistItem1-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverorderlistItem1-2:before {
+  left: 0px;
+  right: 0px;
+  height: 1px;
+  transform: scaleY(0.5);
+  background-color: rgb(200, 199, 204);
+  position: fixed;
+  top: 44px;
+  z-index: 3001;
+}
+
+.leverorderlistItem1-3 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+}
+
+.leverorderlistItem1-4 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 11px;
+  padding: 11px;
+}
+
+.leverorderlistItem1-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: rgb(255, 255, 255);
+  padding: 0px 1px;
+}
+
+.leverorderlistItem1-6 {
+  -webkit-tap-highlight-color: transparent;
+  /* height: 100px; */
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 75%;
+  min-height: 100px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem1-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem1-8 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-9 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-10 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-11 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-12 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-13 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-14 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem1-16 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-17 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-18 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-19 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-20 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-21 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-22 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem1-24 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-25 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-26 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-27 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-28 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-29 {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 24%;
+  min-height: 130px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem1-30 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-31 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-32 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverorderlistItem1-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem1-34 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-35 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-36 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-37 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem1-38 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-39 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-40 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-41 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 11px;
+  padding: 11px;
+}
+
+.leverorderlistItem1-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: rgb(255, 255, 255);
+  padding: 0px 1px;
+}
+
+.leverorderlistItem1-43 {
+  -webkit-tap-highlight-color: transparent;
+  /* height: 100px; */
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 75%;
+  min-height: 100px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem1-44 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem1-45 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-46 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-47 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-48 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-49 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-50 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-51 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem1-53 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-54 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-55 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-56 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-57 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-58 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-59 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-60 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem1-61 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-62 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-63 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-64 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-65 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-66 {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 24%;
+  min-height: 130px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem1-67 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-68 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-69 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverorderlistItem1-70 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem1-71 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-72 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-73 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-74 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem1-75 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-76 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-77 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-78 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 11px;
+  padding: 11px;
+}
+
+.leverorderlistItem1-79 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: rgb(255, 255, 255);
+  padding: 0px 1px;
+}
+
+.leverorderlistItem1-80 {
+  -webkit-tap-highlight-color: transparent;
+  /* height: 100px; */
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 75%;
+  min-height: 100px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem1-81 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem1-82 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-83 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-84 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-85 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-86 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-87 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-88 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-89 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem1-90 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-91 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-92 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-93 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-94 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-95 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-96 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-97 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem1-98 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-99 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-100 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-101 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-102 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem1-103 {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 24%;
+  min-height: 130px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem1-104 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem1-105 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(33, 62, 88);
+  min-height: 20px;
+}
+
+.leverorderlistItem1-106 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverorderlistItem1-107 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem1-108 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-109 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-110 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-111 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem1-112 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-113 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem1-114 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}

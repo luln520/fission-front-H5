@@ -1,0 +1,152 @@
+.tradeinfomsg-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+  z-index: 999;
+  max-width: 300px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+  background: rgb(15, 23, 32) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tradeinfomsg-1 {
+    color: var(--UI-FG-0);
+    background-color: var(--UI-BG-2);
+  }
+}
+
+.tradeinfomsg-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 0.9375rem;
+  padding-bottom: 0px;
+}
+
+.tradeinfomsg-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 0.9375rem;
+}
+
+.tradeinfomsg-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  min-height: 40px;
+  font-size: 15px;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  white-space: pre-wrap;
+  max-height: 400px;
+  overflow: hidden auto;
+  padding: 0.9375rem;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tradeinfomsg-4 {
+    color: var(--UI-FG-1);
+  }
+}
+
+.tradeinfomsg-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  line-height: 48px;
+  font-size: 18px;
+  display: flex;
+}
+
+.tradeinfomsg-5:after {
+  content: " ";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 1px;
+  color: rgb(213, 213, 214);
+  transform-origin: 0px 0px;
+  transform: scaleY(0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tradeinfomsg-5:after {
+    color: var(--UI-BORDER-CLOLOR-1);
+    border-color: var(--UI-BORDER-CLOLOR-1);
+  }
+}
+
+.tradeinfomsg-6 {
+  margin: 0px;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  display: block;
+  flex: 1 1 0%;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  position: relative;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: rgb(240, 193, 99);
+}
+
+.tradeinfomsg-6:active {
+  background-color: rgb(238, 238, 238);
+  background: rgb(6, 10, 15) !important;
+}
+
+.tradeinfomsg-6:after {
+  content: " ";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1px;
+  bottom: 0px;
+  border-left: 1px solid rgb(213, 213, 214);
+  transform-origin: 0px 0px;
+  transform: scaleX(0.5);
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tradeinfomsg-6:active {
+    color: rgb(170, 170, 170);
+    background-color: var(--UI-BG-CLOLOR-ACTIVE);
+  }
+
+  .tradeinfomsg-6:after {
+    color: var(--UI-BORDER-CLOLOR-1);
+    border-color: var(--UI-BORDER-CLOLOR-1);
+  }
+}

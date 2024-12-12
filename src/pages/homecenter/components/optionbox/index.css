@@ -1,0 +1,383 @@
+.optionbox-1 {
+  margin-top: .75rem;
+  width: 100vw;
+  padding: 0 1rem;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 4.88rem;
+}
+
+.optionbox-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-2 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  gap: .47rem;
+}
+
+.optionbox-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 25%;
+}
+
+.optionbox-3:active {
+  opacity: 0.7;
+}
+
+.optionbox-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 2.88rem;
+  height: 2.88rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionbox-4:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.optionbox-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  /* position: absolute;
+  top: 0px;
+  left: 0px; */
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.optionbox-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.8125rem;
+  text-align: center;
+  display: block;
+  color: rgb(205, 206, 207);
+}
+
+.optionbox-8:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.optionbox-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 25%;
+}
+
+.optionbox-10:active {
+  opacity: 0.7;
+}
+
+.optionbox-10:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 2.88rem;
+  height: 2.88rem;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionbox-11:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.optionbox-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.optionbox-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.8125rem;
+  text-align: center;
+  display: block;
+  color: rgb(205, 206, 207);
+}
+
+.optionbox-15:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.optionbox-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 25%;
+}
+
+.optionbox-17:active {
+  opacity: 0.7;
+}
+
+.optionbox-17:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 2.88rem;
+  height: 2.88rem;
+}
+
+.optionbox-18:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.optionbox-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.optionbox-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.8125rem;
+  text-align: center;
+  display: block;
+  color: rgb(205, 206, 207);
+}
+
+.optionbox-22:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.optionbox-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 25%;
+}
+
+.optionbox-24:active {
+  opacity: 0.7;
+}
+
+.optionbox-24:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 2.88rem;
+  height: 2.88rem;
+}
+
+.optionbox-25:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.optionbox-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.optionbox-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.8125rem;
+  text-align: center;
+  display: block;
+  color: rgb(205, 206, 207);
+}
+
+.optionbox-29:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.optionbox-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100%;
+}
+.optionbox-item {
+  background: var(--them-color-white-bg);
+  width: 100%;
+  border-radius: .63rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}

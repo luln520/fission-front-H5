@@ -1,0 +1,3265 @@
+.homecoinlist-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  color: rgb(116, 116, 116);
+}
+
+.homecoinlist-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: block;
+  width: 40%;
+}
+
+.homecoinlist-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: block;
+  width: 30%;
+  text-align: center;
+}
+
+.homecoinlist-4:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: block;
+  flex: 1 1 0%;
+  text-align: right;
+}
+
+.homecoinlist-5:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-6:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 112, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+  float: top;
+}
+
+.homecoinlist-7:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 44%;
+}
+
+.homecoinlist-8:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  height: 3rem;
+  width: 3rem;
+  background: var(--them-color-gray-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .88rem;
+}
+
+.homecoinlist-9:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.homecoinlist-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-13:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-15:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-17:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(4, 207, 153);
+}
+
+.homecoinlist-19-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+}
+
+.homecoinlist-19:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 72, 92, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-20:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-21:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-22:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-26:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-28:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-30:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-32 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(4, 207, 153);
+}
+
+.homecoinlist-32:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 112, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-33:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-34 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-34:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-35:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-37 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-38 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-39 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-39:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-40 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-41 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-41:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-43 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-43:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-44 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-45 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(4, 207, 153);
+}
+
+.homecoinlist-45:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-46 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 72, 92, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-46:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-47 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-47:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-48 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-48:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-49 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-50 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-51 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-52:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-53 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-54 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-54:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-55 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-56 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-56:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-57 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-58 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-58:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-59 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 112, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-59:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-60 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-60:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-61 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-61:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-62 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-63 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-64 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-65 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-65:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-66 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-67 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-67:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-68 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-69 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-69:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-70 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-71 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-71:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-72 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 72, 92, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-72:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-73 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-73:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-74 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-74:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-75 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-76 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-77 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-78 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-78:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-79 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-80 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-80:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-81 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-82 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-82:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-83 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-84 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-84:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-85 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 112, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-85:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-86 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-86:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-87 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-87:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-88 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-89 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-90 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-91 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-91:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-92 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-93 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-93:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-94 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-95 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-95:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-96 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-97 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-97:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-98 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 72, 92, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-98:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-99 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-99:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-100 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-100:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-101 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-102 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-103 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-104 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-104:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-105 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-106 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-106:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-107 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-108 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-108:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-109 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-110 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-110:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-111 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 112, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-111:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-112 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-112:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-113 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-113:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-114 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-115 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-116 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-117 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-117:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-118 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-119 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-119:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-120 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-121 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-121:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-122 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-123 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-123:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-124 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 72, 92, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-124:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-125 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-125:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-126 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-126:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-127 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-128 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-129 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-130 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-130:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-131 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-132 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-132:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-133 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-134 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-134:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-135 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-136 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-136:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-137 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 112, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-137:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-138 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-138:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-139 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-139:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-140 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-141 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-142 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-143 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-143:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-144 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-145 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-145:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-146 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-147 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-147:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-148 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-149 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-149:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-150 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 72, 92, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-150:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-151 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-151:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-152 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-152:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-153 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-154 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-155 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-156 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-156:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-157 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-158 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-158:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-159 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-160 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-160:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-161 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-162 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-162:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-163 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 112, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-163:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-164 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-164:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-165 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-165:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-166 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-167 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-168 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-169 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-169:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-170 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-171 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-171:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-172 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-173 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-173:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-174 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-175 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-175:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-176 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 72, 92, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-176:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-177 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-177:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-178 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-178:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-179 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-180 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-181 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-182 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-182:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-183 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-184 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-184:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-185 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-186 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-186:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-187 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-188 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-188:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-189 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 112, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-189:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-190 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-190:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-191 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-191:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-192 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-193 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-194 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-195 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-195:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-196 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-197 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-197:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-198 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-199 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-199:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-200 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-201 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-201:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-202 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 72, 92, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-202:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-203 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-203:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-204 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-204:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-205 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-206 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-207 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-208 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-208:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-209 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-210 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-210:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-211 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-212 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-212:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-213 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-214 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-214:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-215 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.1875rem 0px 0.1875rem 0.1875rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.3125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 168, 112, 0.2),
+    rgba(25, 32, 43, 0)
+  );
+}
+
+.homecoinlist-215:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-216 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+.homecoinlist-216:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-217 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+.homecoinlist-217:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-218 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+}
+
+.homecoinlist-219 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-220 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.homecoinlist-221 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-left: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.homecoinlist-221:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-222 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-223 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.625rem;
+  margin-left: 0.3125rem;
+  position: relative;
+  color: rgb(153, 153, 153);
+  top: -0.0625rem;
+}
+
+.homecoinlist-223:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-224 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-225 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: rgb(205, 206, 207);
+}
+
+.homecoinlist-225:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-226 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.homecoinlist-227 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  width: 4.0625rem;
+  text-align: center;
+  border-radius: 0.1875rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0px;
+  background: rgb(243, 100, 100);
+}
+
+.homecoinlist-227:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.homecoinlist-item {
+  margin: 0 1rem;
+  border-radius: 0;
+  background: var(--them-color-white-bg);
+  padding: .5rem .75rem;
+}
+.homecoinlist-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.homecoinlist-key {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--them-color-black-text);
+}
+.homecoinlist-usdt {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: var(--them-color-gray-text);
+}
+.homecoinlist-close {
+  display: flex;
+  /* justify-content: center; */
+  flex: 1;
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--them-color-black-text);
+  justify-content: space-between;
+  > header {
+  }
+  > footer {
+  }
+}
+.homecoinlist-up {
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: white;
+  padding: .4rem 0;
+  width: 4.1rem;
+  padding-left: .6rem;
+  border-radius: .2rem;
+  display: flex;
+  box-sizing: border-box;
+  
+}
+.homecoinlist-red {
+  color: var(--them-color-red-text) !important;
+}

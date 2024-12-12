@@ -1,0 +1,490 @@
+.myTeam-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  display: flex;
+  height: 100%;
+  padding-top: calc(0px + env(safe-area-inset-top));
+  padding-bottom: env(safe-area-inset-bottom);
+  flex-direction: column;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+
+.myTeam-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  width: 100%;
+  overflow: auto;
+  flex: 1 1 0%;
+  box-sizing: border-box;
+  padding: 20px 24px;
+}
+
+.myTeam-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  max-height: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.myTeam-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  max-height: inherit;
+  width: 100%;
+  height: 100%;
+  overflow: hidden auto;
+}
+
+.myTeam-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.myTeam-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  background: rgb(37, 36, 41);
+  border-radius: 12px;
+  padding: 24px 16px;
+}
+
+.myTeam-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(52, 51, 58);
+}
+
+.myTeam-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  flex: 1 1 0%;
+  text-align: center;
+}
+
+.myTeam-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(248, 250, 252, 0.9);
+}
+
+.myTeam-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(248, 250, 252);
+  margin-top: 5px;
+}
+
+.myTeam-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  flex: 1 1 0%;
+  text-align: center;
+}
+
+.myTeam-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(248, 250, 252, 0.9);
+}
+
+.myTeam-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(248, 250, 252);
+  margin-top: 5px;
+}
+
+.myTeam-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.myTeam-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+}
+
+.myTeam-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 11px;
+  line-height: 15px;
+  color: rgb(248, 250, 252);
+  background: rgba(255, 255, 255, 0.14);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.myTeam-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+.myTeam-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+}
+
+.myTeam-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 11px;
+  line-height: 15px;
+  color: rgb(248, 250, 252);
+  background: rgba(255, 255, 255, 0.14);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.myTeam-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+.myTeam-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+}
+
+.myTeam-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 11px;
+  line-height: 15px;
+  color: rgb(248, 250, 252);
+  background: rgba(255, 255, 255, 0.14);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.myTeam-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 15px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+.myTeam-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  margin-top: 24px;
+}
+
+.myTeam-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 48px;
+  border-radius: 16px;
+  background: rgb(37, 36, 41);
+  margin-bottom: 16px;
+}
+
+.myTeam-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  flex: 1 1 0%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  line-height: 48px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background: rgb(214, 178, 127);
+  transition: all 0.3s linear 0s;
+  border-radius: 12px;
+}
+
+.myTeam-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  flex: 1 1 0%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  line-height: 48px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.myTeam-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  flex: 1 1 0%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  line-height: 48px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+.myTeam-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  background: rgb(214, 178, 127);
+  transition: all 0.3s linear 0s;
+  border-radius: 12px;
+  left: 0%;
+  width: 33.3333%;
+}
+
+.myTeam-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+}
+
+.myTeam-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  background: rgb(37, 36, 41);
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.myTeam-32 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 11px;
+  line-height: 15px;
+  color: rgb(248, 250, 252);
+  background: rgba(255, 255, 255, 0.14);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.myTeam-33 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0px 12px;
+}
+
+.myTeam-34 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.myTeam-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.myTeam-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+}
+
+.myTeam-37 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 14px;
+  color: rgb(248, 250, 252);
+}
+
+.myTeam-38 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  font-size: 11px;
+  margin-top: 5px;
+  color: rgba(248, 250, 252, 0.6);
+}
+
+.myTeam-39 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  font-family: Roboto !important;
+  font-weight: 700 !important;
+  margin: 0px 0px 0px auto;
+}

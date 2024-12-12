@@ -1,0 +1,713 @@
+.murservererCenterInfo-1 {
+    position: absolute;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.15;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+    min-width: 300px;
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    height: calc(100% - 44px);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+        "Microsoft YaHei", Arial, sans-serif !important;
+}
+
+.murservererCenterInfo-2 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(74, 74, 74);
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: transparent;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    text-size-adjust: 100%;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+        "Microsoft YaHei", Arial, sans-serif !important;
+}
+
+.murservererCenterInfo-3 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    overflow: hidden;
+    background: rgb(250, 250, 250);
+}
+
+.murservererCenterInfo-4 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+.murservererCenterInfo-5 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    word-break: break-word;
+    font-size: 2rem;
+    line-height: 1.125;
+    z-index: 1020;
+    font-weight: 400;
+    height: 75px;
+    overflow: hidden;
+    padding: 0px 20px;
+    background: rgb(250, 250, 250);
+    color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 0px;
+    background-color: var(--them-background);
+}
+
+.murservererCenterInfo-6 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.murservererCenterInfo-7 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.murservererCenterInfo-8 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.murservererCenterInfo-9 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.murservererCenterInfo-10 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.murservererCenterInfo-11 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.murservererCenterInfo-12 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.murservererCenterInfo-13 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.murservererCenterInfo-14 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    position: fixed;
+    visibility: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+.murservererCenterInfo-15 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+    overflow: hidden;
+    background: rgb(252, 252, 252);
+    position: relative;
+    z-index: 1;
+}
+
+.murservererCenterInfo-16 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.murservererCenterInfo-17 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.murservererCenterInfo-18 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    inset: 0px;
+    overflow: scroll;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.murservererCenterInfo-19 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.murservererCenterInfo-20 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: rgb(170, 170, 170);
+    font-size: 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.murservererCenterInfo-21 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+    padding-bottom: 16px;
+}
+
+.murservererCenterInfo-22 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+.murservererCenterInfo-23 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    margin-top: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.murservererCenterInfo-24 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.murservererCenterInfo-25 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.murservererCenterInfo-26 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 245, 245);
+    border-radius: 4px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 276px;
+}
+
+.murservererCenterInfo-26:before {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 0px;
+    height: 0px;
+    content: "";
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgb(243, 243, 243) transparent transparent;
+    border-image: initial;
+}
+
+.murservererCenterInfo-27 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    font-size: 16px;
+    padding: 8px 10px;
+}
+
+.murservererCenterInfo-28 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+.murservererCenterInfo-29 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.murservererCenterInfo-30 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+.murservererCenterInfo-31 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    margin-top: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.murservererCenterInfo-32 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 4px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    color: rgb(255, 255, 255);
+    background-color: var(--boutton-background-color);
+    max-width: 276px;
+}
+
+.murservererCenterInfo-32:before {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    width: 0px;
+    height: 0px;
+    content: "";
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgb(243, 243, 243) transparent transparent;
+    border-image: initial;
+    display: none;
+}
+
+.murservererCenterInfo-33 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    font-size: 16px;
+    padding: 8px 10px;
+}
+
+.murservererCenterInfo-34 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+.murservererCenterInfo-35 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.murservererCenterInfo-36 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    height: 6px;
+    transition: opacity 200ms ease 0s;
+    opacity: 0;
+    display: none;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    border-radius: 3px;
+}
+
+.murservererCenterInfo-37 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: block;
+    height: 100%;
+    cursor: pointer;
+    border-radius: inherit;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.murservererCenterInfo-38 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 6px;
+    transition: opacity 200ms ease 0s;
+    opacity: 0;
+    display: none;
+    right: 2px;
+    bottom: 2px;
+    top: 2px;
+    border-radius: 3px;
+}
+
+.murservererCenterInfo-39 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: inherit;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.murservererCenterInfo-40 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(255, 255, 255);
+    min-height: 55px;
+    position: relative;
+}
+
+.murservererCenterInfo-41 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: relative;
+}
+
+.murservererCenterInfo-41:after {
+    content: "";
+    pointer-events: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 15px;
+    top: 0px;
+    border-top: 1px solid rgb(221, 221, 221);
+    transform: scale(0.5);
+    transform-origin: left top;
+}
+
+.murservererCenterInfo-42 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+}
+
+.murservererCenterInfo-43 {
+    -webkit-tap-highlight-color: transparent;
+    margin: 0px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+        "Microsoft YaHei", Arial, sans-serif !important;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    cursor: text;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 4px;
+    transition: all 0.3s ease 0s;
+    max-width: 100%;
+    vertical-align: bottom;
+    resize: none;
+    background: 0px 0px;
+    border-style: none;
+    box-sizing: border-box;
+    padding: 17px 17px 17px 25px;
+    box-shadow: none;
+    overflow: hidden;
+    max-height: 150px !important;
+    min-height: 100% !important;
+    font-size: 16px;
+    height: 58px;
+}
+
+.murservererCenterInfo-43:focus {
+    border-color: rgb(73, 169, 238);
+    outline: 0px;
+    box-shadow: none !important;
+}
+
+.murservererCenterInfo-43:hover {
+    border-color: rgb(73, 169, 238);
+}
+
+.murservererCenterInfo-44 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    height: 55px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.murservererCenterInfo-45 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    width: 40px;
+    text-align: center;
+}
+
+.murservererCenterInfo-46 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: iconfont !important;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(204, 204, 204);
+}
+
+.murservererCenterInfo-46:before {
+    content: "\E639";
+}
+
+.murservererCenterInfo-47 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+    width: 40px;
+    text-align: center;
+}
+
+.murservererCenterInfo-48 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-family: iconfont !important;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    color: var(--boutton-background-color);
+}
+
+.murservererCenterInfo-48:before {
+    content: "";
+}
+
+.murservererCenterInfo-49 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    font-size: 0.65em;
+    padding: 0.3em 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.murservererCenterInfo-50 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    display: flex;
+    direction: ltr;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    padding: 0.2em;
+    border-radius: 6px;
+}
+
+.murservererCenterInfo-51 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.murservererCenterInfo-52 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    border-style: none;
+    height: auto;
+    max-width: 100%;
+    width: 14px;
+    margin: 0px 2px 0px 6px;
+}
+
+.murservererCenterInfo-53 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.murservererCenterInfo-54 {
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+    padding: 0px;
+    margin: 0px;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+        "Microsoft YaHei", Arial, sans-serif !important;
+    letter-spacing: normal;
+    line-height: 24px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-weight: 400;
+    font-size: 16px;
+    text-rendering: auto;
+    text-transform: none;
+    width: 314px;
+    text-indent: 0px;
+    padding-left: 25px;
+    padding-right: 17px;
+    border-width: 0px;
+    box-sizing: border-box;
+    min-height: 0 !important;
+    max-height: none !important;
+    height: 0 !important;
+    visibility: hidden !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    z-index: -1000 !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+
+.murservererCenterInfo-55 {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}

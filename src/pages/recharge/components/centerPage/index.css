@@ -1,0 +1,427 @@
+.recharge-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100%;
+  color: var(--them-color);
+  font-size: 14px;
+}
+
+.recharge-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.recharge-3 {
+  -webkit-tap-highlight-color: transparent;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.recharge-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 5px;
+}
+
+.recharge-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.recharge-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.recharge-7 {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+}
+
+.recharge-8 {
+  margin: 0px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.55556;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 200px;
+  border: 2px solid var(--boutton-background-color);
+  font-size: 16px;
+  padding: 0px 20px;
+  background: var(--boutton-background-color);
+  color: rgb(255, 255, 255);
+}
+
+.recharge-8:after {
+  content: " ";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.recharge-9 {
+  -webkit-tap-highlight-color: transparent;
+  padding: 20px;
+  margin: 10px auto;
+}
+
+.recharge-10 {
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  background-position: 50% center;
+  text-align: center;
+  margin: 10px auto;
+  background-size: contain;
+}
+
+.recharge-11 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.recharge-12 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.recharge-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.recharge-14 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+.recharge-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.recharge-16 {
+  margin: 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.55556;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 200px;
+  border: 2px solid var(--boutton-background-color);
+  font-size: 16px;
+  padding: 0px 20px;
+  color: var(--boutton-background-color);
+  display: inline-block;
+}
+
+.recharge-16:after {
+  content: " ";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  box-sizing: border-box;
+}
+
+.recharge-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  margin-bottom: 10px;
+}
+
+.recharge-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  padding: 10px;
+}
+
+.recharge-19 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.recharge-20 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  color: var(--them-color);
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 60px;
+  font-size: 14px;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.recharge-21 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.recharge-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 16px;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  border-radius: 2px;
+  border: 0.5px solid rgb(216, 220, 230);
+}
+
+.recharge-23 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.recharge-24 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: grey;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+  pointer-events: none;
+  line-height: inherit;
+  top: auto !important;
+}
+
+.recharge-25 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.recharge-26 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  color: var(--them-color);;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+  height: auto;
+}
+
+.recharge-27 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.recharge-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.recharge-29 {
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 20px 30px 0px;
+}
+
+.recharge-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+  background-image: url(/public/img/img-add.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.recharge-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+}
+
+.recharge-32 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 20px 0px 0px;
+}
+
+.recharge-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  padding: 8px 0px;
+}
+
+.recharge-34 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  background: var(--boutton-background-color) !important;
+  appearance: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  border: none !important;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0px 20px;
+  z-index: 1;
+  box-sizing: border-box;
+  transition: all 0.15s ease 0s;
+  color: rgb(255, 255, 255) !important;
+  border-color: rgb(192, 196, 204);
+  font-size: 15px;
+  height: 41px;
+  line-height: 41px;
+  margin: 0px;
+  overflow: visible;
+}
+
+.recharge-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}

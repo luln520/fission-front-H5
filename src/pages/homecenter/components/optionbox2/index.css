@@ -1,0 +1,157 @@
+.optionbox2-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: .75rem 1rem 0;
+  border-radius: .63rem;
+  overflow: hidden;
+  height: 4rem;
+}
+
+.optionbox2-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.optionbox2-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  height: 86px;
+}
+
+.optionbox2-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+
+.optionbox2-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.optionbox2-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.optionbox2-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.optionbox2-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.optionbox2-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.optionbox2-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.optionbox2-transaction {
+  position: relative;
+  z-index: 10;
+  > header {
+    position: absolute;
+    height: 1.13rem;
+    font-weight: bold;
+    font-size: 1.13rem;
+    color: #FFFFFF;
+    line-height: 1.69rem;
+    text-shadow: 0px 0px 0px rgba(0,141,103,0.53);
+    text-align: left;
+    font-style: normal;
+    top: .97rem;
+    left: 1.25rem;
+  }
+  > footer {
+    position: absolute;
+    width: 7.31rem;
+    height: 1rem;
+    font-family: SourceHanSansCN, SourceHanSansCN;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    line-height: 1rem;
+    text-align: left;
+    font-style: normal;
+    top: 2.21rem;
+    left: 1.25rem;
+  }
+  > aside {
+    position: absolute;
+    top: 1.03rem;
+    right: .75rem;
+    width: 1.94rem;
+    height: 1.94rem;
+    background: var(--them-color-green-text);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > img {
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}

@@ -1,0 +1,442 @@
+.bottomBar-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  bottom: calc(0px + env(safe-area-inset-bottom) * 0.4);
+  z-index: 998;
+  background: var(--them-color-white-bg);
+  border-top: 1px solid #000;
+}
+
+.bottomBar-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+  height: 100%;
+  position: relative;
+}
+
+.bottomBar-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.0625rem;
+}
+
+.bottomBar-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.bottomBar-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.6875rem;
+  color: var(--them-color-green-text);
+}
+
+.bottomBar-7:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+  height: 100%;
+  position: relative;
+}
+
+.bottomBar-9:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.0625rem;
+}
+
+.bottomBar-10:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.bottomBar-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: var(--them-color-gray-text);
+  font-size: 0.6875rem;
+}
+
+.bottomBar-14:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+  height: 100%;
+  position: relative;
+}
+
+.bottomBar-16:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.0625rem;
+}
+
+.bottomBar-17:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.bottomBar-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: #5a6068;
+  font-size: 0.6875rem;
+}
+
+.bottomBar-21:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+  height: 100%;
+  position: relative;
+}
+
+.bottomBar-23:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.0625rem;
+}
+
+.bottomBar-24:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+
+.bottomBar-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.bottomBar-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: #5a6068;
+  font-size: 0.6875rem;
+}
+
+.bottomBar-28:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+  height: 100%;
+  position: relative;
+}
+
+.bottomBar-30:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-bottom: 0.0625rem;
+}
+
+.bottomBar-31:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-34 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.bottomBar-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: #5a6068;
+  font-size: 0.6875rem;
+}
+
+.bottomBar-35:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.bottomBar-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.bottomBar-1 .img-box {
+  width: 1.63rem;
+  height: 1.63rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--them-color-gray-bg);
+  border-radius: 100%;
+  > img {
+    width: 1.2rem;
+    height: 1.2rem;
+    opacity: 0.88;
+    position: relative;
+  }
+}
+.bottomBar-1 .act .img-box {
+  background: var(--them-color-green-text);
+}

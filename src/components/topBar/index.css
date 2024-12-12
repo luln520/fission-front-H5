@@ -1,0 +1,215 @@
+.topbarnew-1 {
+  margin: 0px;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.topbarnew-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 980;
+}
+
+.topbarnew-2:after {
+  content: " ";
+  pointer-events: none;
+  box-sizing: border-box;
+  transform-origin: 0px 0px;
+  height: 199.7%;
+  transform: scale(0.5);
+  border: 0px solid rgb(228, 231, 237);
+  border-bottom-width: 1px;
+}
+
+.topbarnew-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  height: 0px;
+}
+
+.topbarnew-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 44px;
+  background-color: var(--them-background);
+}
+
+.topbarnew-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  flex: 0 1 0%;
+  -webkit-box-flex: 0;
+  padding: 7px 7px 7px 12px;
+}
+
+.topbarnew-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.topbarnew-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.topbarnew-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  font-style: normal;
+  font-variant: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-stretch: normal;
+  line-height: 1;
+  font-family: uicon-iconfont;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  font-size: 22px;
+  font-weight: normal;
+  top: 0px;
+  color: black;
+}
+
+.topbarnew-8:before {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  content: "";
+}
+
+.topbarnew-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.topbarnew-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  flex: 1 0 0%;
+  position: absolute;
+  height: 31px;
+  text-align: center;
+  left: 91px;
+  right: 91px;
+}
+
+.topbarnew-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 31px;
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  font-size: 16px;
+  font-weight: normal;
+  font-weight: 700;
+}
+
+.topbarnew-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  flex: 1 1 0%;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.topbarnew-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.topbarnew-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  height: 44px;
+}

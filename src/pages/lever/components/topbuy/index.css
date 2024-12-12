@@ -1,0 +1,97 @@
+.marketbuydiv-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: fixed;
+  bottom: calc(50px + 0px);
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: rgb(18, 22, 28);
+  padding: 10px;
+  left: 0px;
+  right: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  z-index: 899;
+}
+
+.marketbuydiv-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.marketbuydiv-3 {
+  margin: 0px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  background: rgb(28, 173, 144) !important;
+  padding: 0px 5px;
+  border: none;
+  text-align: center;
+  line-height: 41px;
+  width: 180px;
+  height: 41px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.marketbuydiv-3:after {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  box-sizing: border-box;
+}
+
+.marketbuydiv-4 {
+  margin: 0px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  background: rgb(205, 78, 101) !important;
+  padding: 0px 5px;
+  border: none;
+  text-align: center;
+  line-height: 41px;
+  width: 180px;
+  height: 41px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.marketbuydiv-4:after {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  box-sizing: border-box;
+}

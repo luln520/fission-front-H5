@@ -1,0 +1,9 @@
+.Dialogc2cCZCenter{
+    max-height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.Dialogc2cCZCenter::-webkit-scrollbar {
+    display: none;
+}

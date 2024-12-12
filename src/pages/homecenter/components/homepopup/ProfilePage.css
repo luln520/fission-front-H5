@@ -1,0 +1,88 @@
+.profile-container {
+  padding: 20px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  margin-left: 15px;
+  display: flex;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profile-id {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.vip-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.auth-section {
+  position: relative;
+  margin-top: 20px;
+  padding: 10px;
+  background-image: url('/home/ide-bg.png');
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.auth-status {
+  font-size: 14px;
+  color: #b0f4e6;
+  margin-top: 5px;
+}
+
+.auth-arrow {
+  font-size: 24px;
+  color: #fff;
+}
+
+.menu-list {
+  margin-top: 30px;
+}
+
+.menu-item {
+  font-size: 16px;
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #f9f9f9;
+}

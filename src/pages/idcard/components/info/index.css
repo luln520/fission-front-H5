@@ -1,0 +1,2799 @@
+.idcardlb-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: all 0.25s ease 0s;
+  padding: 0;
+  pointer-events: initial;
+  opacity: 1;
+}
+
+.idcardlb-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  padding-top: 0.3125rem;
+  padding-bottom: 5.625rem;
+}
+
+.idcardlb-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-3 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+  margin: 0 0.9375rem;
+  border-radius: 0;
+}
+
+.idcardlb-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  display: block;
+  margin-bottom: 0.625rem;
+  /* color: rgb(255, 255, 255); */
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.idcardlb-4:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-6:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0.3125rem 0;
+}
+
+.idcardlb-7:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  flex: 1 1 0%;
+}
+
+.idcardlb-8:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.idcardlb-9:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0%;
+  margin-top: 0.46875rem;
+  padding: 0px 0.625rem;
+  border: 0px;
+  height: 2.8125rem;
+  border-radius: 0.5rem;
+  background: rgb(34, 44, 56);
+}
+
+.idcardlb-10:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.idcardlb-11:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  flex: 1 1 0%;
+  background: inherit;
+  color: rgb(255, 255, 255);
+  pointer-events: none;
+  height: 2.6875rem;
+  font-size: 0.9375rem;
+}
+
+.idcardlb-12:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-13 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.idcardlb-14 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+  pointer-events: none;
+  line-height: inherit;
+  top: auto !important;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-14:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-15 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.idcardlb-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.idcardlb-16:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  transition: all 0.25s ease 0s;
+  position: relative;
+  z-index: 10;
+  color: rgb(204, 204, 204);
+  font-size: 0.8125rem;
+}
+
+.idcardlb-17:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-17:before {
+  content: "";
+}
+
+.idcardlb-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  z-index: 1;
+  background: transparent;
+}
+
+.idcardlb-18:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-19:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  z-index: 999;
+  position: fixed;
+  inset: 0px;
+  transition: all 0.25s ease 0s;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.idcardlb-20:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  z-index: 999;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  transition: all 0.25s ease 0s;
+  visibility: hidden;
+  overflow: hidden;
+  background: rgb(15, 23, 32);
+  border-radius: 0.125rem 0.125rem 0px 0px;
+  left: 0px;
+  transform: translateY(100%);
+}
+
+.idcardlb-21:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0px 0.9375rem;
+  display: flex;
+  align-items: center;
+  height: 2.8125rem;
+  position: relative;
+}
+
+.idcardlb-22:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  left: 0px;
+  padding: 0px;
+}
+
+.idcardlb-23:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(238, 238, 238);
+}
+
+.idcardlb-24:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  padding: 0px 0.9375rem;
+  transform: translateY(-50%);
+  right: 0px;
+  font-size: 1rem;
+  color: rgb(240, 193, 99);
+}
+
+.idcardlb-26:active {
+  opacity: 0.7;
+}
+
+.idcardlb-26:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  width: 100%;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: auto;
+  min-height: 30vh;
+  max-height: 60vh;
+}
+
+.idcardlb-28:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: inherit;
+}
+
+.idcardlb-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: inherit;
+  overflow: hidden auto;
+}
+
+.idcardlb-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.idcardlb-32 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 20;
+  padding: 0.78125rem;
+  margin: -0.78125rem 0.15625rem 0;
+  border-radius: 0;
+  overflow: hidden;
+  background: rgb(15, 23, 32);
+}
+
+.idcardlb-32:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  border-radius: 0.3125rem;
+  flex: 1 1 0%;
+  background: rgb(23, 31, 42);
+}
+
+.idcardlb-33:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-34 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  margin: 0.375rem 0.4375rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  color: rgb(172, 175, 185);
+}
+
+.idcardlb-34:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-34:before {
+  content: "";
+}
+
+.idcardlb-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.9375rem;
+  height: 2.5rem;
+  flex: 1 1 0%;
+  background: transparent;
+  color: rgb(238, 238, 238);
+}
+
+.idcardlb-35:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-36 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.idcardlb-37 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+  pointer-events: none;
+  line-height: inherit;
+  top: auto !important;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-37:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-38 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.idcardlb-39 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.idcardlb-40 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  height: 35vh;
+  position: relative;
+}
+
+.idcardlb-40:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-41 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.idcardlb-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-43 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.idcardlb-44 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-45 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.idcardlb-46 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.idcardlb-47 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  flex: 1 1 0%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+}
+
+.idcardlb-47:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-48 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+.idcardlb-49 {
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  pointer-events: none;
+  top: 0px;
+  height: 100%;
+  margin: 0px auto;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.6)),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6));
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+  transform: translateZ(0px);
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: transparent;
+  background-size: 100% 132px;
+}
+
+.idcardlb-49:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .idcardlb-49 {
+    background-image: linear-gradient(rgba(35, 35, 35, 0.95),
+        rgba(35, 35, 35, 0.6)),
+      linear-gradient(0deg, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6));
+  }
+}
+
+.idcardlb-50 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  pointer-events: none;
+  top: 50%;
+  transform: translateY(-50%);
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+}
+
+.idcardlb-50:after {
+  bottom: 0px;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  transform-origin: 0px 100%;
+  transform: scaleY(0.5);
+  content: " ";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  color: rgb(229, 229, 229);
+  border-color: rgb(30, 39, 48) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.idcardlb-50:before {
+  top: 0px;
+  border-top: 1px solid rgb(229, 229, 229);
+  transform-origin: 0px 0px;
+  transform: scaleY(0.5);
+  content: " ";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  color: rgb(229, 229, 229);
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .idcardlb-50:after {
+    border-bottom-color: var(--UI-FG-3);
+  }
+
+  .idcardlb-50:before {
+    border-top-color: var(--UI-FG-3);
+  }
+}
+
+.idcardlb-51 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.idcardlb-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-53 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.idcardlb-54 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-55 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.idcardlb-56 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  will-change: transform;
+  cursor: pointer;
+  color: rgb(255, 255, 255) !important;
+  padding: 132px 0px;
+  transform: translateY(0px) translateZ(0px);
+}
+
+.idcardlb-57 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-57:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-58 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-58:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-59 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-60 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-60:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-61 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-61:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-62 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-63 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-63:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-64 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-64:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-65 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-66 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-66:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-67 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-67:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-68 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-69 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-69:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-70 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-70:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-71 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-72 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-72:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-73 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-73:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-74 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-75 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-75:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-76 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-76:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-77 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-78 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-78:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-79 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-79:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-80 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-81 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-81:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-82 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-82:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-83 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-84 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-84:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-85 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-85:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-86 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-87 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-87:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-88 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-88:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-89 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-90 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.idcardlb-90:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-91 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.idcardlb-91:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-92 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-93 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0.3125rem 0;
+}
+
+.idcardlb-93:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-94 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0%;
+  margin-top: 0.46875rem;
+  padding: 0px 0.625rem;
+  border: 0px;
+  height: 2.8125rem;
+  border-radius: 0.5rem;
+  /* background: rgb(34, 44, 56); */
+}
+
+.idcardlb-94-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0%;
+  margin-top: 0.46875rem;
+  padding: 0px;
+  border: 0px;
+  height: 2.8125rem;
+  border-radius: 0.5rem;
+  /* background: rgb(34, 44, 56); */
+}
+
+.idcardlb-94:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-95 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.idcardlb-95:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-96 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  flex: 1 1 0%;
+  background: inherit;
+  /* color: rgb(255, 255, 255); */
+  height: 2.6875rem;
+  font-size: 0.9375rem;
+}
+
+.idcardlb-96:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-97 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.idcardlb-98 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+  pointer-events: none;
+  line-height: inherit;
+  top: auto !important;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-98:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-99 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.idcardlb-100 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.idcardlb-100:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-101 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0.3125rem 0;
+}
+
+.idcardlb-101:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-102 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0%;
+  margin-top: 0.46875rem;
+  padding: 0px 0.625rem;
+  border: 0px;
+  height: 2.8125rem;
+  border-radius: 0.5rem;
+  background: rgb(34, 44, 56);
+}
+
+.idcardlb-102:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-103 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.idcardlb-103:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-104 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  flex: 1 1 0%;
+  background: inherit;
+  color: rgb(255, 255, 255);
+  height: 2.6875rem;
+  font-size: 0.9375rem;
+}
+
+.idcardlb-104:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-105 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.idcardlb-106 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+  pointer-events: none;
+  line-height: inherit;
+  top: auto !important;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-106:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-107 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.idcardlb-108 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.idcardlb-108:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-109 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0.3125rem 0;
+}
+
+.idcardlb-109:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-110 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0%;
+  margin-top: 0.46875rem;
+  padding: 0px 0.625rem;
+  border: 0px;
+  height: 2.8125rem;
+  border-radius: 0.5rem;
+  background: rgb(34, 44, 56);
+}
+
+.idcardlb-110:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-111 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.idcardlb-111:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-112 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  flex: 1 1 0%;
+  background: inherit;
+  color: rgb(255, 255, 255);
+  height: 2.6875rem;
+  font-size: 0.9375rem;
+}
+
+.idcardlb-112:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-113 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.idcardlb-114 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+  pointer-events: none;
+  line-height: inherit;
+  top: auto !important;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-114:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-115 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.idcardlb-116 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.idcardlb-116:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-117 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-117:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-118 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding-bottom: 0.1875rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -0.75rem;
+  justify-content: center;
+}
+
+.idcardlb-118:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-119 {
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  overflow: hidden;
+  font-size: 0.9375rem;
+  outline: 0px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 0.125rem;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: rgb(190, 190, 190);
+  text-align: center;
+  box-sizing: content-box;
+  margin-bottom: 0.625rem;
+  transition: all 0.2s ease 0s;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: none;
+  background: transparent;
+  border: 0px;
+  margin-top: 1.25rem;
+  margin-right: 0px;
+  width: 14.0625rem;
+  height: 9.0625rem;
+  line-height: 9.0625rem;
+  position: relative;
+}
+
+.idcardlb-119:after {
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  content: "";
+  inset: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+.idcardlb-119 img,.idcardlb-132 img{
+  width: 225px;
+  height: 150px;
+  border-radius: 7px;
+  border: solid 1px rgb(34, 44, 56);
+}
+
+@media (prefers-color-scheme: dark) {
+  .idcardlb-119 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
+}
+
+.idcardlb-120 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.idcardlb-120:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-121 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: absolute;
+  color: rgb(153, 153, 153);
+  font-size: 0.8125rem;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0.625rem);
+  line-height: 1.2;
+  width: 70%;
+}
+
+.idcardlb-121:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-122 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-123 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: fixed;
+  left: -99999px;
+  bottom: -99999px;
+  width: 0px;
+  height: 0px;
+}
+
+.idcardlb-123:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-124 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.idcardlb-125 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.idcardlb-126 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.idcardlb-127 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-128 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.idcardlb-129 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-130 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.idcardlb-131 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-131:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-132 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding-bottom: 0.1875rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -0.75rem;
+  justify-content: center;
+}
+
+.idcardlb-132:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-133 {
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  overflow: hidden;
+  font-size: 0.9375rem;
+  outline: 0px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 0.125rem;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: rgb(190, 190, 190);
+  text-align: center;
+  box-sizing: content-box;
+  margin-bottom: 0.625rem;
+  transition: all 0.2s ease 0s;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: none;
+  background: transparent;
+  border: 0px;
+  margin-top: 1.25rem;
+  margin-right: 0px;
+  width: 14.0625rem;
+  height: 9.0625rem;
+  line-height: 9.0625rem;
+  position: relative;
+}
+.idcard-28-1{
+  margin-top: 1.25rem;
+}
+
+.idcardlb-133:after {
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  content: "";
+  inset: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .idcardlb-133 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
+}
+
+.idcardlb-134 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.idcardlb-134:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-135 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: absolute;
+  color: rgb(153, 153, 153);
+  font-size: 0.8125rem;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0.625rem);
+  line-height: 1.2;
+  width: 70%;
+}
+
+.idcardlb-135:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-136 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-137 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: fixed;
+  left: -99999px;
+  bottom: -99999px;
+  width: 0px;
+  height: 0px;
+}
+
+.idcardlb-137:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-138 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.idcardlb-139 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.idcardlb-140 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.idcardlb-141 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-142 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.idcardlb-143 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-144 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.idcardlb-145 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-145:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-146 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding-bottom: 0.1875rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -0.75rem;
+  justify-content: center;
+}
+
+.idcardlb-146:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-147 {
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  overflow: hidden;
+  font-size: 0.9375rem;
+  outline: 0px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 0.125rem;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: rgb(190, 190, 190);
+  text-align: center;
+  box-sizing: content-box;
+  margin-bottom: 0.625rem;
+  transition: all 0.2s ease 0s;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: none;
+  background: transparent;
+  border: 0px;
+  margin-top: 1.25rem;
+  margin-right: 0px;
+  width: 14.0625rem;
+  height: 9.0625rem;
+  line-height: 9.0625rem;
+  position: relative;
+}
+
+.idcardlb-147:after {
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  content: "";
+  inset: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .idcardlb-147 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
+}
+
+.idcardlb-148 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.idcardlb-148:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-149 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: absolute;
+  color: rgb(153, 153, 153);
+  font-size: 0.8125rem;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0.625rem);
+  line-height: 1.2;
+  width: 70%;
+}
+
+.idcardlb-149:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-150 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.idcardlb-151 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: fixed;
+  left: -99999px;
+  bottom: -99999px;
+  width: 0px;
+  height: 0px;
+}
+
+.idcardlb-151:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-152 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.idcardlb-153 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.idcardlb-154 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.idcardlb-155 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-156 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.idcardlb-157 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.idcardlb-158 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.idcardlb-159 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  z-index: 10;
+  padding: 0.9375rem;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  right: -1px;
+  /* background: rgb(15, 23, 32); */
+}
+
+.idcardlb-159:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.idcardlb-160 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+  border: 0px;
+  color: rgb(255, 255, 255);
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  height: 2.5rem;
+  font-size: 1rem;
+  background: rgb(240, 193, 99);
+  border-radius: 3.125rem;
+}
+
+.idcardlb-160:after {
+  width: 200%;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  display: none;
+  content: "";
+  position: absolute;
+  inset: 0px;
+  border: 0px;
+  pointer-events: none;
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .idcardlb-160 {
+    color: rgb(214, 214, 214);
+    background-color: rgb(52, 52, 52);
+  }
+}

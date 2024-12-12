@@ -1,0 +1,2167 @@
+.orderlisttab-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.orderlisttab-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.orderlisttab-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  max-height: inherit;
+  width: 100%;
+  height: 100%;
+}
+
+.orderlisttab-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  max-height: inherit;
+  width: 100%;
+  height: 100%;
+  overflow: auto hidden;
+}
+
+.orderlisttab-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+.orderlisttab-6 {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 0px 11px;
+  margin: 0px 5px;
+  height: 27px;
+  background-color: rgb(44, 49, 56);
+  border-radius: 13px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 27px;
+  background-image: linear-gradient(45deg,var(--boutton-background-color), var(--boutton-background-color)),
+    linear-gradient(rgb(43, 49, 57), rgb(43, 49, 57));
+  background-blend-mode: normal, normal;
+}
+
+.orderlisttab-7 {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 0px 11px;
+  margin: 0px 5px;
+  height: 27px;
+  background-color: rgb(44, 49, 56);
+  border-radius: 13px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 27px;
+}
+
+.orderlisttab-8 {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 0px 11px;
+  margin: 0px 5px;
+  height: 27px;
+  background-color: rgb(44, 49, 56);
+  border-radius: 13px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 27px;
+}
+
+.orderlisttab-9 {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 0px 11px;
+  margin: 0px 5px;
+  height: 27px;
+  background-color: rgb(44, 49, 56);
+  border-radius: 13px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 27px;
+}
+
+.orderlisttab-10 {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  padding: 0px 11px;
+  margin: 0px 5px;
+  height: 27px;
+  background-color: rgb(44, 49, 56);
+  border-radius: 13px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 27px;
+}
+
+.orderlisttab-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  min-height: 165px;
+  padding-bottom: 71px;
+  background-color: rgb(27, 29, 35);
+}
+
+.orderlisttab-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0px);
+}
+
+.orderlisttab-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  inset: 0px;
+}
+
+.orderlisttab-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  will-change: transform;
+  width: 100%;
+  height: 100%;
+  transform: translate(0%, 0px) translateZ(0px);
+}
+
+.orderlisttab-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  overflow: hidden;
+  will-change: transform;
+  cursor: grab;
+  background-color: rgb(27, 29, 34);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translate(0%, 0px) translateZ(0px);
+}
+
+.orderlisttab-16 {
+  -webkit-tap-highlight-color: transparent;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin: 0px 16px 10px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  color: rgb(119, 119, 119);
+}
+
+.orderlisttab-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(230, 234, 237);
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.orderlisttab-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-23 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.orderlisttab-24 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  font-size: 12px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 5px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.orderlisttab-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(28, 173, 144) !important;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-28-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(205, 78, 101) !important;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  overflow: hidden;
+  will-change: transform;
+  cursor: grab;
+  background-color: rgb(27, 29, 34);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translate(100%, 0px) translateZ(0px);
+}
+
+.orderlisttab-31 {
+  -webkit-tap-highlight-color: transparent;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin: 0px 16px 10px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  color: rgb(119, 119, 119);
+}
+
+.orderlisttab-32 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(230, 234, 237);
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.orderlisttab-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-34 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: right;
+  min-width: 88px;
+}
+
+.orderlisttab-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-37 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.orderlisttab-38 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  font-size: 12px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 5px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.orderlisttab-39 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-40 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: right;
+  min-width: 88px;
+}
+
+.orderlisttab-41 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(28, 173, 144) !important;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-43 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  overflow: hidden;
+  will-change: transform;
+  cursor: grab;
+  background-color: rgb(27, 29, 34);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translate(200%, 0px) translateZ(0px);
+}
+
+.orderlisttab-44 {
+  -webkit-tap-highlight-color: transparent;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin: 0px 16px 10px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  color: rgb(119, 119, 119);
+}
+
+.orderlisttab-45 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(230, 234, 237);
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.orderlisttab-46 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-47 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: right;
+  min-width: 88px;
+}
+
+.orderlisttab-48 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-49 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-50 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.orderlisttab-51 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  font-size: 12px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 5px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.orderlisttab-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-53 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: right;
+  min-width: 88px;
+}
+
+.orderlisttab-54 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(28, 173, 144) !important;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-55 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-56 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  overflow: hidden;
+  will-change: transform;
+  cursor: grab;
+  background-color: rgb(27, 29, 34);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translate(300%, 0px) translateZ(0px);
+}
+
+.orderlisttab-57 {
+  -webkit-tap-highlight-color: transparent;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin: 0px 16px 10px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  color: rgb(119, 119, 119);
+}
+
+.orderlisttab-58 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(230, 234, 237);
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.orderlisttab-59 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-60 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: right;
+  min-width: 88px;
+}
+
+.orderlisttab-61 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-62 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-63 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.orderlisttab-64 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  font-size: 12px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 5px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.orderlisttab-65 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-66 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: right;
+  min-width: 88px;
+}
+
+.orderlisttab-67 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(28, 173, 144) !important;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-68 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-69 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  overflow: hidden;
+  will-change: transform;
+  cursor: grab;
+  background-color: rgb(27, 29, 34);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translate(400%, 0px) translateZ(0px);
+}
+
+.orderlisttab-70 {
+  -webkit-tap-highlight-color: transparent;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin: 0px 16px 10px;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  color: rgb(119, 119, 119);
+}
+
+.orderlisttab-71 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  font-size: 12px;
+  border-bottom: 1px solid rgb(230, 234, 237);
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border: none;
+}
+
+.orderlisttab-72 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-73 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: right;
+  min-width: 88px;
+}
+
+.orderlisttab-74 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-75 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-76 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.orderlisttab-77 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  font-size: 12px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 5px 0px;
+  color: rgb(255, 255, 255);
+}
+
+.orderlisttab-78 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-79 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  text-align: right;
+  min-width: 88px;
+}
+
+.orderlisttab-80 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  color: rgb(28, 173, 144) !important;
+  width: 20%;
+  text-align: center;
+}
+
+.orderlisttab-81 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 20%;
+  text-align: center;
+}
+
+
+.leverorderlistTopBar-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.leverorderlistTopBar-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  font-weight: bold;
+  color: var(--boutton-background-color);
+}
+
+.leverorderlistTopBar-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  color: rgb(48, 49, 51);
+}
+
+.leverorderlistTopBar-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  color: rgb(48, 49, 51);
+}
+
+.leverorderlistTopBar-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  color: rgb(48, 49, 51);
+}
+
+.leverorderlistTopBar-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  color: rgb(48, 49, 51);
+}
+
+.leverorderlistTopBar-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  transition-property: background-color, color;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  padding: 0px 16px;
+  flex: 1 1 auto;
+  width: auto;
+  color: rgb(48, 49, 51);
+}
+
+.leverorderlistTopBar-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  width: 22px;
+  transform: translate(21px, -100%);
+  transition-duration: 0.5s;
+  background-color: var(--boutton-background-color);
+  height: 3px;
+  border-radius: 3px;
+}
+
+
+.leverorderlistItem11-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100%;
+  color: rgb(48, 49, 51);
+  font-size: 15px;
+}
+
+.leverorderlistItem11-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.leverorderlistItem11-2:before {
+  left: 0px;
+  right: 0px;
+  height: 1px;
+  transform: scaleY(0.5);
+  background-color: rgb(200, 199, 204);
+  position: fixed;
+  top: 44px;
+  z-index: 3001;
+}
+
+.leverorderlistItem11-3 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  width: 95%;
+  margin: auto;
+  padding: 10px;
+}
+
+.leverorderlistItem11-4 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  /*background: rgb(26, 23, 23);*/
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 11px;
+  padding: 11px;
+  color: var(--them-color-black-text);
+  background-image: url(/public/orderList/order-list-bg.png);
+  background-position-x: -2rem;
+  /*height: 13rem;*/
+
+}
+.leverorderlistItem11-4-1 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 11px;
+  padding: 11px;
+  color: rgb(130, 130, 131);
+}
+
+
+.leverorderlistItem11-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  /* background: rgb(255, 255, 255); */
+  padding: 0px 1px;
+}
+
+.leverorderlistItem11-6 {
+  -webkit-tap-highlight-color: transparent;
+  /* height: 100px; */
+  display: flex;
+  -webkit-box-align: center;
+  flex-wrap: nowrap;
+  width: 75%;
+  min-height: 100px;
+  overflow: hidden;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem11-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem11-8 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 0px;
+}
+
+.leverorderlistItem11-9 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-10 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  margin-bottom: 1.25rem;
+}
+
+.leverorderlistItem11-11 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-12 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  margin-bottom: 1.25rem;
+}
+
+.leverorderlistItem11-13 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-14 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem11-16 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 0px;
+}
+
+.leverorderlistItem11-17 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-18 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  margin-bottom: 1.25rem;
+}
+
+.leverorderlistItem11-19 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-20 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  margin-bottom: 1.25rem;
+}
+
+.leverorderlistItem11-21 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-22 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem11-24 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 0px;
+}
+
+.leverorderlistItem11-25 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-26 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  margin-bottom: 1.25rem;
+}
+
+.leverorderlistItem11-27 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-28 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  margin-bottom: 1.25rem;
+}
+
+.leverorderlistItem11-29 {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 24%;
+  min-height: 130px;
+  overflow: hidden;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem11-30 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 0px;
+}
+
+.leverorderlistItem11-31 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  margin-top: .25rem;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-32 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  margin-bottom: 1.25rem;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverorderlistItem11-32-1 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverorderlistItem11-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem11-34 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  margin-bottom: 1.25rem;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-35 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-36 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-37 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem11-38 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-39 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-40 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-41 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 11px;
+  padding: 11px;
+}
+
+.leverorderlistItem11-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: rgb(255, 255, 255);
+  padding: 0px 1px;
+}
+
+.leverorderlistItem11-43 {
+  -webkit-tap-highlight-color: transparent;
+  /* height: 100px; */
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 75%;
+  min-height: 100px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem11-44 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem11-45 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem11-46 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-47 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-48 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-49 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-50 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-51 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem11-53 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem11-54 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-55 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-56 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-57 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-58 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-59 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-60 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem11-61 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem11-62 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-63 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-64 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-65 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-66 {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 24%;
+  min-height: 130px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem11-67 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem11-68 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-69 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(205, 78, 101) !important;
+}
+
+.leverorderlistItem11-70 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem11-71 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-72 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-73 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-74 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem11-75 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-76 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-77 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-78 {
+  -webkit-tap-highlight-color: transparent;
+  list-style-type: none;
+  margin: 0px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 11px;
+  padding: 11px;
+}
+
+.leverorderlistItem11-79 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background: rgb(255, 255, 255);
+  padding: 0px 1px;
+}
+
+.leverorderlistItem11-80 {
+  -webkit-tap-highlight-color: transparent;
+  /* height: 100px; */
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 75%;
+  min-height: 100px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem11-81 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem11-82 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem11-83 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-84 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-85 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-86 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-87 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-88 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-89 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem11-90 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem11-91 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-92 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-93 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-94 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-95 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-96 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-97 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.leverorderlistItem11-98 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem11-99 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-100 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-101 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-102 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+}
+
+.leverorderlistItem11-103 {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 24%;
+  min-height: 130px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  margin: 1px 0px 1px 1px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.leverorderlistItem11-104 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+}
+
+.leverorderlistItem11-105 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-weight: 700;
+  color: rgb(199, 203, 206);
+  min-height: 20px;
+}
+
+.leverorderlistItem11-106 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  color: rgb(28, 173, 144) !important;
+}
+
+.leverorderlistItem11-107 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem11-108 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-109 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-110 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-111 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.leverorderlistItem11-112 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-113 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverorderlistItem11-114 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  background: rgb(205, 78, 101);
+  height: 28px;
+  width: 99px;
+  line-height: 28px;
+  padding: 0px 5px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 500px;
+  border: none;
+  text-align: center;
+}
+
+.leverchangebar-1 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: .75rem 1rem;
+  background: var(--them-color-white-bg);
+  border-radius: .63rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.leverchangebar-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0.9375rem;
+}
+
+.leverchangebar-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+  height: 42px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  padding: 0px;
+  margin-right: 1.25rem;
+  font-size: 0.875rem;
+  width: auto !important;
+}
+
+.leverchangebar-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  white-space: nowrap;
+  color: var(--them-color-green-text);
+}
+
+.leverchangebar-4:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverchangebar-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+  height: 42px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  padding: 0px;
+  margin-right: 1.25rem;
+  font-size: 0.875rem;
+  width: auto !important;
+
+}
+
+.leverchangebar-6:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  white-space: nowrap;
+  color: var(--them-color-gray-text);
+}
+
+.leverchangebar-7:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverchangebar-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+  height: 42px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  padding: 0px;
+  margin-right: 1.25rem;
+  font-size: 0.875rem;
+  width: auto !important;
+  color: rgb(100, 101, 102);
+}
+
+.leverchangebar-9:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-10 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  white-space: nowrap;
+}
+
+.leverchangebar-10:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverchangebar-11 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverchangebar-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  transition: all ease 0.25s;
+  transform: translateX(33.09375px);
+  bottom: 0px;
+  width: 23.25px;
+  height: 0.1875rem;
+  border-radius: 3.125rem;
+  /*background-image: url(/public/orderList/order-list-bg.png);*/
+  /*background-position-x: -2rem;*/
+  /*height: 13rem;*/
+}
+
+.leverchangebar-12:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+.leverchangebar-12 {
+  padding: 1rem;
+  background-color: #f5f8fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
+
+.info-title {
+  font-size: 0.9rem;
+  color: var(--them-color-gray-text);
+  font-weight: 500;
+}
+
+.info-value {
+  font-size: 1rem;
+  color: var(--them-color-black-text);
+}
+
+.info-long {
+  color: var(--them-color-green-text);
+  font-weight: 700;
+}
+
+.info-expected {
+  color: var(--them-color-green-text);
+}

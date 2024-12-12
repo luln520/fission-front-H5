@@ -1,0 +1,2821 @@
+.leverListAndBuy-1 {
+  margin: 0 1rem;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 0.63rem;
+  background: var(--them-color-white-bg);
+  color: var(--them-color-black-text);
+  padding: .5rem .7rem;
+  gap: 2rem;
+}
+
+.leverListAndBuy-1:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+  padding-bottom: 0.9375rem;
+}
+
+.leverListAndBuy-2:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-3 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+  border-radius: 0;
+}
+
+.leverListAndBuy-3:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.9375rem;
+  display: block;
+  margin-bottom: 0.625rem;
+  color: var(--them-color-black-text);
+}
+
+.leverListAndBuy-4:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+.leverListAndBuy-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-6:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-7 {
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 0.3125rem;
+  border-radius: 0.38rem;
+  overflow: hidden;
+  width: 200px;
+  background: var(--them-color-gray-bg);
+}
+
+.leverListAndBuy-8 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  flex: 1 1 0%;
+  justify-content: center;
+  margin: 0;
+  position: relative;
+  color: #888888;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.leverListAndBuy-active {
+  background: var(--them-color-green-text);
+  color: var(--them-color-white-bg);
+  clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%);
+  flex-basis: 54%;
+}
+
+.leverListAndBuy-active-reverse {
+  background: var(--them-color-red-text);
+  color: var(--them-color-white-bg)hite;
+  clip-path: polygon(15px 0, 100% 0, 100% 100%, 15px 100%, 0 50%);
+  flex-basis: 54%;
+}
+
+.leverListAndBuy-inactive {
+  background: var(--them-color-gray-bg);
+  color: var(--them-color-gray-text);
+  flex-basis: 46%;
+}
+
+.leverListAndBuy-8:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -10px;
+  bottom: 0;
+  width: 20px;
+  background: inherit;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.leverListAndBuy-10 {
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  margin-left: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.leverListAndBuy-11 {
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  font-size: 1.125rem;
+  color: rgb(240, 193, 99);
+  display: none;
+}
+
+.leverListAndBuy-9:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-9:before {
+  content: "";
+}
+
+.leverListAndBuy-12 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 1.5625rem;
+  height: 2.3125rem;
+  flex: 1 1 0%;
+  justify-content: center;
+  margin: 0px;
+}
+
+.leverListAndBuy-12:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  font-size: 1.125rem;
+  color: rgb(153, 153, 153);
+  display: none;
+}
+
+.leverListAndBuy-13:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-13:before {
+  content: "";
+}
+
+.leverListAndBuy-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  margin-left: 0.25rem;
+  font-size: 0.875rem;
+  color: rgb(190, 190, 190);
+}
+
+.leverListAndBuy-14:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-15 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  flex: 1 1 0%;
+}
+
+.leverListAndBuy-16:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.leverListAndBuy-17:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0%;
+  margin-top: 0.46875rem;
+  border-radius: 0.3125rem;
+  padding: 0px 0.625rem;
+  border: 1px solid rgb(71, 77, 87);
+}
+
+.leverListAndBuy-18:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-19 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.leverListAndBuy-19:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  height: 2.25rem;
+  flex: 1 1 0%;
+  background: inherit;
+  color: rgb(255, 255, 255);
+
+}
+
+.leverListAndBuy-20:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-21 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leverListAndBuy-22 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+
+  line-height: inherit;
+  top: auto !important;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: none;
+}
+
+.leverListAndBuy-22:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-23 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.leverListAndBuy-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.leverListAndBuy-24:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  transition: all 0.25s ease 0s;
+  position: relative;
+  z-index: 10;
+  color: rgb(204, 204, 204);
+  font-size: 0.8125rem;
+}
+
+.leverListAndBuy-25:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-25:before {
+  content: "";
+}
+
+.leverListAndBuy-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  z-index: 1;
+  background: transparent;
+}
+
+.leverListAndBuy-26:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-27:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-28 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  z-index: 999;
+  position: fixed;
+  inset: 0px;
+  transition: all 0.25s ease 0s;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.65);
+  opacity: 0;
+}
+
+.leverListAndBuy-28:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-29 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  z-index: 999;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  transition: all 0.25s ease 0s;
+  visibility: hidden;
+  overflow: hidden;
+  background: rgb(15, 23, 32);
+  border-radius: 0.125rem 0.125rem 0px 0px;
+  left: 0px;
+  transform: translateY(100%);
+}
+
+.leverListAndBuy-29:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0px 0.9375rem;
+  display: flex;
+  align-items: center;
+  height: 2.8125rem;
+  position: relative;
+}
+
+.leverListAndBuy-30:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  left: 0px;
+  padding: 0px;
+}
+
+.leverListAndBuy-31:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-32 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(238, 238, 238);
+}
+
+.leverListAndBuy-32:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-33 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-34 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  padding: 0px 0.9375rem;
+  transform: translateY(-50%);
+  right: 0px;
+  font-size: 1rem;
+  color: rgb(240, 193, 99);
+}
+
+.leverListAndBuy-34:active {
+  opacity: 0.7;
+}
+
+.leverListAndBuy-34:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  width: 100%;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: auto;
+  min-height: 30vh;
+  max-height: 60vh;
+}
+
+.leverListAndBuy-36:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-37 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: inherit;
+}
+
+.leverListAndBuy-38 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-height: inherit;
+  overflow: hidden auto;
+}
+
+.leverListAndBuy-39 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.leverListAndBuy-40 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  height: 35vh;
+  position: relative;
+}
+
+.leverListAndBuy-40:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-41 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-42 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.leverListAndBuy-43 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.leverListAndBuy-44 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.leverListAndBuy-45 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.leverListAndBuy-46 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.leverListAndBuy-47 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  flex: 1 1 0%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-47:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-48 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+.leverListAndBuy-49 {
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+
+  top: 0px;
+  height: 100%;
+  margin: 0px auto;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.6)),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6));
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+  transform: translateZ(0px);
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: transparent;
+  background-size: 100% 122.5px;
+}
+
+.leverListAndBuy-49:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .leverListAndBuy-49 {
+    background-image: linear-gradient(rgba(35, 35, 35, 0.95),
+        rgba(35, 35, 35, 0.6)),
+      linear-gradient(0deg, rgba(35, 35, 35, 0.95), rgba(35, 35, 35, 0.6));
+  }
+}
+
+.leverListAndBuy-50 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+
+  top: 50%;
+  transform: translateY(-50%);
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+}
+
+.leverListAndBuy-50:after {
+  bottom: 0px;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  transform-origin: 0px 100%;
+  transform: scaleY(0.5);
+  content: " ";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  color: rgb(229, 229, 229);
+  border-color: rgb(30, 39, 48) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.leverListAndBuy-50:before {
+  top: 0px;
+  border-top: 1px solid rgb(229, 229, 229);
+  transform-origin: 0px 0px;
+  transform: scaleY(0.5);
+  content: " ";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  color: rgb(229, 229, 229);
+  border-top-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .leverListAndBuy-50:after {
+    border-bottom-color: var(--UI-FG-3);
+  }
+
+  .leverListAndBuy-50:before {
+    border-top-color: var(--UI-FG-3);
+  }
+}
+
+.leverListAndBuy-51 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+  display: block;
+  z-index: -1;
+  visibility: hidden;
+  animation: 1ms ease 0s 1 normal none running once-show;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-52 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.leverListAndBuy-53 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100000px;
+  height: 100000px;
+}
+
+.leverListAndBuy-54 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  overflow: hidden;
+}
+
+.leverListAndBuy-55 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200%;
+  height: 200%;
+}
+
+.leverListAndBuy-56 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  will-change: transform;
+  cursor: pointer;
+  color: rgb(255, 255, 255) !important;
+  padding: 122.5px 0px;
+  transform: translateY(0px) translateZ(0px);
+}
+
+.leverListAndBuy-57 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.leverListAndBuy-57:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-58 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.leverListAndBuy-58:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-59 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-60 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0.9375rem;
+}
+
+.leverListAndBuy-60:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-61 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35;
+  font-size: 0.9375rem;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+  white-space: normal !important;
+}
+
+.leverListAndBuy-61:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-62 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-63 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0%;
+  margin-top: 0.46875rem;
+  border-radius: 0.3125rem;
+  padding: 0px 0.625rem;
+  border: 1px solid rgb(71, 77, 87);
+}
+
+.leverListAndBuy-63:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-64 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.leverListAndBuy-64:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-65 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  line-height: 1.4em;
+  min-height: 1.4em;
+  overflow: hidden;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  height: 2.25rem;
+  flex: 1 1 0%;
+  background: inherit;
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+}
+
+.leverListAndBuy-65:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-66 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leverListAndBuy-67 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+
+  line-height: inherit;
+  top: auto !important;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: none;
+}
+
+.leverListAndBuy-67:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-68 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.leverListAndBuy-69 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.leverListAndBuy-69:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-70 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  inset: 0px;
+  z-index: 1;
+  background: transparent;
+}
+
+.leverListAndBuy-70:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-71 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  border-radius: .38rem;
+  height: 2rem;
+  background: var(--them-color-gray-bg);
+}
+
+.leverListAndBuy-72 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--them-color-gray-light-text);
+  width: 1.9rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.leverListAndBuy-73 {
+  -webkit-tap-highlight-color: transparent;
+  min-height: 1.4em;
+  overflow: hidden;
+  scrollbar-width: none;
+  display: block;
+  box-sizing: border-box;
+  margin: 0px 0.25rem;
+  text-align: center;
+  line-height: 2.25rem;
+  flex: 1 1 0%;
+  background: transparent;
+  font-size: 0.875rem;
+  font-family: D-DIN;
+}
+
+.leverListAndBuy-73:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-74 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.leverListAndBuy-75 {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: pre;
+  word-break: keep-all;
+
+  line-height: inherit;
+  top: auto !important;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+}
+
+.leverListAndBuy-75:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-76 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  outline: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: inherit;
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+  background: none;
+  color: inherit;
+  opacity: 1;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-indent: inherit;
+  text-transform: inherit;
+  text-shadow: inherit;
+}
+
+.leverListAndBuy-77 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--them-color-gray-light-text);
+  width: 1.9rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+
+
+
+.leverListAndBuy-78 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0 0;
+  flex-wrap: wrap;
+  margin-bottom: -0.625rem;
+}
+
+.leverListAndBuy-78:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-79 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+  width: 4.0625rem;
+  height: 1.6875rem;
+  justify-content: center;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  background-color: rgba(153, 153, 153, 0.05);
+  color: rgb(153, 153, 153);
+  transition: all 0.25s ease 0s;
+  background: transparent;
+  border: 1px solid rgb(71, 77, 87);
+}
+
+.leverListAndBuy-79:active {
+  opacity: 0.7;
+}
+
+.leverListAndBuy-79:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-80 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+  width: 4.0625rem;
+  height: 1.6875rem;
+  justify-content: center;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  background-color: rgba(153, 153, 153, 0.05);
+  color: rgb(153, 153, 153);
+  transition: all 0.25s ease 0s;
+  background: transparent;
+  border: 1px solid rgb(71, 77, 87);
+  margin-left: 0.3125rem;
+}
+
+.leverListAndBuy-80:active {
+  opacity: 0.7;
+}
+
+.leverListAndBuy-80:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-81 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+  width: 4.0625rem;
+  height: 1.6875rem;
+  justify-content: center;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  background-color: rgba(153, 153, 153, 0.05);
+  color: rgb(153, 153, 153);
+  transition: all 0.25s ease 0s;
+  background: transparent;
+  border: 1px solid rgb(71, 77, 87);
+  margin-left: 0.3125rem;
+}
+
+.leverListAndBuy-81:active {
+  opacity: 0.7;
+}
+
+.leverListAndBuy-81:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-82 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem;
+  width: 4.0625rem;
+  height: 1.6875rem;
+  justify-content: center;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  background-color: rgba(153, 153, 153, 0.05);
+  color: rgb(153, 153, 153);
+  transition: all 0.25s ease 0s;
+  background: transparent;
+  border: 1px solid rgb(71, 77, 87);
+  margin-left: 0.3125rem;
+}
+
+.leverListAndBuy-82:active {
+  opacity: 0.7;
+}
+
+.leverListAndBuy-82:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-83 {
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0 0;
+}
+
+.leverListAndBuy-83:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-84 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.leverListAndBuy-84:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-85 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: iconfont2 !important;
+  font-style: normal;
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.leverListAndBuy-85:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-85:before {
+  content: "";
+}
+
+.leverListAndBuy-86 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  margin-left: 0.25rem;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--them-color-gray-text);
+}
+
+.leverListAndBuy-86:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-87 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-88 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  margin-top: 0.625rem;
+  display: block;
+  width: 8.69rem;
+  height: 1.75rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--them-color-black-text);
+}
+
+.leverListAndBuy-88:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-89 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-90 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  line-height: 1;
+  margin-top: 0.625rem;
+  display: block;
+  font-size: 0.75rem;
+  color: rgb(255, 255, 255);
+}
+
+.leverListAndBuy-90:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-91 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-92 {
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.25rem;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  border-radius: 0.3125rem;
+  margin: 0.9375rem 0 0;
+  background: rgb(4, 207, 153);
+}
+
+.leverListAndBuy-92-1 {
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+  border: 0px;
+  outline: 0px;
+  padding: 0px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.25rem;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  border-radius: 0.3125rem;
+  margin: 0.9375rem 0 0;
+  background: var(--them-color-red-text);
+}
+
+.leverListAndBuy-92:after {
+  width: 200%;
+  top: 0px;
+  left: 0px;
+  transform: scale(0.5);
+  transform-origin: 0px 0px;
+  display: none;
+  content: "";
+  position: absolute;
+  inset: 0px;
+  border: 0px;
+
+  border-color: rgb(30, 39, 48) !important;
+}
+
+
+.leverListAndBuy-93 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  display: block;
+  margin-top: 0.3125rem;
+  padding: 0;
+  font-size: 0.75rem;
+  color: var(--them-color-black-text);
+}
+
+.leverListAndBuy-93:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-94 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-95 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  inset: 0px;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease 0s, visibility 0.25s ease 0s;
+}
+
+.leverListAndBuy-95:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-96 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4375rem;
+  padding: 1.5625rem 0px;
+  width: 14.0625rem;
+  background: rgb(15, 23, 32);
+}
+
+.leverListAndBuy-96:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-97 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding-top: 0.15625rem;
+  overflow-x: hidden;
+}
+
+.leverListAndBuy-97:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-98 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.625rem;
+  font-weight: 500;
+  font-size: 0.79rem;
+  color: var(--them-color-black-text);
+}
+
+.leverListAndBuy-98:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-99 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.13rem;
+  text-align: left;
+}
+
+.leverListAndBuy-99:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-100 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  line-height: 1.13rem;
+}
+
+.leverListAndBuy-100:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-101 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+}
+
+.leverListAndBuy-101:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-102 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-102:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-103 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(4, 207, 153);
+}
+
+.leverListAndBuy-103:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-104 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-105 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-105:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-106 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-107 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(4, 207, 153, 0.1);
+  width: 100%;
+}
+
+.leverListAndBuy-107:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-108 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-108:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-109 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(4, 207, 153);
+}
+
+.leverListAndBuy-109:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-110 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-111 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-111:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-112 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-113 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(4, 207, 153, 0.1);
+  width: 92.5896%;
+}
+
+.leverListAndBuy-113:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-114 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-114:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-115 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(4, 207, 153);
+}
+
+.leverListAndBuy-115:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-116 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-117 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-117:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-118 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-119 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(4, 207, 153, 0.1);
+  width: 89.3202%;
+}
+
+.leverListAndBuy-119:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-120 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-120:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-121 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(4, 207, 153);
+}
+
+.leverListAndBuy-121:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-122 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-123 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-123:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-124 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-125 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(4, 207, 153, 0.1);
+  width: 26.8951%;
+}
+
+.leverListAndBuy-125:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-126 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-126:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-127 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(4, 207, 153);
+}
+
+.leverListAndBuy-127:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-128 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-129 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-129:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-130 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-131 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(4, 207, 153, 0.1);
+  width: 84.0761%;
+}
+
+.leverListAndBuy-131:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-132 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-132:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-133 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(4, 207, 153);
+}
+
+.leverListAndBuy-133:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-134 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-135 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-135:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-136 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-137 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(4, 207, 153, 0.1);
+  width: 67.3436%;
+}
+
+.leverListAndBuy-137:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-138 {
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0.78125rem 0px 0.625rem;
+  color: var(--them-color-green-text);
+}
+
+.leverListAndBuy-138:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-139 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+}
+
+.leverListAndBuy-139:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-140 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-141 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+}
+
+.leverListAndBuy-141:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-142 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-143 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+}
+
+.leverListAndBuy-143:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-144 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-144:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-145 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: var(--them-color-red-deep-text);
+}
+
+.leverListAndBuy-145:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-146 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-147 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-147:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-148 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-149 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  width:  100%;
+  background: rgba(243, 100, 100, 0.1);
+}
+
+.leverListAndBuy-149:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-150 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-150:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-151 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(243, 100, 100);
+}
+
+.leverListAndBuy-151:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-152 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-153 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-153:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-154 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-155 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(243, 100, 100, 0.1);
+  width: 112.332%;
+}
+
+.leverListAndBuy-155:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-156 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-156:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-157 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(243, 100, 100);
+}
+
+.leverListAndBuy-157:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-158 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-159 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-159:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-160 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-161 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(243, 100, 100, 0.1);
+  width: 52.4871%;
+}
+
+.leverListAndBuy-161:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-162 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-162:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-163 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(243, 100, 100);
+}
+
+.leverListAndBuy-163:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-164 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-165 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-165:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-166 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-167 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(243, 100, 100, 0.1);
+  width: 56.081%;
+}
+
+.leverListAndBuy-167:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-168 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-168:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-169 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(243, 100, 100);
+}
+
+.leverListAndBuy-169:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-170 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-171 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-171:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-172 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-173 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(243, 100, 100, 0.1);
+  width: 40.4235%;
+}
+
+.leverListAndBuy-173:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-174 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.21875rem 0px;
+  justify-content: space-between;
+}
+
+.leverListAndBuy-174:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-175 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(243, 100, 100);
+}
+
+.leverListAndBuy-175:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-176 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-177 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  white-space: pre-line;
+  scrollbar-width: none;
+  font-family: sans-serif;
+  color: rgb(153, 153, 153);
+}
+
+.leverListAndBuy-177:after {
+  border-color: rgb(30, 39, 48) !important;
+}
+
+.leverListAndBuy-178 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.leverListAndBuy-179 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  scrollbar-width: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  max-width: 100%;
+  background: rgba(243, 100, 100, 0.1);
+  width: 19.997%;
+}
+
+.leverListAndBuy-179:after {
+  border-color: rgb(30, 39, 48) !important;
+}

@@ -1,0 +1,117 @@
+/** keyframes **/
+@-webkit-keyframes lds-ellipsis1-65164ec2 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis1-65164ec2 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes lds-ellipsis3-65164ec2 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis3-65164ec2 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@-webkit-keyframes lds-ellipsis2-65164ec2 {
+  0% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translate(6.4vw);
+  }
+}
+@keyframes lds-ellipsis2-65164ec2 {
+  0% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translate(6.4vw);
+  }
+}
+.overlay-content-1 {
+  padding: 2.66667vw;
+  height: 23.4667vw;
+  background: rgb(255, 255, 255);
+  border-radius: 3.2vw;
+  text-align: center;
+}
+
+.overlay-content-2 {
+  display: inline-block;
+  position: relative;
+  width: 21.3333vw;
+  height: 10.6667vw;
+}
+
+.overlay-content-3 {
+  position: absolute;
+  top: 3.46667vw;
+  width: 3.46667vw;
+  height: 3.46667vw;
+  border-radius: 50%;
+  background: red;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  left: 2.13333vw;
+  animation: 0.6s ease 0s infinite normal none running lds-ellipsis1-65164ec2;
+}
+
+.overlay-content-4 {
+  position: absolute;
+  top: 3.46667vw;
+  width: 3.46667vw;
+  height: 3.46667vw;
+  border-radius: 50%;
+  background: red;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  left: 2.13333vw;
+  animation: 0.6s ease 0s infinite normal none running lds-ellipsis2-65164ec2;
+}
+
+.overlay-content-5 {
+  position: absolute;
+  top: 3.46667vw;
+  width: 3.46667vw;
+  height: 3.46667vw;
+  border-radius: 50%;
+  background: red;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  animation: 0.6s ease 0s infinite normal none running lds-ellipsis2-65164ec2;
+  left: 8.53333vw;
+}
+
+.overlay-content-6 {
+  position: absolute;
+  top: 3.46667vw;
+  width: 3.46667vw;
+  height: 3.46667vw;
+  border-radius: 50%;
+  background: red;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  left: 14.9333vw;
+  animation: 0.6s ease 0s infinite normal none running lds-ellipsis3-65164ec2;
+}
+
+.overlay-content-7 {
+  margin: 0px 10px;
+  /* word-break: break-all; */
+  font-size: 15px;
+}

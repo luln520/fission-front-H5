@@ -1,0 +1,604 @@
+.mingling-1:focus {
+  outline: 0px;
+}
+
+.mingling-1 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  flex-shrink: 0;
+  width: 100%;
+  min-height: 30vh;
+  margin-top: 10px;
+}
+
+.mingling-2:focus {
+  outline: 0px;
+}
+
+.mingling-2:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.mingling-2 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-3 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-4:focus {
+  outline: 0px;
+}
+
+.mingling-4:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.mingling-4 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0.8rem 1.33333rem;
+  border: 0px;
+  outline: 0px;
+  font-size: 1.6rem;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  line-height: 1.6rem;
+  border-bottom: 0.02667rem solid rgb(229, 229, 229);
+}
+
+.mingling-5:focus {
+  outline: 0px;
+  text-align: left;
+}
+
+.mingling-5 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  float: left;
+  min-height: 1px;
+  width: 33.3333%;
+  text-align: left;
+}
+
+.mingling-6 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-7 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(246, 24, 91);
+}
+
+.mingling-8:focus {
+  outline: 0px;
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.mingling-8 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  position: relative;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.mingling-9:focus {
+  outline: 0px;
+}
+
+.mingling-9 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.mingling-10 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-11 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 2rem;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(128, 128, 128);
+  margin-top: 10px;
+}
+
+.mingling-12:focus {
+  outline: 0px;
+}
+
+.mingling-12 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  float: left;
+  min-height: 1px;
+  width: 33.3333%;
+}
+
+.mingling-13 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(246, 24, 91);
+}
+
+.mingling-14:focus {
+  outline: 0px;
+}
+
+.mingling-14 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 0.8rem;
+  vertical-align: baseline;
+  background: transparent;
+  float: left;
+  min-height: 1px;
+  width: 33.3333%;
+  color: grey;
+  text-align: right;
+}
+
+.mingling-15 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-16 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-17 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-18 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-19 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-20 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-21 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-22 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-23 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-24:focus {
+  outline: 0px;
+}
+
+.mingling-24:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.mingling-24 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0.8rem 1.33333rem;
+  border: 0px;
+  outline: 0px;
+  font-size: 1.6rem;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  line-height: 1.6rem;
+  border-bottom: 0.02667rem solid rgb(229, 229, 229);
+}
+
+.mingling-25:focus {
+  outline: 0px;
+  text-align: left;
+}
+
+.mingling-25 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  float: left;
+  min-height: 1px;
+  width: 33.3333%;
+  text-align: left;
+}
+
+.mingling-26 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-27 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(20, 185, 92);
+}
+
+.mingling-28:focus {
+  outline: 0px;
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.mingling-28 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  position: relative;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1rem;
+}
+
+.mingling-29:focus {
+  outline: 0px;
+}
+
+.mingling-29 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.mingling-30 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-31 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 2rem;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(128, 128, 128);
+  margin-top: 10px;
+}
+
+.mingling-32:focus {
+  outline: 0px;
+}
+
+.mingling-32 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  float: left;
+  min-height: 1px;
+  width: 33.3333%;
+}
+
+.mingling-33 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: rgb(246, 24, 91);
+}
+
+.mingling-34:focus {
+  outline: 0px;
+}
+
+.mingling-34 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 0.8rem;
+  vertical-align: baseline;
+  background: transparent;
+  float: left;
+  min-height: 1px;
+  width: 33.3333%;
+  color: grey;
+  text-align: right;
+}
+
+.mingling-35 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-36 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-37 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-38 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-39 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-40 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-41 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-42 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.mingling-43 {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mingling-44:focus {
+  outline: 0px;
+  margin: 20px;
+}
+
+.mingling-44:after {
+  display: table;
+  clear: both;
+  content: "";
+  margin: 20px;
+}
+
+.mingling-44 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin: 20px;
+  margin-top: 30px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-align: center;
+}

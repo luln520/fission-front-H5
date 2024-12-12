@@ -1,0 +1,318 @@
+.addresslist-1 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100%;
+  color: rgb(48, 49, 51);
+  font-size: 15px;
+}
+
+.addresslist-2 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  font-size: 12px;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+.addresslist-3 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  margin-bottom: 10px;
+}
+
+.addresslist-4 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  padding: 10px;
+}
+
+.addresslist-5 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: rgba(3, 3, 3, 0.05) 0px 2px 5px 0px;
+  border-radius: 17px;
+  border: 0.5px solid rgb(235, 235, 235);
+  padding-left: 10px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+}
+
+.addresslist-6 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-7 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+}
+
+.addresslist-8 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.addresslist-9 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.addresslist-10 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 10px;
+  flex: 1 1 0%;
+}
+
+.addresslist-11 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.addresslist-12 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-13 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.addresslist-14 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-15 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.addresslist-16 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-17 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.addresslist-18 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-19 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.addresslist-20 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-21 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.addresslist-22 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-23 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: rgba(3, 3, 3, 0.05) 0px 2px 5px 0px;
+  border-radius: 17px;
+  border: 0.5px solid rgb(235, 235, 235);
+  padding-left: 10px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.addresslist-24 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-25 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  width: 62px;
+  height: 62px;
+}
+
+.addresslist-26 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+  background-position: 0% 0%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.addresslist-27 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+}
+
+.addresslist-28 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 10px;
+  flex: 1 1 0%;
+}
+
+.addresslist-29 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.addresslist-30 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-31 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.addresslist-32 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-33 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.addresslist-34 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-35 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.addresslist-36 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-37 {
+  -webkit-tap-highlight-color: transparent;
+  margin: 0px;
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.addresslist-38 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-39 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  word-break: break-all;
+}
+
+.addresslist-40 {
+  margin: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.addresslist-41 {
+  -webkit-tap-highlight-color: transparent;
+  font-size: 16px;
+  margin: 20px 0px;
+  height: 40px;
+  line-height: 40px;
+  background: var(--boutton-background-color) !important;
+  border: none !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 2px;
+  position: fixed;
+  bottom: 10px;
+  width: 95%;
+  text-align: center;
+}
+
+.addressList-14 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  width: 2rem;
+  height: 2rem;
+}
