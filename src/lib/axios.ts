@@ -8,6 +8,7 @@ const apiUrlMap = {
   localhost: "http://localhost:1025", //"http://127.0.0.1:1084",
   //"192.168.2.7": "http://192.168.2.7:1025", //"http://127.0.0.1:1084",
   "206.238.199.169": "https://1.gqjys.co",
+    "192.168.0.115":"https://5t5.co"
 };
 export const BASE_API_URL = apiUrlMap[hostname] ? apiUrlMap[hostname] : "";
 export const BASE_IMG_URL = BASE_API_URL.replace(":1025", "");

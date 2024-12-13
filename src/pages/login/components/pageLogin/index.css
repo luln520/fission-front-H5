@@ -900,56 +900,59 @@
   align-items: center;
   width: 100%;
   margin-top: 2.78rem;
-  > img {
-    width: 44vw;
-    aspect-ratio: 1/1;
-  }
-  > header {
-    display: flex;
-    align-items: center;
-    > aside {
-      > img {
-        width: 3.69rem;
-        height: 3.69rem;
-      }
-    }
-    > main {
-      height: 3.19rem;
-      font-family: BMDoHyeon, BMDoHyeon;
-      font-weight: bolder;
-      font-size: 2.66rem;
-      color: #000000;
-      line-height: 3.28rem;
-      text-align: right;
-      font-style: normal;
-    }
-  }
-  > footer {
-    margin-top: 0.5rem;
-    font-family: SourceHanSansCN, SourceHanSansCN;
-    font-weight: 400;
-    font-size: 0.75rem;
-    color: #999999;
-    line-height: 1.13rem;
-    letter-spacing: 2px;
-    text-align: right;
-    font-style: normal;
-  }
-}
 
+
+
+}
+.loginboxnew-header > header {
+  display: flex;
+  align-items: center;
+
+
+}
+.loginboxnew-header > header > aside > img {
+  width: 3.69rem;
+  height: 3.69rem;
+}
+.loginboxnew-header > header > main {
+  height: 3.19rem;
+  font-family: BMDoHyeon, BMDoHyeon;
+  font-weight: bolder;
+  font-size: 2.66rem;
+  color: #000000;
+  line-height: 3.28rem;
+  text-align: right;
+  font-style: normal;
+}
+.loginboxnew-header > footer {
+  margin-top: 0.5rem;
+  font-family: SourceHanSansCN, SourceHanSansCN;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #999999;
+  line-height: 1.13rem;
+  letter-spacing: 2px;
+  text-align: right;
+  font-style: normal;
+}
+.loginboxnew-header > img {
+  width: 44vw;
+  aspect-ratio: 1/1;
+}
 .loginboxnew-input-box {
   padding: 0 0.75rem;
   position: relative;
-  > input {
-    height: 3.75rem;
-    width: 100%;
-    background: rgba(42, 52, 42, 0.16);
-    border-radius: 0.78rem;
-    border: none;
-    color: black !important;
-    padding: 0 1.4rem;
-    box-sizing: border-box;
-  }
+
+}
+.loginboxnew-input-box> input {
+  height: 3.75rem;
+  width: 100%;
+  background: rgba(42, 52, 42, 0.16);
+  border-radius: 0.78rem;
+  border: none;
+  color: black !important;
+  padding: 0 1.4rem;
+  box-sizing: border-box;
 }
 .loginboxnew-forget {
   display: flex;
